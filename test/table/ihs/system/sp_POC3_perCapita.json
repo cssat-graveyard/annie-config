@@ -1,0 +1,196 @@
+{
+  "title": "Rate of In-Home Service Cases per 1,000 Households",
+  "measurementOrder": 2,
+  "table": "sp_poc3_perCapita",
+  "transform": {
+    "Function": "daterow",
+    "dateField": "period_start",
+    "valueFields": [
+      "Total Cases First Day",
+      "Opened Cases",
+      "Case Closures",
+      "Closures per Opened Case"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "qry_type_poc3",
+    "date_type"
+  ],
+  "params": [
+    "monthStart",
+    "ageSib",
+    "ethnicityCensus",
+    "officeGroup"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "monthStart"
+  ],
+  "showAllOthers": true,
+  "mutexAllOthers": false,
+  "returnRowHeaders": [
+    0,
+    1,
+    5,
+    7,
+    9
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [
+    1
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "*qry_type_poc3",
+    "Age Grouping",
+    "Race/Ethnicity",
+    "DCFS Office Group"
+  ],
+  "returnRowStart": 10,
+  "columnClusterSize": "4",
+  "multicharts": {
+    "Overview": [
+      {
+        "chartType": "column",
+        "chartId": "chart1",
+        "style": "",
+        "baseOptions": {
+          "width": 615,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "90%"
+          }
+        },
+        "labels": {
+          "x": "Time",
+          "y": "Rate per 1,000 Households"
+        },
+        "hideColumns": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "chartType": "area",
+        "chartId": "chart2",
+        "style": "",
+        "baseOptions": {
+          "width": 615,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "75%"
+          }
+        },
+        "labels": {
+          "x": "Time",
+          "y": "Rate per 1,000 Households"
+        },
+        "hideColumns": [
+          0,
+          3
+        ]
+      }
+    ],
+    "Total-Cases-_pFirst-Day-of-Time-Interval_P": [
+      {
+        "chartType": "column",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Rate per 1,000 Households"
+        },
+        "hideColumns": [
+          1,
+          2,
+          3
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "Opened-and-Closed-In_-Home-Service-Cases": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Rate per 1,000 Households"
+        },
+        "hideColumns": [
+          0,
+          3
+        ]
+      }
+    ],
+    "Opened-In_-Home-Service-Cases": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Rate per 1,000 Households"
+        },
+        "hideColumns": [
+          0,
+          2,
+          3
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "In_-Home-Service-Case-Closures": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Rate per 1,000 Households"
+        },
+        "hideColumns": [
+          0,
+          1,
+          3
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "Closures-per-Opened-In_-Home-Service-Case": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Rate of Closures per Opened In-Home Service Case",
+          "yMax": 2
+        },
+        "hideColumns": [
+          0,
+          1,
+          2
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ]
+  },
+  "numberFormat": {
+    "fractionDigits": 2
+  },
+  "labels": {
+    "x": "Time",
+    "y": "Count of Children"
+  }
+}

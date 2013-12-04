@@ -1,0 +1,43 @@
+{
+  "table": "sp_PBCS3",
+  "title": "Placement Following In-Home Services",
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Months",
+    "valueFields": [
+      "Not Placed",
+      "Placed"
+    ],
+    "removeFields": [],
+    "table": "sp_PBCS3",
+    "startDateField": "Cohort Begin Date"
+  },
+  "controls": [
+    "date_type"
+  ],
+  "params": [
+    "quarterService",
+    "ethnicityCensus",
+    "office"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "quarterService"
+  ],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1,
+    3,
+    4
+  ],
+  "returnRowDateHeaders": [
+    1
+  ],
+  "returnRowStart": 5,
+  "chartType": "line",
+  "labels": {
+    "x": "Months Since In-Home Services Cases Opened",
+    "y": "Percentage of Children Placed"
+  }
+}

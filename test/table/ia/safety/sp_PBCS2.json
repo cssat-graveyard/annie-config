@@ -1,0 +1,49 @@
+{
+  "table": "sp_PBCS2",
+  "measurementOrder": 1,
+  "title": "Re-Referral",
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Months",
+    "valueFields": [
+      "Among all first referrals, percent that are re-referred",
+      "Among all first referrals, percent that are both initially founded and re-referred",
+      "Among founded first referrals, percent that are re-referred"
+    ],
+    "removeFields": [],
+    "table": "sp_PBCS2",
+    "startDateField": "Cohort Begin Date"
+  },
+  "controls": [
+    "date_type"
+  ],
+  "params": [
+    "quarterStart",
+    "age",
+    "ethnicityCensus",
+    "gender",
+    "office"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "quarterStart"
+  ],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    10
+  ],
+  "returnRowDateHeaders": [
+    1
+  ],
+  "returnRowStart": 11,
+  "chartType": "line",
+  "labels": {
+    "x": "Months Since First Investigation",
+    "y": "Percentage of Children"
+  }
+}

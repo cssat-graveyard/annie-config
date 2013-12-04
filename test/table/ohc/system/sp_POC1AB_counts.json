@@ -1,0 +1,202 @@
+{
+  "table": "sp_poc1ab_counts",
+  "Base": "sp_POC1AB_perCapita",
+  "title": "Count of Out-of-Home Care Cases",
+  "measurementOrder": 1,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Month",
+    "valueFields": [
+      "Total In Care First Day",
+      "Number of Entries",
+      "Number of Exits"
+    ],
+    "removeFields": [
+    ]
+  },
+  "controls": [
+    "qry_type_poc1",
+    "date_type",
+    "Dependency_Cd"
+  ],
+  "params": [
+    "monthStart",
+    "ageCensus",
+    "ethnicityCensus",
+    "gender",
+    "initSetng",
+    "longSetng",
+    "removalCounty",
+    "ooh_los",
+	"nbr_placement",
+	"ihs_services",
+	"reporter_type",
+	"access_type",
+	"allegation",
+	"finding",
+    "service_category",
+	"budget_category"
+  ],
+  "dateParams": [
+  ],
+  "requiredParams": [
+    "monthStart"
+  ],
+  "showAllOthers": true,
+  "mutexAllOther": false,
+  "returnRowHeaders": [
+    0,
+    4,
+	6,
+	8,
+	10,
+	12,
+	14,
+	16,
+	18,
+	20,
+	22,
+	24,
+	26,
+	28,
+	30,
+	32,
+	34
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [
+    1
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "*qry_type_poc1",
+    "Age at Removal",
+    "Gender",
+    "Race/Ethnicity",
+    "First Placement Setting",
+    "Longest Placement Setting",
+    "Removal County",
+	"Court Involvement",
+	"Length of Service",
+	"Count of Placements",
+	"In-Home Service Record",
+	"Reporter",
+	"Access Type",
+	"Allegation",
+	"Finding",
+	"Service Type",
+	"Budget Code"
+  ],
+  "returnRowStart": 35,
+  "columnClusterSize": 3,
+  "multicharts": {
+    "Overview": [
+      {
+        "chartType": "column",
+        "chartId": "chart1",
+        "style": "",
+        "baseOptions": {
+          "width": 615,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "90%"
+          }
+        },
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      },
+      {
+        "chartType": "area",
+        "chartId": "chart2",
+        "style": "",
+        "baseOptions": {
+          "width": 615,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "75%"
+          }
+        },
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ],
+    "Total-Cases-_pFirst-Day-of-Month-or-Year_P": [
+      {
+        "chartType": "column",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          1,
+          2
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "Entries": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0,
+          2
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "Exits": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0,
+          1
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ]
+  },
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    }
+  ]
+}

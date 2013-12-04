@@ -1,0 +1,123 @@
+{
+  "table": "sp_PBCW3",
+  "title": "Placements in Family Settings",
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Cohort Begin Date",
+    "valueFields": [
+      "Family Setting (State Foster Home)",
+      "Family Setting (Private Foster Home)",
+      "Family Setting (Kin Placement)",
+      "Non-Family Setting"
+    ],
+    "removeFields": []
+  },
+  "params": [
+    "monthStart",
+    "age",
+    "ethnicityCensus",
+    "gender",
+    "initSetng",
+    "lastSetng",
+    "removalReason",
+    "removalCounty"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "monthStart"
+  ],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    13
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowStart": 14,
+  "columnClusterSize": 4,
+  "multicharts": {
+    "Overview": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Month",
+          "y": "Percentage"
+        },
+        "hideColumns": []
+      }
+    ],
+    "Family-Setting-_pState-Foster-Home_P": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Month",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "Family-Setting-_pPrivate-Foster-Home_P": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Month",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          2,
+          3
+        ]
+      }
+    ],
+    "Family-Setting-_pKin-Placement_P": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Month",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          1,
+          3
+        ]
+      }
+    ],
+    "Non_-Family-Setting": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Month",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          1,
+          2
+        ]
+      }
+    ]
+  }
+}

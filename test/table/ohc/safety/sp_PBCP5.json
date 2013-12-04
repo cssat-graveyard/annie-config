@@ -1,0 +1,48 @@
+{
+  "table": "sp_PBCP5",
+  "title": "Re-Entry - Comparison",
+  "transform": {
+    "Function": "trim",
+    "table": "sp_PBCP5",
+    "dateField": "Cohort Exit Date"
+  },
+  "controls": [
+    "date_type",
+    "discharge_type_safety"
+  ],
+  "params": [
+    "quarterExit",
+    "age",
+    "ethnicityCensus",
+    "gender",
+    "initSetng",
+    "lastSetng",
+    "removalReason",
+    "removalCounty"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "quarterExit"
+  ],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowStart": 19,
+  "chartType": "line",
+  "labels": {
+    "x": "Months Since Exit from Out-of-Home Care",
+    "y": "Percentage Re-Entering"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "Base": "sp_POC3_perCapita",
+  "title": "Count of Cases",
+  "measurementOrder": 1,
+  "table": "sp_poc3_counts",
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Month",
+    "valueFields": [
+      "Total In Care First Day",
+      "Number of opened",
+      "Number of closed"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "qry_type_poc3",
+    "date_type"
+  ],
+  "params": [
+    "monthStart",
+    "ageSib",
+    "ethnicityCensus",
+    "office",
+	"ihs_services",
+	"reporter_type",
+	"access_type",
+	"allegation",
+	"finding",
+	"service_category",
+	"budget_category"	
+  ],
+    "returnRowHeaders": [
+    0,
+    1,
+    4,
+	6,
+	8,
+	10,
+	12,
+	14,
+	16,
+	18,
+	20,
+	22
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [
+    1
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "*qry_type_poc3",
+    "Age of Children in Household",
+    "Race/Ethnicity",
+    "DCFS Office",
+	"Service Type",
+	"Reporter Type",
+	"Entry Type",
+	"Allegation Type",
+	"Investigation Outcome",
+	"Service Category",
+	"Budget Category"
+  ],
+  "returnRowStart": 23,
+  "columnClusterSize": 3,
+  "multicharts": {
+    "Overview": [
+      {
+        "chartType": "column",
+        "chartId": "chart1",
+        "style": "",
+        "baseOptions": {
+          "width": 615,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "90%"
+          }
+        },
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      },
+      {
+        "chartType": "area",
+        "chartId": "chart2",
+        "style": "",
+        "baseOptions": {
+          "width": 615,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "75%"
+          }
+        },
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ],
+    "Total-Cases-_pFirst-Day-of-Time-Interval_P": [
+      {
+        "chartType": "column",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          1,
+          2
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "Opened-and-Closed-In_-Home-Service-Cases": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ],
+    "Opened-In_-Home-Service-Cases": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0,
+          2
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "In_-Home-Service-Case-Closures": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0,
+          1
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ]
+  },
+  "mutexAllOthers": false,
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    }
+  ]
+}

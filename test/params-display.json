@@ -1,0 +1,414 @@
+{
+  "age": {
+    "table": "ref_lookup_age",
+    "display": {
+      "legend": "Age",
+      "column": "fieldsRight",
+      "type": "param"
+    }
+  },
+  "ageCensus": {
+    "table": "ref_lookup_age_census",
+    "valueColumn": 3,
+    "display": {
+      "legend": "Age at Removal",
+      "column": "fieldsRight",
+      "type": "param"
+    }
+  },
+  "ageSib": {
+    "table": "ref_lookup_sib_age_grp",
+    "removeKeys": [
+      4
+    ],
+    "display": {
+      "legend": "Age of Children in Household",
+      "column": "fieldsRight",
+      "type": "param"
+    }
+  },
+  "removalCounty": {
+    "table": "ref_lookup_county",
+    "display": {
+      "legend": "Washington State County",
+      "column": "fieldsRight",
+      "type": "param"
+    }
+  },
+  "discharge": {
+    "table": "ref_lookup_discharge",
+    "display": {}
+  },
+  "discharge_type_safety": {
+    "values":{
+      "1": "Reunification",
+      "3": "Adoption",
+      "4": "Guardianship"
+    },
+    "display": {
+      "alias": "discharge_type_cd",
+      "legend": "Re-Entry by Exit Type",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": "*",
+      "multi": true,
+      "zeroLast": false
+    }
+  },
+  "discharge_type_outcomes": {
+    "values":{
+      "1": "Reunification",
+      "3": "Adoption",
+      "4": "Guardianship",
+      "5": "Emancipation",
+      "6": "Other"
+    },
+    "display": {
+      "alias": "Discharge_Type_Cd",
+      "legend": "Exit Type",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": "*",
+      "multi": true,
+      "zeroLast": true
+    }
+  },
+  "ethnicity": {
+    "table": "ref_lookup_ethnicity",
+    "removeKeys":[
+      7
+    ],
+    "display": {
+      "legend": "Race/Ethnicity",
+      "column": "fieldsLeft",
+      "type": "param"
+    }
+  },
+  "ethnicityCensus": {
+    "table": "ref_lookup_ethnicity_census",
+    "addKeyValues": {
+      "-1": "-"
+    },
+    "removeKeys":[
+      7
+    ],
+    "display": {
+      "legend": "Race/Ethnicity",
+      "column": "fieldsLeft",
+      "type": "param",
+      "sort": "raceEthnicityCompare",
+      "zeroLast": false,
+      "selected": 0
+    }
+  },
+  "exitType": {
+    "table": "ref_lookup_type_of_exit",
+    "display": {}
+  },
+  "gender": {
+    "table": "ref_lookup_gender",
+    "valueColumn": 2,
+    "removeKeys": [
+      3
+    ],
+    "display": {
+      "legend": "Gender",
+      "column": "fieldsRight",
+      "type": "param"
+    }
+  },
+  "nbrEvent": {
+    "table": "ref_lookup_nbr_event_grouping",
+    "display": {}
+  },
+  "office": {
+    "table": "ref_lookup_office_collapse",
+    "addKeyValues": {
+      "0": "All"
+    },
+    "removeKeys": [
+      -99
+    ],
+    "_comment": "Missing / Other",
+    "display": {
+      "legend": "DCFS Office",
+      "column": "fieldsRight",
+      "type": "param",
+      "sort": true
+    }
+  },
+  "officeGroup": {
+    "table": "ref_lookup_cd_office_county_grp",
+    "orderBy": "tx_office_county_grp",
+    "addKeyValues": {
+      "0": "All"
+    },
+    "removeKeys": [
+      28
+    ],
+    "_comment": "State level location",
+    "display": {
+      "legend": "DCFS Office Group",
+      "column": "fieldsRight",
+      "type": "param",
+      "sort": true
+    }
+  },
+  "initSetng": {
+    "table": "ref_lookup_placement",
+    "display": {
+      "legend": "Initial Placement Setting",
+      "column": "fieldsLeft",
+      "type": "param"
+    }
+  },
+  "lastSetng": {
+    "table": "ref_lookup_placement",
+    "display": {
+      "legend": "Last Placement Setting",
+      "column": "fieldsLeft",
+      "type": "param"
+    }
+  },
+  "longSetng": {
+    "table": "ref_lookup_placement",
+    "display": {
+      "legend": "Longest Placement Setting",
+      "column": "fieldsLeft",
+      "type": "param"
+    }
+  },
+  "plcSetng": {
+    "table": "ref_lookup_plcsetngtype",
+    "display": {}
+  },
+  "unsafeExit": {
+    "table": "ref_lookup_unsafe_exit",
+    "display": {}
+  },
+  "qry_type": {
+    "table": "ref_lookup_qry_type",
+    "display": {
+      "legend": "Type of Count",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": 2,
+      "multi": true
+    }
+  },
+  "qry_type_poc1": {
+    "table": "ref_lookup_qry_type_poc1",
+    "display": {
+      "legend": "Count Type",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": 2,
+      "multi": true,
+      "zeroLast": false,
+      "sort": "qryTypeCompare"
+    }
+  },
+  "qry_type_poc2": {
+    "table": "ref_lookup_qry_type_poc2",
+    "display": {
+      "legend": "Count Type",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": 2,
+      "multi": true,
+      "zeroLast": false,
+      "sort": "qryTypeCompare"
+    }
+  },
+  "qry_type_poc3": {
+    "table": "ref_lookup_qry_type_poc3",
+    "display": {
+      "legend": "Type of Count",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": 2,
+      "multi": true,
+      "zeroLast": false,
+      "sort": "qryTypeCompare"
+    }
+  },
+  "qry_type_fat": {
+    "table": "ref_lookup_qry_type_fat",
+    "display": {
+      "legend": "Type of Count",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": 2,
+      "multi": true,
+      "zeroLast": false,
+      "sort": "qryTypeCompare"
+    }
+  },
+  "service_type": {
+    "table": "ref_lookup_service_type",
+    "display": {
+      "legend": "Service",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": 0
+    }
+  },
+  "siblingGroup": {
+    "table": "ref_lookup_sibling_groups",
+    "display": {
+      "legend": "Sibling Group Size",
+      "column": "fieldsLeft",
+      "type": "param"
+    }
+  },
+  "measurement_type": {
+    "table": "ref_lookup_measurement_type",
+    "display": {
+      "legend": "Measurement",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": 0
+    }
+  },
+  "date_type": {
+    "table": "ref_lookup_date_type",
+    "display": {
+      "legend": "Time Interval",
+      "column": "fieldsLeft",
+      "type": "filter",
+      "selected": 2,
+      "zeroLast": false
+    }
+  },
+  "nbrSiblings": {
+    "values": [
+      "All Others",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "display": {
+      "legend": "Number of Siblings",
+      "column": "fieldsLeft",
+      "type": "param"
+    }
+  },
+  "custody": {
+    "values": [
+      "Non-DCFS and DCFS",
+      "DCFS"
+    ],
+    "display": {
+      "legend": "Custody",
+      "column": "fieldsLeft",
+      "type": "param"
+    }
+  },
+  "removalReason": {
+    "values": [
+      "All"
+    ],
+    "display": {
+      "legend": "Removal Reason",
+      "type": "param"
+    }
+  },
+  "access_type":{
+	"table": "ref_filter_access_type",
+	"display": {
+		"legend": "Entry Point",
+		"column": "fieldsLeft",
+		"type":   "param",
+		"multi":  true
+	}
+  },
+  "allegation":{
+	"table": "ref_filter_allegation",
+	"display": {
+		"legend": "Allegation",
+		"column": "fieldsLeft",
+		"type":   "param",
+		"multi":  true
+	}
+  },
+  "Dependency_Cd":{
+	"table": "ref_filter_dependency",
+	"display": {
+		"legend": "Court Involvement",
+		"column": "fieldsRight",
+		"type":   "filter",
+		"multi":  true,
+		"selected": 0
+	}
+  },
+  "finding":{
+	"table": "ref_filter_finding",
+	"display": {
+		"legend": "Allegation Finding",
+		"column": "fieldsLeft",
+		"type":   "param",
+		"multi":  true
+	}
+  },
+  "ihs_services":{
+	"table": "ref_filter_ihs_services",
+	"display": {
+		"legend": "In-Home Services Received",
+		"column": "fieldsRight",
+		"type":   "param",
+		"multi":  true
+	}
+  },
+  "ooh_los":{
+	"table": "ref_filter_los",
+	"display": {
+		"legend": "Length of Service",
+		"column": "fieldsLeft",
+		"type":   "param",
+		"multi":  true
+	}
+  },
+  "nbr_placement":{
+	"table": "ref_filter_nbr_placement",
+	"display": {
+		"legend": "Number of Out-of-Home Placements",
+		"column": "fieldsLeft",
+		"type":   "param",
+		"multi":  true
+	}
+  },
+  "reporter_type":{
+	"table": "ref_filter_reporter_type",
+	"display": {
+		"legend": "Reporter",
+		"column": "fieldsLeft",
+		"type":   "param",
+		"multi":  true
+        }
+  },
+  "service_category":{
+    "table": "ref_service_cd_subctgry_poc",
+	"display": {
+	  "legend": "Service Category",
+	  "column": "fieldsRight",
+	  "type": "param",
+	  "multi": true
+	}
+  },
+  "budget_category":{
+    "table": "ref_service_cd_budget_poc_frc",
+	"display": {
+	  "legend": "Budget Category",
+	  "column": "fieldsRight",
+	  "type": "param",
+	  "multi": true
+	}
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "Base": "sp_POC2_perCapita",
+  "title": "Count of Cases",
+  "measurementOrder": 1,
+  "table": "sp_poc2_counts",
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Month",
+    "valueFields": [
+      "Total Cases First Day",
+      "Opened Cases",
+      "Case Closures"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "qry_type_poc2",
+    "date_type"
+  ],
+  "params": [
+    "monthStart",
+    "ageSib",
+    "ethnicityCensus",
+    "office",
+	"reporter_type",
+	"access_type",
+	"allegation",
+	"finding"
+  ],
+  "returnRowHeaders": [
+    0,
+    1,
+    4,
+    6,
+	8,
+	10,
+	12,
+	14,
+	16
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [
+    1
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "*qry_type_poc2",
+    "Age of Children in Household",
+    "Race/Ethnicity",
+    "DCFS Office",
+	"Reporter",
+	"Entry Point",
+	"Allegation",
+	"Finding"
+  ],
+  "returnRowStart": 17,
+  "columnClusterSize": 3,
+  "showAllOthers": true,
+  "mutexAllOthers": false,
+  "dateParams": [],
+  "requiredParams": [
+    "monthStart"
+  ],
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    }
+  ],
+  "multicharts": {
+    "Overview": [
+      {
+        "chartType": "column",
+        "chartId": "chart1",
+        "style": "",
+        "baseOptions": {
+          "width": 615,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "90%"
+          }
+        },
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      },
+      {
+        "chartType": "area",
+        "chartId": "chart2",
+        "style": "",
+        "baseOptions": {
+          "width": 615,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "75%"
+          }
+        },
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ],
+    "Total-Cases-_pFirst-Day-of-Time-Interval_P": [
+      {
+        "chartType": "column",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          1,
+          2
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "Opened-and-Closed-Investigations": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ],
+    "Opened-Investigations": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0,
+          2
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ],
+    "Investigation-Closures": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Time",
+          "y": "Count"
+        },
+        "hideColumns": [
+          0,
+          1
+        ],
+        "addInputClass": "multiAllowed"
+      }
+    ]
+  }
+}
