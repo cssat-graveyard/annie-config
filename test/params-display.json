@@ -148,7 +148,7 @@
     ],
     "_comment": "State level location",
     "display": {
-      "legend": "DCFS Office Group",
+      "legend": "DCFS Office or Office Group",
       "column": "fieldsRight",
       "type": "param",
       "sort": true
@@ -189,7 +189,7 @@
   "qry_type": {
     "table": "ref_lookup_qry_type",
     "display": {
-      "legend": "Type of Count",
+      "legend": "Count Type",
       "column": "fieldsRight",
       "type": "filter",
       "selected": 2,
@@ -223,7 +223,7 @@
   "qry_type_poc3": {
     "table": "ref_lookup_qry_type_poc3",
     "display": {
-      "legend": "Type of Count",
+      "legend": "Count Type",
       "column": "fieldsRight",
       "type": "filter",
       "selected": 2,
@@ -235,7 +235,7 @@
   "qry_type_fat": {
     "table": "ref_lookup_qry_type_fat",
     "display": {
-      "legend": "Type of Count",
+      "legend": "Count Type",
       "column": "fieldsRight",
       "type": "filter",
       "selected": 2,
@@ -333,7 +333,7 @@
 	"table": "ref_filter_allegation",
 	"display": {
 		"legend": "Allegation",
-		"column": "fieldsLeft",
+		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true
 	}
@@ -352,7 +352,7 @@
 	"table": "ref_filter_finding",
 	"display": {
 		"legend": "Allegation Finding",
-		"column": "fieldsLeft",
+		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true
 	}
@@ -369,7 +369,7 @@
   "ooh_los":{
 	"table": "ref_filter_los",
 	"display": {
-		"legend": "Length of Service",
+		"legend": "Length of Out-of-Home Service",
 		"column": "fieldsLeft",
 		"type":   "param",
 		"multi":  true
@@ -410,5 +410,113 @@
 	  "type": "param",
 	  "multi": true
 	}
+  },
+  "quarterStart": {
+    "date": true,
+    "display": {
+      "legend": "Investigation Cohort Quarter",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "start"
+    }
+  },
+  "quarterEnd": {
+    "date": true,
+    "display": {
+      "legend": "Quarter",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "end"
+    }
+  },
+  "quarterEntry": {
+    "date": true,
+    "display": {
+      "legend": "Entry Cohort Quarter",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "start"
+    }
+  },
+  "quarterCompellingReasonEntry": {
+    "date": true,
+    "display": {
+      "legend": "\"Compelling Reason\" Cohort",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "start"
+    }
+  },
+  "quarterExit": {
+    "date": true,
+    "display": {
+      "legend": "Exit Cohort Quarter",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "start"
+    }
+  },
+  "quarterService": {
+    "date": true,
+    "display": {
+      "legend": "Service Cohort Quarter",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "start"
+    }
+  },
+  "monthStart": {
+    "date": true,
+    "display": {
+      "legend": "Date Range",
+      "column": "fieldsLeft",
+      "type": "dateRange",
+      "monthStep":  1,
+      "monthLimit": 0,
+      "help": "Select the starting and ending date ranges for the result."
+    }
+  },
+  "dynamicMonthStart": {
+    "date": true,
+    "display": {
+      "legend": "Date Range",
+      "column": "fieldsLeft",
+      "type": "dynamicDateRange",
+      "monthStep":  1,
+      "monthLimit": 0,
+      "help": "Select the starting and ending date ranges for the result."
+    }
+  },
+  "quarterRangeStart": {
+    "date": true,
+    "display": {
+      "legend": "Quarters",
+      "column": "fieldsLeft",
+      "type": "dateRange",
+      "monthStep":  3,
+      "monthLimit": 60
+    }
+  },
+  "monthSelector": {
+    "date": true,
+    "display": {
+      "legend": "Dates",
+      "column": "fieldsLeft",
+      "type": "dateSelect"
+    }
+  },
+  "month": {
+    "values": {
+       "3":  3,
+       "6":  6,
+      "12": 12,
+      "24": 24,
+      "36": 36
+    },
+    "display": {
+      "legend": "Months",
+      "column": "fieldsLeft",
+      "type": "param"
+    }
   }
 }
