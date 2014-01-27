@@ -8,16 +8,15 @@
     "valueFields": [
       "Total In Care First Day",
       "Number of Entries",
-      "Number of Exits",
-      "Exits per Entry"
+      "Number of Exits"
     ],
     "removeFields": [
-      "Census to Exit Ratio"
     ]
   },
   "controls": [
     "qry_type_poc1",
-    "date_type"
+    "date_type",
+	"Dependency_Cd"
   ],
   "params": [
     "monthStart",
@@ -25,10 +24,17 @@
     "ethnicityCensus",
     "gender",
     "initSetng",
-    "lastSetng",
-    "removalReason",
+    "longSetng",
     "removalCounty",
-    "custody"
+    "ooh_los",
+	"nbr_placement",
+	"ihs_services",
+	"reporter_type",
+	"access_type",
+	"allegation",
+	"finding",
+    "service_category",
+	"budget_category"
   ],
   "dateParams": [],
   "requiredParams": [
@@ -38,15 +44,22 @@
   "mutexAllOthers": false,
   "returnRowHeaders": [
     0,
-    1,
-    5,
-    7,
-    9,
-    11,
-    13,
-    15,
-    17,
-    18
+    4,
+	6,
+	8,
+	10,
+	12,
+	14,
+	16,
+	18,
+	20,
+	22,
+	24,
+	26,
+	28,
+	30,
+	32,
+	34
   ],
   "returnRowDateHeaders": [
     0
@@ -57,17 +70,25 @@
   "headerNames": [
     "&nbsp;",
     "*qry_type_poc1",
-    "Age Grouping",
+    "Age at Removal",
     "Gender",
     "Race/Ethnicity",
     "First Placement Setting",
-    "Last Placement Setting",
-    "County",
-    "Removal Reason",
-    "Custody"
+    "Longest Placement Setting",
+    "Removal County",
+	"Court Involvement",
+	"Length of Service",
+	"Count of Placements",
+	"In-Home Service Record",
+	"Reporter",
+	"Access Type",
+	"Allegation",
+	"Finding",
+	"Service Type",
+	"Budget Code"
   ],
-  "returnRowStart": 19,
-  "columnClusterSize": "4",
+  "returnRowStart": 35,
+  "columnClusterSize": "3",
   "multicharts": {
     "Overview": [
       {
@@ -90,8 +111,7 @@
         },
         "hideColumns": [
           1,
-          2,
-          3
+          2
         ]
       },
       {
@@ -113,8 +133,7 @@
           "y": "Rate per 1,000 Children"
         },
         "hideColumns": [
-          0,
-          3
+          0
         ]
       }
     ],
@@ -129,25 +148,9 @@
         },
         "hideColumns": [
           1,
-          2,
-          3
+          2
         ],
         "addInputClass": "multiAllowed"
-      }
-    ],
-    "Entries-and-Exits": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Time",
-          "y": "Rate per 1,000 Children"
-        },
-        "hideColumns": [
-          0,
-          3
-        ]
       }
     ],
     "Entries": [
@@ -161,8 +164,7 @@
         },
         "hideColumns": [
           0,
-          2,
-          3
+          2
         ],
         "addInputClass": "multiAllowed"
       }
@@ -178,35 +180,13 @@
         },
         "hideColumns": [
           0,
-          1,
-          3
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ],
-    "Exits-per-Entry": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Time",
-          "y": "Rate of Exits per Entry",
-          "yMax": 2
-        },
-        "hideColumns": [
-          0,
-          1,
-          2
+          1
         ],
         "addInputClass": "multiAllowed"
       }
     ]
   },
   "numberFormat": [
-    {
-      "fractionDigits": 2
-    },
     {
       "fractionDigits": 2
     },

@@ -6,7 +6,7 @@
     "Function": "daterow",
     "dateField": "period_start",
     "valueFields": [
-      "Total Cases First Day",
+      "Total Cases (First Day of Month or Year)",
       "Opened Cases",
       "Case Closures",
       "Closures per Opened Case"
@@ -18,14 +18,14 @@
     "date_type"
   ],
   "params": [
-    "monthStart",
+    "dynamicMonthStart",
     "ageSib",
     "ethnicityCensus",
     "officeGroup"
   ],
   "dateParams": [],
   "requiredParams": [
-    "monthStart"
+    "dynamicMonthStart"
   ],
   "showAllOthers": true,
   "mutexAllOthers": false,
@@ -101,7 +101,7 @@
         ]
       }
     ],
-    "Total-Cases-_pFirst-Day-of-Time-Interval_P": [
+    "Total-Cases-_pFirst-Day-of-Month-or-Year_P": [
       {
         "chartType": "column",
         "chartId": "chart1",
