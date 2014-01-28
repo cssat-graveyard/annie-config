@@ -46,6 +46,12 @@
   "returnRowDateHeaders": [
     0
   ],
+  "showAllOthers": true,
+  "mutexAllOthers": false,
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
   "multicharts": {
     "Total-Cases-_pFirst-Day-of-Month-or-Year_P": [
       {
@@ -189,6 +195,5 @@
     {
       "fractionDigits": 0
     }
-  ],
-  "mutexAllOthers": false
+  ]
 }
