@@ -98,7 +98,8 @@
       "type": "param",
       "sort": "raceEthnicityCompare",
       "zeroLast": false,
-      "selected": 0
+      "selected": 0,
+      "help": "Description of race/ethnicity filter."
     }
   },
   "exitType": {
