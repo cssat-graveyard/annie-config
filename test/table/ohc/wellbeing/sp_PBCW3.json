@@ -163,6 +163,7 @@
           2
         ]
       }
+      ]
  "numberFormat": [
     {
       "fractionDigits": 2
@@ -177,6 +178,5 @@
       "fractionDigits": 2
     }
   ]
-    ]
   }
 }
