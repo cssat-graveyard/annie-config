@@ -13,8 +13,8 @@
     "removeFields": []
   },
    "controls": [
-	"dependency_cd"
-    ,"qry_type"
+	"dependency_cd",
+    "qry_type"
   ],
   "params": [
     "monthStart",
@@ -56,7 +56,7 @@
     28,
     30,
     32,
-    34,
+    34
   ],
   "returnRowDateHeaders": [
     0
