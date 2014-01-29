@@ -46,7 +46,7 @@
       "4": "Guardianship"
     },
     "display": {
-      "alias": "discharge_type_cd",
+      "alias": "cd_discharge_type",
       "legend": "Re-Entry by Exit Type",
       "column": "fieldsRight",
       "type": "filter",
