@@ -4,7 +4,7 @@
   "transform": {
     "Function": "trim",
     "table": "sp_PBCP5",
-    "dateField": "Cohort Exit Date"
+    "dateField": "Cohort Entry Date"
   },
   "controls": [
     "discharge_type_safety"
