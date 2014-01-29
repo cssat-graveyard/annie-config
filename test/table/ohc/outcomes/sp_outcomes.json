@@ -7,9 +7,10 @@
     "dateField": "Cohort Entry Date"
   },
   "controls": [
+    "qry_type",
     "date_type",
-    "discharge_type_outcomes",
-    "dependency_cd"
+    "dependency_cd",
+    "discharge_type_outcomes"
   ],
   "params": [
     "quarterEntry",
