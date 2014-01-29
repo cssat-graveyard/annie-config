@@ -64,7 +64,7 @@
       "6": "Other"
     },
     "display": {
-      "alias": "Discharge_Type_Cd",
+      "alias": "cd_discharge_type",
       "legend": "Exit Type",
       "column": "fieldsRight",
       "type": "filter",
