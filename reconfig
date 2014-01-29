@@ -1,0 +1,4 @@
+#!/bin/sh
+umask 0002
+cd /data/pocweb/annie-config/test
+git pull
