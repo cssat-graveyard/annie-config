@@ -37,7 +37,6 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    3,
     5,
     7,
     9,
@@ -53,12 +52,13 @@
     29,
     31,
     33,
-    35
+    35,
+    37
   ],
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowStart": 37,
+  "returnRowStart": 38,
   "columnClusterSize": 6,
   "multicharts": {
     "Default": [
