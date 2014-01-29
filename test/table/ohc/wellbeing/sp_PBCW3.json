@@ -57,12 +57,11 @@
     30,
     32,
     34,
-    36
   ],
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowStart": 37,
+  "returnRowStart": 35,
   "columnClusterSize": 4,
   "multicharts": {
     "Overview": [
