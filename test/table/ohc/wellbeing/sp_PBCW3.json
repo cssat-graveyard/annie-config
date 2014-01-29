@@ -1,5 +1,5 @@
 {
-  "table": "sp_PBCW3",
+  "table": "sp_PBCw3",
   "title": "Placements in Family Settings",
   "transform": {
     "Function": "daterow",
