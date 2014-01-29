@@ -20,7 +20,7 @@
     "Dependency_Cd"
   ],
   "params": [
-    "monthStart",
+    "dynamicMonthStart",
     "ageCensus",
     "ethnicityCensus",
     "gender",
@@ -40,7 +40,7 @@
   "dateParams": [
   ],
   "requiredParams": [
-    "monthStart"
+    "dynamicMonthStart"
   ],
   "showAllOthers": true,
   "mutexAllOther": false,
