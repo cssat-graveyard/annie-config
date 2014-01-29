@@ -8,6 +8,7 @@
   },
   "controls": [
     "discharge_type_outcomes"
+    ,"dependency_cd"
   ],
   "params": [
     "quarterEntry",
