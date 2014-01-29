@@ -7,7 +7,6 @@
     "dateField": "Cohort Entry Date"
   },
   "controls": [
-    "date_type",
     "discharge_type_outcomes"
   ],
   "params": [
