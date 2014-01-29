@@ -338,7 +338,7 @@
 		"multi":  true
 	}
   },
-  "Dependency_Cd":{
+  "dependency_cd":{
 	"table": "ref_filter_dependency",
 	"display": {
 		"legend": "Court Involvement",
