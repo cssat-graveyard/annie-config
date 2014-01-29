@@ -9,6 +9,7 @@
   "controls": [
     "discharge_type_outcomes"
     ,"dependency_cd"
+    ,"qry_type"
   ],
   "params": [
     "quarterEntry",
