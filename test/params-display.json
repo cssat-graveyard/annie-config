@@ -192,7 +192,7 @@
       "legend": "Count Type",
       "column": "fieldsRight",
       "type": "filter",
-      "selected": 0,
+      "selected": 1,
       "multi": true
     }
   },
