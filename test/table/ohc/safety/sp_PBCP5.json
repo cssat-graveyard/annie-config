@@ -58,9 +58,22 @@
     0
   ],
   "returnRowStart": 37,
-  "chartType": "line",
+  "multicharts": {
+    "Default": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Months Since Exiting",
+          "y": "Percentage Re-Entering"
+        },
+        "addInputClass": "multiAllowed"
+      }
+    ]
+  },
   "labels": {
-    "x": "Months Since Exit from Out-of-Home Care",
-    "y": "Percentage Re-Entering"
+      "x": "Months Since Exiting",
+      "y": "Percentage Re-Entering"
   }
 }
