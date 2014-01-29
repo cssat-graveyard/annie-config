@@ -17,7 +17,7 @@
   "controls": [
     "qry_type_poc1",
     "date_type",
-    "Dependency_Cd"
+    "dependency_cd"
   ],
   "params": [
     "dynamicMonthStart",
