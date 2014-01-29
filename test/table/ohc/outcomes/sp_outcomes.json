@@ -1,5 +1,5 @@
 {
-  "table": "sp_discharge_exit_over_time_MR",
+  "table": "sp_outcomes",
   "title": "Exits from Out-of-Home Care",
   "transform": {
     "Function": "trim",
@@ -16,9 +16,17 @@
     "ethnicityCensus",
     "gender",
     "initSetng",
-    "lastSetng",
-    "IGNORE",
-    "removalCounty"
+    "longSetng",
+    "removalCounty",
+    "ooh_los",
+    "nbr_placement",
+    "ihs_services",
+	"reporter_type",
+	"access_type",
+	"allegation",
+	"finding",
+    "service_category",
+	"budget_category"
   ],
   "dateParams": [],
   "requiredParams": [
@@ -34,12 +42,21 @@
     12,
     14,
     16,
-    18
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36
   ],
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowStart": 19,
+  "returnRowStart": 37,
   "columnClusterSize": 6,
   "multicharts": {
     "Default": [
