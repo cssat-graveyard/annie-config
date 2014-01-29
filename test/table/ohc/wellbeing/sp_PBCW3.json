@@ -12,15 +12,27 @@
     ],
     "removeFields": []
   },
+   "controls": [
+	"dependency_cd"
+    ,"qry_type"
+  ],
   "params": [
     "monthStart",
     "age",
     "ethnicityCensus",
     "gender",
     "initSetng",
-    "lastSetng",
-    "removalReason",
-    "removalCounty"
+    "longSetng",
+    "removalCounty",
+    "ooh_los",
+    "nbr_placement",
+    "ihs_services",
+	"reporter_type",
+	"access_type",
+	"allegation",
+	"finding",
+    "service_category",
+	"budget_category"
   ],
   "dateParams": [],
   "requiredParams": [
@@ -29,18 +41,28 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    2,
     4,
     6,
     8,
     10,
     12,
-    13
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36
   ],
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowStart": 14,
+  "returnRowStart": 37,
   "columnClusterSize": 4,
   "multicharts": {
     "Overview": [
