@@ -17,7 +17,7 @@
     "qry_type"
   ],
   "params": [
-    "dynamicMonthStart",
+    "monthStart",
     "age",
     "ethnicityCensus",
     "gender",
@@ -36,7 +36,7 @@
   ],
   "dateParams": [],
   "requiredParams": [
-    "dynamicMonthStart"
+    "monthStart"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
