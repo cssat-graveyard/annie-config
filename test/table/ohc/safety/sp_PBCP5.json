@@ -7,7 +7,7 @@
     "dateField": "Cohort Exit Date"
   },
   "controls": [
-    "discharge_type_outcomes"
+    "discharge_type_safety"
     ,"dependency_cd"
     ,"qry_type"
   ],
@@ -57,7 +57,7 @@
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowStart": 17,
+  "returnRowStart": 37,
   "chartType": "line",
   "labels": {
     "x": "Months Since Exit from Out-of-Home Care",
