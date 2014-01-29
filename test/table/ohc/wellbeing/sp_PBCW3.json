@@ -3,7 +3,7 @@
   "title": "Placements in Family Settings",
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Begin Date",
+    "dateField": "Cohort Entry Date",
     "valueFields": [
       "Family Setting (State Foster Home)",
       "Family Setting (Private Foster Home)",
