@@ -3,7 +3,7 @@
   "title": "Exits from Out-of-Home Care",
   "transform": {
     "Function": "trim",
-    "table": "sp_discharge_exit_over_time_MR",
+    "table": "sp_outcomes",
     "dateField": "Cohort Entry Date"
   },
   "controls": [
