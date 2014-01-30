@@ -474,7 +474,7 @@
       "type": "dateRange",
       "monthStep":  1,
       "monthLimit": 0,
-      "help": "Select the starting and ending date ranges for the result."
+      "help": "Dates are on a sliding bar from January 2000 through the most recent month for which we have data. You can adjust the start and end dates. The default DATE RANGE is the full date range."
     }
   },
   "dynamicMonthStart": {
@@ -485,7 +485,7 @@
       "type": "dynamicDateRange",
       "monthStep":  1,
       "monthLimit": 0,
-      "help": "Select the starting and ending date ranges for the result."
+      "help": "Dates are on a sliding bar from January 2000 through the most recent month for which we have data. You can adjust the start and end dates. The default DATE RANGE is the full date range."
     }
   },
   "quarterRangeStart": {
