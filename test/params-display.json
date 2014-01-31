@@ -286,7 +286,7 @@
       "type": "filter",
       "selected": 2,
       "zeroLast": false,
-      "help": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you are interested in calculating the count or rate on the first day of the quarter, select months and go to the table format, column ‘Total in Care First Day’. Choose January, April, July, or October for the quarter(s) you are interested in. If, however, you wish to know the number (or rate) of entries or exits for an entire quarter, you will need to go to the ‘Number (or Rate) of Entries or Exits’ columns and total the three months in the quarter(s) you are interested in." 
+      "help": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If, however, you wish to know the number (or rate) of entries or exits for an entire quarter, you will need to go to the ‘Number (or Rate) of Entries or Exits’ columns and total the three months for the quarter(s) you are interested in."
     }
   },
   "nbrSiblings": {
