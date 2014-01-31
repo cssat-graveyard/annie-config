@@ -208,7 +208,8 @@
       "selected": 2,
       "multi": true,
       "zeroLast": false,
-      "sort": "qryTypeCompare"
+      "sort": "qryTypeCompare",
+      "Help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest count/rate. The count/rate of ‘Unduplicated Out-of-Home Care Cases’ included only unique cases; that is, only the first out-of-home episode per time interval is counted. You can select as many COUNT TYPES as you wish for comparative purposes. ‘All Out-of-Home Care Cases’ is the default selection. For a more detailed look at COUNT TYPE filter, please see the technical bulletin on the subject."
     }
   },
   "qry_type_poc2": {
@@ -220,7 +221,8 @@
       "selected": 2,
       "multi": true,
       "zeroLast": false,
-      "sort": "qryTypeCompare"
+      "sort": "qryTypeCompare",
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) are the highest. ‘Unduplicated Investigations’ are unique; that is, only the first investigation per time interval is counted. ‘Unduplicated Investigations’ counts/rates are generally between ‘first’ and ‘all’. You can select as many COUNT TYPES as you wish for comparative purposes. ‘All Investigations’ is the default selection. For a more detailed look at COUNT TYPE filter, please see the technical bulletin on the subject."
     }
   },
   "qry_type_poc3": {
@@ -232,7 +234,8 @@
       "selected": 2,
       "multi": true,
       "zeroLast": false,
-      "sort": "qryTypeCompare"
+      "sort": "qryTypeCompare",
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) are the highest. ‘Unduplicated Investigations’ are unique; that is, only the first investigation per time interval is counted. ‘Unduplicated Investigations’ counts/rates are generally between ‘first’ and ‘all’. You can select as many COUNT TYPES as you wish for comparative purposes. ‘All Investigations’ is the default selection. For a more detailed look at COUNT TYPE filter, please see the technical bulletin on the subject."
     }
   },
   "qry_type_fat": {
@@ -270,10 +273,8 @@
       "legend": "Measurement",
       "column": "fieldsRight",
       "type": "filter",
-      "selected": 0,
-      "help": "In the chart format, ‘Overview’ (the default selection) displays a bar graph of ‘Total (count or rate) Out-of-Home Cases (First Day of Month or Year)’ (point in time measure). The chart format also displays a line graph of the number of ‘Entries’ and ‘Exits’ for the entire month or year (cohort measure). Each of these three ‘Overview’ counts or rates is also available as an individual filter category.The table format displays ‘Total in Care First Day’, ‘Number of Entries’ and ‘Number of Exits’ no matter which filter category you select.The CHART DISPLAY filter only allows you to check one box/category at a time." 
-
-    }
+      "selected": 0
+   }
   },
   "date_type": {
     "table": "ref_lookup_date_type",
@@ -282,7 +283,8 @@
       "column": "fieldsLeft",
       "type": "filter",
       "selected": 2,
-      "zeroLast": false
+      "zeroLast": false,
+      "help": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you are interested in calculating the count or rate on the first day of the quarter, select months and go to the table format, column ‘Total in Care First Day’. Choose January, April, July, or October for the quarter(s) you are interested in. If, however, you wish to know the number (or rate) of entries or exits for an entire quarter, you will need to go to the ‘Number (or Rate) of Entries or Exits’ columns and total the three months in the quarter(s) you are interested in." 
     }
   },
   "nbrSiblings": {
