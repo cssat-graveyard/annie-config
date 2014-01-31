@@ -100,7 +100,7 @@
       "sort": "raceEthnicityCompare",
       "zeroLast": false,
       "selected": 0,
-      "help": "Description of race/ethnicity filters."
+      "help": "Race and ethnicity categories are based on U.S. Census classifications. Because the Census first asks a person’s race, and then asks a separate question about a person’s ethnicity. Therefore, you can filter for Black/African American race with or without Hispanic ethnicity. And because there is census data on the percent of American Indians (for example) in various geographic areas, using Census categories allows us to provide population-based rates by race/ethnicity."
     }
   },
   "exitType": {
