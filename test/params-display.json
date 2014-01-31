@@ -115,7 +115,8 @@
     "display": {
       "legend": "Gender",
       "column": "fieldsRight",
-      "type": "param"
+      "type": "param",
+      "help": "‘All’ is the default."
     }
   },
   "nbrEvent": {
