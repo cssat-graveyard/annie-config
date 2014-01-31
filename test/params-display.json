@@ -33,7 +33,7 @@
       "legend": "Washington State County",
       "column": "fieldsRight",
       "type": "param",
-      "help": "This is the county of the Division of Children and Family Services office that removed the child/youth. All 39 Washington State Counties are listed; ‘All’ is the default."
+      "help": "This is the county the data suggests the child/youth lived in when removed. All 39 Washington State Counties are listed; ‘All’ is the default."
     }
   },
   "discharge": {
@@ -270,7 +270,9 @@
       "legend": "Measurement",
       "column": "fieldsRight",
       "type": "filter",
-      "selected": 0
+      "selected": 0,
+      "help": "In the chart format, ‘Overview’ (the default selection) displays a bar graph of ‘Total (count or rate) Out-of-Home Cases (First Day of Month or Year)’ (point in time measure). The chart format also displays a line graph of the number of ‘Entries’ and ‘Exits’ for the entire month or year (cohort measure). Each of these three ‘Overview’ counts or rates is also available as an individual filter category.The table format displays ‘Total in Care First Day’, ‘Number of Entries’ and ‘Number of Exits’ no matter which filter category you select.The CHART DISPLAY filter only allows you to check one box/category at a time." 
+
     }
   },
   "date_type": {
