@@ -100,8 +100,7 @@
       "sort": "raceEthnicityCompare",
       "zeroLast": false,
       "selected": 0,
-      "help": "Race and ethnicity categories are based on U.S. Census classifications. Because the Census first asks a person’s race, and then asks a separate question about a person’s ethnicity. Therefore, you can filter for Black/African American race with or without Hispanic ethnicity. And because there is census data on the percent of American Indians (for example) in various geographic areas, using Census categories allows us to provide population-based rates by race/ethnicity."
-    }
+      "help": "Race and ethnicity categories are based on U.S. Census classifications. Because the Census asks about race and ethnicity, you can filter for Black/African American race with or without Hispanic ethnicity (for example). And because the Census provides data on the number of American Indians (for example) in various geographic areas, using the same categories as the Census allows us to provide population-based rates by race/ethnicity."
   },
   "exitType": {
     "table": "ref_lookup_type_of_exit",
@@ -161,7 +160,8 @@
     "display": {
       "legend": "Initial Placement Setting",
       "column": "fieldsLeft",
-      "type": "param"
+      "type": "param",
+      "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point-in-time) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort measures). ‘All’ is the default. See Placements Setting in the Glossary for more information."  
     }
   },
   "lastSetng": {
@@ -177,7 +177,8 @@
     "display": {
       "legend": "Longest Placement Setting",
       "column": "fieldsLeft",
-      "type": "param"
+      "type": "param",
+      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point-in-time) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort measures). ‘All’ is the default. See Placements Setting in the Glossary for more information."  
     }
   },
   "plcSetng": {
