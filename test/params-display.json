@@ -33,7 +33,7 @@
       "legend": "Washington State County",
       "column": "fieldsRight",
       "type": "param",
-      "help": "The county is the county of the Division of Children and Family Services office that removed the child/youth. All 39 Washington State Counties are listed; ‘All’ is the default."
+      "help": "This is the county of the Division of Children and Family Services office that removed the child/youth. All 39 Washington State Counties are listed; ‘All’ is the default."
     }
   },
   "discharge": {
@@ -337,7 +337,8 @@
 		"legend": "Allegation",
 		"column": "advancedLeft",
 		"type":   "param",
-		"multi":  true
+		"multi":  true,
+		"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers who record the nature of the allegation(s), have the option of entering up to four types of maltreatment, meaning a case can have multiple allegations. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter."
 	}
   },
   "dependency_cd":{
@@ -392,7 +393,8 @@
 		"legend": "Reporter",
 		"column": "fieldsLeft",
 		"type":   "param",
-		"multi":  true
+		"multi":  true, 
+		"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters are required by law to report concerns to the local Children’s Administration office or to law enforcement. A partial list of mandated reports includes: educators, foster care providers, medical professionals, law enforcement officers, and social service professionals. You can select as many REPORTERS as you wish. ‘All’ is the default." 
         }
   },
   "service_category":{
