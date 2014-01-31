@@ -32,7 +32,8 @@
     "display": {
       "legend": "Washington State County",
       "column": "fieldsRight",
-      "type": "param"
+      "type": "param",
+      "help": "The county is the county of the Division of Children and Family Services office that removed the child/youth. All 39 Washington State Counties are listed; ‘All’ is the default."
     }
   },
   "discharge": {
@@ -99,7 +100,7 @@
       "sort": "raceEthnicityCompare",
       "zeroLast": false,
       "selected": 0,
-      "help": "Description of race/ethnicity filter."
+      "help": "Description of race/ethnicity filters."
     }
   },
   "exitType": {
