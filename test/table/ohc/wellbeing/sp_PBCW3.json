@@ -64,6 +64,26 @@
    "returnRowControlHeaders": [
     1
   ],
+    "headerNames": [
+    "&nbsp;",
+    "*qry_type",
+    "Age at Removal",
+    "Gender",
+    "Race/Ethnicity",
+    "First Placement Setting",
+    "Longest Placement Setting",
+    "Removal County",
+	"Court Involvement",
+	"Length of Service",
+	"Count of Placements",
+	"In-Home Service Record",
+	"Reporter",
+	"Access Type",
+	"Allegation",
+	"Finding",
+	"Service Type",
+	"Budget Code"
+  ],
   "returnRowStart": 35,
   "columnClusterSize": 4,
   "multicharts": {
