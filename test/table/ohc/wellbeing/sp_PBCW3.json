@@ -97,7 +97,7 @@
           "x": "Month",
           "y": "Percentage"
         },
-        "hideColumns": []
+        "hideColumns": [1,2,3]
       }
     ]
       }
