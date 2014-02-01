@@ -356,7 +356,7 @@
 		"type":   "filter",
 		"multi":  true,
 		"selected": 0,
-		"help": "The courts become involved when there is a dependency proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
+		"help": "The courts become involved when there is a dependency proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
 	}
   },
   "finding":{
@@ -365,7 +365,8 @@
 		"legend": "Allegation Finding",
 		"column": "advancedLeft",
 		"type":   "param",
-		"multi":  true
+		"multi":  true,
+		"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur."
 	}
   },
   "ihs_services":{
