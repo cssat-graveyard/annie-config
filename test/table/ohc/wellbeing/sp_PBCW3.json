@@ -102,7 +102,7 @@
     ],    
     "Family-Setting-_pState-Foster-Home_P": [
       {
-        "chartType": "line",
+        "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
@@ -118,7 +118,7 @@
     ],
     "Family-Setting-_pPrivate-Foster-Home_P": [
       {
-        "chartType": "line",
+        "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
@@ -134,7 +134,7 @@
     ],
     "Family-Setting-_pKin-Placement_P": [
       {
-        "chartType": "line",
+        "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
