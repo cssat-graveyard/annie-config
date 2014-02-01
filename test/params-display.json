@@ -13,7 +13,8 @@
     "display": {
       "legend": "Age at Removal",
       "column": "fieldsRight",
-      "type": "param"
+      "type": "param",
+      "help": "Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages per geographic area, we are able to calculate the rate of cases (per 1,000) by age for the state, county, or Division of Children and Family Services Office."
     }
   },
   "ageSib": {
@@ -162,7 +163,7 @@
       "legend": "Initial Placement Setting",
       "column": "fieldsLeft",
       "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point-in-time) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort measures). ‘All’ is the default. See Placements Setting in the Glossary for more information."  
+      "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data)."  
     }
   },
   "lastSetng": {
@@ -179,7 +180,7 @@
       "legend": "Longest Placement Setting",
       "column": "fieldsLeft",
       "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point-in-time) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort measures). ‘All’ is the default. See Placements Setting in the Glossary for more information."  
+      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data)."  
     }
   },
   "plcSetng": {
