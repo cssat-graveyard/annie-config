@@ -100,7 +100,7 @@
       "sort": "raceEthnicityCompare",
       "zeroLast": false,
       "selected": 0,
-      "help": "Race and ethnicity categories are based on U.S. Census classifications. Because the Census asks about race and ethnicity, you can filter for Black/African American race with or without Hispanic ethnicity (for example). And because the Census provides data on the number of American Indians (for example) in various geographic areas, using the same categories as the Census allows us to provide population-based rates by race/ethnicity."
+      "help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities per geographic area, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state, county, or Division of Children and Family Services Office."
     }
   },
   "exitType": {
@@ -344,7 +344,7 @@
 		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true,
-		"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers who record the nature of the allegation(s), have the option of entering up to four types of maltreatment, meaning a case can have multiple allegations. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter."
+		"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning allegations are not mutually exclusive. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter."
 	}
   },
   "dependency_cd":{
@@ -399,7 +399,8 @@
 		"legend": "Reporter",
 		"column": "fieldsLeft",
 		"type":   "param",
-		"multi":  true
+		"multi":  true, 
+		"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement."
         }
   },
   "service_category":{
