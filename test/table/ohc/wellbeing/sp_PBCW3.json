@@ -13,8 +13,9 @@
     "removeFields": []
   },
    "controls": [
-	"dependency_cd",
-    "qry_type"
+    "qry_type",
+    "date_type",
+    "dependency_cd"
   ],
   "params": [
     "monthStart",
