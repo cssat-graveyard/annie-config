@@ -86,7 +86,7 @@
 	"Budget Code"
   ],
   "returnRowStart": 35,
-  "columnClusterSize": 4,
+  "columnClusterSize": 1,
   "multicharts": {
     "Overview": [
       {
