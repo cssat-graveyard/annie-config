@@ -162,8 +162,7 @@
       "legend": "Initial Placement Setting",
       "column": "fieldsLeft",
       "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point-in-time) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort measures). ‘All’ is the default. See Placements Setting in the Glossary for more information."  
-    }
+      "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data)." 
   },
   "lastSetng": {
     "table": "ref_lookup_placement",
@@ -179,8 +178,7 @@
       "legend": "Longest Placement Setting",
       "column": "fieldsLeft",
       "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point-in-time) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort measures). ‘All’ is the default. See Placements Setting in the Glossary for more information."  
-    }
+      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data)."
   },
   "plcSetng": {
     "table": "ref_lookup_plcsetngtype",
