@@ -116,8 +116,7 @@
     "display": {
       "legend": "Gender",
       "column": "fieldsRight",
-      "type": "param",
-      "help": "‘All’ is the default."
+      "type": "param"
     }
   },
   "nbrEvent": {
@@ -286,7 +285,7 @@
       "type": "filter",
       "selected": 2,
       "zeroLast": false,
-      "help": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If, however, you wish to know the number (or rate) of entries or exits for an entire quarter, you will need to go to the ‘Number (or Rate) of Entries or Exits’ columns and total the three months for the quarter(s) you are interested in."
+      "help": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the number (or rate) of entries or exits per quarter(s), go to the ‘Number (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in."
     }
   },
   "nbrSiblings": {
@@ -400,8 +399,7 @@
 		"legend": "Reporter",
 		"column": "fieldsLeft",
 		"type":   "param",
-		"multi":  true, 
-		"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters are required by law to report concerns to the local Children’s Administration office or to law enforcement. A partial list of mandated reports includes: educators, foster care providers, medical professionals, law enforcement officers, and social service professionals. You can select as many REPORTERS as you wish. ‘All’ is the default." 
+		"multi":  true
         }
   },
   "service_category":{
@@ -484,7 +482,7 @@
       "type": "dateRange",
       "monthStep":  1,
       "monthLimit": 0,
-      "help": "Dates are on a sliding bar from January 2000 through the most recent month for which we have data. You can adjust the start and end dates. The default DATE RANGE is the full date range."
+      "help": "Dates are on a sliding bar from January 2000 through the most recent month for which we have data. You can adjust the start and end dates. Default is the full date range."
     }
   },
   "dynamicMonthStart": {
@@ -495,7 +493,7 @@
       "type": "dynamicDateRange",
       "monthStep":  1,
       "monthLimit": 0,
-      "help": "Dates are on a sliding bar from January 2000 through the most recent month for which we have data. You can adjust the start and end dates. The default DATE RANGE is the full date range."
+      "help": "Dates are on a sliding bar from January 2000 through the most recent month for which we have data. You can adjust the start and end dates. Default is the full date range."
     }
   },
   "quarterRangeStart": {
