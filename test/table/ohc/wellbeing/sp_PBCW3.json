@@ -1,7 +1,6 @@
 {
   "table": "sp_PBCW3",
   "title": "Placements in Family Settings",
-  "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
