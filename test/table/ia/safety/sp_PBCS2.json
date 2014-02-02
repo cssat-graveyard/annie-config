@@ -7,7 +7,7 @@
     "valueFields": [
       "Among all first referrals, percent that are re-referred"
     ],
-    "removeFields": [],
+    "removeFields": []
   },
   "controls": [
     "qry_type",
