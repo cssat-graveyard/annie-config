@@ -14,11 +14,11 @@
     "removeFields": []
   },
    "controls": [
-   	"qry_type"
-   	,"date_type"
-   	,"dependency_cd"
-   	,"kincare"
-   	,"bin_sibling_group_size"
+   	"qry_type",
+   	"date_type",
+   	"dependency_cd",
+   	"kincare",
+   	"bin_sibling_group_size"
    ],
   "params": [
     "monthSelector",
@@ -66,6 +66,9 @@
   ],
   "returnRowDateHeaders": [
     0
+  ],
+   "returnRowControlHeaders": [
+    1
   ],
   "returnRowStart": 39,
   "chartType": "column",
