@@ -3,14 +3,14 @@
   "title": "Sibling Placements",
   "measurementOrder": 2,
   "transform": {
-    "Function": "daterow",
-    "dateField": "Cohort Entry Date",
-    "valueFields": [
+   "Function": "daterow",
+   "dateField": "Cohort Entry Date",
+   "valueFields": [
 	  "All_Together",
 	  "Some_Together",
 	  "None_Together",
 	  "Number in Cohort"
-	],
+	]
     "removeFields": []
   },
    "controls": [
