@@ -69,7 +69,7 @@
       "legend": "Sibling Group Size",
       "column": "fieldsRight",
       "type": "filter",
-      "selected": "*",
+      "selected": 0,
       "multi": true,
       "zeroLast": false
     }
@@ -83,7 +83,7 @@
       "legend": "Placement Type",
       "column": "fieldsRight",
       "type": "filter",
-      "selected": "*",
+      "selected": 0,
       "multi": true,
       "zeroLast": false
     }
