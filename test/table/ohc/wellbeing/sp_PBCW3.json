@@ -19,7 +19,7 @@
     "dependency_cd"
   ],
   "params": [
-    "monthStart",
+    "monthSelector",
     "age",
     "ethnicityCensus",
     "gender",
@@ -38,7 +38,7 @@
   ],
   "dateParams": [],
   "requiredParams": [
-    "monthStart"
+    "monthSelector"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
@@ -66,104 +66,13 @@
    "returnRowControlHeaders": [
     1
   ],
-    "headerNames": [
-    "&nbsp;",
-    "*qry_type_poc1",
-    "Age at Removal",
-    "Race/Ethnicity",
-    "Gender",
-    "Initial Placement",
-    "Longest Placement",
-    "Removal County",
-	"Court Involvement",
-	"Length of Service",
-	"Count of Placements",
-	"In-Home Service Record",
-	"Reporter",
-	"Access Type",
-	"Allegation",
-	"Finding",
-	"Service Type",
-	"Budget Code"
-  ],
   "returnRowStart": 35,
-  "columnClusterSize": 4,
-  "multicharts": {
-    "Overview": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Month",
-          "y": "Percentage"
-        },
-        "hideColumns": []
-      }
-    ],    
-    "Family-Setting-_pState-Foster-Home_P": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Month",
-          "y": "Percentage"
-        },
-        "hideColumns": [
-          1,
-          2,
-          3
-        ]
-      }
-    ],
-    "Family-Setting-_pPrivate-Foster-Home_P": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Month",
-          "y": "Percentage"
-        },
-        "hideColumns": [
-          0,
-          2,
-          3
-        ]
-      }
-    ],
-    "Family-Setting-_pKin-Placement_P": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Month",
-          "y": "Percentage"
-        },
-        "hideColumns": [
-          0,
-          1,
-          3
-        ]
-      }
-    ],
-    "Non_-Family-Setting": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Month",
-          "y": "Percentage"
-        },
-        "hideColumns": [
-          0,
-          1,
-          2
-        ]
-      }
-    ]
+    "returnRowDateHeaders": [
+    0
+  ],
+  "chartType": "column",
+  "labels": {
+    "x": "Sibling Placement",
+    "y": "Percentage of Children"
   }
-}
+  }
