@@ -35,7 +35,7 @@
   ],
     "showAllOthers": true,
     "returnRowHeaders": [
-    2,
+2,
     4,
     6,
     8,
@@ -48,6 +48,8 @@
     22,
     24
   ],
+  "returnRowDateHeaders": [
+  1],
   "returnRowStart": 25,
   "chartType": "line",
   "labels": {
