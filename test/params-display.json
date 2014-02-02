@@ -228,8 +228,10 @@
       "legend": "Count Type",
       "column": "fieldsRight",
       "type": "filter",
-      "selected": 1,
-      "multi": true
+      "selected": 0,
+      "multi": true,
+      "zeroLast": false,
+      "sort": "qryTypeCompare"
     }
   },
   "qry_type_poc1": {
