@@ -1,7 +1,7 @@
 {
+  "table": "sp_poc1ab_perCapita",
   "title": "Rate of Out-of-Home Care Cases per 1,000 Children",
   "measurementOrder": 2,
-  "table": "sp_poc1ab_perCapita",
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
@@ -16,10 +16,10 @@
   "controls": [
     "qry_type_poc1",
     "date_type",
-	"Dependency_Cd"
+	"dependency_cd"
   ],
   "params": [
-    "monthStart",
+    "dynamicMonthStart",
     "ageCensus",
     "ethnicityCensus",
     "gender",
@@ -36,9 +36,10 @@
     "service_category",
 	"budget_category"
   ],
-  "dateParams": [],
+  "dateParams": [
+  	],
   "requiredParams": [
-    "monthStart"
+    "dynamicMonthStart"
   ],
   "showAllOthers": true,
   "mutexAllOthers": false,
@@ -88,7 +89,7 @@
 	"Budget Code"
   ],
   "returnRowStart": 35,
-  "columnClusterSize": "3",
+  "columnClusterSize": 3,
   "multicharts": {
     "Overview": [
       {
