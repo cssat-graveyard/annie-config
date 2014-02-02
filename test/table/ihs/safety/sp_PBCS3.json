@@ -62,8 +62,8 @@
     "Service Category",
     "Budget Category"
   ],
-  "returnRowStart": 23,
-  "columnClusterSize": 3,
+  "returnRowStart": 24,
+  "columnClusterSize": 2,
   "showAllOthers": true,
   "mutexAllOthers": false,
   "dateParams": [],
