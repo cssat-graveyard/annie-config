@@ -28,6 +28,11 @@
     "service_category",
     "budget_category"
   ],
+    "dateParams": [],
+    "requiredParams": [
+    "quarterService"
+  ],
+    "showAllOthers": true,
     "returnRowHeaders": [
     0,
     1,
@@ -42,20 +47,14 @@
     20,
     22
   ],
-   "returnRowDateHeaders": [
-    0
+  "returnRowDateHeaders": [
+    2
   ],
-    "returnRowControlHeaders": [
-    1
+  "returnRowControlHeaders": [
+    0,1
   ],
-  "returnRowStart": 24,
-  "columnClusterSize": 2,
-  "showAllOthers": true,
-  "mutexAllOthers": false,
-  "dateParams": [],
-  "requiredParams": [
-    "quarterService"
-  ],
+  "returnRowStart": 23,
+  "columnClusterSize": 3,
   "chartType": "line",
   "labels": {
     "x": "Months Since In-Home Services Cases Opened",
