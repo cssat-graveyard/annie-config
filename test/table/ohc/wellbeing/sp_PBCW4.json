@@ -63,23 +63,9 @@
     0
   ],
   "returnRowStart": 39,
-  "columnClusterSize": 4,
-  "multicharts": {
-    "Default": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Months Since Entering",
-          "y": "Percentage Achieving Outcome"
-        },
-        "addInputClass": "multiAllowed"
-      }
-    ]
-  },
+  "chartType": "column",
   "labels": {
-    "x": "Months Since Entering",
-    "y": "Percentage Achieving Outcome"
+    "x": "Sibling Placement",
+    "y": "Percentage of Children"
   }
 }
