@@ -5,7 +5,7 @@
     "Function": "daterow",
     "dateField": "Months",
     "valueFields": [
-      "Among all first referrals, percent that are re-referred"
+      "Among first referrals, percent that are re-referred"
     ],
     "removeFields": []
   },
