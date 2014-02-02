@@ -1,40 +1,76 @@
 {
   "table": "sp_PBCS3",
   "title": "Placement Following In-Home Services",
+  "measurementOrder": 2,  
   "transform": {
     "Function": "daterow",
-    "dateField": "Months",
+    "dateField": "Year",
     "valueFields": [
       "Not Placed",
       "Placed"
     ],
-    "removeFields": [],
-    "table": "sp_PBCS3",
-    "startDateField": "Cohort Begin Date"
+    "removeFields": [
+    	]
   },
   "controls": [
+    "qry_type_poc3",
     "date_type"
   ],
   "params": [
     "quarterService",
+    "ageSib",
     "ethnicityCensus",
-    "office"
+    "office",
+    "ihs_services",
+    "reporter_type",
+    "access_type",
+    "allegation",
+    "finding",
+    "service_category",
+    "budget_category"
   ],
+    "returnRowHeaders": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22
+  ],
+   "returnRowDateHeaders": [
+    0
+  ],
+    "returnRowControlHeaders": [
+    1
+  ],
+   "headerNames": [
+    "&nbsp;",
+    "*qry_type_poc3",
+    "Age of Children in Household",
+    "Race/Ethnicity",
+    "DCFS Office",
+    "In-Home Services Received",
+    "Reporter",
+    "Entry Point",
+    "Allegation",
+    "Allegation Finding",
+    "Service Category",
+    "Budget Category"
+  ],
+  "returnRowStart": 23,
+  "columnClusterSize": 3,
+  "showAllOthers": true,
+  "mutexAllOthers": false,
   "dateParams": [],
   "requiredParams": [
     "quarterService"
   ],
-  "showAllOthers": true,
-  "returnRowHeaders": [
-    0,
-    1,
-    3,
-    4
-  ],
-  "returnRowDateHeaders": [
-    1
-  ],
-  "returnRowStart": 5,
   "chartType": "line",
   "labels": {
     "x": "Months Since In-Home Services Cases Opened",
