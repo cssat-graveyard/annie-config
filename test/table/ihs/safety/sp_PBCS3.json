@@ -45,7 +45,8 @@
     16,
     18,
     20,
-    22
+    22,
+    24
   ],
   "returnRowDateHeaders": [
     2
@@ -53,7 +54,7 @@
   "returnRowControlHeaders": [
     0,1
   ],
-  "returnRowStart": 23,
+  "returnRowStart": 25,
   "columnClusterSize": 3,
   "chartType": "line",
   "labels": {
