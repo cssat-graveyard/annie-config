@@ -1,10 +1,9 @@
 {
   "table": "sp_PBCS3",
   "title": "Placement Following In-Home Services",
-  "measurementOrder": 2,  
   "transform": {
     "Function": "daterow",
-    "dateField": "Year",
+    "dateField": "Month",
     "valueFields": [
       "Not Placed",
       "Placed"
