@@ -57,6 +57,37 @@
       "zeroLast": false
     }
   },
+    "bin_sibling_group_size": {
+    "values":{
+      "0": "All",
+      "1": "2 Siblings",
+      "2": "3 Siblings",
+      "3": "4 Siblings",
+      "4": "More than 4 Siblings"
+    },
+    "display": {
+      "legend": "Sibling Group Size",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": "*",
+      "multi": true,
+      "zeroLast": false
+    }
+  },
+    "kincare": {
+    "values":{
+      "0": "All including Kin",
+      "1": "With Kin"
+    },
+    "display": {
+      "legend": "Placement Type",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": "*",
+      "multi": true,
+      "zeroLast": false
+    }
+  },
   "discharge_type_outcomes": {
     "values":{
       "1": "Reunification",

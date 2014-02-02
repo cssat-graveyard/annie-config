@@ -14,6 +14,12 @@
     "removeFields": []
   },
    "controls": [
+   	"qry_type"
+   	,"date_type"
+   	,"dependency_cd"
+   	,"kincare"
+   	,"bin_sibling_group_size"
+   ]
   ],
   "params": [
     "monthSelector",
