@@ -50,11 +50,8 @@
     24
   ],
   "returnRowDateHeaders": [
-  ],
-  "returnRowControlHeaders": [
-  ],
+  1],
   "returnRowStart": 25,
-  "columnClusterSize": 3,
   "chartType": "line",
   "labels": {
     "x": "Months Since In-Home Services Cases Opened",
