@@ -8,9 +8,7 @@
       "Not Placed",
       "Placed"
     ],
-    "removeFields": [],
-    "table": "sp_PBCS3",
-    "startDateField": "Year"
+    "removeFields": []
   },
   "controls": [
     "qry_type_poc3",
