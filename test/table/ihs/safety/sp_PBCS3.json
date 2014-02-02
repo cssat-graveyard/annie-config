@@ -48,20 +48,6 @@
     "returnRowControlHeaders": [
     1
   ],
-   "headerNames": [
-    "&nbsp;",
-    "*qry_type_poc3",
-    "Age of Children in Household",
-    "Race/Ethnicity",
-    "DCFS Office",
-    "In-Home Services Received",
-    "Reporter",
-    "Entry Point",
-    "Allegation",
-    "Allegation Finding",
-    "Service Category",
-    "Budget Category"
-  ],
   "returnRowStart": 24,
   "columnClusterSize": 2,
   "showAllOthers": true,
