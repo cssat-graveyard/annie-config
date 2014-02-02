@@ -1,6 +1,7 @@
 {
   "table": "sp_PBCW4",
   "title": "Sibling Placements",
+   "measurementOrder": 2,
 	"transform": {
 	"Function": "daterow",
 	"dateField": "Cohort Entry Date",
