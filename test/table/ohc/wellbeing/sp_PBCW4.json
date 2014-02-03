@@ -69,10 +69,8 @@
 		    "y": "Percentage of Children"
 	    },
         "hideColumns": [
-          0,
-          1
-        ],
-        "addInputClass": "multiAllowed"
+		3
+        ]
       }
 	]
 	}    
