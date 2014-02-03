@@ -458,15 +458,6 @@
 	  "help": "The six Department of Social and Health Services (DSHS) budget categories include all the major IN-HOME budget categories. DSHS codes are provided for people familiar with Children's Administration budget categories."
 	}
   },
-    "quarterPIT": {
-    "date": true,
-    "display": {
-      "legend": "Measurement Year",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start"
-    }
-  },
   "quarterStart": {
     "date": true,
     "display": {
