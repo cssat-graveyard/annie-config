@@ -31,7 +31,7 @@
   "removalCounty": {
     "table": "ref_lookup_county",
     "display": {
-      "legend": "Washington State County",
+      "legend": "Removal County",
       "column": "advancedRight",
       "type": "param",
       "help": "This is the county the data suggests the child/youth lived in when removed. All 39 Washington State Counties are listed; ‘All’ is the default."
