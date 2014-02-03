@@ -68,8 +68,12 @@
 		    "x": "Sibling Placement",
 		    "y": "Percentage of Children"
 	    },
-	    "hideColumns": [3]
-	  }
+        "hideColumns": [
+          0,
+          1
+        ],
+        "addInputClass": "multiAllowed"
+      }
 	]
 	}    
 }
