@@ -227,7 +227,7 @@
     "table": "ref_lookup_qry_type",
     "display": {
       "legend": "Count Type",
-      "column": "advancedRight",
+      "column": "fieldsRight",
       "type": "filter",
       "selected": 0,
       "multi": true,
@@ -239,7 +239,7 @@
     "table": "ref_lookup_qry_type_poc1",
     "display": {
       "legend": "Count Type",
-      "column": "advancedRight",
+      "column": "fieldsRight",
       "type": "filter",
       "selected": 2,
       "multi": true,
@@ -252,7 +252,7 @@
     "table": "ref_lookup_qry_type_poc2",
     "display": {
       "legend": "Count Type",
-      "column": "advancedRight",
+      "column": "fieldsRight",
       "type": "filter",
       "selected": 2,
       "multi": true,
@@ -265,7 +265,7 @@
     "table": "ref_lookup_qry_type_poc3",
     "display": {
       "legend": "Count Type",
-      "column": "advancedRight",
+      "column": "fieldsRight",
       "type": "filter",
       "selected": 2,
       "multi": true,
@@ -278,7 +278,7 @@
     "table": "ref_lookup_qry_type_fat",
     "display": {
       "legend": "Count Type",
-      "column": "advancedRight",
+      "column": "fieldsRight",
       "type": "filter",
       "selected": 2,
       "multi": true,
