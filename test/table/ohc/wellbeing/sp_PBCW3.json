@@ -18,7 +18,7 @@
     "dependency_cd"
   ],
   "params": [
-    "monthStart",
+    "dynamicDateRange ",
     "age",
     "ethnicityCensus",
     "gender",
@@ -37,7 +37,7 @@
   ],
   "dateParams": [],
   "requiredParams": [
-    "monthStart"
+    "dynamicDateRange "
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
