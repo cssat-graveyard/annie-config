@@ -11,7 +11,7 @@
     "removeFields": []
   },
   "controls": [
-    "qry_type_poc3"
+    "qry_type"
   ],
   "params": [
     "quarterService",
