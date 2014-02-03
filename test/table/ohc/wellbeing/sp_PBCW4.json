@@ -57,11 +57,19 @@
     0
   ],
   "returnRowStart": 39,
-  "chartType": "column",
   "columnClusterSize": 4,
-  "hideColumns":[3],
-  "labels": {
-    "x": "Sibling Placement",
-    "y": "Percentage of Children"
-  }
+  "multicharts": {
+  "Overview": [
+	  {
+	    "chartType": "column",
+	    "chartId": "chart1",
+	    "style": "",
+	    "labels": {
+		    "x": "Sibling Placement",
+		    "y": "Percentage of Children"
+	    },
+	    "hideColumns": []
+	  }
+	]
+	}    
 }
