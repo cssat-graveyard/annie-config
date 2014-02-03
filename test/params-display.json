@@ -32,14 +32,15 @@
     "table": "ref_lookup_county",
     "display": {
       "legend": "Washington State County",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "param",
       "help": "This is the county the data suggests the child/youth lived in when removed. All 39 Washington State Counties are listed; ‘All’ is the default."
     }
   },
   "discharge": {
     "table": "ref_lookup_discharge",
-    "display": {}
+    "display": {
+    	}
   },
   "discharge_type_safety": {
     "values":{
@@ -50,7 +51,7 @@
     "display": {
       "alias": "cd_discharge_type",
       "legend": "Re-Entry by Exit Type",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": "*",
       "multi": true,
@@ -67,7 +68,7 @@
     },
     "display": {
       "legend": "Sibling Group Size",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": 0,
       "multi": true,
@@ -81,7 +82,7 @@
     },
     "display": {
       "legend": "Placement Type",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": 0,
       "multi": true,
@@ -99,7 +100,7 @@
     "display": {
       "alias": "cd_discharge_type",
       "legend": "Exit Type",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": "*",
       "multi": true,
@@ -166,7 +167,7 @@
     "_comment": "Missing / Other",
     "display": {
       "legend": "DCFS Office",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "param",
       "sort": true
     }
@@ -183,7 +184,7 @@
     "_comment": "State level location",
     "display": {
       "legend": "DCFS Office or Office Group",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "param",
       "sort": true
     }
@@ -192,7 +193,7 @@
     "table": "ref_lookup_placement",
     "display": {
       "legend": "Initial Placement Setting",
-      "column": "fieldsLeft",
+      "column": "advancedLeft",
       "type": "param",
       "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data)."  
     }
@@ -201,7 +202,7 @@
     "table": "ref_lookup_placement",
     "display": {
       "legend": "Last Placement Setting",
-      "column": "fieldsLeft",
+      "column": "advancedLeft",
       "type": "param"
     }
   },
@@ -209,7 +210,7 @@
     "table": "ref_lookup_placement",
     "display": {
       "legend": "Longest Placement Setting",
-      "column": "fieldsLeft",
+      "column": "advancedLeft",
       "type": "param",
       "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data)."  
     }
@@ -226,7 +227,7 @@
     "table": "ref_lookup_qry_type",
     "display": {
       "legend": "Count Type",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": 0,
       "multi": true,
@@ -238,7 +239,7 @@
     "table": "ref_lookup_qry_type_poc1",
     "display": {
       "legend": "Count Type",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": 2,
       "multi": true,
@@ -251,7 +252,7 @@
     "table": "ref_lookup_qry_type_poc2",
     "display": {
       "legend": "Count Type",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": 2,
       "multi": true,
@@ -264,7 +265,7 @@
     "table": "ref_lookup_qry_type_poc3",
     "display": {
       "legend": "Count Type",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": 2,
       "multi": true,
@@ -277,7 +278,7 @@
     "table": "ref_lookup_qry_type_fat",
     "display": {
       "legend": "Count Type",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": 2,
       "multi": true,
@@ -289,7 +290,7 @@
     "table": "ref_lookup_service_type",
     "display": {
       "legend": "Service",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "filter",
       "selected": 0
     }
@@ -298,7 +299,7 @@
     "table": "ref_lookup_sibling_groups",
     "display": {
       "legend": "Sibling Group Size",
-      "column": "fieldsLeft",
+      "column": "advancedLeft",
       "type": "param"
     }
   },
@@ -338,7 +339,7 @@
     ],
     "display": {
       "legend": "Number of Siblings",
-      "column": "fieldsLeft",
+      "column": "advancedLeft",
       "type": "param"
     }
   },
@@ -349,7 +350,7 @@
     ],
     "display": {
       "legend": "Custody",
-      "column": "fieldsLeft",
+      "column": "advancedLeft",
       "type": "param"
     }
   },
@@ -366,7 +367,7 @@
 	"table": "ref_filter_access_type",
 	"display": {
 		"legend": "Entry Point",
-		"column": "fieldsLeft",
+		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true
 	}
@@ -385,7 +386,7 @@
 	"table": "ref_filter_dependency",
 	"display": {
 		"legend": "Court Involvement",
-		"column": "fieldsRight",
+		"column": "advancedRight",
 		"type":   "filter",
 		"multi":  true,
 		"selected": 0,
@@ -406,7 +407,7 @@
 	"table": "ref_filter_ihs_services",
 	"display": {
 		"legend": "In-Home Services Received",
-		"column": "fieldsRight",
+		"column": "advancedRight",
 		"type":   "param",
 		"multi":  true
 	}
@@ -415,7 +416,7 @@
 	"table": "ref_filter_los",
 	"display": {
 		"legend": "Length of Out-of-Home Service",
-		"column": "fieldsLeft",
+		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true
 	}
@@ -424,7 +425,7 @@
 	"table": "ref_filter_nbr_placement",
 	"display": {
 		"legend": "Number of Out-of-Home Placements",
-		"column": "fieldsLeft",
+		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true
 	}
@@ -433,7 +434,7 @@
 	"table": "ref_filter_reporter_type",
 	"display": {
 		"legend": "Reporter",
-		"column": "fieldsLeft",
+		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true, 
 		"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement."
@@ -443,7 +444,7 @@
     "table": "ref_service_cd_subctgry_poc",
 	"display": {
 	  "legend": "Service Category",
-	  "column": "fieldsRight",
+	  "column": "advancedRight",
 	  "type": "param",
 	  "multi": true
 	}
@@ -452,7 +453,7 @@
     "table": "ref_service_cd_budget_poc_frc",
 	"display": {
 	  "legend": "Budget Category",
-	  "column": "fieldsRight",
+	  "column": "advancedRight",
 	  "type": "param",
 	  "multi": true,
 	  "help": "The six Department of Social and Health Services (DSHS) budget categories include all the major IN-HOME budget categories. DSHS codes are provided for people familiar with Children's Administration budget categories."
