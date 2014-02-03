@@ -21,7 +21,7 @@
    	"bin_sibling_group_size"
    ],
   "params": [
-    "monthSelector",
+    "quarterEntry",
     "age",
     "ethnicityCensus",
     "gender",
@@ -40,7 +40,7 @@
   ],
   "dateParams": [],
   "requiredParams": [
-    "monthSelector"
+    "quarterEntry"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
