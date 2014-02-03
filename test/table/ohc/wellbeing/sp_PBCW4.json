@@ -57,7 +57,7 @@
     0
   ],
   "returnRowStart": 39,
-  "columnClusterSize": 4,
+  "columnClusterSize": 3,
   "multicharts": {
   "Overview": [
 	  {
@@ -69,7 +69,6 @@
 		    "y": "Percentage of Children"
 	    },
         "hideColumns": [
-		3
         ]
       }
 	]
