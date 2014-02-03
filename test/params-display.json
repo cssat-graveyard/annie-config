@@ -212,7 +212,7 @@
       "legend": "Longest Placement Setting",
       "column": "advancedLeft",
       "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data)."  
+      "help": "<p>This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data).</p>"  
     }
   },
   "plcSetng": {
