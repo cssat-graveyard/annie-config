@@ -10,8 +10,7 @@
     "removeFields": []
   },
   "controls": [
-    "qry_type",
-    "date_type"
+    "qry_type"
   ],
   "params": [
     "quarterStart",

@@ -15,7 +15,6 @@
   },
    "controls": [
     "qry_type",
-    "date_type",
     "dependency_cd"
   ],
   "params": [
