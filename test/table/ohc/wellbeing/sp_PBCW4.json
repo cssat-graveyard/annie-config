@@ -2,6 +2,18 @@
   "table": "sp_PBCW4",
   "title": "Sibling Placements",
   "measurementOrder": 2,
+    "transform": {
+    "Function": "daterow",
+    "dateField": "Cohort Entry Date",
+    "valueFields": [
+      "All_Together",
+      "Some_Together",
+      "None_Together",
+      "Number in Cohort"
+    ],
+    "removeFields": [
+    ]
+  },
    "controls": [
    	"qry_type",
    	"date_type",
@@ -57,7 +69,7 @@
     0
   ],
   "returnRowStart": 39,
-  "columnClusterSize": 3,
+  "columnClusterSize": 4,
   "multicharts": {
   "Overview": [
 	  {
@@ -69,6 +81,7 @@
 		    "y": "Percentage of Children"
 	    },
         "hideColumns": [
+        3
         ]
       }
 	]
