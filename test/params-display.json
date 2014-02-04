@@ -4,7 +4,8 @@
     "display": {
       "legend": "Age",
       "column": "fieldsRight",
-      "type": "param"
+      "type": "param",
+      "help"; "Age references the child’s/youth’s age at the time of placement into out-of-home care."
     }
   },
   "ageCensus": {
