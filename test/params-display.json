@@ -14,7 +14,7 @@
       "legend": "Age at Removal",
       "column": "fieldsRight",
       "type": "param",
-      "help": "Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages per geographic area, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
+      "help": "Age at removal categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages per geographic area, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
     }
   },
   "ageSib": {
@@ -245,7 +245,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "Help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval)."
+      "Help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval).For a more information on the COUNT TYPE filter, <a href='http://pocweb.cac.washington.edu/sites/default/files/publications/count_type_technicalbulletin.pdf" target="_blank'>."
     }
   },
   "qry_type_poc2": {
