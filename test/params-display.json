@@ -246,7 +246,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "Help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). For a more information on the COUNT TYPE filter, see <a href='http://pocweb.cac.washington.edu/sites/default/files/publications/count_type_technicalbulletin.pdf' target='_blank'>."
+      "Help": "Data are aggregated into three COUNT TYPES."
     }
   },
   "qry_type_poc2": {
@@ -260,6 +260,7 @@
       "zeroLast": false,
       "sort": "qryTypeCompare",
       "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’."
+    }
   },
   "qry_type_poc3": {
     "table": "ref_lookup_qry_type_poc3",
@@ -554,7 +555,7 @@
       "monthLimit": 60
     }
   },
-  "monthSelector": {
+  "monthSelector": {fix?
     "date": true,
     "display": {
       "legend": "Dates",
