@@ -259,7 +259,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "New test. Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’."
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) will be the highest. ‘‘Unduplicated Investigations’ counts unique cases (i.e., the first investigation per time interval). For a more detailed look at COUNT TYPE filter, please see, <a href=’http://pocweb.cac.washington.edu/sites/default/files/publications/count_type__technicalbulletin.pdf’ target=’_blank’><span style='text-decoration: underline;'>Count Type</span></a>."
     }
   },
   "qry_type_poc3": {
