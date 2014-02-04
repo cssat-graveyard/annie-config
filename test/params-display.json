@@ -370,6 +370,7 @@
 		"legend": "Entry Point",
 		"column": "advancedLeft",
 		"type":   "param",
+		"disabled": [2,3,4,5],
 		"multi":  true
 	}
   },
