@@ -246,7 +246,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "Help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). For a more information on the COUNT TYPE filter, see <a href='http://pocweb.cac.washington.edu/sites/default/files/publications/count_type__technicalbulletin.pdf' target='_blank'>."
+      "Help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). For a more information on the COUNT TYPE filter, see <a href='http://pocweb.cac.washington.edu/sites/default/files/publications/count_type__technicalbulletin.pdf'>."
     }
   },
   "qry_type_poc2": {
@@ -431,7 +431,7 @@
 		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true,
-		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have multiple placements within an episode. You can examine the number or rate of children/youth with two placements, for example, by referring to the ‘Total In Care First Day’ of a month or year (a point in time count or rate). You can also examine the ‘Number (or Rate) of Entries (or Exits)’ for children/youth with two placements for the entire time interval—month(s) or year(s)—that you are interested in."
+		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome.<strong> A child/youth in out-of-home care can have multiple placements within an episode.</strong>  You can examine the number or rate of children/youth with two placements, for example, by referring to the ‘Total In Care First Day’ of a month or year (a point in time count or rate). You can also examine the ‘Number (or Rate) of Entries (or Exits)’ for children/youth with two placements for the entire time interval—month(s) or year(s)—that you are interested in."
 	}
   },
   "reporter_type":{
