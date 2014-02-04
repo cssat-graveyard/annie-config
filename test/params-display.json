@@ -246,7 +246,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "Help": "TEST Data are aggregated into three COUNT TYPES."
+      "Help": "TEST again Data are aggregated into three COUNT TYPES."
     }
   },
   "qry_type_poc2": {
