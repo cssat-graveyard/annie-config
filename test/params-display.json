@@ -55,7 +55,8 @@
       "type": "filter",
       "selected": "*",
       "multi": true,
-      "zeroLast": false
+      "zeroLast": false,
+      "help": "You can select re-entry to out-of-home care from reunification, adoption or guardianship. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen."
     }
   },
     "bin_sibling_group_size": {
