@@ -259,7 +259,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’."
+      "help": "New test. Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’."
     }
   },
   "qry_type_poc3": {
