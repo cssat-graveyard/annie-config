@@ -259,8 +259,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) will be the highest. ‘‘Unduplicated Investigations’ counts unique cases (i.e., the first investigation per time interval)."
-    }
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’."
   },
   "qry_type_poc3": {
     "table": "ref_lookup_qry_type_poc3",
