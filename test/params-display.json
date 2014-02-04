@@ -421,8 +421,8 @@
 		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true,
-		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date. Multiple placements in various types of out-of-home care can occur within a single episode. This filter allows you to find episode lengths of greater than 7 days, 60 days, 1 year, or 2 years."
-	}
+		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date. Multiple placements in various types of out-of-home placement settings can occur within a single episode. This filter allows you to determine how many episodes are greater than 7 days, 60 days, 1 year, or 2 years."
+	}	
   },
   "nbr_placement":{
 	"table": "ref_filter_nbr_placement",
@@ -431,7 +431,7 @@
 		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true,
-		"help": "An episode is defined as the time span between a formal custody date (the date the state records as the child’s/youth’s removal from home)and ends with a formal discharge date (the date the state records as the child’s/youth’s removal from home and the federal discharge— to a permanency outcome—date). A child/youth in out-of-home care can have multiple placements within an episode. You can examine the number or rate of children/youth with two placements, for example, by referring to the ‘Total In Care First Day’ of a month or year (a point in time count or rate).  You can also examine the ‘Number (or Rate) of Entries (or Exits)’ for children/youth with two placements for the entire time interval (month(s) or year(s) you are interesting in (a cohort number or rate)."
+		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have multiple placements within an episode. You can examine the number or rate of children/youth with two placements, for example, by referring to the ‘Total In Care First Day’ of a month or year (a point in time count or rate). You can also examine the ‘Number (or Rate) of Entries (or Exits)’ for children/youth with two placements for the entire time interval—month(s) or year(s)—that you are interested in."
 	}
   },
   "reporter_type":{
