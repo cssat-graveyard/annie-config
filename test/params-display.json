@@ -195,7 +195,7 @@
       "legend": "Initial Placement Setting",
       "column": "advancedLeft",
       "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data)."  
+      "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data). See <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."
     }
   },
   "lastSetng": {
@@ -212,7 +212,7 @@
       "legend": "Longest Placement Setting",
       "column": "advancedLeft",
       "type": "param",
-      "help": "<p>This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data).</p>"  
+      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data). See <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
     }
   },
   "plcSetng": {
@@ -400,7 +400,7 @@
 		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true,
-		"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur."
+		"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any Legal Finding’ from ‘All (With or Without Legal Finding).’"
 	}
   },
   "ihs_services":{
