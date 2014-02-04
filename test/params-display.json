@@ -555,7 +555,7 @@
       "monthLimit": 60
     }
   },
-  "monthSelector": {fix?
+  "monthSelector": {
     "date": true,
     "display": {
       "legend": "Dates",
