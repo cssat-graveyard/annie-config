@@ -57,7 +57,7 @@
       "selected": "*",
       "multi": true,
       "zeroLast": false,
-      "help": "You can select re-entry to out-of-home care <strong> from </strong>reunification, adoption or guardianship. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. All three outcomes is the default "
+      "help": "You can select re-entry to out-of-home care <strong> from </strong>reunification, adoption or guardianship. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
     }
   },
     "bin_sibling_group_size": {
@@ -499,7 +499,8 @@
       "legend": "Entry Cohort Quarter",
       "column": "fieldsLeft",
       "type": "cohort",
-      "quarterDate": "start"
+      "quarterDate": "start", 
+      "help": "The entry cohort you are following is that group of children/youth who entered out-of-home care in the chosen year. The ENTRY COHORT YEAR begins January 2000 and ends on the most recent year for which we have data. Because nearly all children/youth in out-of-home care to have achieved permanency or turned 18 years old within four years, the default date is set approximately four years earlier than the most recent date for which we have data and results are returned for up to 48 months."
     }
   },
   "quarterCompellingReasonEntry": {
@@ -517,7 +518,8 @@
       "legend": "Exit Cohort Quarter",
       "column": "fieldsLeft",
       "type": "cohort",
-      "quarterDate": "start"
+      "quarterDate": "start",
+      "help": "The exit cohort you are following is that group of children/youth who exited out-of-home care in the chosen year. The EXIT COHORT YEAR begins January 2000 and ends on the most recent year for which we have data. Because the number of re-entries begins to level off after four years, the default date is set approximately four years earlier than the most recent date for which we have data and results are returned for up to 48 months."
     }
   },
   "quarterService": {
