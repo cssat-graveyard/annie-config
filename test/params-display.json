@@ -74,7 +74,8 @@
       "type": "filter",
       "selected": 0,
       "multi": true,
-      "zeroLast": false
+      "zeroLast": false,
+       "help": "This filter returns data on the number of siblings in family in order to more clearly assess whether or not siblings are placed together."
     }
   },
     "kincare": {
@@ -304,9 +305,8 @@
     "display": {
       "legend": "Sibling Group Size",
       "column": "advancedLeft",
-      "type": "param",
-      "help": " This filter returns data on the number of siblings in family in order to more clearly assess whether or not siblings are placed together."
-    }
+      "type": "param"
+     }
   },
   "measurement_type": {
     "table": "ref_lookup_measurement_type",
