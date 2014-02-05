@@ -106,7 +106,8 @@
       "type": "filter",
       "selected": "*",
       "multi": true,
-      "zeroLast": true
+      "zeroLast": true,
+      "help": "You can select exit from out-of-home care to <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a> <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_a' target='_blank'><span style='text-decoration: underline;'>adoption</span></a><a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a> <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or The default selection is exit to all five outcomes."
     }
   },
   "ethnicity": {
@@ -500,7 +501,7 @@
       "column": "fieldsLeft",
       "type": "cohort",
       "quarterDate": "start", 
-      "help": "The entry cohort you are following is that group of children/youth who entered out-of-home care in the chosen year. The ENTRY COHORT YEAR begins January 2000 and ends on the most recent year for which we have data. Because nearly all children/youth in out-of-home care to have achieved permanency or turned 18 years old within four years, the default date is set approximately four years earlier than the most recent date for which we have data and results are returned for up to 48 months."
+      "help": "The entry cohort you are following is that group of children/youth who entered out-of-home care in the chosen year. ENTRY COHORT YEAR choices begin January 2000 and end on the most recent year for which we have data. Because nearly all children/youth in out-of-home care have achieved permanency or turned 18 years old within four years, the default date is set approximately four years earlier than the most recent date and results are returned for up to 48 months."
     }
   },
   "quarterCompellingReasonEntry": {
@@ -519,7 +520,7 @@
       "column": "fieldsLeft",
       "type": "cohort",
       "quarterDate": "start",
-      "help": "The exit cohort you are following is that group of children/youth who exited out-of-home care in the chosen year. The EXIT COHORT YEAR begins January 2000 and ends on the most recent year for which we have data. Because the number of re-entries begins to level off after four years, the default date is set approximately four years earlier than the most recent date for which we have data and results are returned for up to 48 months."
+      "help": "The exit cohort you are following is that group of children/youth who exited out-of-home care in the chosen year. EXIT COHORT YEARS choices begin January 2000 and end on the most recent year for which we have data. Because the number of re-entries begins to level off after four years, the default date is set approximately four years earlier than the most recent date and results are returned for up to 48 months."
     }
   },
   "quarterService": {
