@@ -75,7 +75,7 @@
       "selected": 0,
       "multi": true,
       "zeroLast": false,
-       "help": "This filter returns data on the number of siblings in family in order to more clearly assess whether or not siblings are placed together."
+       "help": "This filter returns data on the number of siblings in a family in order to more clearly how many siblings are placed together."
     }
   },
     "kincare": {
@@ -108,7 +108,7 @@
       "selected": "*",
       "multi": true,
       "zeroLast": true,
-      "help": "You can select exit from out-of-home care to <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exit to all five outcomes."
+      "help": "You can select exit from out-of-home care to <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exit to all five outcomes."
     }
   },
   "ethnicity": {
