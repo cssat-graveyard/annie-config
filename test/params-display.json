@@ -57,7 +57,7 @@
       "selected": "*",
       "multi": true,
       "zeroLast": false,
-      "help": "You can select re-entry to out-of-home care from reunification, adoption or guardianship. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen."
+      "help": "You can select re-entry to out-of-home care <strong> from </strong>reunification, adoption or guardianship. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. All three outcomes is the default "
     }
   },
     "bin_sibling_group_size": {
@@ -373,7 +373,8 @@
 		"column": "advancedLeft",
 		"type":   "param",
 		"disabled": [2,3,4,5],
-		"multi":  true
+		"multi":  true,
+		"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_c' target='_blank'><span style='text-decoration: underline;'>CPS</span></a>  provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect."
 	}
   },
   "allegation":{
