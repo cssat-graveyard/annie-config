@@ -6,7 +6,8 @@
       "legend": "Chart Display",
       "column": "fieldsRight",
       "type": "filter",
-      "selected": "Overview"
+      "selected": "Overview", 
+      "help": "test...is this chart display for all chart displays?"
     }
   },
   "age": {
