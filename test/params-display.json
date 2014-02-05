@@ -12,7 +12,7 @@
   "age": {
     "table": "ref_lookup_age",
     "display": {
-      "legend": "Age at Placement into Out-of-Home Care",
+      "legend": "Age at Time of Out-of-Home Placement",
       "column": "fieldsRight",
       "type": "param",
       "help": "Age references the child’s/youth’s age at the time of placement into out-of-home care."
