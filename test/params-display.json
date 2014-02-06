@@ -387,7 +387,7 @@
 		"type":   "param",
 		"disabled": [2,3,4,5],
 		"multi":  true,
-		"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. See <a href='http:// http://www.partnersforourchildren.org/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a>  provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect."
+		"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. See <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a>  provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect."
 	}
   },
   "allegation":{
@@ -408,7 +408,7 @@
 		"type":   "filter",
 		"multi":  true,
 		"selected": 0,
-		"help": "The courts become involved when there is a <a href='http:// http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a>proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
+		"help": "The courts become involved when there is a <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
 	}
   },
   "finding":{
