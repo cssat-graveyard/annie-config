@@ -7,7 +7,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "selected": "Overview", 
-      "help": "test...is this chart display for all chart displays?"
+      "help": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of out-of-home cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries and exits for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the hart format. The table format returns all the ‘Overview’ data for every filter category."
     }
   },
   "age": {
