@@ -447,7 +447,7 @@
 		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true,
-		"help": "An out-of-home care episdoe begins with a formal custody date and ends with a formal discharge date to a permanency outcome. <span style='text-decoration: underline;'>If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements </span>."
+		"help": "An out-of-home care <span style='text-decoration: underline;'>episode </span> begins with a formal custody date and ends with a formal discharge date to a permanency outcome. <span style='text-decoration: underline;'> A child/youth in out-of-home care can have multiple placements within an episode </span>. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
 	}	
   },
   "reporter_type":{
