@@ -447,7 +447,7 @@
 		"column": "advancedLeft",
 		"type":   "param",
 		"multi":  true,
-		"help": "You can select as many filter categories as you like; <span style='text-decoration: underline;'>however, if your filter choices require more than six plot lines, the results will only display as a table</span>. Depending."
+		"help": "An out-of-home care episdoe begins with a formal custody date and ends with a formal discharge date to a permanency outcome. <span style='text-decoration: underline;'>If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements </span>."
 	}	
   },
   "reporter_type":{
