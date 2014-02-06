@@ -403,12 +403,12 @@
   "dependency_cd":{
 	"table": "ref_filter_dependency",
 	"display": {
-		"legend": "Court Involvement",
+		"legend": "Dependency",
 		"column": "advancedRight",
 		"type":   "filter",
 		"multi":  true,
 		"selected": 0,
-		"help": "The courts become involved when there is a <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
+		"help": "The courts become involved when there is a <a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
 	}
   },
   "finding":{
