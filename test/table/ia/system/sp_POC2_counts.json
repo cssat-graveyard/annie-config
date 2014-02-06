@@ -122,7 +122,7 @@
         ]
       }
     ],
-    "Total-Cases-_pFirst-Day-of-Month-yy-Year_P": [
+    "Total-Cases-_pFirst-Day-of-Mo-or-Yr_P": [
       {
         "chartType": "column",
         "chartId": "chart1",
