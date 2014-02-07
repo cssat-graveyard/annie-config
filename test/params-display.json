@@ -184,7 +184,7 @@
       "legend": "DCFS Office",
       "column": "advancedRight",
       "type": "param",
-      "sort": true.
+      "sort": true,
       "help": "There are 43 DCFS Offices (see Division of Children and Family Services) <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_pd' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a> in Washington State."
     }
   },
