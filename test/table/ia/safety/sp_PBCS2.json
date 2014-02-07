@@ -10,7 +10,7 @@
     "removeFields": []
   },
   "controls": [
-    "qry_type_ia_safety"
+    "qry_type"
   ],
   "params": [
     "quarterStart",
