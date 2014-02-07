@@ -185,7 +185,7 @@
       "column": "advancedRight",
       "type": "param",
       "sort": true,
-      "help": "There are 43 DCFS Offices <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>(Division of Children and Family Services)</span></a> offices in Washington State."
+      "help": "There are 43 DCFS Offices (<a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
     }
   },
   "officeGroup": {
@@ -203,7 +203,7 @@
       "column": "advancedRight",
       "type": "param",
       "sort": true,
-      "help": "There are 43 DCFS Offices <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>(Division of Children and Family Services)</span></a> offices in Washington State. In order to calculate Census-adjusted population based rates, some DCFS offices were grouped."
+      "help": "There are 43 DCFS Offices (<a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State. In order to calculate Census-adjusted population based rates, some DCFS offices were grouped."
     }
   },
   "initSetng": {
