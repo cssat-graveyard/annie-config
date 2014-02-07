@@ -7,7 +7,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "selected": "Overview", 
-      "help": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of out-of-home cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries and exits for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the hart format. The table format returns all the ‘Overview’ data for every filter category."
+      "help": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of out-of-home cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries and exits for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category."
     }
   },
   "age": {
@@ -248,7 +248,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "For the Out-of-Home Care Safety, Outcomes, and Well-Being measures, data are aggregated into two COUNT TYPES: counts of ‘First Out-of-Home Care Case’ and ‘All Out-of-Home Care Cases’ (which can include children/youth with multiple episodes). For more details about the COUNT TYPE filter, please see ‘/publications/jitterfunction_technicalbulletin.pdf’ target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "For the Out-of-Home Care Safety, Outcomes, and Well-Being measures, data are aggregated into two COUNT TYPES: counts of ‘First Out-of-Home Care Case’ and ‘All Out-of-Home Care Cases’ (which can include children/youth with multiple episodes. See ‘/publications/count_type_technicalbulletin.pdf’ target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_poc1": {
@@ -261,7 +261,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). For more details about the COUNT TYPE filter, please see <a href='http://pocweb.cac.washington.edu/publications/interpreting-type-count-filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). See ‘/publications/count_type_technicalbulletin.pdf’ target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_poc2": {
