@@ -274,7 +274,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) will be the highest. ‘Unduplicated Investigations’ counts unique cases (i.e., the first investigation per time interval). For more details about the COUNT TYPE filter, please see <a href='http://pocweb.cac.washington.edu/publications/interpreting-type-count-filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) will be the highest. ‘Unduplicated Investigations’ counts unique cases (i.e., the first investigation per time interval). See <a href='http:// http://www.partnersforourchildren.org/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_poc3": {
@@ -287,7 +287,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First In-Home Service Case(s)’ are generally the lowest count/rate, while counts/rates of ‘All In-Home Service Cases’ (households with repeat in-home services) will be the highest. ‘Unduplicated In-Home Service Cases’ are unique cases (i.e., the first in-home service per time period). For more details about the COUNT TYPE filter, please see <a href='http://pocweb.cac.washington.edu/publications/interpreting-type-count-filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First In-Home Service Case(s)’ are generally the lowest count/rate, while counts/rates of ‘All In-Home Service Cases’ (households with repeat in-home services) will be the highest. ‘Unduplicated In-Home Service Cases’ are unique cases (i.e., the first in-home service per time period). See <a href='http:// http://www.partnersforourchildren.org/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_fat": {
