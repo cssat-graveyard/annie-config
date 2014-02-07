@@ -35,7 +35,7 @@
       4
     ],
     "display": {
-      "legend": "Age Grouping",
+      "legend": "Age of Children in Household",
       "column": "fieldsRight",
       "type": "param"
     } 
