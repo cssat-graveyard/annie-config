@@ -68,7 +68,7 @@
       "selected": "*",
       "multi": true,
       "zeroLast": false,
-      "help": "You can select re-entry to out-of-home care to out-of-home care from <a href='http:// http://www.partnersforourchildren.org/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='http:// http://www.partnersforourchildren.org/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
+      "help": "You can select re-entry to out-of-home care from <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
     }
   },
     "bin_sibling_group_size": {
@@ -119,7 +119,7 @@
       "selected": "*",
       "multi": true,
       "zeroLast": true,
-      "help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='http://pocweb.cac.washington.edu/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exit to all five outcomes."
+      "help": "You can select exit from out-of-home care to <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='http:// www.partnersforourchildren.org/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exit to all five outcomes."
     }
   },
   "ethnicity": {
