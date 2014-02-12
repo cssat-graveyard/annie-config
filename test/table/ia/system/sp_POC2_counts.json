@@ -47,13 +47,13 @@
   "headerNames": [
     "&nbsp;",
     "*qry_type_poc2",
-    "Age Grouping*ageSib",
+    "Age Grouping=ageSib",
     "Race/Ethnicity",
-    "Office*office",
-    "Reporter_Desc*reporter_type",
-    "Access_type_desc*Entry Point",
-    "Allegation*allegation",
-    "Finding*finding"
+    "Office=office",
+    "Reporter_Desc=reporter_type",
+    "Access_type_desc=Entry Point",
+    "Allegation=allegation",
+    "Finding=finding"
   ],
   "returnRowStart": 17,
   "columnClusterSize": 3,
