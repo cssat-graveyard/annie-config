@@ -78,7 +78,7 @@
     "First Placement Setting=initSetng",
     "Longest Placement Setting=longSetng",
     "County=removalCounty",
-    "Dependency",
+    "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
     "Placement Count Desc=nbr_placement",
     "In-Home Service Desc=ihs_services",
