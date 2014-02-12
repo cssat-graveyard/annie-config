@@ -45,6 +45,7 @@
     "display": {
       "legend": "Removal County",
       "column": "advancedRight",
+      "visible": false,
       "type": "param",
       "help": "This is the county the data suggests the child/youth lived in when removed. All 39 Washington State Counties are listed; ‘All’ is the default."
     }
@@ -64,6 +65,7 @@
       "alias": "cd_discharge_type",
       "legend": "Re-Entry by Exit Type",
       "column": "advancedRight",
+      "visible": false,
       "type": "filter",
       "selected": "*",
       "multi": true,
@@ -82,6 +84,7 @@
     "display": {
       "legend": "Sibling Group Size",
       "column": "advancedRight",
+      "visible": false,
       "type": "filter",
       "selected": 0,
       "multi": true,
@@ -97,6 +100,7 @@
     "display": {
       "legend": "Placement Type",
       "column": "advancedRight",
+      "visible": false,
       "type": "filter",
       "selected": 0,
       "multi": true,
@@ -115,6 +119,7 @@
       "alias": "cd_discharge_type",
       "legend": "Exit Type",
       "column": "advancedRight",
+      "visible": false,
       "type": "filter",
       "selected": "*",
       "multi": true,
@@ -183,6 +188,7 @@
     "display": {
       "legend": "DCFS Office",
       "column": "advancedRight",
+      "visible": false,
       "type": "param",
       "sort": true,
       "help": "There are 43 DCFS Offices (<a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
@@ -201,6 +207,7 @@
     "display": {
       "legend": "DCFS Office or Office Group",
       "column": "advancedRight",
+      "visible": false,
       "type": "param",
       "sort": true,
       "help": "There are 43 DCFS Offices (<a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State. In order to calculate Census-adjusted population based rates, some DCFS offices were grouped."
@@ -211,6 +218,7 @@
     "display": {
       "legend": "Initial Placement Setting",
       "column": "advancedLeft",
+      "visible": false,
       "type": "param",
       "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
     }
@@ -220,6 +228,7 @@
     "display": {
       "legend": "Last Placement Setting",
       "column": "advancedLeft",
+      "visible": false,
       "type": "param"
     }
   },
@@ -228,6 +237,7 @@
     "display": {
       "legend": "Longest Placement Setting",
       "column": "advancedLeft",
+      "visible": false,
       "type": "param",
       "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data). See <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
     }
@@ -322,6 +332,7 @@
     "display": {
       "legend": "Service",
       "column": "advancedRight",
+      "visible": false,
       "type": "filter",
       "selected": 0
     }
@@ -331,6 +342,7 @@
     "display": {
       "legend": "Sibling Group Size",
       "column": "advancedLeft",
+      "visible": false,
       "type": "param"
      }
   },
@@ -371,6 +383,7 @@
     "display": {
       "legend": "Number of Siblings",
       "column": "advancedLeft",
+      "visible": false,
       "type": "param"
     }
   },
@@ -382,6 +395,7 @@
     "display": {
       "legend": "Custody",
       "column": "advancedLeft",
+      "visible": false,
       "type": "param"
     }
   },
@@ -399,6 +413,7 @@
 	"display": {
 		"legend": "Entry Point",
 		"column": "advancedLeft",
+		"visible": false,
 		"type":   "param",
 		"disabled": [2,3,4,5],
 		"multi":  true,
@@ -410,6 +425,7 @@
 	"display": {
 		"legend": "Allegation",
 		"column": "advancedLeft",
+		"visible": false,
 		"type":   "param",
 		"multi":  true,
 		"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning there will be more allegations than cases. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter. To determine how many cases have no allegations, subtract ‘Any Legal Finding’ from ‘All (With or Without Allegation).’"
@@ -420,6 +436,7 @@
 	"display": {
 		"legend": "Dependency",
 		"column": "advancedRight",
+		"visible": false,
 		"type":   "filter",
 		"multi":  true,
 		"selected": 0,
@@ -431,6 +448,7 @@
 	"display": {
 		"legend": "Allegation Finding",
 		"column": "advancedLeft",
+		"visible": false,
 		"type":   "param",
 		"multi":  true,
 		"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any Legal Finding’ from ‘All (With or Without Legal Finding).’"
@@ -441,6 +459,7 @@
 	"display": {
 		"legend": "In-Home Services Received",
 		"column": "advancedRight",
+		"visible": false,
 		"type":   "param",
 		"multi":  true
 	}
@@ -450,6 +469,7 @@
 	"display": {
 		"legend": "Length of Out-of-Home Episode",
 		"column": "advancedLeft",
+		"visible": false,
 		"type":   "param",
 		"multi":  true,
 		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date. Multiple placements in various types of out-of-home placement settings can occur within a single episode. This filter allows you to determine how many episodes are greater than 7 days, 60 days, 1 year, or 2 years."
@@ -460,6 +480,7 @@
 	"display": {
 		"legend": "Number of Out-of-Home Placements",
 		"column": "advancedLeft",
+		"visible": false,
 		"type":   "param",
 		"multi":  true,
 		"help": "An out-of-home care <span style='text-decoration: underline;'>episode</span> begins with a formal custody date and ends with a formal discharge date to a permanency outcome. <span style='text-decoration: underline;'> A child/youth in out-of-home care can have multiple placements within an episode</span>. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
@@ -470,6 +491,7 @@
 	"display": {
 		"legend": "Reporter",
 		"column": "advancedLeft",
+		"visible": false,
 		"type":   "param",
 		"multi":  true, 
 		"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement."
@@ -480,6 +502,7 @@
 	"display": {
 	  "legend": "Service Category",
 	  "column": "advancedRight",
+	  "visible": false,
 	  "type": "param",
 	  "multi": true
 	}
@@ -489,6 +512,7 @@
 	"display": {
 	  "legend": "Budget Category",
 	  "column": "advancedRight",
+	  "visible": false,
 	  "type": "param",
 	  "multi": true,
 	  "help": "The six Department of Social and Health Services (DSHS) budget categories include all the major IN-HOME budget categories. DSHS codes are provided for people familiar with Children's Administration budget categories."
