@@ -434,7 +434,7 @@
   "dependency_cd":{
 	"table": "ref_filter_dependency",
 	"display": {
-		"legend": "Dependency",
+		"legend": "Court Involvement",
 		"column": "advancedRight",
 		"visible": false,
 		"type":   "filter",
