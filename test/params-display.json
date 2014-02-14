@@ -593,8 +593,8 @@
       "legend": "Date Range",
       "column": "fieldsLeft",
       "type": "dateRange",
-      "monthStep":  1,
-      "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
+      "monthStep":  1
+    
       }
   },
   "dynamicMonthStart": {
@@ -605,7 +605,7 @@
       "type": "dynamicDateRange",
       "monthStep":  1,
       "monthLimit": 0,
-      "help": "Dates are on a sliding bar from January 2000 through the most recent month for which we have data. You can adjust the start and end dates. Default is the full date range."
+      "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
     }
   },
   "quarterRangeStart": {
