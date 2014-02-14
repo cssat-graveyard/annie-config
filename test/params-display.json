@@ -105,7 +105,7 @@
       "type": "filter",
       "selected": 0,
       "multi": true,
-      "zeroLast": false,
+      "zeroLast": true,
       "help": "You can filter for kinship placements only or for all types of placement (foster care, kinship care, group home, etc.)."
     }
   },
