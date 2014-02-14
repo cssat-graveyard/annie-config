@@ -38,7 +38,7 @@
       "legend": "Age of Children in Household",
       "column": "fieldsRight",
       "type": "param",
-      "help": "Age of children in the household applies to Investigations & Assessments Trends and to all the In-H9ome Services measures. It references the age(s) of the children/youth in the household at time the investigation and/or assessment was opened and the time the in-home service was provided. The age categories follow U.S. Census conventions for the age of children in a household. Because the Census provides data on these age categories per geographic area, we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices or Office Groups.  Please see Filters Explained for more information on how to interpret the four age categories."
+      "help": "Age of children in the household applies to Investigations & Assessments Trends and to all the In-Home Services measures. It references the age(s) of the children/youth in the household at time the investigation and/or assessment was opened and the time the in-home service was provided. The age categories follow U.S. Census conventions for the age of children in a household. Because the Census provides data on these age categories per geographic area, we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices or Office Groups.  Please see Filters Explained for more information on how to interpret the four age categories."
     } 
   },
   "removalCounty": {
@@ -105,7 +105,8 @@
       "type": "filter",
       "selected": 0,
       "multi": true,
-      "zeroLast": false
+      "zeroLast": false,
+      "help": "You can filter for kinship placements only or for all types of placement (foster care, kinship care, group home, etc.)."
     }
   },
   "discharge_type_outcomes": {
