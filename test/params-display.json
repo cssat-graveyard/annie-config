@@ -71,7 +71,7 @@
       "selected": "*",
       "multi": true,
       "zeroLast": false,
-      "help": "You can select re-entry to out-of-home care from <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
+      "help": "You can select re-entry to out-of-home care from <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
     }
   },
     "bin_sibling_group_size": {
@@ -193,7 +193,7 @@
       "visible": false,
       "type": "param",
       "sort": true,
-      "help": "There are 43 DCFS Offices (<a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
+      "help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
     }
   },
   "officeGroup": {
@@ -212,7 +212,7 @@
       "visible": false,
       "type": "param",
       "sort": true,
-      "help": "There are 43 DCFS Offices (<a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State. In order to calculate Census-adjusted population based rates, some DCFS offices were grouped."
+      "help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State. In order to calculate Census-adjusted population based rates, some DCFS offices were grouped."
     }
   },
   "initSetng": {
@@ -241,7 +241,7 @@
       "column": "advancedLeft",
       "visible": false,
       "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data). See <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
+      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
     }
   },
   "plcSetng": {
@@ -262,7 +262,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "For the Out-of-Home Care Safety, Outcomes, and Well-Being measures, data are aggregated into two COUNT TYPES: counts of ‘First Out-of-Home Care Case’ and ‘All Out-of-Home Care Cases’ (which can include multiple episodes). See <a href='http://www.partnersforourchildren.org/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "For the Out-of-Home Care Safety, Outcomes, and Well-Being measures, data are aggregated into two COUNT TYPES: counts of ‘First Out-of-Home Care Case’ and ‘All Out-of-Home Care Cases’ (which can include multiple episodes). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_ia_safety": {
@@ -288,7 +288,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). See <a href='http://www.partnersforourchildren.org/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_poc2": {
@@ -301,7 +301,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) will be the highest. ‘Unduplicated Investigations’ counts unique cases (i.e., the first investigation per time interval). See <a href='http://www.partnersforourchildren.org/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) will be the highest. ‘Unduplicated Investigations’ counts unique cases (i.e., the first investigation per time interval). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_poc3": {
@@ -314,7 +314,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First In-Home Service Case(s)’ are generally the lowest count/rate, while counts/rates of ‘All In-Home Service Cases’ (households with repeat in-home services) will be the highest. ‘Unduplicated In-Home Service Cases’ are unique cases (i.e., the first in-home service per time period). See <a href='http://www.partnersforourchildren.org/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First In-Home Service Case(s)’ are generally the lowest count/rate, while counts/rates of ‘All In-Home Service Cases’ (households with repeat in-home services) will be the highest. ‘Unduplicated In-Home Service Cases’ are unique cases (i.e., the first in-home service per time period). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_fat": {
@@ -419,7 +419,7 @@
 		"type":   "param",
 		"disabled": [2,3,4,5],
 		"multi":  true,
-		"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='http://www.partnersforourchildren.org/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect."
+		"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect."
 	}
   },
   "allegation":{
