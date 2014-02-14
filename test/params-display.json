@@ -288,7 +288,7 @@
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes children with multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). See <a href='http://www.partnersforourchildren.org/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). See <a href='http://www.partnersforourchildren.org/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_poc2": {
@@ -485,7 +485,7 @@
 		"visible": false,
 		"type":   "param",
 		"multi":  true,
-		"help": "An out-of-home care <span style='text-decoration: underline;'>episode</span> begins with a formal custody date and ends with a formal discharge date to a permanency outcome. <span style='text-decoration: underline;'> A child/youth in out-of-home care can have multiple placements within an episode</span>. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
+		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
 	}	
   },
   "reporter_type":{
