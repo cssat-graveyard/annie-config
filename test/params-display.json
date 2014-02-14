@@ -593,8 +593,8 @@
       "legend": "Date Range",
       "column": "fieldsLeft",
       "type": "dateRange",
-      "monthStep":  1
-    
+      "monthStep":  1,
+      "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
       }
   },
   "dynamicMonthStart": {
