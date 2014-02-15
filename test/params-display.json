@@ -583,8 +583,7 @@
       "legend": "Service Cohort Quarter",
       "column": "fieldsLeft",
       "type": "cohort",
-      "quarterDate": "start",
-      "help": "This filter follows the cohort of households which received in-home services in the selected time period between January 2010 and the most recent date for which we have data. Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
+      "help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
     }
   },
   "monthStart": {
