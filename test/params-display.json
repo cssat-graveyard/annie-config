@@ -536,7 +536,7 @@
       "column": "fieldsLeft",
       "type": "cohort",
       "quarterDate": "start",
-      "help": "This filter follows the cohort of households which received their (first) investigation/assessment in the selected time period between January 2010 and the most recent date for which we have data. Data on the percent of children re-referred are returned for up to 48 months following the selected cohort year."
+      "help": "This filter follows the cohort of households which received their (first) investigation/assessment within the cohort year(s) selected. Data on the percent of children re-referred are returned for up to 48 months following the selected cohort year."
     }
   },
   "quarterEnd": {
