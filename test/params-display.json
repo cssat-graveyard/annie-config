@@ -365,7 +365,11 @@
       "type": "filter",
       "selected": 2,
       "zeroLast": false,
-      "help": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in."
+      "help": {
+      	"default": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of opened or closed cases per quarter, go to the ‘Count (or Rate) of Opened Cases or Case Closures’ columns in the table format and total the three months for the quarter(s) you are interested in.",
+      	"sp_POC1AB_counts": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in.",
+      	"sp_POC1AB_rates":  "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in."
+      }
     }
   },
   "nbrSiblings": {
