@@ -7,7 +7,11 @@
       "column": "fieldsRight",
       "type": "filter",
       "selected": "Overview", 
-      "help": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected."
+      "help": {
+      	"default": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of opened cases and the number of closed cases for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected.",
+      	"sp_POC1AB_counts": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected.",
+        "sp_POC1AB_rates": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected."
+       }
     }
   },
   "age": {
