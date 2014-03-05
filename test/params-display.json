@@ -10,7 +10,7 @@
       "help": {
       	"default": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of opened cases and the number of closed cases for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected.",
       	"sp_POC1AB_counts": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected.",
-        "sp_POC1AB_rates": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected."
+        "sp_POC1AB_perCapita": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected."
        }
     }
   },
@@ -372,7 +372,7 @@
       "help": {
       	"default": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of opened or closed cases per quarter, go to the ‘Count (or Rate) of Opened Cases or Case Closures’ columns in the table format and total the three months for the quarter(s) you are interested in.",
       	"sp_POC1AB_counts": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in.",
-      	"sp_POC1AB_rates":  "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in."
+      	"sp_POC1AB_perCapita":  "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in."
       }
     }
   },
