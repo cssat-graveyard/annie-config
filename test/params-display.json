@@ -8,9 +8,9 @@
       "type": "filter",
       "selected": "Overview", 
       "help": {
-      	"default": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of opened cases and the number of closed cases for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected.",
-      	"sp_POC1AB_counts": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected.",
-        "sp_POC1AB_perCapita": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data for every filter category selected."
+      	"default": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of opened cases and the number of closed cases for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data.",
+      	"sp_POC1AB_counts": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data.",
+        "sp_POC1AB_perCapita": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data."
        }
     }
   },
@@ -20,7 +20,7 @@
       "legend": "Age at Time of Placement",
       "column": "fieldsRight",
       "type": "param",
-      "help": "Age references the child’s/youth’s age at the time of placement into out-of-home care."
+      "help": "Age references the child’s/youth’s age at the time of placement in out-of-home care."
     }
   },
   "ageCensus": {
@@ -30,7 +30,7 @@
       "legend": "Age at Removal",
       "column": "fieldsRight",
       "type": "param",
-      "help": "Age at removal categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages per geographic area, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
+      "help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages within geographic divisions, we are able to calculate the rate of cases (per 1,000) by age for the state or for an individual county."
     }
   },
   "ageSib": {
@@ -42,7 +42,7 @@
       "legend": "Age of Children in Household",
       "column": "fieldsRight",
       "type": "param",
-      "help": "Age of children in the household applies to Investigations & Assessments Trends and to all the In-Home Services measures. It references the age(s) of the children/youth in the household at time the investigation and/or assessment was opened and the time the in-home service was provided. The age categories follow U.S. Census conventions for the age of children in a household. Because the Census provides data on these age categories per geographic area, we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices or Office Groups.  Please see Filters Explained for more information on how to interpret the four age categories."
+      "help": "Age of children in the household is the filter used for Investigations & Assessments Trends and for all the In-Home Services measures. It references the ages of the children/youth in the household at the time the investigation/assessment was opened and at the time the family was receiving in-home service. The age categories follow U.S. Census conventions, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices or Office Groups. Please see Filters Explained for more information on how to interpret the four age categories."
     } 
   },
   "removalCounty": {
@@ -52,7 +52,7 @@
       "column": "advancedRight",
       "visible": false,
       "type": "param",
-      "help": "This is the county the data suggests the child/youth lived in when removed. All 39 Washington State Counties are listed; ‘All’ is the default."
+      "help": "This is the county the data suggests the child/youth lived in prior to removal. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
     }
   },
   "discharge": {
