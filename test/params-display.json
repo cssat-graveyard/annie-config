@@ -1,7 +1,7 @@
 {
   "multichart": {
     "_comment1": "This filter MUST be first and must use this name",
-    "_comment2": "Values are computed by the client.",
+    "_comment2": "The values are computed by the client.",
     "display": {
       "legend": "Chart Display",
       "column": "fieldsRight",
@@ -94,7 +94,7 @@
       "selected": 0,
       "multi": true,
       "zeroLast": false,
-       "help": "This filter returns data on the number of siblings in a family in order to more clearly understand the configuration of siblings are placed together."
+       "help": "This filter returns data on the number of siblings in a family in order to more clearly understand the configuration of siblings who are placed together."
     }
   },
     "kincare": {
