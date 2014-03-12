@@ -1,7 +1,7 @@
 {
   "multichart": {
     "_comment1": "This filter MUST be first and must use this name",
-    "_comment2": "Values are computed by the client.",
+    "_comment2": "The values are computed by the client.",
     "display": {
       "legend": "Chart Display",
       "column": "fieldsRight",
