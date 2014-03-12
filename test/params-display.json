@@ -159,8 +159,7 @@
       "sort": "raceEthnicityCompare",
       "zeroLast": false,
       "selected": 0,
-      "help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities per geographic area, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state, county, or Division of Children and Family Services Office."
-    }
+      "help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state, county, or Division of Children and Family Services Office."
   },
   "exitType": {
     "table": "ref_lookup_type_of_exit",
