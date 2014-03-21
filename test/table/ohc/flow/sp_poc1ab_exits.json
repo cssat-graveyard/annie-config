@@ -88,7 +88,7 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-    "Discharge=cd_discharge_type"
+    "Outcome=discharge_type_outcomes"
   ],
   "returnRowStart": 37,
   "columnClusterSize": 1,
