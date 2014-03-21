@@ -1,20 +1,21 @@
 {
-  "table": "sp_poc1ab_entries",
+  "table": "sp_poc1ab_exits",
   "Base": "sp_POC1AB_perCapita",
-  "title": "Count of Out-of-Home Care Entries",
+  "title": "Count of Out-of-Home Care Exits",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Number of Entries"
+      "Number of Exits"
     ],
     "removeFields": [
     ]
   },
   "controls": [
     "qry_type_poc1",
-    "date_type"
+    "date_type",
+    "cd_discharge_type"
   ],
   "params": [
     "dynamicMonthStart",
@@ -59,7 +60,8 @@
     28,
     30,
     32,
-    34
+    34,
+    36
   ],
   "returnRowDateHeaders": [
     0
@@ -85,7 +87,8 @@
     "Allegation=allegation",
     "Finding=finding",
     "Service Type=service_category",
-    "Budget=budget_category"
+    "Budget=budget_category",
+    "Discharge=cd_discharge_type"
   ],
   "returnRowStart": 35,
   "columnClusterSize": 1,
