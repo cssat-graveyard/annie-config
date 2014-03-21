@@ -89,11 +89,6 @@
   ],
   "returnRowStart": 35,
   "columnClusterSize": 1,
-  "_comment_old_chartType": "column",
-  "_comment_old_labels": {
-      "x": "Time",
-      "y": "Count"
-  },
   "multicharts": {
     "Overview": [
 	    {
