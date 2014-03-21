@@ -7,17 +7,14 @@
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Total In Care First Day",
-      "Number of Entries",
-      "Number of Exits"
+      "Total In Care First Day"
     ],
     "removeFields": [
     ]
   },
   "controls": [
     "qry_type_poc1",
-    "date_type",
-    "dependency_cd"
+    "date_type"
   ],
   "params": [
     "dynamicMonthStart",
@@ -28,14 +25,15 @@
     "longSetng",
     "removalCounty",
     "ooh_los",
-	"nbr_placement",
-	"ihs_services",
-	"reporter_type",
-	"access_type",
-	"allegation",
-	"finding",
+    "nbr_placement",
+    "ihs_services",
+    "reporter_type",
+    "access_type",
+    "allegation",
+    "finding",
     "service_category",
-	"budget_category"
+    "budget_category",
+    "dependency_cd"
   ],
   "dateParams": [
   ],
@@ -47,21 +45,21 @@
   "returnRowHeaders": [
     0,
     4,
-	6,
-	8,
-	10,
-	12,
-	14,
-	16,
-	18,
-	20,
-	22,
-	24,
-	26,
-	28,
-	30,
-	32,
-	34
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34
   ],
   "returnRowDateHeaders": [
     0
@@ -90,111 +88,13 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
-  "columnClusterSize": 3,
-  "multicharts": {
-    "Overview": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "baseOptions": {
-          "width": 615,
-          "height": 215,
-          "chartArea": {
-            "left": 75,
-            "top": 10,
-            "width": "85%",
-            "height": "90%"
-          }
-        },
-        "labels": {
-          "x": "Time",
-          "y": "Count"
-        },
-        "hideColumns": [
-          1,
-          2
-        ]
-      },
-      {
-        "chartType": "area",
-        "chartId": "chart2",
-        "style": "",
-        "baseOptions": {
-          "width": 615,
-          "height": 215,
-          "chartArea": {
-            "left": 75,
-            "top": 10,
-            "width": "85%",
-            "height": "75%"
-          }
-        },
-        "labels": {
-          "x": "Time",
-          "y": "Count"
-        },
-        "hideColumns": [
-          0
-        ]
-      }
-    ],
-    "Total-Cases-_pFirst-Day-of-Month_sYear_P": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Time",
-          "y": "Count"
-        },
-        "hideColumns": [
-          1,
-          2
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ],
-    "Entries": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Time",
-          "y": "Count"
-        },
-        "hideColumns": [
-          0,
-          2
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ],
-    "Exits": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Time",
-          "y": "Count"
-        },
-        "hideColumns": [
-          0,
-          1
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ]
+  "columnClusterSize": 1,
+  "chartType": "column",
+  "labels": {
+      "x": "Time",
+      "y": "Count"
   },
   "numberFormat": [
-    {
-      "fractionDigits": 0
-    },
-    {
-      "fractionDigits": 0
-    },
     {
       "fractionDigits": 0
     }
