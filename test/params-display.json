@@ -297,8 +297,8 @@
   },
   "qry_type_poc1_first_unique": {
     "values":{
-      0: "Unduplicated Out-of-Home Care Cases",
-      1: "First Out-of-Home Care Case"
+      "0": "Unduplicated Out-of-Home Care Cases",
+      "1": "First Out-of-Home Care Case"
     },
     "display": {
       "legend": "Count Type",
