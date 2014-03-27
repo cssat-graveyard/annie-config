@@ -87,8 +87,13 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
+  "chartType": "line",
+  "labels": {
+		      "x": "Time",
+		      "y": "Count"
+  },
   "columnClusterSize": 1,
-  "multicharts": {
+  "_comment_multicharts": {
     "Overview": [
 	    {
 	      "chartType": "column",
