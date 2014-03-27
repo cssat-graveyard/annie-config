@@ -1,6 +1,6 @@
 {
   "table": "sp_poc1ab_exits",
-  "Base": "sp_POC1AB_perCapita",
+  "Base": "sp_ooh_flow_entries_rates",
   "title": "Count of Out-of-Home Care Exits",
   "measurementOrder": 3,
   "transform": {
