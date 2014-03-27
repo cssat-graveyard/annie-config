@@ -94,7 +94,12 @@
       "x": "Time",
       "y": "Count"
   },
-  "multicharts": {
+  "chartType": "line",
+  "labels": {
+		      "x": "Time",
+		      "y": "Count"
+  },
+  "_comment_multicharts": {
     "Overview": [
 	    {
 	      "chartType": "column",

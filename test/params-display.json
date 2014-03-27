@@ -113,7 +113,7 @@
 		}
 	},
 	"discharge_type_outcomes": {
-		"table": "ref_lookup_type_of_exit",
+		"table": "ref_lookup_cd_discharge_type_exits",
 		"display": {
 			"alias": "cd_discharge_type",
 			"legend": "Exit Type",
