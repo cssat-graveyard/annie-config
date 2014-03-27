@@ -2,7 +2,7 @@
   "table": "sp_poc1ab_exits",
   "Base": "sp_POC1AB_perCapita",
   "title": "Count of Out-of-Home Care Exits",
-  "measurementOrder": 1,
+  "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
