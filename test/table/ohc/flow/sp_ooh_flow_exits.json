@@ -1,6 +1,6 @@
 {
   "table": "sp_poc1ab_exits",
-  "Base": "sp_ooh_flow_entries_rates",
+  "_comment_Base": "sp_ooh_flow_entries_rates",
   "title": "Count of Out-of-Home Care Exits",
   "measurementOrder": 3,
   "transform": {
@@ -92,27 +92,27 @@
   ],
   "returnRowStart": 37,
   "columnClusterSize": 1,
-  "_comment_old_chartType": "column",
-  "_comment_old_labels": {
-      "x": "Time",
-      "y": "Count"
-  },
   "multicharts": {
-    "Default": [
+    "Overview": [
       {
         "chartType": "line",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Months Since Entering",
-          "y": "Percentage Achieving Outcome"
+          "x": "Time",
+          "y": "Number of Exits"
         },
         "addInputClass": "multiAllowed"
       }
     ]
   },
   "labels": {
-    "x": "Months Since Entering",
-    "y": "Percentage Achieving Outcome"
-  }
+    "x": "Time",
+    "y": "Number of Exits"
+  },
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    }
+  ]
 }
