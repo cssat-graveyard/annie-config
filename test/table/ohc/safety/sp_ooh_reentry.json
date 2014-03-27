@@ -27,7 +27,8 @@
 	"allegation",
 	"finding",
     "service_category",
-	"budget_category"
+	"budget_category",
+	"dependency_cd"
   ],
   "dateParams": [],
   "requiredParams": [

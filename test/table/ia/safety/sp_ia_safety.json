@@ -1,5 +1,5 @@
 {
-  "table": "sp_PBCS2",
+  "table": "sp_ia_safety",
   "title": "Re-Referral",
   "transform": {
     "Function": "daterow",
