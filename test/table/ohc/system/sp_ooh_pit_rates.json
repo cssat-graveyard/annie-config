@@ -6,7 +6,7 @@
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Population Rate In Care First Day"
+      "Total In Care First Day"
     ],
     "removeFields": [
     ]
@@ -88,7 +88,7 @@
   ],
   "returnRowStart": 35,
   "columnClusterSize": 1,
-  "chartType": "bar",
+  "chartType": "column",
   "_comment_multicharts": {
     "Overview": [
 	    {

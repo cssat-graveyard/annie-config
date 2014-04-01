@@ -89,7 +89,17 @@
   ],
   "returnRowStart": 35,
   "columnClusterSize": 1,
-  "multicharts": {
+  "chartType": "column",
+  "labels": {
+    "x": "Time",
+    "y": "Count of Children in Out-of-Home Care"
+  },
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    }
+  ],
+  "_comment_multicharts": {
     "Overview": [
 	    {
 	      "chartType": "column",
@@ -102,10 +112,5 @@
         "hideColumns": []
       }
 	]
-	},    
-  "numberFormat": [
-    {
-      "fractionDigits": 0
-    }
-  ]
+  }    
 }
