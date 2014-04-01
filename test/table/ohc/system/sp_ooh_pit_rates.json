@@ -1,19 +1,18 @@
 {
-  "table": "sp_poc1ab_counts",
-  "Base": "sp_POC1AB_perCapita",
-  "title": "Count of Out-of-Home Care Cases",
-  "measurementOrder": 1,
+  "table": "sp_ooh_pit_rates",
+  "title": "Rate of Out-of-Home Care Cases per 1,000 Children",
+  "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Total In Care First Day"
+      "Population Rate In Care First Day"
     ],
     "removeFields": [
     ]
   },
   "controls": [
-    "qry_type_poc1",
+    "qry_type_first_all",
     "date_type"
   ],
   "params": [
@@ -36,30 +35,30 @@
     "dependency_cd"
   ],
   "dateParams": [
-  ],
+  	],
   "requiredParams": [
     "dynamicMonthStart"
   ],
   "showAllOthers": true,
-  "mutexAllOther": false,
+  "mutexAllOthers": false,
   "returnRowHeaders": [
     0,
     4,
-    6,
-    8,
-    10,
-    12,
-    14,
-    16,
-    18,
-    20,
-    22,
-    24,
-    26,
-    28,
-    30,
-    32,
-    34
+	6,
+	8,
+	10,
+	12,
+	14,
+	16,
+	18,
+	20,
+	22,
+	24,
+	26,
+	28,
+	30,
+	32,
+	34
   ],
   "returnRowDateHeaders": [
     0
@@ -89,7 +88,7 @@
   ],
   "returnRowStart": 35,
   "columnClusterSize": 1,
-  "multicharts": {
+    "multicharts": {
     "Overview": [
 	    {
 	      "chartType": "column",
@@ -102,10 +101,14 @@
         "hideColumns": []
       }
 	]
-	},    
+  },    
   "numberFormat": [
     {
-      "fractionDigits": 0
+      "fractionDigits": 2
     }
-  ]
+  ],
+  "labels": {
+    "x": "Time",
+    "y": "Population Rate of Children in Out-of-Home Care"
+  }
 }
