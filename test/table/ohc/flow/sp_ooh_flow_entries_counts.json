@@ -88,15 +88,13 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
-  "columnClusterSize": 1,
   "chartType": "line",
   "labels": {
 		      "x": "Time",
 		      "y": "Count"
   },
-  "numberFormat": [
+  "numberFormat": 
     {
       "fractionDigits": 0
     }
-  ]
 }
