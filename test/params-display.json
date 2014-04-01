@@ -294,6 +294,7 @@
 			"type": "filter",
 			"selected": 2,
 			"multi": true,
+			"zeroLast": false,
 			"_comment_sort": "qryTypeCompare",
 			"help": "Data are aggregated into two COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ count only first episodes in Out-of-Home Care, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes multiple episodes) will be the highest. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
