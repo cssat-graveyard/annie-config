@@ -68,7 +68,7 @@
   ],
   "headerNames": [
     "&nbsp;",
-    "*qry_type_poc1",
+    "*qry_type_first_all",
     "Age Grouping=ageCensus",
     "Gender=gender",
     "Race/Ethnicity",
@@ -88,7 +88,8 @@
   ],
   "returnRowStart": 35,
   "columnClusterSize": 1,
-    "multicharts": {
+  "chartType": "bar",
+  "_comment_multicharts": {
     "Overview": [
 	    {
 	      "chartType": "column",
