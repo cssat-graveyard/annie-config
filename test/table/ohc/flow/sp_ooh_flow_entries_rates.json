@@ -89,27 +89,10 @@
   "returnRowStart": 35,
   "chartType": "line",
   "labels": {
-		      "x": "Time",
-		      "y": "Count"
+    "x": "Time",
+    "y": "Count"
   },
-  "columnClusterSize": 1,
-  "_comment_multicharts": {
-    "Overview": [
-	    {
-	      "chartType": "column",
-	      "chartId": "chart1",
-	      "style": "",
-	      "labels": {
-		      "x": "Time",
-		      "y": "Rate of Entry per 1,000 Children"
-	      },
-        "hideColumns": []
-      }
-	]
-  },   
-  "numberFormat": [
-    {
+  "numberFormat": {
       "fractionDigits": 2
-    }
-  ]
+  }
 }

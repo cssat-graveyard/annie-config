@@ -90,11 +90,10 @@
   "returnRowStart": 35,
   "chartType": "line",
   "labels": {
-		      "x": "Time",
-		      "y": "Count"
+    "x": "Time",
+	"y": "Count"
   },
-  "numberFormat": 
-    {
+  "numberFormat": {
       "fractionDigits": 0
-    }
+  }
 }

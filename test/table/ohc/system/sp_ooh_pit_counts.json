@@ -44,7 +44,6 @@
   "mutexAllOther": false,
   "returnRowHeaders": [
     0,
-	1,
     4,
     6,
     8,
@@ -89,29 +88,12 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
-  "columnClusterSize": 1,
-  "chartType": "column",
+  "chartType": "line",
   "labels": {
     "x": "Time",
     "y": "Count of Children in Out-of-Home Care"
   },
-  "numberFormat": [
-    {
+  "numberFormat": {
       "fractionDigits": 0
-    }
-  ],
-  "_comment_multicharts": {
-    "Overview": [
-	    {
-	      "chartType": "column",
-	      "chartId": "chart1",
-	      "style": "",
-	      "labels": {
-		      "x": "Time",
-		      "y": "Count"
-	      },
-        "hideColumns": []
-      }
-	]
-  }    
+  }
 }
