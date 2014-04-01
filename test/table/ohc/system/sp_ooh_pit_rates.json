@@ -1,50 +1,39 @@
 {
-  "table": "sp_ooh_pit_rates",
-  "title": "Rate of Out-of-Home Care Cases per 1,000 Children",
-  "measurementOrder": 2,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Month",
-    "valueFields": [
-      "Total In Care First Day"
-    ],
-    "removeFields": [
-    ]
-  },
-  "controls": [
-    "qry_type_first_all",
-    "date_type"
-  ],
-  "params": [
-    "dynamicMonthStart",
-    "ageCensus",
-    "ethnicityCensus",
-    "gender",
-    "initSetng",
-    "longSetng",
-    "removalCounty",
-    "ooh_los",
-    "nbr_placement",
-    "ihs_services",
-    "reporter_type",
-    "access_type",
-    "allegation",
-    "finding",
-    "service_category",
-    "budget_category",
-    "dependency_cd"
-  ],
-  "dateParams": [
-  	],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
-  "showAllOthers": true,
-  "mutexAllOthers": false,
-  "returnRowHeaders": [
-    0,
+	"table": "sp_ooh_pit_rates",
+	"title": "Rate of Out-of-Home Care Cases per 1,000 Children",
+	"measurementOrder": 2,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Month",
+		"valueFields": ["Total In Care First Day"],
+		"removeFields": []
+	},
+	"controls": ["qry_type_first_all",
+	"date_type"],
+	"params": ["dynamicMonthStart",
+	"ageCensus",
+	"ethnicityCensus",
+	"gender",
+	"initSetng",
+	"longSetng",
+	"removalCounty",
+	"ooh_los",
+	"nbr_placement",
+	"ihs_services",
+	"reporter_type",
+	"access_type",
+	"allegation",
+	"finding",
+	"service_category",
+	"budget_category",
+	"dependency_cd"],
+	"dateParams": [],
+	"requiredParams": ["dynamicMonthStart"],
+	"showAllOthers": true,
+	"mutexAllOthers": false,
+	"returnRowHeaders": [0,
 	1,
-    4,
+	4,
 	6,
 	8,
 	10,
@@ -59,58 +48,47 @@
 	28,
 	30,
 	32,
-	34
-  ],
-  "returnRowDateHeaders": [
-    0
-  ],
-  "returnRowControlHeaders": [
-    1
-  ],
-  "headerNames": [
-    "&nbsp;",
-    "*qry_type_first_all",
-    "Age Grouping=ageCensus",
-    "Gender=gender",
-    "Race/Ethnicity",
-    "First Placement Setting=initSetng",
-    "Longest Placement Setting=longSetng",
-    "County=removalCounty",
-    "Dependency=dependency_cd",
-    "Length of Service Desc=ooh_los",
-    "Placement Count Desc=nbr_placement",
-    "In-Home Service Desc=ihs_services",
-    "Reporter Desc=reporter_type",
-    "Access type desc=access_type",
-    "Allegation=allegation",
-    "Finding=finding",
-    "Service Type=service_category",
-    "Budget=budget_category"
-  ],
-  "returnRowStart": 35,
-  "columnClusterSize": 1,
-  "chartType": "column",
-  "_comment_multicharts": {
-    "Overview": [
-	    {
-	      "chartType": "column",
-	      "chartId": "chart1",
-	      "style": "",
-	      "labels": {
-		      "x": "Time",
-		      "y": "Count"
-	      },
-        "hideColumns": []
-      }
-	]
-  },    
-  "numberFormat": [
-    {
-      "fractionDigits": 2
-    }
-  ],
-  "labels": {
-    "x": "Time",
-    "y": "Population Rate of Children in Out-of-Home Care"
-  }
+	34],
+	"returnRowDateHeaders": [0],
+	"returnRowControlHeaders": [1],
+	"headerNames": ["&nbsp;",
+	"*qry_type_first_all",
+	"Age Grouping=ageCensus",
+	"Gender=gender",
+	"Race/Ethnicity",
+	"First Placement Setting=initSetng",
+	"Longest Placement Setting=longSetng",
+	"County=removalCounty",
+	"Dependency=dependency_cd",
+	"Length of Service Desc=ooh_los",
+	"Placement Count Desc=nbr_placement",
+	"In-Home Service Desc=ihs_services",
+	"Reporter Desc=reporter_type",
+	"Access type desc=access_type",
+	"Allegation=allegation",
+	"Finding=finding",
+	"Service Type=service_category",
+	"Budget=budget_category"],
+	"returnRowStart": 35,
+	"columnClusterSize": 1,
+	"chartType": "column",
+	"_comment_multicharts": {
+		"Overview": [{
+			"chartType": "column",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "Time",
+				"y": "Count"
+			},
+			"hideColumns": []
+		}]
+	},
+	"numberFormat": [{
+		"fractionDigits": 2
+	}],
+	"labels": {
+		"x": "Time",
+		"y": "Population Rate of Children in Out-of-Home Care"
+	}
 }
