@@ -1,13 +1,13 @@
 {
-  "table": "sp_poc1ab_counts",
-  "Base": "sp_POC1AB_perCapita",
-  "title": "Count of Out-of-Home Care Cases",
+  "table": "sp_ooh_flow_entries_counts",
+  "Base": "sp_ooh_flow_entries_rates",
+  "title": "Count of Out-of-Home Care Entries",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Total In Care First Day"
+      "Number of Entries"
     ],
     "removeFields": [
     ]
@@ -88,24 +88,12 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
-  "columnClusterSize": 1,
-  "multicharts": {
-    "Overview": [
-	    {
-	      "chartType": "column",
-	      "chartId": "chart1",
-	      "style": "",
-	      "labels": {
-		      "x": "Time",
-		      "y": "Count"
-	      },
-        "hideColumns": []
-      }
-	]
-	},    
-  "numberFormat": [
-    {
+  "chartType": "line",
+  "labels": {
+    "x": "Time",
+	"y": "Count"
+  },
+  "numberFormat": {
       "fractionDigits": 0
-    }
-  ]
+  }
 }

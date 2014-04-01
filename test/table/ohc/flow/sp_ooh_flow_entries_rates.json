@@ -1,12 +1,12 @@
 {
-  "table": "sp_poc1ab_perCapita",
-  "title": "Rate of Out-of-Home Care Cases per 1,000 Children",
+  "table": "sp_ooh_flow_entries_rates",
+  "title": "Rate of Out-of-Home Care Entries per 1,000 Children",
   "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Population Rate In Care First Day"
+      "Rate of Entries"
     ],
     "removeFields": [
     ]
@@ -87,28 +87,12 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
-  "columnClusterSize": 1,
-    "multicharts": {
-    "Overview": [
-	    {
-	      "chartType": "column",
-	      "chartId": "chart1",
-	      "style": "",
-	      "labels": {
-		      "x": "Time",
-		      "y": "Count"
-	      },
-        "hideColumns": []
-      }
-	]
-  },    
-  "numberFormat": [
-    {
-      "fractionDigits": 2
-    }
-  ],
+  "chartType": "line",
   "labels": {
     "x": "Time",
-    "y": "Population Rate of Children in Out-of-Home Care"
+    "y": "Count"
+  },
+  "numberFormat": {
+      "fractionDigits": 2
   }
 }

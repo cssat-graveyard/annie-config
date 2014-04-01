@@ -1,651 +1,668 @@
 {
-  "multichart": {
-    "_comment1": "This filter MUST be first and must use this name",
-    "_comment2": "The values are computed by the client.",
-    "display": {
-      "legend": "Chart Display",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": "Overview", 
-      "help": {
-      	"default": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of opened cases and the number of closed cases for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data.",
-      	"sp_POC1AB_counts": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data.",
-        "sp_POC1AB_perCapita": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data."
-       }
-    }
-  },
-  "age": {
-    "table": "ref_lookup_age",
-    "display": {
-      "legend": "Age at Time of Placement",
-      "column": "fieldsRight",
-      "type": "param",
-      "help": "Age references the child’s/youth’s age at the time of placement in out-of-home care."
-    }
-  },
-  "ageCensus": {
-    "table": "ref_lookup_age_census",
-    "valueColumn": 3,
-    "display": {
-      "legend": "Age at Removal",
-      "column": "fieldsRight",
-      "type": "param",
-      "help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages within geographic divisions, we are able to calculate the rate of cases (per 1,000) by age for the state or for an individual county."
-    }
-  },
-  "ageSib": {
-    "table": "ref_lookup_sib_age_grp",
-    "removeKeys": [
-      4
-    ],
-    "display": {
-      "legend": "Age of Children in Household",
-      "column": "fieldsRight",
-      "type": "param",
-      "help": "Age of children in the household is the filter used for Investigations & Assessments Trends and for all the In-Home Services measures. It references the ages of the children/youth in the household at the time the investigation/assessment was opened and at the time the family was receiving in-home service. The age categories follow U.S. Census conventions, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices or Office Groups. Please see Filters Explained for more information on how to interpret the four age categories."
-    } 
-  },
-  "removalCounty": {
-    "table": "ref_lookup_county",
-    "display": {
-      "legend": "Removal County",
-      "column": "advancedRight",
-      "visible": false,
-      "type": "param",
-      "help": "This is the county the data suggests the child/youth lived in prior to removal. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
-    }
-  },
-  "discharge": {
-    "table": "ref_lookup_discharge",
-    "display": {
-    	}
-  },
-  "discharge_type_safety": {
-    "values":{
-      "1": "Reunification",
-      "3": "Adoption",
-      "4": "Guardianship"
-    },
-    "display": {
-      "alias": "cd_discharge_type",
-      "legend": "Re-Entry by Exit Type",
-      "column": "advancedRight",
-      "visible": false,
-      "type": "filter",
-      "selected": "*",
-      "multi": true,
-      "zeroLast": false,
-      "help": "You can select re-entry to out-of-home care from <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
-    }
-  },
-    "bin_sibling_group_size": {
-    "values":{
-      "0": "All",
-      "1": "2 Siblings",
-      "2": "3 Siblings",
-      "3": "4 Siblings",
-      "4": "More than 4 Siblings"
-    },
-    "display": {
-      "legend": "Sibling Group Size",
-      "column": "advancedRight",
-      "visible": false,
-      "type": "filter",
-      "selected": 0,
-      "multi": true,
-      "zeroLast": false,
-       "help": "This filter returns data on the number of siblings in a family in order to more clearly understand the configuration of siblings who are placed together."
-    }
-  },
-    "kincare": {
-    "values":{
-      "0": "All including Kin",
-      "1": "With Kin"
-    },
-    "display": {
-      "legend": "Placement Type",
-      "column": "advancedRight",
-      "visible": false,
-      "type": "filter",
-      "selected": 0,
-      "multi": true,
-      "zeroLast": true,
-      "help": "You can filter for kinship placements only or for all types of placement (foster care, kinship care, group home, etc.)."
-    }
-  },
-  "discharge_type_outcomes": {
-    "values":{
-      "1": "Reunification",
-      "3": "Adoption",
-      "4": "Guardianship",
-      "5": "Emancipation",
-      "6": "Other"
-    },
-    "display": {
-      "alias": "cd_discharge_type",
-      "legend": "Exit Type",
-      "column": "advancedRight",
-      "visible": false,
-      "type": "filter",
-      "selected": "*",
-      "multi": true,
-      "zeroLast": true,
-      "help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exit to all five outcomes."
-    }
-  },
-  "ethnicity": {
-    "table": "ref_lookup_ethnicity",
-    "removeKeys":[
-      7
-    ],
-    "display": {
-      "legend": "Race/Ethnicity",
-      "column": "fieldsLeft",
-      "type": "param"
-    }
-  },
-  "ethnicityCensus": {
-    "table": "ref_lookup_ethnicity_census",
-    "addKeyValues": {
-      "-1": "-"
-    },
-    "removeKeys":[
-      7
-    ],
-    "display": {
-      "legend": "Race/Ethnicity",
-      "column": "fieldsLeft",
-      "type": "param",
-      "sort": "raceEthnicityCompare",
-      "zeroLast": false,
-      "selected": 0,
-      "help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state, county, or Division of Children and Family Services Office."
-    }
-  },
-  "exitType": {
-    "table": "ref_lookup_type_of_exit",
-    "display": {}
-  },
-  "gender": {
-    "table": "ref_lookup_gender",
-    "valueColumn": 2,
-    "removeKeys": [
-      3
-    ],
-    "display": {
-      "legend": "Gender",
-      "column": "fieldsRight",
-      "type": "param"
-    }
-  },
-  "nbrEvent": {
-    "table": "ref_lookup_nbr_event_grouping",
-    "display": {}
-  },
-  "office": {
-    "table": "ref_lookup_office_collapse",
-    "addKeyValues": {
-      "0": "All"
-    },
-    "removeKeys": [
-      -99
-    ],
-    "_comment": "Missing / Other",
-    "display": {
-      "legend": "DCFS Office",
-      "column": "advancedRight",
-      "visible": false,
-      "type": "param",
-      "sort": true,
-      "help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
-    }
-  },
-  "officeGroup": {
-    "table": "ref_lookup_cd_office_county_grp",
-    "orderBy": "tx_office_county_grp",
-    "addKeyValues": {
-      "0": "All"
-    },
-    "removeKeys": [
-      28
-    ],
-    "_comment": "State level location",
-    "display": {
-      "legend": "DCFS Office or Office Group",
-      "column": "advancedRight",
-      "visible": false,
-      "type": "param",
-      "sort": true,
-      "help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State. In order to calculate Census-adjusted population based rates, some DCFS offices were grouped."
-    }
-  },
-  "initSetng": {
-    "table": "ref_lookup_placement",
-    "display": {
-      "legend": "Initial Placement Setting",
-      "column": "advancedLeft",
-      "visible": false,
-      "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
-    }
-  },
-  "lastSetng": {
-    "table": "ref_lookup_placement",
-    "display": {
-      "legend": "Last Placement Setting",
-      "column": "advancedLeft",
-      "visible": false,
-      "type": "param"
-    }
-  },
-  "longSetng": {
-    "table": "ref_lookup_placement",
-    "display": {
-      "legend": "Longest Placement Setting",
-      "column": "advancedLeft",
-      "visible": false,
-      "type": "param",
-      "help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
-    }
-  },
-  "plcSetng": {
-    "table": "ref_lookup_plcsetngtype",
-    "display": {}
-  },
-  "unsafeExit": {
-    "table": "ref_lookup_unsafe_exit",
-    "display": {}
-  },
-  "qry_type": {
-    "table": "ref_lookup_qry_type",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": 0,
-      "multi": true,
-      "zeroLast": false,
-      "sort": "qryTypeCompare",
-      "help": "For the Out-of-Home Care Safety, Outcomes, and Well-Being measures, data are aggregated into counts of ‘First Out-of-Home Care Case’ and ‘All Out-of-Home Care Cases’ (which can include multiple episodes). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
-    }
-  },
-  "qry_type_ia_safety": {
-    "table": "ref_lookup_qry_type",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": 0,
-      "multi": true,
-      "zeroLast": false,
-      "sort": "qryTypeCompare",
-      "help": "For the Investigation & Assessments Safety measure, data are aggregated into two COUNT TYPES: counts of ‘First Investigation & Assessment Case’ within the selected time interval and ‘All Investigations & Assessment Cases,’ which can include multiple cases per household within the time interval."
-    }
-  },
-  "qry_type_poc1": {
-    "table": "ref_lookup_qry_type_poc1",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": 2,
-      "multi": true,
-      "zeroLast": false,
-      "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
-    }
-  },
-  "qry_type_poc2": {
-    "table": "ref_lookup_qry_type_poc2",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": 2,
-      "multi": true,
-      "zeroLast": false,
-      "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) will be the highest. ‘Unduplicated Investigations’ counts unique cases (i.e., the first investigation per time interval). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
-    }
-  },
-  "qry_type_poc3": {
-    "table": "ref_lookup_qry_type_poc3",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": 2,
-      "multi": true,
-      "zeroLast": false,
-      "sort": "qryTypeCompare",
-      "help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First In-Home Service Case(s)’ are generally the lowest count/rate, while counts/rates of ‘All In-Home Service Cases’ (households with repeat in-home services) will be the highest. ‘Unduplicated In-Home Service Cases’ are unique cases (i.e., the first in-home service per time period). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
-    }
-  },
-  "qry_type_fat": {
-    "table": "ref_lookup_qry_type_fat",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": 2,
-      "multi": true,
-      "zeroLast": false,
-      "sort": "qryTypeCompare"
-    }
-  },
-  "service_type": {
-    "table": "ref_lookup_service_type",
-    "display": {
-      "legend": "Service",
-      "column": "advancedRight",
-      "visible": false,
-      "type": "filter",
-      "selected": 0
-    }
-  },
-  "siblingGroup": {
-    "table": "ref_lookup_sibling_groups",
-    "display": {
-      "legend": "Sibling Group Size",
-      "column": "advancedLeft",
-      "visible": false,
-      "type": "param"
-     }
-  },
-  "measurement_type": {
-    "table": "ref_lookup_measurement_type",
-    "display": {
-      "legend": "Measurement",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": 0
-   }
-  },
-  "date_type": {
-    "table": "ref_lookup_date_type",
-    "display": {
-      "legend": "Time Interval",
-      "column": "fieldsLeft",
-      "type": "filter",
-      "selected": 2,
-      "zeroLast": false,
-      "help": {
-      	"default": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of opened or closed cases per quarter, go to the ‘Count (or Rate) of Opened Cases or Case Closures’ columns in the table format and total the three months for the quarter(s) you are interested in.",
-      	"sp_POC1AB_counts": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in.",
-      	"sp_POC1AB_perCapita":  "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in."
-      }
-    }
-  },
-  "nbrSiblings": {
-    "values": [
-      "All Others",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "display": {
-      "legend": "Number of Siblings",
-      "column": "advancedLeft",
-      "visible": false,
-      "type": "param"
-    }
-  },
-  "custody": {
-    "values": [
-      "Non-DCFS and DCFS",
-      "DCFS"
-    ],
-    "display": {
-      "legend": "Custody",
-      "column": "advancedLeft",
-      "visible": false,
-      "type": "param"
-    }
-  },
-  "removalReason": {
-    "values": [
-      "All"
-    ],
-    "display": {
-      "legend": "Removal Reason",
-      "type": "param"
-    }
-  },
-  "access_type":{
-	"table": "ref_filter_access_type",
-	"display": {
-		"legend": "Entry Point",
-		"column": "advancedLeft",
-		"visible": false,
-		"type":   "param",
-		"disabled": [2,3,4,5],
-		"multi":  true,
-		"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect."
+	"multichart": {
+		"_comment1": "This filter MUST be first and must use this name",
+		"_comment2": "The values are computed by the client.",
+		"display": {
+			"legend": "Chart Display",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": "Overview",
+			"help": {
+				"default": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of opened cases and the number of closed cases for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data.",
+				"sp_ooh_pit_counts": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data.",
+				"sp_ooh_pit_rates": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases on the first day of the month or year (point in time data). The chart format also displays a line graph of the number of entries or cases opened and exits or case closures for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format always returns all the ‘Overview’ data."
+			}
+		}
+	},
+	"age": {
+		"table": "ref_lookup_age",
+		"display": {
+			"legend": "Age at Time of Placement",
+			"column": "fieldsRight",
+			"type": "param",
+			"help": "Age references the child’s/youth’s age at the time of placement in out-of-home care."
+		}
+	},
+	"ageCensus": {
+		"table": "ref_lookup_age_census",
+		"valueColumn": 3,
+		"display": {
+			"legend": "Age at Removal",
+			"column": "fieldsRight",
+			"type": "param",
+			"help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages within geographic divisions, we are able to calculate the rate of cases (per 1,000) by age for the state or for an individual county."
+		}
+	},
+	"ageSib": {
+		"table": "ref_lookup_sib_age_grp",
+		"removeKeys": [4],
+		"display": {
+			"legend": "Age of Children in Household",
+			"column": "fieldsRight",
+			"type": "param",
+			"help": "Age of children in the household is the filter used for Investigations & Assessments Trends and for all the In-Home Services measures. It references the ages of the children/youth in the household at the time the investigation/assessment was opened and at the time the family was receiving in-home service. The age categories follow U.S. Census conventions, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices or Office Groups. Please see Filters Explained for more information on how to interpret the four age categories."
+		}
+	},
+	"removalCounty": {
+		"table": "ref_lookup_county",
+		"display": {
+			"legend": "Removal County",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"help": "This is the county the data suggests the child/youth lived in prior to removal. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+		}
+	},
+	"discharge": {
+		"table": "ref_lookup_discharge",
+		"display": {
+			
+		}
+	},
+	"discharge_type_safety": {
+		"values": {
+			"1": "Reunification",
+			"3": "Adoption",
+			"4": "Guardianship"
+		},
+		"display": {
+			"alias": "cd_discharge_type",
+			"legend": "Re-Entry by Exit Type",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "filter",
+			"selected": "*",
+			"multi": true,
+			"zeroLast": false,
+			"help": "You can select re-entry to out-of-home care from <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
+		}
+	},
+	"bin_sibling_group_size": {
+		"values": {
+			"0": "All",
+			"1": "2 Siblings",
+			"2": "3 Siblings",
+			"3": "4 Siblings",
+			"4": "More than 4 Siblings"
+		},
+		"display": {
+			"legend": "Sibling Group Size",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "filter",
+			"selected": 0,
+			"multi": true,
+			"zeroLast": false,
+			"help": "This filter returns data on the number of siblings in a family in order to more clearly understand the configuration of siblings who are placed together."
+		}
+	},
+	"kincare": {
+		"values": {
+			"0": "All including Kin",
+			"1": "With Kin"
+		},
+		"display": {
+			"legend": "Placement Type",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "filter",
+			"selected": 0,
+			"multi": true,
+			"zeroLast": true,
+			"help": "You can filter for kinship placements only or for all types of placement (foster care, kinship care, group home, etc.)."
+		}
+	},
+	"discharge_type_outcomes": {
+		"table": "ref_lookup_cd_discharge_type_exits",
+		"display": {
+			"alias": "cd_discharge_type",
+			"legend": "Exit Type",
+			"column": "fieldsRight",
+			"visible": false,
+			"type": "filter",
+			"selected": "*",
+			"multi": true,
+			"zeroLast": true,
+			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exit to all five outcomes."
+		}
+	},
+	"ethnicity": {
+		"table": "ref_lookup_ethnicity",
+		"removeKeys": [7],
+		"display": {
+			"legend": "Race/Ethnicity",
+			"column": "fieldsLeft",
+			"type": "param"
+		}
+	},
+	"ethnicityCensus": {
+		"table": "ref_lookup_ethnicity_census",
+		"addKeyValues": {
+			"-1": "-"
+		},
+		"removeKeys": [7],
+		"display": {
+			"legend": "Race/Ethnicity",
+			"column": "fieldsLeft",
+			"type": "param",
+			"sort": "raceEthnicityCompare",
+			"zeroLast": false,
+			"selected": 0,
+			"help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state, county, or Division of Children and Family Services Office."
+		}
+	},
+	"exitType": {
+		"table": "ref_lookup_type_of_exit",
+		"display": {
+			
+		}
+	},
+	"gender": {
+		"table": "ref_lookup_gender",
+		"valueColumn": 2,
+		"removeKeys": [3],
+		"display": {
+			"legend": "Gender",
+			"column": "fieldsRight",
+			"type": "param"
+		}
+	},
+	"nbrEvent": {
+		"table": "ref_lookup_nbr_event_grouping",
+		"display": {
+			
+		}
+	},
+	"office": {
+		"table": "ref_lookup_office_collapse",
+		"addKeyValues": {
+			"0": "All"
+		},
+		"removeKeys": [-99],
+		"_comment": "Missing / Other",
+		"display": {
+			"legend": "DCFS Office",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"sort": true,
+			"help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
+		}
+	},
+	"officeGroup": {
+		"table": "ref_lookup_cd_office_county_grp",
+		"orderBy": "tx_office_county_grp",
+		"addKeyValues": {
+			"0": "All"
+		},
+		"removeKeys": [28],
+		"_comment": "State level location",
+		"display": {
+			"legend": "DCFS Office or Office Group",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"sort": true,
+			"help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State. In order to calculate Census-adjusted population based rates, some DCFS offices were grouped."
+		}
+	},
+	"initSetng": {
+		"table": "ref_lookup_placement",
+		"display": {
+			"legend": "Initial Placement Setting",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."
+		}
+	},
+	"lastSetng": {
+		"table": "ref_lookup_placement",
+		"display": {
+			"legend": "Last Placement Setting",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param"
+		}
+	},
+	"longSetng": {
+		"table": "ref_lookup_placement",
+		"display": {
+			"legend": "Longest Placement Setting",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"help": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their longest placement setting for the entire year or month (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."
+		}
+	},
+	"plcSetng": {
+		"table": "ref_lookup_plcsetngtype",
+		"display": {
+			
+		}
+	},
+	"unsafeExit": {
+		"table": "ref_lookup_unsafe_exit",
+		"display": {
+			
+		}
+	},
+	"qry_type": {
+		"table": "ref_lookup_qry_type",
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 0,
+			"multi": true,
+			"zeroLast": false,
+			"sort": "qryTypeCompare",
+			"help": "For the Out-of-Home Care Safety, Outcomes, and Well-Being measures, data are aggregated into counts of ‘First Out-of-Home Care Case’ and ‘All Out-of-Home Care Cases’ (which can include multiple episodes). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_ia_safety": {
+		"table": "ref_lookup_qry_type",
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 0,
+			"multi": true,
+			"zeroLast": false,
+			"sort": "qryTypeCompare",
+			"help": "For the Investigation & Assessments Safety measure, data are aggregated into two COUNT TYPES: counts of ‘First Investigation & Assessment Case’ within the selected time interval and ‘All Investigations & Assessment Cases,’ which can include multiple cases per household within the time interval."
+		}
+	},
+	"qry_type_poc1": {
+		"table": "ref_lookup_qry_type_poc1",
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 2,
+			"multi": true,
+			"zeroLast": false,
+			"sort": "qryTypeCompare",
+			"help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes multiple episodes) will be the highest. ‘Unduplicated Out-of-Home Care Cases’ counts unique cases (i.e., the first out-of-home episode per time interval). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_first_all": {
+		"table": "vw_qry_type_poc1ab_first_all",
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 2,
+			"multi": true,
+			"_comment_sort": "qryTypeCompare",
+			"help": "Data are aggregated into two COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ count only first episodes in Out-of-Home Care, while counts/rates of ‘All Out-of-Home Care Cases’ (which includes multiple episodes) will be the highest. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_poc1_first_unique": {
+		"values": {
+			"0": "Unduplicated Out-of-Home Care Cases",
+			"1": "First Out-of-Home Care Case"
+		},
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"visible": false,
+			"type": "filter",
+			"selected": 0,
+			"multi": true,
+			"zeroLast": false,
+			"help": "Data are aggregated into two COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while ‘Unduplicated Out-of-Home Care Cases’ counts/rates of will be the highest. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_poc2": {
+		"table": "ref_lookup_qry_type_poc2",
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 2,
+			"multi": true,
+			"zeroLast": false,
+			"sort": "qryTypeCompare",
+			"help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First Investigation(s)’ are generally the lowest count/rate, while counts/rates of ‘All Investigations’ (households with repeat investigations) will be the highest. ‘Unduplicated Investigations’ counts unique cases (i.e., the first investigation per time interval). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_poc3": {
+		"table": "ref_lookup_qry_type_poc3",
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 2,
+			"multi": true,
+			"zeroLast": false,
+			"sort": "qryTypeCompare",
+			"help": "Data are aggregated into three COUNT TYPES. Counts/rates of ‘First In-Home Service Case(s)’ are generally the lowest count/rate, while counts/rates of ‘All In-Home Service Cases’ (households with repeat in-home services) will be the highest. ‘Unduplicated In-Home Service Cases’ are unique cases (i.e., the first in-home service per time period). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_fat": {
+		"table": "ref_lookup_qry_type_fat",
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 2,
+			"multi": true,
+			"zeroLast": false,
+			"sort": "qryTypeCompare"
+		}
+	},
+	"service_type": {
+		"table": "ref_lookup_service_type",
+		"display": {
+			"legend": "Service",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "filter",
+			"selected": 0
+		}
+	},
+	"siblingGroup": {
+		"table": "ref_lookup_sibling_groups",
+		"display": {
+			"legend": "Sibling Group Size",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param"
+		}
+	},
+	"measurement_type": {
+		"table": "ref_lookup_measurement_type",
+		"display": {
+			"legend": "Measurement",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 0
+		}
+	},
+	"date_type": {
+		"table": "ref_lookup_date_type",
+		"display": {
+			"legend": "Time Interval",
+			"column": "fieldsLeft",
+			"type": "filter",
+			"selected": 2,
+			"removeKeys": [1],
+			"zeroLast": false,
+			"help": {
+				"default": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of opened or closed cases per quarter, go to the ‘Count (or Rate) of Opened Cases or Case Closures’ columns in the table format and total the three months for the quarter(s) you are interested in.",
+				"sp_ooh_pit_counts": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in.",
+				"sp_ooh_pit_rates": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in."
+			}
+		}
+	},
+	"nbrSiblings": {
+		"values": ["All Others",
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9",
+		"10"],
+		"display": {
+			"legend": "Number of Siblings",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param"
+		}
+	},
+	"custody": {
+		"values": ["Non-DCFS and DCFS",
+		"DCFS"],
+		"display": {
+			"legend": "Custody",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param"
+		}
+	},
+	"removalReason": {
+		"values": ["All"],
+		"display": {
+			"legend": "Removal Reason",
+			"type": "param"
+		}
+	},
+	"access_type": {
+		"table": "ref_filter_access_type",
+		"display": {
+			"legend": "Entry Point",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"disabled": [2,
+			3,
+			4,
+			5],
+			"multi": true,
+			"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect."
+		}
+	},
+	"allegation": {
+		"table": "ref_filter_allegation",
+		"display": {
+			"legend": "Allegation",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning there will be more allegations than cases. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter. To determine how many cases have no allegations, subtract ‘Any Legal Finding’ from ‘All (With or Without Allegation).’"
+		}
+	},
+	"dependency_cd": {
+		"table": "ref_filter_dependency",
+		"display": {
+			"legend": "Court Involvement",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "filter",
+			"multi": true,
+			"selected": 0,
+			"help": "The courts become involved when there is a <a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
+		}
+	},
+	"finding": {
+		"table": "ref_filter_finding",
+		"display": {
+			"legend": "Allegation Finding",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any Legal Finding’ from ‘All (With or Without Legal Finding).’"
+		}
+	},
+	"ihs_services": {
+		"table": "ref_filter_ihs_services",
+		"display": {
+			"legend": "In-Home Services Received",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "The service categories may be in-home or out-of-home services. Some may be only ooh. More about the following services can be found in the Glossary: <a href='/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Focused Services</span></a>, <a href='/data-portal/glossary#letter_t' target='_blank'><span style='text-decoration: underline;'>Therapeutic Services</span></a>, a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>Receiving Care</span></a>, <a href='/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Home Placements</span></a>, a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services </span></a>, <a href='/data-portal/glossary#letter_o' target='_blank'><span style='text-decoration: underline;'>Other Therapeutic Living Situations</span></a>, a href='/data-portal/glossary#letter_s' target='_blank'><span style='text-decoration: underline;'>Specialty Adolescent Services</span></a>, <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>Respite Care</span></a>, <a href='/data-portal/glossary#letter_s' target='_blank'><span style='text-decoration: underline;'>Sexually Aggressive Youth</span></a>, a href='/data-portal/glossary#letter_a' target='_blank'><span style='text-decoration: underline;'>Adoption Support</span></a>. The following services are only available when the child is in out-of-home care: family home placements, other therapeutic living situations, respite care, and adoption support."
+		}
+	},
+	"ooh_los": {
+		"table": "ref_filter_los",
+		"display": {
+			"legend": "Length of Out-of-Home Episode",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date. Multiple placements in various types of out-of-home placement settings can occur within a single episode. This filter allows you to determine how many episodes are greater than 7 days, 60 days, 1 year, or 2 years."
+		}
+	},
+	"nbr_placement": {
+		"table": "ref_filter_nbr_placement",
+		"display": {
+			"legend": "Number of Out-of-Home Placements",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
+		}
+	},
+	"reporter_type": {
+		"table": "ref_filter_reporter_type",
+		"display": {
+			"legend": "Reporter",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement."
+		}
+	},
+	"service_category": {
+		"table": "ref_service_cd_subctgry_poc",
+		"display": {
+			"legend": "Service Category",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"multi": true
+		}
+	},
+	"budget_category": {
+		"table": "ref_service_cd_budget_poc_frc",
+		"display": {
+			"legend": "Budget Category",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "The six Department of Social and Health Services (DSHS) budget categories include all the major IN-HOME budget categories. DSHS codes are provided for people familiar with Children's Administration budget categories."
+		}
+	},
+	"quarterPIT": {
+		"date": true,
+		"display": {
+			"legend": "Measurement Year",
+			"column": "fieldsLeft",
+			"type": "cohort",
+			"quarterDate": "start"
+		}
+	},
+	"quarterStart": {
+		"date": true,
+		"display": {
+			"legend": "Investigation Cohort Quarter",
+			"column": "fieldsLeft",
+			"type": "cohort",
+			"quarterDate": "start",
+			"help": "This filter follows the cohort of households which received their (first) investigation/assessment within the cohort year(s) selected. Data on the percent of children re-referred are returned for up to 48 months following the selected cohort year."
+		}
+	},
+	"quarterEnd": {
+		"date": true,
+		"display": {
+			"legend": "Quarter",
+			"column": "fieldsLeft",
+			"type": "cohort",
+			"quarterDate": "end"
+		}
+	},
+	"quarterEntry": {
+		"date": true,
+		"display": {
+			"legend": "Entry Cohort Quarter",
+			"column": "fieldsLeft",
+			"type": "cohort",
+			"quarterDate": "start",
+			"help": "The entry cohort you are following is that group of children/youth who entered out-of-home care in the chosen year. ENTRY COHORT YEAR choices begin January 2000 and end on the most recent year for which we have data. Because nearly all children/youth in out-of-home care have achieved permanency or turned 18 years old within four years, the default year is set approximately four years earlier than the most recent date and results are returned for up to 48 months."
+		}
+	},
+	"quarterCompellingReasonEntry": {
+		"date": true,
+		"display": {
+			"legend": "\"Compelling Reason\" Cohort",
+			"column": "fieldsLeft",
+			"type": "cohort",
+			"quarterDate": "start"
+		}
+	},
+	"quarterExit": {
+		"date": true,
+		"display": {
+			"legend": "Exit Cohort Quarter",
+			"column": "fieldsLeft",
+			"type": "cohort",
+			"quarterDate": "start",
+			"help": "The exit cohort you are following is that group of children/youth who exited out-of-home care in the chosen year. EXIT COHORT YEARS choices begin January 2000 and end on the most recent year for which we have data. Because the number of re-entries begins to level off after four years, the default year is set approximately four years earlier than the most recent year and results are returned for up to 48 months."
+		}
+	},
+	"quarterService": {
+		"date": true,
+		"display": {
+			"legend": "Service Cohort Quarter",
+			"column": "fieldsLeft",
+			"type": "cohort",
+			"help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
+		}
+	},
+	"monthStart": {
+		"date": true,
+		"display": {
+			"legend": "Date Range",
+			"column": "fieldsLeft",
+			"type": "dateRange",
+			"monthStep": 1,
+			"help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
+		}
+	},
+	"dynamicMonthStart": {
+		"date": true,
+		"display": {
+			"legend": "Date Range",
+			"column": "fieldsLeft",
+			"type": "dynamicDateRange",
+			"monthStep": 1,
+			"monthLimit": 0,
+			"help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
+		}
+	},
+	"quarterRangeStart": {
+		"date": true,
+		"display": {
+			"legend": "Quarters",
+			"column": "fieldsLeft",
+			"type": "dateRange",
+			"monthStep": 3,
+			"monthLimit": 60
+		}
+	},
+	"monthSelector": {
+		"date": true,
+		"display": {
+			"legend": "Dates",
+			"column": "fieldsLeft",
+			"type": "dateSelect"
+		}
+	},
+	"month": {
+		"values": {
+			"3": 3,
+			"6": 6,
+			"12": 12,
+			"24": 24,
+			"36": 36
+		},
+		"display": {
+			"legend": "Months",
+			"column": "fieldsLeft",
+			"type": "param"
+		}
 	}
-  },
-  "allegation":{
-	"table": "ref_filter_allegation",
-	"display": {
-		"legend": "Allegation",
-		"column": "advancedLeft",
-		"visible": false,
-		"type":   "param",
-		"multi":  true,
-		"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning there will be more allegations than cases. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter. To determine how many cases have no allegations, subtract ‘Any Legal Finding’ from ‘All (With or Without Allegation).’"
-	}
-  },
-  "dependency_cd":{
-	"table": "ref_filter_dependency",
-	"display": {
-		"legend": "Court Involvement",
-		"column": "advancedRight",
-		"visible": false,
-		"type":   "filter",
-		"multi":  true,
-		"selected": 0,
-		"help": "The courts become involved when there is a <a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
-	}
-  },
-  "finding":{
-	"table": "ref_filter_finding",
-	"display": {
-		"legend": "Allegation Finding",
-		"column": "advancedLeft",
-		"visible": false,
-		"type":   "param",
-		"multi":  true,
-		"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any Legal Finding’ from ‘All (With or Without Legal Finding).’"
-	}
-  },
-  "ihs_services":{
-	"table": "ref_filter_ihs_services",
-	"display": {
-		"legend": "In-Home Services Received",
-		"column": "advancedRight",
-		"visible": false,
-		"type":   "param",
-		"multi":  true,
-		"help": "The service categories may be in-home or out-of-home services. Some may be only ooh. More about the following services can be found in the Glossary: <a href='/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Focused Services</span></a>, <a href='/data-portal/glossary#letter_t' target='_blank'><span style='text-decoration: underline;'>Therapeutic Services</span></a>, a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>Receiving Care</span></a>, <a href='/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Home Placements</span></a>, a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services </span></a>, <a href='/data-portal/glossary#letter_o' target='_blank'><span style='text-decoration: underline;'>Other Therapeutic Living Situations</span></a>, a href='/data-portal/glossary#letter_s' target='_blank'><span style='text-decoration: underline;'>Specialty Adolescent Services</span></a>, <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>Respite Care</span></a>, <a href='/data-portal/glossary#letter_s' target='_blank'><span style='text-decoration: underline;'>Sexually Aggressive Youth</span></a>, a href='/data-portal/glossary#letter_a' target='_blank'><span style='text-decoration: underline;'>Adoption Support</span></a>. The following services are only available when the child is in out-of-home care: family home placements, other therapeutic living situations, respite care, and adoption support."
-	}
-  },
-  "ooh_los":{
-	"table": "ref_filter_los",
-	"display": {
-		"legend": "Length of Out-of-Home Episode",
-		"column": "advancedLeft",
-		"visible": false,
-		"type":   "param",
-		"multi":  true,
-		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date. Multiple placements in various types of out-of-home placement settings can occur within a single episode. This filter allows you to determine how many episodes are greater than 7 days, 60 days, 1 year, or 2 years."
-	}	
-  },
-  "nbr_placement":{
-	"table": "ref_filter_nbr_placement",
-	"display": {
-		"legend": "Number of Out-of-Home Placements",
-		"column": "advancedLeft",
-		"visible": false,
-		"type":   "param",
-		"multi":  true,
-		"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
-	}	
-  },
-  "reporter_type":{
-	"table": "ref_filter_reporter_type",
-	"display": {
-		"legend": "Reporter",
-		"column": "advancedLeft",
-		"visible": false,
-		"type":   "param",
-		"multi":  true, 
-		"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement."
-        }
-  },
-  "service_category":{
-    "table": "ref_service_cd_subctgry_poc",
-	"display": {
-	  "legend": "Service Category",
-	  "column": "advancedRight",
-	  "visible": false,
-	  "type": "param",
-	  "multi": true
-	}
-  },
-  "budget_category":{
-    "table": "ref_service_cd_budget_poc_frc",
-	"display": {
-	  "legend": "Budget Category",
-	  "column": "advancedRight",
-	  "visible": false,
-	  "type": "param",
-	  "multi": true,
-	  "help": "The six Department of Social and Health Services (DSHS) budget categories include all the major IN-HOME budget categories. DSHS codes are provided for people familiar with Children's Administration budget categories."
-	}
-  },
-    "quarterPIT": {
-    "date": true,
-    "display": {
-      "legend": "Measurement Year",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start"
-    }
-  },
-  "quarterStart": {
-    "date": true,
-    "display": {
-      "legend": "Investigation Cohort Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start",
-      "help": "This filter follows the cohort of households which received their (first) investigation/assessment within the cohort year(s) selected. Data on the percent of children re-referred are returned for up to 48 months following the selected cohort year."
-    }
-  },
-  "quarterEnd": {
-    "date": true,
-    "display": {
-      "legend": "Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "end"
-    }
-  },
-  "quarterEntry": {
-    "date": true,
-    "display": {
-      "legend": "Entry Cohort Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start", 
-      "help": "The entry cohort you are following is that group of children/youth who entered out-of-home care in the chosen year. ENTRY COHORT YEAR choices begin January 2000 and end on the most recent year for which we have data. Because nearly all children/youth in out-of-home care have achieved permanency or turned 18 years old within four years, the default year is set approximately four years earlier than the most recent date and results are returned for up to 48 months."
-    }
-  },
-  "quarterCompellingReasonEntry": {
-    "date": true,
-    "display": {
-      "legend": "\"Compelling Reason\" Cohort",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start"
-    }
-  },
-  "quarterExit": {
-    "date": true,
-    "display": {
-      "legend": "Exit Cohort Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start",
-      "help": "The exit cohort you are following is that group of children/youth who exited out-of-home care in the chosen year. EXIT COHORT YEARS choices begin January 2000 and end on the most recent year for which we have data. Because the number of re-entries begins to level off after four years, the default year is set approximately four years earlier than the most recent year and results are returned for up to 48 months."
-    }
-  },
-  "quarterService": {
-    "date": true,
-    "display": {
-      "legend": "Service Cohort Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
-    }
-  },
-  "monthStart": {
-    "date": true,
-    "display": {
-      "legend": "Date Range",
-      "column": "fieldsLeft",
-      "type": "dateRange",
-      "monthStep":  1,
-      "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
-      }
-  },
-  "dynamicMonthStart": {
-    "date": true,
-    "display": {
-      "legend": "Date Range",
-      "column": "fieldsLeft",
-      "type": "dynamicDateRange",
-      "monthStep":  1,
-      "monthLimit": 0,
-      "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
-    }
-  },
-  "quarterRangeStart": {
-    "date": true,
-    "display": {
-      "legend": "Quarters",
-      "column": "fieldsLeft",
-      "type": "dateRange",
-      "monthStep":  3,
-      "monthLimit": 60
-    }
-  },
-  "monthSelector": {
-    "date": true,
-    "display": {
-      "legend": "Dates",
-      "column": "fieldsLeft",
-      "type": "dateSelect"
-    }
-  },
-  "month": {
-    "values": {
-       "3":  3,
-       "6":  6,
-      "12": 12,
-      "24": 24,
-      "36": 36
-    },
-    "display": {
-      "legend": "Months",
-      "column": "fieldsLeft",
-      "type": "param"
-    }
-  }
 }

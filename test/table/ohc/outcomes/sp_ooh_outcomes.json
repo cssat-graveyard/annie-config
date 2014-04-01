@@ -1,18 +1,18 @@
 {
-  "table": "sp_PBCP5",
-  "title": "Re-Entry - Comparison",
+  "table": "sp_ooh_outcomes",
+  "title": "Exits from Out-of-Home Care",
   "transform": {
     "Function": "trim",
-    "table": "sp_PBCP5",
+    "table": "sp_outcomes",
     "dateField": "Cohort Entry Date"
   },
   "controls": [
-    "discharge_type_safety"
-    ,"dependency_cd"
-    ,"qry_type"
+    "discharge_type_outcomes",
+    "dependency_cd",
+    "qry_type"
   ],
   "params": [
-    "quarterExit",
+    "quarterEntry",
     "age",
     "ethnicityCensus",
     "gender",
@@ -31,7 +31,7 @@
   ],
   "dateParams": [],
   "requiredParams": [
-    "quarterExit"
+    "quarterEntry"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
@@ -65,15 +65,15 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Months Since Exiting",
-          "y": "Percentage Re-Entering"
+          "x": "Months Since Entering",
+          "y": "Percentage Achieving Outcome"
         },
         "addInputClass": "multiAllowed"
       }
     ]
   },
   "labels": {
-      "x": "Months Since Exiting",
-      "y": "Percentage Re-Entering"
+    "x": "Months Since Entering",
+    "y": "Percentage Achieving Outcome"
   }
 }
