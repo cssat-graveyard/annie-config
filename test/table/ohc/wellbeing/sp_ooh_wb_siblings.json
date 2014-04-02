@@ -1,88 +1,79 @@
 {
-  "table": "sp_ooh_wb_siblings",
-  "title": "Sibling Placements",
-  "measurementOrder": 2,
-    "transform": {
-    "Function": "daterow",
-    "dateField": "Cohort Entry Date",
-    "valueFields": [
-      "All_Together",
-      "Some_Together",
-      "None_Together",
-      "Number in Cohort"
-    ],
-    "removeFields": [
-    ]
-  },
-   "controls": [
-   	"qry_type",
-   	"dependency_cd",
-   	"kincare",
-   	"bin_sibling_group_size"
-   ],
-  "params": [
-    "quarterPIT",
-    "age",
-    "ethnicityCensus",
-    "gender",
-    "initSetng",
-    "longSetng",
-    "removalCounty",
-    "ooh_los",
-    "nbr_placement",
-    "ihs_services",
-	"reporter_type",
-	"access_type",
-	"allegation",
-	"finding",
-    "service_category",
-	"budget_category"
-  ],
-  "dateParams": [],
-  "requiredParams": [
-    "quarterPIT"
-  ],
-  "showAllOthers": true,
-  "returnRowHeaders": [
-    0,
-    4,
-	6,
-	8,
-	10,
-	12,
-	14,
-	16,
-	18,
-	20,
-	22,
-	24,
-	26,
-	28,
-	30,
-	32,
-	34,
-	36,
-	38
-  ],
-  "returnRowDateHeaders": [
-    0
-  ],
-  "returnRowStart": 39,
-  "columnClusterSize": 4,
-  "multicharts": {
-  "Overview": [
-	  {
-	    "chartType": "column",
-	    "chartId": "chart1",
-	    "style": "",
-	    "labels": {
-		    "x": "Sibling Placement",
-		    "y": "Percentage of Children"
-	    },
-        "hideColumns": [
-        3
-        ]
-      }
-	]
-	}    
+	"table": "sp_ooh_wb_siblings",
+	"title": "Sibling Placements",
+	"measurementOrder": 2,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Cohort Entry Date",
+		"valueFields": [
+		    "All_Together",
+		    "Some_Together",
+		    "None_Together",
+		    "Number in Cohort"
+		],
+		"removeFields": []
+	},
+	"controls": [
+	    "qry_type_poc1_first_unique",
+	    "kincare",
+	    "bin_sibling_group_size"
+	],
+	"params": [
+	    "quarterPIT",
+	    "age",
+	    "ethnicityCensus",
+	    "gender",
+	    "initSetng",
+	    "longSetng",
+	    "removalCounty",
+	    "ooh_los",
+	    "nbr_placement",
+	    "ihs_services",
+	    "reporter_type",
+	    "access_type",
+	    "allegation",
+	    "finding",
+	    "service_category",
+	    "budget_category",
+		"dependency_cd"
+	],
+	"dateParams": [],
+	"requiredParams": ["quarterPIT"],
+	"showAllOthers": true,
+	"returnRowHeaders": [
+	    0,
+	    4,
+	    6,
+	    8,
+	    10,
+	    12,
+	    14,
+	    16,
+	    18,
+	    20,
+	    22,
+	    24,
+	    26,
+	    28,
+	    30,
+	    32,
+	    34,
+	    36,
+	    38
+	],
+	"returnRowDateHeaders": [0],
+	"returnRowStart": 39,
+	"columnClusterSize": 4,
+	"multicharts": {
+		"Overview": [{
+			"chartType": "column",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "Sibling Placement",
+				"y": "Percentage of Children"
+			},
+			"hideColumns": [3]
+		}]
+	}
 }
