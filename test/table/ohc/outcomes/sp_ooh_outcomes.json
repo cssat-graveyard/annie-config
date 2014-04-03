@@ -8,7 +8,7 @@
   },
   "controls": [
     "discharge_type_outcomes",
-    "qry_type"
+    "qry_type_first_unique"
   ],
   "params": [
     "quarterEntry",
@@ -56,6 +56,26 @@
   ],
   "returnRowDateHeaders": [
     0
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "*qry_type_first_unique",
+    "Age Grouping=ageCensus",
+    "Gender=gender",
+    "Race/Ethnicity",
+    "First Placement Setting=initSetng",
+    "Longest Placement Setting=longSetng",
+    "County=removalCounty",
+    "Dependency=dependency_cd",
+    "Length of Service Desc=ooh_los",
+    "Placement Count Desc=nbr_placement",
+    "In-Home Service Desc=ihs_services",
+    "Reporter Desc=reporter_type",
+    "Access type desc=access_type",
+    "Allegation=allegation",
+    "Finding=finding",
+    "Service Type=service_category",
+    "Budget=budget_category"
   ],
   "returnRowStart": 37,
   "columnClusterSize": 1,
