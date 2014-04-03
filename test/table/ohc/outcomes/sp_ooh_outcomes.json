@@ -8,7 +8,6 @@
   },
   "controls": [
     "discharge_type_outcomes",
-    "dependency_cd",
     "qry_type"
   ],
   "params": [
@@ -27,7 +26,8 @@
 	"allegation",
 	"finding",
     "service_category",
-	"budget_category"
+	"budget_category",
+	"dependency_cd"
   ],
   "dateParams": [],
   "requiredParams": [
@@ -58,6 +58,7 @@
     0
   ],
   "returnRowStart": 37,
+  "columnClusterSize": 1,
   "multicharts": {
     "Default": [
       {
@@ -75,5 +76,8 @@
   "labels": {
     "x": "Months Since Entering",
     "y": "Percentage Achieving Outcome"
+  },
+  "numberFormat": {
+      "fractionDigits": 2
   }
 }

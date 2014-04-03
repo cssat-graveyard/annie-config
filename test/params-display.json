@@ -556,6 +556,17 @@
 			"quarterDate": "start"
 		}
 	},
+	"yearPIT": {
+		"table":
+		"date": true,
+		"display": {
+			"legend": "Year",
+			"column": "fieldsLeft",
+			"type": filter,
+			"multi": true,
+			"selected": "2009"
+		}
+	}
 	"quarterStart": {
 		"date": true,
 		"display": {
@@ -665,5 +676,7 @@
 			"column": "fieldsLeft",
 			"type": "param"
 		}
+	}
+	"fast_facts_description": {
 	}
 }
