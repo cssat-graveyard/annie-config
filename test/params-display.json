@@ -300,7 +300,7 @@
 		}
 	},
 	"qry_type_first_unique": {
-		"table": "vw_qry_type_poc1ab_unique_first"
+		"table": "vw_qry_type_poc1ab_unique_first",
 		"display": {
 			"legend": "Count Type",
 			"column": "fieldsRight",
@@ -554,16 +554,16 @@
 		}
 	},
 	"yearPIT": {
-		"table":
+		"table": "tbd",
 		"date": true,
 		"display": {
 			"legend": "Year",
 			"column": "fieldsLeft",
-			"type": filter,
+			"type": "filter",
 			"multi": true,
 			"selected": "2009"
 		}
-	}
+	},
 	"quarterStart": {
 		"date": true,
 		"display": {
@@ -673,7 +673,5 @@
 			"column": "fieldsLeft",
 			"type": "param"
 		}
-	}
-	"fast_facts_description": {
 	}
 }
