@@ -10,12 +10,11 @@
     "removeFields": []
   },
   "controls": [
-    "qry_type"
-	"quarterStart"
+    "qry_type",
+	"cohort_year_short"
   ],
   "params": [
-    "quarterStart",
-    "age",
+    "ageSib",
     "ethnicityCensus",
     "office",
     "reporter_type",
@@ -24,9 +23,7 @@
     "finding"
   ],
   "dateParams": [],
-  "requiredParams": [
-    "quarterStart"
-  ],
+  "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
@@ -37,10 +34,21 @@
     9,
     11,
     13,
-    15,
-    17
+    15
   ],
-  "returnRowStart": 18,
+  "returnRowDateHeaders": [],
+  "headerNames": [
+	"Year=cohort_year_short",
+	"qry_type*qry_type_poc1_first_unique",
+	"Age Grouping=ageSib",
+	"Race/Ethnicity=ethnicityCensus",
+	"Office=office",
+	"Reporter Desc=reporter_type",
+	"Access type desc=access_type",
+	"Allegation=allegation",
+	"Finding=finding"
+  ],
+  "returnRowStart": 17,
   "chartType": "line",
   "labels": {
     "x": "Months Since First Investigation",
