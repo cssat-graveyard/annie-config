@@ -628,7 +628,7 @@
 			"column": "fieldsLeft",
 			"type": "filter",
 			"zeroLast": false,
-			"selected": "2010",
+			"selected": 2010,
 			"multi": true,
 			"help": "The cohort entry year TODO"
 		}
