@@ -7,7 +7,8 @@
     "valueFields": [
       "Among first referrals, percent that are re-referred"
     ],
-    "removeFields": []
+    "removeFields": [],
+	"table": "sp_ia_safety",
   },
   "controls": [
     "qry_type_first_unique",
