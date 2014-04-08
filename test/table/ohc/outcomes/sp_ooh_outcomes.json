@@ -2,9 +2,12 @@
   "table": "sp_ooh_outcomes",
   "title": "Exits from Out-of-Home Care",
   "transform": {
-    "Function": "trim",
-    "table": "sp_outcomes",
-    "dateField": "Cohort Entry Date"
+    "Function": "daterow",
+    "dateField": "Cohort Entry Date",
+	"valueFields": [
+		"Rate"
+	],
+	"removeFields": []
   },
   "controls": [
     "discharge_type_outcomes",
@@ -30,8 +33,7 @@
 	"dependency_cd"
   ],
   "dateParams": [],
-  "requiredParams": [
-  ],
+  "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
@@ -76,25 +78,11 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 36,
-  "columnClusterSize": 2,
-  "multicharts": {
-    "Default": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Months Since Entering",
-          "y": "Percentage Achieving Outcome"
-        },
-        "addInputClass": "multiAllowed"
-      }
-    ]
-  },
+  "chartType": "line",
   "labels": {
-    "x": "Months Since Entering",
+	"x": "Months Since Entering",
     "y": "Percentage Achieving Outcome"
-  },
+  }, 
   "numberFormat": {
       "fractionDigits": 2
   }
