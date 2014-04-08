@@ -8,7 +8,7 @@
       "Among first referrals, percent that are re-referred"
     ],
     "removeFields": [],
-	"table": "sp_ia_safety",
+	"table": "sp_ia_safety"
   },
   "controls": [
     "qry_type_first_unique",
