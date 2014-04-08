@@ -395,17 +395,19 @@
 		}
 	},
 	"nbrSiblings": {
-		"values": ["All Others",
-		"1",
-		"2",
-		"3",
-		"4",
-		"5",
-		"6",
-		"7",
-		"8",
-		"9",
-		"10"],
+		"values": [
+			"All Others",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9",
+			"10"
+		],
 		"display": {
 			"legend": "Number of Siblings",
 			"column": "advancedLeft",
@@ -648,7 +650,22 @@
 			"help": "The cohort entry year TODO"
 		}
 	},
-
+	"cohort_year_short_string": {
+		"values": {
+			"2010": "2010",
+			"2011": "2011",
+			"2012": "2012"
+		},
+		"display": {
+			"legend": "Entry Cohort",
+			"column": "fieldsLeft",
+			"type": "filter",
+			"zeroLast": false,
+			"selected": "2010",
+			"multi": true,
+			"help": "The cohort entry year TODO"
+		}
+	},
 	"quarterStart": {
 		"date": true,
 		"display": {
