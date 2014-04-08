@@ -584,13 +584,13 @@
 		"display": {
 			"legend": "Entry Cohort",
 			"column": "fieldsLeft",
-			"type": "filter,
+			"type": "filter",
 			"zeroLast": false,
 			"selected": "2009",
 			"multi": true,
 			"help": "The cohort entry year TODO"
 		}
-	}
+	},
 	"quarterStart": {
 		"date": true,
 		"display": {
