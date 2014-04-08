@@ -8,8 +8,7 @@
       "Among first referrals, percent that are re-referred"
     ],
     "removeFields": [],
-	"table": "sp_ia_safety",
-	"startDateField": "Year"
+	"table": "sp_ia_safety"
   },
   "controls": [
     "qry_type_first_unique",
@@ -39,12 +38,15 @@
     16
   ],
   "returnRowDateHeaders": [],
+   "returnRowControlHeaders": [
+    1
+  ],
   "headerNames": [
 	"&nbsp;",
 	"qry_type*qry_type_first_unique",
 	"Year=cohort_year_short",
 	"Age Grouping=ageSib",
-	"Race/Ethnicity=ethnicityCensus",
+	"Race/Ethnicity",
 	"Office=office",
 	"Reporter Desc=reporter_type",
 	"Access type desc=access_type",
@@ -56,5 +58,8 @@
   "labels": {
     "x": "Months Since First Investigation",
     "y": "Percentage of Children"
+  },
+   "numberFormat": {
+      "fractionDigits": 2
   }
 }
