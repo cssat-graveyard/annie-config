@@ -8,8 +8,7 @@
       "Among first referrals, percent that are re-referred"
     ],
     "removeFields": [],
-	"table": "sp_ia_safety",
-	"startDateField": "Year"
+	"table": "sp_ia_safety"
   },
   "controls": [
     "qry_type_first_unique",
@@ -28,20 +27,20 @@
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
-    0,
     1,
-    3,
-    5,
-    7,
-    9,
-    11,
-    13,
-    15
+	2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
   ],
   "returnRowDateHeaders": [],
   "headerNames": [
-	"Year=cohort_year_short",
 	"qry_type*qry_type_first_unique",
+	"Year=cohort_year_short",
 	"Age Grouping=ageSib",
 	"Race/Ethnicity=ethnicityCensus",
 	"Office=office",
