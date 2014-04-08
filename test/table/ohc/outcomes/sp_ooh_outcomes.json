@@ -8,10 +8,10 @@
   },
   "controls": [
     "discharge_type_outcomes",
-    "qry_type_first_unique"
+    "qry_type_first_unique",
+	"cohort_year"
   ],
   "params": [
-    "quarterEntry",
     "age",
     "ethnicityCensus",
     "gender",
@@ -31,34 +31,32 @@
   ],
   "dateParams": [],
   "requiredParams": [
-    "quarterEntry"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    4,
-    6,
-    8,
-    10,
-    12,
-    14,
-    16,
-    18,
-    20,
-    22,
-    24,
-    26,
-    28,
-    30,
-    32,
-    34,
-    36
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35
   ],
   "returnRowDateHeaders": [
-    0
   ],
   "headerNames": [
-    "&nbsp;",
+    "Cohort Entry Date=cohort_year",
     "*qry_type_first_unique",
     "Age Grouping=ageCensus",
     "Gender=gender",
@@ -77,8 +75,8 @@
     "Service Type=service_category",
     "Budget=budget_category"
   ],
-  "returnRowStart": 37,
-  "columnClusterSize": 1,
+  "returnRowStart": 36,
+  "columnClusterSize": 2,
   "multicharts": {
     "Default": [
       {
