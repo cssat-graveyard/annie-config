@@ -775,11 +775,5 @@
 			"column": "fieldsLeft",
 			"type": "param"
 		}
-	},
-	"dashboard": {
-		"id1": {
-			"name": "Entries per 1000",
-			"description": "This measure shows tasdkaslfa"
-		}
 	}
 }
