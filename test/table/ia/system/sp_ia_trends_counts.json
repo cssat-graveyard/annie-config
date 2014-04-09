@@ -2,7 +2,7 @@
   "Base": "sp_POC2_perCapita",
   "title": "Count of Investigations",
   "measurementOrder": 1,
-  "table": "sp_poc2_counts",
+  "table": "sp_ia_trends_counts",
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
