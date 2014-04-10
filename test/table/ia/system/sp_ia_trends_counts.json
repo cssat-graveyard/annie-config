@@ -27,9 +27,12 @@
 	"allegation",
 	"finding"
   ],
+  "requiredParams": [
+	"dynamicMonthStart"
+  ],
   "returnRowHeaders": [
-    0,
     1,
+    2,
     4,
     6,
 	8,
@@ -42,7 +45,7 @@
     0
   ],
   "returnRowControlHeaders": [
-    1
+    1,2
   ],
   "headerNames": [
     "&nbsp;",
