@@ -1,5 +1,5 @@
 {
-  "table": "sp_PBCS3",
+  "table": "sp_ihs_safety",
   "title": "Placement Following In-Home Services",
   "transform": {
     "Function": "daterow",

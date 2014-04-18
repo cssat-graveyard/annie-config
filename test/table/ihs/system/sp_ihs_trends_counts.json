@@ -1,5 +1,5 @@
 {
-  "table": "sp_poc3_counts",
+  "table": "sp_ihs_trends_counts",
   "Base": "sp_POC3_perCapita",  
   "title": "Count of In-Home Service Cases",
   "measurementOrder": 1,  
