@@ -1,18 +1,16 @@
 {
-  "table": "sp_ihs_trends_counts",
-  "Base": "sp_POC3_perCapita",  
   "title": "Count of In-Home Service Cases",
   "measurementOrder": 1,  
+  "table": "sp_ihs_trends_counts",
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
       "Total In Care First Day",
-      "Number of opened",
-      "Number of closed"
+      "Number of Entries",
+      "Number of Exits"
     ],
-    "removeFields": [
-    ]
+    "removeFields": []
   },
   "controls": [
     "qry_type_poc3",
@@ -49,7 +47,7 @@
     0
   ],
   "returnRowControlHeaders": [
-    1
+    1,2
   ],
   "headerNames": [
     "&nbsp;",
