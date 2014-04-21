@@ -11,10 +11,10 @@
     "removeFields": []
   },
   "controls": [
-    "qry_type"
+    "qry_type",
+	"cohort_year_ihs_safety"
   ],
   "params": [
-    "quarterService",
     "ageSib",
     "ethnicityCensus",
     "office",
@@ -26,12 +26,10 @@
     "service_category",
     "budget_category"
   ],
-    "dateParams": [],
-    "requiredParams": [
-    "quarterService"
-  ],
-    "showAllOthers": true,
-    "returnRowHeaders": [
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
     0,
     1,
     3,
@@ -46,10 +44,32 @@
     21,
     23
   ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    1
+  ],
+  "headerNames": [
+	"&nbsp;",
+	"qry_type*qry_type_first_unique",
+	"Year*cohort_year_ihs_safety",
+	"Age Grouping=ageSib",
+	"Race/Ethnicity",
+	"Office=office",
+	"In-Home Service Desc=ihs_services",
+	"Reporter Desc=reporter_type",
+	"Access type desc=access_type",
+	"Allegation=allegation",
+	"Finding=finding",
+	"Service Type=service_category",
+	"Budget=budget_category"
+  ],
   "returnRowStart": 24,
   "chartType": "line",
   "labels": {
     "x": "Months Since In-Home Services Cases Opened",
     "y": "Percentage of Children Placed"
+  },
+  "numberFormat": {
+    "fractionDigits": 2
   }
 }
