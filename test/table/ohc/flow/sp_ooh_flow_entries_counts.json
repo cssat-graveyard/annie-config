@@ -34,8 +34,7 @@
     "budget_category",
     "dependency_cd"
   ],
-  "dateParams": [
-  ],
+  "dateParams": [],
   "requiredParams": [
     "dynamicMonthStart"
   ],

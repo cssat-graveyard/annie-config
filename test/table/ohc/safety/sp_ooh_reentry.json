@@ -8,12 +8,10 @@
 	"removeFields": []
   },
   "controls": [
-    "discharge_type_safety"
-    ,"dependency_cd"
-    ,"qry_type"
+    "discharge_type_safety",
+    "cohort_year_ooh_int"
   ],
   "params": [
-    "quarterExit",
     "age",
     "ethnicityCensus",
     "gender",
@@ -32,50 +30,61 @@
 	"dependency_cd"
   ],
   "dateParams": [],
-  "requiredParams": [
-    "quarterExit"
-  ],
+  "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    4,
-    6,
-    8,
-    10,
-    12,
-    14,
-    16,
-    18,
-    20,
-    22,
-    24,
-    26,
-    28,
-    30,
-    32,
-    34,
-    36
+	1,
+	2,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37
   ],
-  "returnRowDateHeaders": [
-    0
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [1, 2],
+  "headerNames": [
+	"&nbsp;",
+    "*qry_type_poc1",
+	"Cohort Entry Date*cohort_year_ooh_int",
+    "Age Grouping=ageCensus",
+    "Gender=gender",
+    "Race/Ethnicity",
+    "First Placement Setting=initSetng",
+    "Longest Placement Setting=longSetng",
+    "County=removalCounty",
+    "Dependency=dependency_cd",
+    "Length of Service Desc=ooh_los",
+    "Placement Count Desc=nbr_placement",
+    "In-Home Service Desc=ihs_services",
+    "Reporter Desc=reporter_type",
+    "Access type desc=access_type",
+    "Allegation=allegation",
+    "Finding=finding",
+    "Service Type=service_category",
+    "Budget=budget_category",
+	"Discharge Type=discharge_type_safety"
   ],
-  "returnRowStart": 37,
-  "multicharts": {
-    "Default": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Months Since Exiting",
-          "y": "Percentage Re-Entering"
-        },
-        "addInputClass": "multiAllowed"
-      }
-    ]
-  },
+  "returnRowStart": 38,
+  "chartType": "line",
   "labels": {
       "x": "Months Since Exiting",
       "y": "Percentage Re-Entering"
+  },
+  "numberFormat": {
+    "fractionDigits": 2
   }
 }
