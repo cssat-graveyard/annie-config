@@ -1,5 +1,6 @@
 {
   "table": "sp_ooh_flow_exits",
+  "Base": "sp_ooh_flow_entries_counts",
   "title": "Count of Out-of-Home Care Exits",
   "measurementOrder": 3,
   "transform": {
@@ -8,8 +9,7 @@
     "valueFields": [
       "Number of Exits"
     ],
-    "removeFields": [
-    ]
+    "removeFields": []
   },
   "controls": [
     "qry_type_poc1_first_unique",
@@ -91,20 +91,7 @@
   ],
   "returnRowStart": 37,
   "columnClusterSize": 1,
-  "multicharts": {
-    "Overview": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Time",
-          "y": "Number of Exits"
-        },
-        "addInputClass": "multiAllowed"
-      }
-    ]
-  },
+  "chartType": "line",
   "labels": {
     "x": "Time",
     "y": "Number of Exits"

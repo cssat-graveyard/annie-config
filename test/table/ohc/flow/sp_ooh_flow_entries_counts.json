@@ -9,8 +9,7 @@
     "valueFields": [
       "Number of Entries"
     ],
-    "removeFields": [
-    ]
+    "removeFields": []
   },
   "controls": [
     "qry_type_poc1",
