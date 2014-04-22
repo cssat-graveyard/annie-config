@@ -2,9 +2,10 @@
   "table": "sp_ooh_reentry",
   "title": "Re-Entry - Comparison",
   "transform": {
-    "Function": "trim",
-    "table": "sp_ooh_reentry",
-    "dateField": "Cohort Entry Date"
+    "Function": "daterow",
+	"dateField": "Month",
+    "valueFields": ["Reentry Percent"],
+	"removeFields": []
   },
   "controls": [
     "discharge_type_safety"

@@ -4,10 +4,7 @@
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
-    "valueFields": [
-      "Not Placed",
-      "Placed"
-    ],
+    "valueFields": ["Placed"],
     "removeFields": []
   },
   "controls": [
