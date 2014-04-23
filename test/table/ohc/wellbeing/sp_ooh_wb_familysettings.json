@@ -1,7 +1,7 @@
 {
   "table": "sp_ooh_wb_familysettings",
   "title": "Placements in Family Settings",
-   "measurementOrder": 1,
+  "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
@@ -14,11 +14,11 @@
     "removeFields": []
   },
    "controls": [
-    "qry_type",
-    "dependency_cd"
+    "qry_type_first_unique",
+    "date_type"
   ],
   "params": [
-    "monthStart",
+    "dynamicMonthStart",
     "age",
     "ethnicityCensus",
     "gender",
@@ -33,11 +33,12 @@
 	"allegation",
 	"finding",
     "service_category",
-	"budget_category"
+	"budget_category",
+	"dependency_cd"
   ],
   "dateParams": [],
   "requiredParams": [
-    "monthStart"
+    "dynamicMonthStart"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
@@ -61,23 +62,23 @@
   ],
  "headerNames": [
     "&nbsp;",
-    "*qry_type",
-    "Age Grouping",
+    "qry_type_poc1_first_unique*qry_type_first_unique",
+    "Age Grouping=age",
     "Race/Ethnicity",
-    "Gender",
-    "First Placement Setting",
-    "Longest Placement Setting",
-    "Removal County",
-	"Dependency",
-	"Length of Service",
-	"Count of Placements",
-	"In-Home Service Record",
-	"Reporter",
-	"Access Type",
-	"Allegation",
-	"Finding",
-	"Service Type",
-	"Budget Code"
+    "Gender=gender",
+    "First Placement Setting=initSetng",
+    "Longest Placement Setting=longSetng",
+    "County=removalCounty",
+	"Dependency=dependency_cd",
+	"Length of Service Desc=ooh_los",
+	"Placement Count Desc=nbr_placement",
+	"In-Home Service Desc=ihs_services",
+	"Reporter Desc=reporter_type",
+	"Access type desc=access_type",
+	"Allegation=allegation",
+	"Finding=finding",
+	"Service Type=service_category",
+	"Budget=budget_category"
   ],
   "returnRowDateHeaders": [
     0
