@@ -388,7 +388,7 @@
 			"removeKeys": [1],
 			"zeroLast": false,
 			"help": {
-				"default": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of opened or closed cases per quarter, go to the ‘Count (or Rate) of Opened Cases or Case Closures’ columns in the table format and total the three months for the quarter(s) you are interested in.",
+				"default":,
 				"sp_ooh_pit_counts": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in.",
 				"sp_ooh_pit_rates": "Data may be viewed either by ‘Month’ or by ‘Year’ (the default selection). If you wish to know the count (or rate) of entries or exits per quarter, go to the ‘Count (or Rate) of Entries or Exits’ columns in the table format and total the three months for the quarter(s) you are interested in."
 			}
