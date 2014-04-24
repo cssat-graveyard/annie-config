@@ -387,11 +387,7 @@
 			"selected": 2,
 			"removeKeys": [1],
 			"zeroLast": false,
-			"help": {
-				"default": "",
-				"sp_ooh_pit_counts": "",
-				"sp_ooh_pit_rates": ""
-			}
+		
 		}
 	},
 	"nbrSiblings": {
