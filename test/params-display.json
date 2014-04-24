@@ -384,10 +384,7 @@
 			"legend": "Time Interval",
 			"column": "fieldsLeft",
 			"type": "filter",
-			"selected": 2,
-			"removeKeys": [1],
-			"zeroLast": false,
-		
+			"selected": 0
 		}
 	},
 	"nbrSiblings": {
