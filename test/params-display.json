@@ -213,4 +213,6 @@
 			"column": "advancedLeft",
 			"visible": false,
 			"type": "param",
-			"help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."
+			"help": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given month or year (point in time data) and the count or rate of entries or exits from their first placement setting for the entire year or month (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."	}
+                }
+        },
