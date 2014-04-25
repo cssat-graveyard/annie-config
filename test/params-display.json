@@ -27,7 +27,7 @@
 		"table": "ref_lookup_age_census",
 		"valueColumn": 3,
 		"display": {
-			"legend": "Age on 1st Day of the Year",
+			"legend": "Age at Removal",
 			"column": "fieldsRight",
 			"type": "param",
 			"help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age on the first day of the year. Because the Census provides data on ages per geographic area, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
