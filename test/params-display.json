@@ -20,7 +20,7 @@
 			"legend": "Age at Time of Placement",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age references the child’s/youth’s age at the time of placement in out-of-home care  Test Change."
+			"help": "Age references the child’s/youth’s age at the time of placement in out-of-home care."
 		}
 	},
 	"ageCensus": {
@@ -30,7 +30,7 @@
 			"legend": "Age at Removal",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages within geographic divisions, we are able to calculate the rate of cases (per 1,000) by age for the state or for an individual county."
+			"help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages within geographic divisions, we are able to calculate the rate of cases (per 1,000) by age for the state or for an individual county. Test change"
 		}
 	},
 	"ageSib": {
