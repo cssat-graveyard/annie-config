@@ -582,7 +582,7 @@
 			"zeroLast": false,
 			"selected": "2009",
 			"multi": true,
-			"help": "The cohort entry year TODO"
+			"help": "The cohort entry year for this measurement. TODO"
 		}
 	},
 	"cohort_year_int": {
