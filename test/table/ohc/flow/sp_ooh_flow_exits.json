@@ -35,8 +35,7 @@
     "budget_category",
     "dependency_cd"
   ],
-  "dateParams": [
-  ],
+  "dateParams": [],
   "requiredParams": [
     "dynamicMonthStart"
   ],
@@ -44,7 +43,6 @@
   "mutexAllOther": false,
   "returnRowHeaders": [
     0,
-	1,
     4,
     6,
     8,
@@ -91,7 +89,6 @@
 	"Outcome=discharge_type_outcomes"
   ],
   "returnRowStart": 37,
-  "columnClusterSize": 1,
   "chartType": "line",
   "labels": {
     "x": "Time",
