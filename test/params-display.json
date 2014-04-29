@@ -104,7 +104,7 @@
 			"column": "fieldsRight",
 			"visible": false,
 			"type": "filter",
-			"selected": [1, 3, 4],
+			"selected": "*",
 			"multi": true,
 			"zeroLast": true,
 			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exits to all five outcomes."
@@ -328,7 +328,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Data are aggregated into two COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while ‘Unduplicated Out-of-Home Care Cases’ counts/rates of will be the highest. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for out-of-home care cases are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while ‘Unduplicated Out-of-Home Care Cases’ counts/rates of will be the highest. ‘Unduplicated Out-of-Home Care Cases’ are unique cases (i.e., the first out-of-home care cases per time period). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc2": {
