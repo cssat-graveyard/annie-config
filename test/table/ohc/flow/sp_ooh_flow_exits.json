@@ -1,5 +1,6 @@
 {
   "table": "sp_ooh_flow_exits",
+  "Base": "sp_ooh_flow_entries_rates",
   "title": "Count of Out-of-Home Care Exits",
   "measurementOrder": 3,
   "transform": {
