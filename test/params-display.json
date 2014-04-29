@@ -456,7 +456,7 @@
 			4,
 			5],
 			"multi": true,
-			"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect."
+			"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/ referrals of alleged child abuse and neglect."
 		}
 	},
 	"allegation": {
@@ -512,7 +512,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date. Multiple placements in various types of out-of-home placement settings can occur within a single episode. This filter allows you to determine how many episodes are greater than 7 days, 60 days, 1 year, or 2 years."
+			"help": "An out-of-home care episode begins with a state custody date and ends with a federal discharge date. Multiple placements into out-of-home placement settings can occur within a single episode. This filter allows you to determine how many episodes are greater than 7 days, 60 days, 1 year, or 2 years."
 		}
 	},
 	"nbr_placement": {
