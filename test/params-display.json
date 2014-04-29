@@ -660,6 +660,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
+			"resultUnavailable": "hide",
 			"help": "The cohort entry year TODO"
 		}
 	},
