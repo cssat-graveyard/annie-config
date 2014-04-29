@@ -38,7 +38,7 @@
 		"dependency_cd"
 	],
 	"dateParams": [],
-	"requiredParams": ["yearPIT"],
+	"requiredParams": [],
 	"showAllOthers": true,
 	"mutexAllOther": false,
 	"returnRowHeaders": [
