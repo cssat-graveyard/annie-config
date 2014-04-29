@@ -4,7 +4,7 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "Month",
+    "dateField": "Year",
     "valueFields": [
       "Family Setting (State Foster Home)",
       "Family Setting (Private Foster Home)",
@@ -14,17 +14,16 @@
     "removeFields": []
   },
    "controls": [
-    "qry_type_first_unique",
-    "date_type"
+    "qry_type_first_unique"
   ],
   "params": [
     "dynamicMonthStart",
-    "age",
+    "pitAge",
     "ethnicityCensus",
     "gender",
     "initSetng",
     "longSetng",
-    "removalCounty",
+    "pitCounty",
     "ooh_los",
     "nbr_placement",
     "ihs_services",
@@ -41,34 +40,41 @@
     "dynamicMonthStart"
   ],
   "showAllOthers": true,
+  "mutexAllOther": false,
   "returnRowHeaders": [
     0,
-    4,
-    6,
-    8,
-    10,
-    12,
-    14,
-    16,
-    18,
-    20,
-    22,
-    24,
-    26,
-    28,
-    30,
-    32,
-    34
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33
   ],
- "headerNames": [
+  "returnRowDateHeaders": [
+    0
+  ],
+   "returnRowControlHeaders": [
+    1
+  ],
+  "headerNames": [
     "&nbsp;",
     "qry_type_poc1_first_unique*qry_type_first_unique",
-    "Age Grouping=age",
+    "Age Grouping=pitAge",
     "Race/Ethnicity",
     "Gender=gender",
-    "First Placement Setting=initSetng",
-    "Longest Placement Setting=longSetng",
-    "County=removalCounty",
+    "Initial Placement=initSetng",
+    "Longest Placement=longSetng",
+    "County=pitCounty",
 	"Dependency=dependency_cd",
 	"Length of Service Desc=ooh_los",
 	"Placement Count Desc=nbr_placement",
@@ -80,13 +86,8 @@
 	"Service Type=service_category",
 	"Budget=budget_category"
   ],
-  "returnRowDateHeaders": [
-    0
-  ],
-   "returnRowControlHeaders": [
-    1
-  ],
-  "returnRowStart": 35,
+
+  "returnRowStart": 34,
   "columnClusterSize": 4,
   "multicharts": {
     "Overview": [

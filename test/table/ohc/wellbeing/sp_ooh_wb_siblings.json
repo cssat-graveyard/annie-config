@@ -65,7 +65,7 @@
 	  "&nbsp;",
       "*qry_type_poc1*qry_type_first_unique",
       "Age Grouping=ageCensus",
-      "Gender=gender",
+      "Gender=gender",ë
       "Race/Ethnicity",
       "First Placement Setting=initSetng",
       "Longest Placement Setting=longSetng",

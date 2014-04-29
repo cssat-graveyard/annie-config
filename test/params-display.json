@@ -23,6 +23,15 @@
 			"help": "Age references the child’s/youth’s age at the time of placement in out-of-home care."
 		}
 	},
+	"pitAge": {
+		"table": "ref_lookup_age",
+		"display": {
+			"legend": "Age of Child",
+			"column": "fieldsRight",
+			"type": "param",
+			"help": "Age references the child’s/youth’s age on the given date."
+		}
+	},
 	"ageCensus": {
 		"table": "ref_lookup_age_census",
 		"valueColumn": 3,
@@ -51,6 +60,16 @@
 			"visible": false,
 			"type": "param",
 			"help": "This is the county the data suggests the child/youth lived in prior to removal. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+		}
+	},
+	"pitCounty": {
+		"table": "ref_lookup_county",
+		"display": {
+			"legend": "County",
+			"column": "fieldsRight",
+			"visible": false,
+			"type": "param",
+			"help": "This is the county the child/youth was placed in on this date. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}
 	},
 	"discharge": {
