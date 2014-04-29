@@ -29,8 +29,8 @@
 			"legend": "Age of Child",
 			"column": "fieldsLeft",
 			"type": "param",
-			"help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age on a given date (i.e., the first day of the year or quarter). Because the Census provides data on ages per geographic area, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
-		}
+			"help": "Age references the child’s/youth’s age on the given date."
+		} 
 	},
 	"ageCensus": {
 		"table": "ref_lookup_age_census",
