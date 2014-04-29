@@ -14,7 +14,7 @@
     "removeFields": []
   },
    "controls": [
-    "qry_type_first_unique"
+    "qry_type_first_all"
   ],
   "params": [
     "dynamicMonthStart",
