@@ -11,7 +11,7 @@
     "removeFields": []
   },
   "controls": [
-    "qry_type_poc1_first_unique",
+    "qry_type_poc1",
     "date_type",
     "discharge_type_outcomes"
   ],
@@ -58,18 +58,17 @@
     28,
     30,
     32,
-    34,
-    36
+    34
   ],
   "returnRowDateHeaders": [
     0
   ],
   "returnRowControlHeaders": [
-    1
+    1,36
   ],
   "headerNames": [
     "&nbsp;",
-    "*qry_type_poc1_first_unique",
+    "qry_type*qry_type_poc1",
     "Age Grouping=ageCensus",
     "Gender=gender",
     "Race/Ethnicity",
@@ -85,8 +84,7 @@
     "Allegation=allegation",
     "Finding=finding",
     "Service Type=service_category",
-    "Budget=budget_category",
-    "Outcome=discharge_type_outcomes"
+    "Budget=budget_category"
   ],
   "returnRowStart": 37,
   "columnClusterSize": 1,
