@@ -39,9 +39,7 @@
     16
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
-    
-  ],
+  "returnRowControlHeaders": [],
   "headerNames": [
 	"&nbsp;",
 	"qry_type*qry_type_first_unique",

@@ -43,6 +43,7 @@
   "mutexAllOther": false,
   "returnRowHeaders": [
     0,
+	1,
     4,
     6,
     8,
@@ -58,13 +59,14 @@
     28,
     30,
     32,
-    34
+    34,
+	36
   ],
   "returnRowDateHeaders": [
     0
   ],
   "returnRowControlHeaders": [
-    1,2,36
+    1,36
   ],
   "headerNames": [
     "&nbsp;",
@@ -72,8 +74,8 @@
     "Age Grouping=ageCensus",
     "Gender=gender",
     "Race/Ethnicity",
-    "First Placement Setting=initSetng",
-    "Longest Placement Setting=longSetng",
+    "Initial Placement=initSetng",
+    "Longest Placement=longSetng",
     "County=removalCounty",
     "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
@@ -84,7 +86,8 @@
     "Allegation=allegation",
     "Finding=finding",
     "Service Type=service_category",
-    "Budget=budget_category"
+    "Budget=budget_category",
+	"Outcome=discharge_type_outcomes"
   ],
   "returnRowStart": 37,
   "columnClusterSize": 1,
