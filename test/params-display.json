@@ -29,7 +29,7 @@
 			"legend": "Age of Child",
 			"column": "fieldsLeft",
 			"type": "param",
-			"help": "Age references the child’s/youth’s age on the given date."
+			"help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age on a given date (i.e., the first day of the year or quarter). Because the Census provides data on ages per geographic area, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
 		}
 	},
 	"ageCensus": {
@@ -39,7 +39,7 @@
 			"legend": "Age at Removal",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages within geographic divisions, we are able to calculate the rate of cases (per 1,000) by age for the state or for an individual county. Test change"
+			"help": "Age categories are based on U.S. Census classifications. Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the Census provides data on ages within geographic divisions, we are able to calculate the rate of cases (per 1,000) by age for the state or for an individual county."
 		}
 	},
 	"ageSib": {
@@ -302,7 +302,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for children in out-of-home care are aggregated into two COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ will be lower than the counts/rates of ‘All Out-of-Home Care Cases’ (which can include multiple episodes). ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for children in out-of-home care are aggregated into two COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ will be lower than the counts/rates of ‘All Out-of-Home Care Cases’(which can include multiple episodes). ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_all": {
