@@ -20,7 +20,6 @@
 	    "bin_sibling_group_size"
 	],
 	"params": [
-	    "yearPIT",
 		"pitAge",
 	    "ethnicityCensus",
 	    "gender",
