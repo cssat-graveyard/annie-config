@@ -511,7 +511,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "Some in-home services are paid by Children’s Administration (CA) or and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. Services that are not paid for by CA, cannot be linked to child or family, are purchased in bulk, or are provided by a service provider or any entity other than CA (e.g., health care, employment services) are classified as ‘no paid services’. CA paid services we can be directly linked to a child or a family .No services that CA paid that be linked to child or family.  The services may also just be case management services, such as a CA social worker meeting regularly with a family to ensure that a safety plan is being implemented according to an agreement."
+			"help": "Some in-home services are paid by Children’s Administration (CA) or and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA: cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
 		}
 	},
 	"ooh_los": {
