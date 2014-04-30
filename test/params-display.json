@@ -120,7 +120,7 @@
 			"column": "fieldsRight",
 			"visible": false,
 			"type": "filter",
-			"selected": "*",
+			"selected": [1, 3, 4],
 			"multi": true,
 			"zeroLast": true,
 			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exit to all five outcomes."
