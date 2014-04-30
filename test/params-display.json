@@ -328,7 +328,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for out-of-home care cases are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while ‘Unduplicated Out-of-Home Care Cases’ counts/rates of will be the highest. ‘Unduplicated Out-of-Home Care Cases’ are unique cases (i.e., the first out-of-home care cases per time period). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "what is this?."
 		}
 	},
 	"qry_type_poc2": {
