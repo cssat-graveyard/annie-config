@@ -42,6 +42,16 @@
 			"help": "Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
 		}
 	},
+	"pitAgeCensus": {
+		"table": "ref_lookup_age_census",
+		"valueColumn": 3,
+		"display": {
+			"legend": "Age",
+			"column": "fieldsRight",
+			"type": "param",
+			"help": "TODO Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
+		}
+	},
 	"ageSib": {
 		"table": "ref_lookup_sib_age_grp",
 		"removeKeys": [4],
