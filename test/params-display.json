@@ -549,6 +549,7 @@
 	},
 	"service_category": {
 		"table": "ref_service_cd_subctgry_poc",
+		"orderBy": "ordering",
 		"display": {
 			"legend": "Service Category",
 			"column": "advancedRight",
