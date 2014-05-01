@@ -667,38 +667,6 @@
 			"help": "The cohort entry year TODO"
 		}
 	},
-	"cohort_year_short_int": {
-		"values": [
-			2010,
-			2011,
-			2012
-		],
-		"display": {
-			"legend": "Entry Cohort",
-			"column": "fieldsLeft",
-			"type": "filter",
-			"zeroLast": false,
-			"selected": 2010,
-			"multi": true,
-			"help": "The cohort entry year TODO"
-		}
-	},
-	"cohort_year_short": {
-		"values": {
-			"2010": 2010,
-			"2011": 2011,
-			"2012": 2012
-		},
-		"display": {
-			"legend": "Entry Cohort",
-			"column": "fieldsLeft",
-			"type": "filter",
-			"zeroLast": false,
-			"selected": "2010",
-			"multi": true,
-			"help": "The cohort entry year TODO"
-		}
-	},
 	"cohort_year_ia_safety": {
 		"values": {
 			"2006": 2006,
@@ -710,7 +678,7 @@
 			"2012": 2012
 		},
 		"display": {
-			"legend": "Investigation Assessment Cohort",
+			"legend": "Investigation Cohort Year",
 			"column": "fieldsLeft",
 			"type": "filter",
 			"zeroLast": false,
@@ -728,7 +696,7 @@
 			"2012": 2012
 		},
 		"display": {
-			"legend": "Service Begin Cohort",
+			"legend": "Service Cohort Year",
 			"column": "fieldsLeft",
 			"type": "filter",
 			"zeroLast": false,
@@ -762,23 +730,6 @@
 			"selected": "2010",
 			"multi": true,
 			"help": "The cohort entry year TODO"
-		}
-	},
-	"cohort_year_short_string": {
-		"values": {
-			"2010": "2010",
-			"2011": "2011",
-			"2012": "2012"
-		},
-		"display": {
-			"legend": "Exit Cohort",
-			"column": "fieldsLeft",
-			"type": "filter",
-			"zeroLast": false,
-			"selected": "2010",
-			"multi": true,
-			"resultUnavailable": "hide",
-			"help": "The Exit cohort year TODO"
 		}
 	},
 	"quarterStart": {
