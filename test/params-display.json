@@ -244,7 +244,8 @@
 			"type": "param",
 			"help": {
 			"default": "This filter provides counts or rates of children/youth in their first placement setting on the first day of a given year or quarter (point in time data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."
-			"cohort_InitSetng:" "This filter provides counts or rates of children/youth in their first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
+			"cohort_InitSetng": "This filter provides counts or rates of children/youth in their first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
+			}
 		}
 	},
 	"lastSetng": {
@@ -265,7 +266,8 @@
 			"type": "param",
 			"help": {
 			"default": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given year or quarter (point in time data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."
-			"cohort_longSetng:""This filter provides counts or rates of children/youth in their longest placement setting during a given year of quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
+			"cohort_longSetng": "This filter provides counts or rates of children/youth in their longest placement setting during a given year of quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."  
+			}
 		}
 	},
 	"plcSetng": {
