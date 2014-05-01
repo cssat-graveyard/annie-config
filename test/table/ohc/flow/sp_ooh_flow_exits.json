@@ -91,8 +91,8 @@
   "returnRowStart": 37,
   "chartType": "line",
   "labels": {
-    "x": "Time",
-    "y": "Number of Exits"
+    "x": "",
+    "y": "Count of Exits"
   },
   "numberFormat": [
     {

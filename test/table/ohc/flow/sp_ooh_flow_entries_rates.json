@@ -89,7 +89,7 @@
   "returnRowStart": 35,
   "chartType": "line",
   "labels": {
-    "x": "Time",
+    "x": "",
     "y": "Count"
   },
   "numberFormat": {
