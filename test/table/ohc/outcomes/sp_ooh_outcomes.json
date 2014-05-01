@@ -77,7 +77,7 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-	"Discharge"
+	"*Discharge"
   ],
   "returnRowStart": 37,
   "chartType": "line",

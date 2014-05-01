@@ -125,7 +125,7 @@
 		"display": {
 			"legend": "Exit Type",
 			"column": "fieldsRight",
-			"visible": false,
+			"visible": true,
 			"type": "filter",
 			"selected": [1, 3, 4],
 			"multi": true,
