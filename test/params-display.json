@@ -75,7 +75,7 @@
 	"pitCounty": {
 		"table": "ref_lookup_county",
 		"display": {
-			"legend": "County",
+			"legend": "Placement County",
 			"column": "fieldsRight",
 			"visible": false,
 			"type": "param",

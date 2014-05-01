@@ -75,7 +75,7 @@
     "Race/Ethnicity",
     "First Placement Setting=initSetng",
     "Longest Placement Setting=longSetng",
-    "County=pitCounty",
+    "Placement County=pitCounty",
     "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
     "Placement Count Desc=nbr_placement",
