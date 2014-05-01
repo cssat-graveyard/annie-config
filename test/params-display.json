@@ -85,7 +85,7 @@
 	"discharge": {
 		"table": "ref_lookup_discharge",
 		"display": {
-			
+		
 		}
 	},
 	"discharge_type_safety": {
