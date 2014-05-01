@@ -60,7 +60,7 @@
   "returnRowDateHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "*cohort_year",
+    "cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique",
     "Age Grouping=ageCensus",
     "Gender=gender",
@@ -78,7 +78,7 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-	"*Discharge"
+	"Discharge"
   ],
   "returnRowStart": 37,
   "chartType": "line",
