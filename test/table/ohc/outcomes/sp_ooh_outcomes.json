@@ -58,8 +58,8 @@
     36
   ],
   "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [1, 2, 36],
   "headerNames": [
-    "&nbsp;",
     "cohort_year=cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique",
     "Age Grouping=ageCensus",
