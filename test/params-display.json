@@ -540,7 +540,7 @@
 	"ooh_los": {
 		"table": "ref_filter_los",
 		"display": {
-			"legend": "Length of Out-of-Home Episode",
+			"legend": "Duration of Out-of-Home Episode",
 			"column": "advancedLeft",
 			"visible": false,
 			"type": "param",
