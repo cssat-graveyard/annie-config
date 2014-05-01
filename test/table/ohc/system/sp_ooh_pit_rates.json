@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_pit_rates",
-	"title": "Rate of Out-of-Home Care Cases per 1,000 Children",
+	"title": "Rate (per 1,000) of Children in Out-of-Home Care",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
@@ -90,7 +90,7 @@
 	"chartType": "line",
 	"labels": {
 		"x": "Time",
-		"y": "Population Rate of Children in Out-of-Home Care"
+		"y": "Population Rate"
 	},
     "numberFormat": {
 		"fractionDigits": 2

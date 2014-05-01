@@ -1,7 +1,7 @@
 {
   "table": "sp_ooh_pit_counts",
   "Base": "sp_ooh_pit_rates",
-  "title": "Count of Out-of-Home Care Cases",
+  "title": "Count of Children in Out-of-Home Care",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
@@ -75,7 +75,7 @@
     "Race/Ethnicity",
     "First Placement Setting=initSetng",
     "Longest Placement Setting=longSetng",
-    "Placement County=pitCounty",
+    "County=pitCounty",
     "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
     "Placement Count Desc=nbr_placement",
@@ -91,7 +91,7 @@
   "chartType": "line",
   "labels": {
     "x": "Time",
-    "y": "Count of Children in Out-of-Home Care"
+    "y": "Count"
   },
   "numberFormat": {
       "fractionDigits": 0
