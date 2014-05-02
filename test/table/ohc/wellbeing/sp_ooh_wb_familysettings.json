@@ -96,7 +96,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Month",
+          "x": "",
           "y": "Percentage"
         },
         "hideColumns": []
@@ -108,7 +108,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Month",
+          "x": "",
           "y": "Percentage"
         },
         "hideColumns": [
@@ -124,7 +124,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Month",
+          "x": "",
           "y": "Percentage"
         },
         "hideColumns": [
