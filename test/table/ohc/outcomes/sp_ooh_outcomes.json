@@ -12,7 +12,7 @@
   "controls": [
     "cohort_year_ooh_safety",
 	"qry_type_first_unique",
-	"Discharge"
+	"discharge_hardcoded"
   ],
   "params": [
     "age",
@@ -63,7 +63,7 @@
     "&nbsp;",
     "cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique",
-	"Discharge=Discharge",
+	"Discharge=discharge_hardocoded",
     "Age Grouping=ageCensus",
     "Gender=gender",
     "Race/Ethnicity",
@@ -81,7 +81,7 @@
     "Service Type=service_category",
     "Budget=budget_category"
   ],
-  "returnRowStart": 38,
+  "returnRowStart": 37,
   "chartType": "line",
   "labels": {
 	"x": "Months Since Entering",
