@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_wb_siblings",
-	"title": "Placements with Siblings",
+	"title": "Placement with Siblings",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",

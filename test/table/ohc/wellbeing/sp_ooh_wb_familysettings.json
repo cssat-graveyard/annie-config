@@ -1,6 +1,6 @@
 {
   "table": "sp_ooh_wb_familysettings",
-  "title": "Current Placements in Family Settings",
+  "title": "Current Placement in Family Settings",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
