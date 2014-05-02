@@ -621,7 +621,7 @@
 		},
 		"date": true,
 		"display": {
-			"legend": "Year",
+			"legend": "First Day of Year",
 			"column": "fieldsLeft",
 			"type": "filter",
 			"multi": true,
