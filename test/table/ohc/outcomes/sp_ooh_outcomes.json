@@ -10,9 +10,9 @@
 	"removeFields": []
   },
   "controls": [
-    "Discharge",
-    "qry_type_first_unique",
-	"cohort_year"
+    "cohort_year",
+	"qry_type_first_unique",
+	"Discharge"
   ],
   "params": [
     "age",
