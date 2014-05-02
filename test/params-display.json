@@ -324,7 +324,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "where?."
+			"help": "Cohort data for children placed in out-of-home care following in-home services are aggregated into counts of first/initial and all placements in out-of-home care. 'All' can include multiple placements for the selected cohort. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_ia_safety": {
@@ -337,7 +337,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "is this IA safety and IH serv."
+			"help": "where"
 		}
 	},
 	"qry_type_poc1": {
