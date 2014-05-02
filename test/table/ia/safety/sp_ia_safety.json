@@ -1,6 +1,6 @@
 {
   "table": "sp_ia_safety",
-  "title": "Re-Referral",
+  "title": "Children Re-Referred",
   "transform": {
     "Function": "daterow",
     "dateField": "Months",
@@ -56,7 +56,7 @@
   "chartType": "line",
   "labels": {
     "x": "Months Since First Investigation",
-    "y": "Percentage of Children"
+    "y": "Percentage"
   },
   "numberFormat": {
     "fractionDigits": 2
