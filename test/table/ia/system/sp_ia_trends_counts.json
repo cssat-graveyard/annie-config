@@ -116,7 +116,7 @@
           }
         },
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [
@@ -130,7 +130,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [
@@ -146,7 +146,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [
@@ -160,7 +160,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [
@@ -176,7 +176,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [

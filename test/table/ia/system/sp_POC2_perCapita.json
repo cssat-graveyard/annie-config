@@ -68,7 +68,7 @@
           }
         },
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Rate per 1,000 Households"
         },
         "hideColumns": [
@@ -92,7 +92,7 @@
           }
         },
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Rate per 1,000 Households"
         },
         "hideColumns": [
@@ -107,7 +107,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Rate per 1,000 Households"
         },
         "hideColumns": [
@@ -124,7 +124,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Rate per 1,000 Households"
         },
         "hideColumns": [
@@ -139,7 +139,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Rate per 1,000 Households"
         },
         "hideColumns": [
@@ -156,7 +156,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Rate per 1,000 Households"
         },
         "hideColumns": [

@@ -701,7 +701,7 @@
 			"selected": "2010",
 			"multi": true,
 			"resultUnavailable": "disable",
-			"help": "The cohort entry year TODO"
+			"help": "This filter follows households which received their (first) investigation/assessment within the year(s) selected. Data on the percent of children re-referred are returned for up to 48 months following the selected cohort year."
 		}
 	},
 	"cohort_year_ihs_safety": {
