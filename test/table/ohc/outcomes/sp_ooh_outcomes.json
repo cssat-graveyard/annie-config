@@ -3,7 +3,7 @@
   "title": "Exits from Out-of-Home Care",
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Entry Date",
+    "dateField": "Month",
 	"valueFields": [
 		"Rate"
 	],
