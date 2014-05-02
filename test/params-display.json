@@ -350,7 +350,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for out-of-home care cases are aggregated into three COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ are generally the lowest count/rate, while ‘Unduplicated Out-of-Home Care Cases’ counts/rates of will be the highest. ‘Unduplicated Out-of-Home Care Cases’ are unique cases (i.e., the first out-of-home care cases per time period). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for out-of-home care cases are aggregated into counts of first, unduplicated/unique, and all children in out-of-home care. First or initial counts/rates will be the lowest, all will be the highest count/rate.  The count of all cases will capture multiple entries and exits for the selected cohort while unduplicated or unique cases will capture the first out-of-home care case in the selected  time period. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_all": {
@@ -363,7 +363,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"_comment_sort": "qryTypeCompare",
-			"help": "Point in time data for children in out-of-home care are aggregated into counts of first and all on the selected date(s); all can include multiple children on the selected date(s). ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Point in time data for children in out-of-home care are aggregated into counts of first and all on the selected date(s); all can include multiple children on the selected date(s). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique": {
