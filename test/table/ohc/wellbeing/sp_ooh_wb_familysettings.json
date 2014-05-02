@@ -1,6 +1,6 @@
 {
   "table": "sp_ooh_wb_familysettings",
-  "title": "Placements in Family Settings",
+  "title": "Current Placements in Family Settings",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
@@ -140,7 +140,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Month",
+          "x": "",
           "y": "Percentage"
         },
         "hideColumns": [
@@ -156,7 +156,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Month",
+          "x": "",
           "y": "Percentage"
         },
         "hideColumns": [
