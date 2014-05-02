@@ -58,7 +58,7 @@
     35
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [1,2,3],
   "headerNames": [
     "&nbsp;",
     "cohort_year",
