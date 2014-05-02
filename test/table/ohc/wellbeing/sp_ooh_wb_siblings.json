@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_wb_siblings",
-	"title": "Sibling Placements",
+	"title": "Placements with Siblings",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
@@ -95,7 +95,7 @@
 			"style": "",
 			"labels": {
 				"x": "Sibling Placement",
-				"y": "Percentage of Children"
+				"y": "Percentage"
 			},
 			"hideColumns": [3]
 		}]
