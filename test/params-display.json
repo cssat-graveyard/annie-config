@@ -363,7 +363,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"_comment_sort": "qryTypeCompare",
-			"help": "Point in time data for children in out-of-home care are aggregated into two COUNT TYPES. Counts/rates of ‘First Out-of-Home Care Case’ will be lower than the counts/rates of ‘All Out-of-Home Care Cases’ (which can include multiple episodes). ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Point in time data for children in out-of-home care are aggregated into counts of first and all on the selected date(s); all can include multiple children on the selected date(s). ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique": {
