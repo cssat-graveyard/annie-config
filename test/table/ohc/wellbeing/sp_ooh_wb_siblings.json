@@ -93,19 +93,19 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "",
+          "x": "Year",
           "y": "Percentage"
         },
         "hideColumns": [3]
       }
     ],    
-    "Family-Setting-_pState-Foster-Home_P": [
+    "All_pSiblings_pTogether_P": [
       {
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "",
+          "x": "Year",
           "y": "Percentage"
         },
         "hideColumns": [
@@ -114,13 +114,13 @@
         ]
       }
     ],
-    "Family-Setting-_pPrivate-Foster-Home_P": [
+    "Some_pSiblings_pTogether_P": [
       {
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "",
+          "x": "Year",
           "y": "Percentage"
         },
         "hideColumns": [
@@ -129,13 +129,13 @@
         ]
       }
     ],
-    "Family-Setting-_pKin-Placement_P": [
+    "None_pof_pSibling-Group_pTogether_P": [
       {
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "",
+          "x": "Year",
           "y": "Percentage"
         },
         "hideColumns": [
