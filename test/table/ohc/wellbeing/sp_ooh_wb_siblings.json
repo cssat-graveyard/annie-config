@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_wb_siblings",
-	"title": "Placement with Siblings",
+	"title": "Placement with Siblings - By Year",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
@@ -99,7 +99,7 @@
         "hideColumns": [3]
       }
     ],    
-    "All_pSiblings_pTogether_P": [
+    "All-of-Sibling_-Group-Together": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -114,7 +114,7 @@
         ]
       }
     ],
-    "Some_pSiblings_pTogether_P": [
+    "Some-of-Sibling_-Group-Together": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -129,7 +129,7 @@
         ]
       }
     ],
-    "None of Sibling-Group Together": [
+    "None-of-Sibling_-Group-Together": [
       {
         "chartType": "area",
         "chartId": "chart1",
