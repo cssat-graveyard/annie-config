@@ -59,13 +59,13 @@
     30,
     32,
     34,
-	36
+	35
   ],
   "returnRowDateHeaders": [
     0
   ],
   "returnRowControlHeaders": [
-    1,36
+    1,35
   ],
   "headerNames": [
     "&nbsp;",
@@ -86,7 +86,7 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-	"Outcome=discharge_type_outcomes"
+	"cd_discharge_type=discharge_type_outcomes"
   ],
   "returnRowStart": 37,
   "chartType": "line",
