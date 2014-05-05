@@ -4,7 +4,7 @@
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Sibling Group Size",
+		"dateField": "bin_sibling_group_size",
 		"valueFields": [
 		    "All_Together",
 		    "Some_Together",
