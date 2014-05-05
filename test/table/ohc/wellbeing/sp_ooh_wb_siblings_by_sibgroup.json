@@ -16,7 +16,7 @@
 	"controls": [
 	    "qry_type_first_all",
 	    "kincare",
-	    "Year"
+	    "yearPIT"
 	],
 	"params": [
 		"pitAge",
@@ -41,26 +41,26 @@
 	"showAllOthers": true,
 	"returnRowHeaders": [
       0,
-      3,
-      5,
-      7,
-      9,
-      11,
-      13,
-      15,
-      17,
-      19,
-      21,
-      23,
-      25,
-      27,
-      29,
-      31,
-      33
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34
 	],
 	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [
-	  0, 1, 35
+	  1, 2, 36
 	],
 	"headerNames": [
       "&nbsp;",
