@@ -10,7 +10,7 @@
   "controls": [
     "qry_type_first_unique",
     "discharge_type_safety",
-    "cohort_year_ooh_safety"
+    "cohort_year"
   ],
   "params": [
     "age",
@@ -60,7 +60,7 @@
   "headerNames": [
 	"&nbsp;",
     "qry_type_poc1_first_unique*qry_type_first_unique",
-	"Cohort Entry Date*cohort_year_ooh_safety",
+	"Cohort Entry Date*cohort_year",
     "Age Grouping=ageCensus",
     "Gender=gender",
     "Race/Ethnicity",

@@ -4,15 +4,13 @@
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
-	"valueFields": [
-		"Rate"
-	],
+	"valueFields": ["Rate"],
 	"removeFields": []
   },
   "controls": [
-    "cohort_year",
-	"qry_type_first_unique",
-	"Discharge"
+    "qry_type_first_unique",
+	"Discharge",
+	"cohort_year"
   ],
   "params": [
     "age",
@@ -39,32 +37,31 @@
     0,
 	1,
 	2,
-	3,
-    5,
-    7,
-    9,
-    11,
-    13,
-    15,
-    17,
-    19,
-    21,
-    23,
-    25,
-    27,
-    29,
-    31,
-    33,
-    35
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [1,2,3],
+  "returnRowControlHeaders": [1, 2, 36],
   "headerNames": [
     "&nbsp;",
-    "cohort_year",
+    "*cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique",
-	"Discharge=Discharge",
-    "Age Grouping=ageCensus",
+	"Age Grouping=ageCensus",
     "Gender=gender",
     "Race/Ethnicity",
     "Initial Placement=initSetng",
@@ -79,7 +76,8 @@
     "Allegation=allegation",
     "Finding=finding",
     "Service Type=service_category",
-    "Budget=budget_category"
+    "Budget=budget_category",
+	"Discharge"
   ],
   "returnRowStart": 37,
   "chartType": "line",
