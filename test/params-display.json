@@ -116,7 +116,7 @@
 		}
 	},
 	"Discharge": {
-		"table": "ref_lookup_cd_discharge_type_exits",
+		"table": "ref_lookup_type_of_exit",
 		"display": {
 			"legend": "Exit Type",
 			"column": "fieldsRight",
