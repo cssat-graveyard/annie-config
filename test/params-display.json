@@ -130,7 +130,7 @@
 	},
 	"discharge_hardcoded": {
 		"values": {
-			"0": "All Outcomes",
+			"0": "Still in Out-of-Home Care",
 			"1": "Reunification",
 			"3": "Adoption",
 			"4": "Guardianship",
