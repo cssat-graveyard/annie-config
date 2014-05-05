@@ -92,13 +92,34 @@
 		"display": {
 			"alias": "cd_discharge_type",
 			"legend": "Re-Entry by Exit Type",
-			"column": "advancedRight",
-			"visible": false,
+			"column": "fieldsRight",
+			"visible": true,
 			"type": "filter",
 			"selected": [1, 3],
 			"multi": true,
 			"zeroLast": false,
 			"help": "You can select re-entry to out-of-home care from <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
+		}
+	},
+	"discharge_hardcoded": {
+		"values": {
+			"0": "Still in Out-of-Home Care",
+			"1": "Reunification",
+			"3": "Adoption",
+			"4": "Guardianship",
+			"5": "Emancipation",
+			"6": "Other"
+		},
+		"display": {
+		    "alias": "cd_discharge_type",
+			"legend": "Exit Type",
+			"column": "fieldsRight",
+			"visible": true,
+			"type": "filter",
+			"selected": [1, 3, 4],
+			"multi": true,
+			"zeroLast": true,
+			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exits to all five outcomes."
 		}
 	},
 	"discharge_type_outcomes": {
@@ -117,26 +138,6 @@
 	},
 	"Discharge": {
 		"table": "ref_lookup_type_of_exit",
-		"display": {
-			"legend": "Exit Type",
-			"column": "fieldsRight",
-			"visible": true,
-			"type": "filter",
-			"selected": [1, 3, 4],
-			"multi": true,
-			"zeroLast": true,
-			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default selection is exits to all five outcomes."
-		}
-	},
-	"discharge_hardcoded": {
-		"values": {
-			"0": "Still in Out-of-Home Care",
-			"1": "Reunification",
-			"3": "Adoption",
-			"4": "Guardianship",
-			"5": "Emancipation",
-			"6": "Other"
-		},
 		"display": {
 			"legend": "Exit Type",
 			"column": "fieldsRight",
