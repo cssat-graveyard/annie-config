@@ -3,7 +3,7 @@
 	"title": "Placement with Siblings - By Sibling Count",
 	"measurementOrder": 3,
 	"transform": {
-		"Function": "daterow",
+		"Function": "trim",
 		"dateField": "bin_sibling_group_size",
 		"valueFields": [
 		    "All_Together",
@@ -11,7 +11,8 @@
 		    "None_Together",
 		    "Number in Cohort"
 		],
-		"removeFields": []
+		"removeFields": [],
+		"table": "sp_ooh_wb_siblings"
 	},
 	"controls": [
 	    "qry_type_first_all",
