@@ -96,7 +96,7 @@
           "x": "",
           "y": "Percentage"
         },
-        "hideColumns": []
+        "hideColumns": [3]
       }
     ],    
     "Family-Setting-_pState-Foster-Home_P": [
