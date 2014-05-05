@@ -84,7 +84,7 @@
 	  "Sibling Group Size=bin_sibling_group_size"
 	],
 	"returnRowStart": 38,
-    "columnClusterSize": 3,
+    "columnClusterSize": 4,
 "multicharts": {
     "Overview": [
       {
@@ -140,6 +140,22 @@
         "hideColumns": [
           0,
           1
+        ]
+      }
+    ],
+        "Non_-Family-Setting": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          1,
+          2
         ]
       }
     ]
