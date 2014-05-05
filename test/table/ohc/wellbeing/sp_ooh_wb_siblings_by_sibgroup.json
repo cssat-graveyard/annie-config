@@ -63,7 +63,7 @@
 	  1, 2, 36
 	],
 	"headerNames": [
-      "&nbsp;",
+      "*bin_sibling_group_size",
       "Year*yearPIT",
       "qry_type_poc1_first_all*qry_type_first_all",
       "Age Grouping=pitAge",
