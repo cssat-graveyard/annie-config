@@ -84,13 +84,64 @@
 	  "Sibling Group Size=bin_sibling_group_size"
 	],
 	"returnRowStart": 38,
-	"columnClusterSize": 3,
-  "chartType": "line",
-  "labels": {
-	"x": "Months Since Entering",
-    "y": "Percentage Achieving Outcome"
-  }, 
-  "numberFormat": {
-      "fractionDigits": 2
+    "columnClusterSize": 3,
+"multicharts": {
+    "Overview": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": "Percentage"
+        },
+        "hideColumns": []
+      }
+    ],    
+    "Family-Setting-_pState-Foster-Home_P": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      }
+    ],
+    "Family-Setting-_pPrivate-Foster-Home_P": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          2
+        ]
+      }
+    ],
+    "Family-Setting-_pKin-Placement_P": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          1
+        ]
+      }
+    ]
   }
 }
