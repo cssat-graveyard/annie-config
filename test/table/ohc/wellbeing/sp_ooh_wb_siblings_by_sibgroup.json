@@ -3,7 +3,7 @@
 	"title": "Placement with Siblings - By Sibling Count",
 	"measurementOrder": 3,
 	"transform": {
-		"Function": "trim",
+		"Function": "daterow",
 		"dateField": "bin_sibling_group_size",
 		"valueFields": [
 		    "All_Together",
