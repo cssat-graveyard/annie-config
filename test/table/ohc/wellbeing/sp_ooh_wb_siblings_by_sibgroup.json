@@ -89,7 +89,7 @@
 "multicharts": {
     "Overview": [
       {
-        "chartType": "area",
+        "chartType": "column",
         "chartId": "chart1",
         "style": "",
         "labels": {
@@ -101,7 +101,7 @@
     ],    
     "All-of-Sibling_-Group-Together": [
       {
-        "chartType": "area",
+        "chartType": "column",
         "chartId": "chart1",
         "style": "",
         "labels": {
@@ -117,7 +117,7 @@
     ],
     "Some-of-Sibling_-Group-Together": [
       {
-        "chartType": "area",
+        "chartType": "column",
         "chartId": "chart1",
         "style": "",
         "labels": {
@@ -133,7 +133,7 @@
     ],
     "None-of-Sibling_-Group-Together": [
       {
-        "chartType": "area",
+        "chartType": "column",
         "chartId": "chart1",
         "style": "",
         "labels": {
