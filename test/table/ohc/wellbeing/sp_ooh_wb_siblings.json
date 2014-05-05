@@ -8,14 +8,12 @@
 		"valueFields": [
 		    "All_Together",
 		    "Some_Together",
-		    "None_Together",
-		    "Number in Cohort"
+		    "None_Together"
 		],
 		"removeFields": []
 	},
 	"controls": [
-	    "yearPIT",
-	    "qry_type_first_all",
+	    "qry_type_poc1_first_all",
 	    "kincare",
 	    "bin_sibling_group_size"
 	],
@@ -40,7 +38,6 @@
 	"dateParams": [],
 	"requiredParams": [],
 	"showAllOthers": true,
-	"mutexAllOther": false,
 	"returnRowHeaders": [
       0,
       3,
@@ -62,7 +59,7 @@
 	],
 	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [
-	  0, 1, 35, 37
+	  1, 35, 37
 	],
 	"headerNames": [
       "&nbsp;",
@@ -86,18 +83,14 @@
 	  "Placement Type=kincare",
 	  "Sibling Group Size=bin_sibling_group_size"
 	],
-	"returnRowStart": 39,
+	"returnRowStart": 38,
 	"columnClusterSize": 3,
-	"multicharts": {
-		"Overview": [{
-			"chartType": "column",
-			"chartId": "chart1",
-			"style": "",
-			"labels": {
-				"x": "Sibling Placement",
-				"y": "Percentage"
-			},
-			"hideColumns": [3]
-		}]
-	}
+  "chartType": "line",
+  "labels": {
+	"x": "Months Since Entering",
+    "y": "Percentage Achieving Outcome"
+  }, 
+  "numberFormat": {
+      "fractionDigits": 2
+  }
 }
