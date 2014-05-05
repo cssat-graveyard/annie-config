@@ -1,11 +1,22 @@
 {
-  "table": "sp_ooh_wb_siblings",
-  "title": "Placement with Siblings - By Sibling Count",
-  "measurementOrder": 3,
- 	"controls": [
+	"table": "sp_ooh_wb_siblings",
+	"title": "Placement with Siblings - By Sibling Count",
+	"measurementOrder": 3,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Year",
+		"valueFields": [
+		    "All_Together",
+		    "Some_Together",
+		    "None_Together",
+		    "Number in Cohort"
+		],
+		"removeFields": []
+	},
+	"controls": [
 	    "qry_type_first_all",
 	    "kincare",
-	    "yearPIT"
+	    "bin_sibling_group_size"
 	],
 	"params": [
 		"pitAge",
@@ -25,9 +36,9 @@
 	    "budget_category",
 		"dependency_cd"
 	],
-  "dateParams": [],
-  "requiredParams": [],
-  "showAllOthers": true,
+	"dateParams": [],
+	"requiredParams": [],
+	"showAllOthers": true,
 	"returnRowHeaders": [
       0,
       3,
@@ -47,8 +58,9 @@
       31,
       33
 	],
+	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [
-	  1, 2, 36
+	  1, 35, 37
 	],
 	"headerNames": [
       "&nbsp;",
@@ -69,14 +81,72 @@
 	  "Finding=finding",
 	  "Service Type=service_category",
 	  "Budget=budget_category",
-	  "Placement Type=kincare"
+	  "Placement Type=kincare",
+	  "Sibling Group Size=bin_sibling_group_size"
 	],
+	"returnRowStart": 38,
+    "columnClusterSize": 4,
+"multicharts": {
+    "Overview": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Year",
+          "y": "Percentage"
+        },
+        "hideColumns": [3]
+      }
+    ],    
+    "All-of-Sibling_-Group-Together": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Year",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "Some-of-Sibling_-Group-Together": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Year",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          2,
+          3
+        ]
+      }
+    ],
+    "None-of-Sibling_-Group-Together": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Year",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          1,
+          3
+        ]
+      }
+    ]
 
-  "returnRowDateHeaders": [],
-  "returnRowStart": 38,
-  "chartType": "column",
-  "labels": {
-    "x": "Sibling Placement",
-    "y": "Percentage of Children"
   }
 }
