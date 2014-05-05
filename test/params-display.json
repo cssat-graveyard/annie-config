@@ -341,7 +341,7 @@
 			"column": "fieldsRight",
 			"visible": true,
 			"type": "filter",
-			"selected": 0,
+			"selected": 2,
 			"multi": true,
 			"zeroLast": false,
 			"help": "Cohort data for children re-entering or exiting out-of-home care are aggregated into counts of first/initial and all re-entries or exits to or from out-of-home care. 'All' can include multiple re-entries or exits for the selected cohort. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
