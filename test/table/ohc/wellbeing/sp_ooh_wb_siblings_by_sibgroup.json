@@ -40,26 +40,26 @@
 	"requiredParams": [],
 	"showAllOthers": true,
 	"returnRowHeaders": [
-      3,
-      5,
-      7,
-      9,
-      11,
-      13,
-      15,
-      17,
-      19,
-      21,
-      23,
-      25,
-      27,
-      29,
-      31,
-      33
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34
 	],
 	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [
-	  1, 2, 35, 37
+	  1, 2, 36
 	],
 	"headerNames": [
       "&nbsp;",
@@ -80,8 +80,7 @@
 	  "Finding=finding",
 	  "Service Type=service_category",
 	  "Budget=budget_category",
-	  "Placement Type=kincare",
-	  "Sibling Group Size=bin_sibling_group_size"
+	  "Placement Type=kincare"
 	],
 	"returnRowStart": 38,
     "columnClusterSize": 4,
