@@ -9,7 +9,7 @@
   },
   "controls": [
     "qry_type_first_unique",
-	"discharge_hardcoded",
+	"discharge_type_outcomes",
 	"cohort_year"
   ],
   "params": [
@@ -77,7 +77,7 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-	"Discharge=discharge_hardcoded"
+	"Discharge=discharge_type_outcomes"
   ],
   "returnRowStart": 37,
   "chartType": "line",
