@@ -8,7 +8,8 @@
 		"valueFields": [
 		    "All_Together",
 		    "Some_Together",
-		    "None_Together"
+		    "None_Together",
+		    "Number in Cohort"
 		],
 		"removeFields": []
 	},
