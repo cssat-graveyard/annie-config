@@ -4,7 +4,7 @@
 	"measurementOrder": 3,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Year",
+		"dateField": "bin_sibling_group_size",
 		"valueFields": [
 		    "All_Together",
 		    "Some_Together",
@@ -16,7 +16,7 @@
 	"controls": [
 	    "qry_type_first_all",
 	    "kincare",
-	    "bin_sibling_group_size"
+	    "Year"
 	],
 	"params": [
 		"pitAge",
@@ -60,10 +60,11 @@
 	],
 	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [
-	  1, 35, 37
+	  0, 1, 35
 	],
 	"headerNames": [
       "&nbsp;",
+      "Year*yearPIT",
       "qry_type_poc1_first_all*qry_type_first_all",
       "Age Grouping=pitAge",
       "Race/Ethnicity=ethnicityCensus",
@@ -81,8 +82,7 @@
 	  "Finding=finding",
 	  "Service Type=service_category",
 	  "Budget=budget_category",
-	  "Placement Type=kincare",
-	  "Sibling Group Size=bin_sibling_group_size"
+	  "Placement Type=kincare"
 	],
 	"returnRowStart": 38,
     "columnClusterSize": 4,
