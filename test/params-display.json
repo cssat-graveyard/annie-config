@@ -658,7 +658,8 @@
 			"2010": 2010,
 			"2011": 2011,
 			"2012": 2012,
-			"2013": 2013
+			"2013": 2013,
+			"2014": 2014
 		},
 		"display": {
 			"legend": "Entry Cohort Year",
@@ -666,7 +667,7 @@
 			"type": "filter",
 			"resultUnavailable": "disable",
 			"zeroLast": false,
-			"selected": "2009",
+			"selected": "2010",
 			"multi": true,
 			"help": "The cohort entry year for this measurement. TODO"
 		}

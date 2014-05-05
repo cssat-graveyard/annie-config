@@ -10,7 +10,7 @@
 	"removeFields": []
   },
   "controls": [
-    "cohort_year_ooh_safety",
+    "cohort_year",
 	"qry_type_first_unique",
 	"discharge_hardcoded"
   ],
