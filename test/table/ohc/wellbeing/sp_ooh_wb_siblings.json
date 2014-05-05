@@ -143,22 +143,7 @@
           1
         ]
       }
-    ],
-        "Non_-Family-Setting": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Percentage"
-        },
-        "hideColumns": [
-          0,
-          1,
-          2
-        ]
-      }
     ]
+
   }
 }
