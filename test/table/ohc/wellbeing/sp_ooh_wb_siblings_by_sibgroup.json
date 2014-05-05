@@ -2,6 +2,11 @@
   "table": "sp_ooh_wb_siblings",
   "title": "Placement with Siblings - By Sibling Count",
   "measurementOrder": 3,
+ 	"controls": [
+	    "qry_type_first_all",
+	    "kincare",
+	    "yearPIT"
+	],
 	"params": [
 		"pitAge",
 	    "ethnicityCensus",
@@ -42,6 +47,31 @@
       31,
       33
 	],
+	"returnRowControlHeaders": [
+	  1, 2, 36
+	],
+	"headerNames": [
+      "&nbsp;",
+      "qry_type_poc1_first_all*qry_type_first_all",
+      "Age Grouping=pitAge",
+      "Race/Ethnicity=ethnicityCensus",
+      "Gender=gender",
+      "Initial Placement=initSetng",
+      "Longest Placement=longSetng",
+      "County=pitCounty",
+	  "Dependency=dependency_cd",
+	  "Length of Service Desc=ooh_los",
+	  "Placement Count Desc=nbr_placement",
+	  "In-Home Service Desc=ihs_services",
+	  "Reporter Desc=reporter_type",
+	  "Access type desc=access_type",
+	  "Allegation=allegation",
+	  "Finding=finding",
+	  "Service Type=service_category",
+	  "Budget=budget_category",
+	  "Placement Type=kincare"
+	],
+
   "returnRowDateHeaders": [],
   "returnRowStart": 38,
   "chartType": "column",
