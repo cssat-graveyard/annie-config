@@ -1,0 +1,151 @@
+{
+	"table": "sp_ooh_wb_siblings",
+	"title": "Placement with Siblings - By Sibling Count",
+	"measurementOrder": 2,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Sibling Group Size",
+		"valueFields": [
+		    "All_Together",
+		    "Some_Together",
+		    "None_Together",
+		    "Number in Cohort"
+		],
+		"removeFields": []
+	},
+	"controls": [
+	    "qry_type_first_all",
+	    "kincare",
+	    "yearPIT"
+	],
+	"params": [
+		"pitAge",
+	    "ethnicityCensus",
+	    "gender",
+	    "initSetng",
+	    "longSetng",
+	    "pitCounty",
+	    "ooh_los",
+	    "nbr_placement",
+	    "ihs_services",
+	    "reporter_type",
+	    "access_type",
+	    "allegation",
+	    "finding",
+	    "service_category",
+	    "budget_category",
+		"dependency_cd"
+	],
+	"dateParams": [],
+	"requiredParams": [],
+	"showAllOthers": true,
+	"returnRowHeaders": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33
+	],
+	"returnRowDateHeaders": [],
+	"returnRowControlHeaders": [
+	  0, 1, 35, 37
+	],
+	"headerNames": [
+      "&nbsp;",
+      "qry_type_poc1_first_all*qry_type_first_all",
+      "Age Grouping=pitAge",
+      "Race/Ethnicity=ethnicityCensus",
+      "Gender=gender",
+      "Initial Placement=initSetng",
+      "Longest Placement=longSetng",
+      "County=pitCounty",
+	  "Dependency=dependency_cd",
+	  "Length of Service Desc=ooh_los",
+	  "Placement Count Desc=nbr_placement",
+	  "In-Home Service Desc=ihs_services",
+	  "Reporter Desc=reporter_type",
+	  "Access type desc=access_type",
+	  "Allegation=allegation",
+	  "Finding=finding",
+	  "Service Type=service_category",
+	  "Budget=budget_category",
+	  "Placement Type=kincare",
+	  "Sibling Group Size=bin_sibling_group_size"
+	],
+	"returnRowStart": 38,
+    "columnClusterSize": 4,
+"multicharts": {
+    "Overview": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Year",
+          "y": "Percentage"
+        },
+        "hideColumns": [3]
+      }
+    ],    
+    "All-of-Sibling_-Group-Together": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Year",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "Some-of-Sibling_-Group-Together": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Year",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          2,
+          3
+        ]
+      }
+    ],
+    "None-of-Sibling_-Group-Together": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "Year",
+          "y": "Percentage"
+        },
+        "hideColumns": [
+          0,
+          1,
+          3
+        ]
+      }
+    ]
+
+  }
+}
