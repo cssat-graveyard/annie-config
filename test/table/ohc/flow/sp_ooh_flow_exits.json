@@ -86,7 +86,7 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-	"cd_discharge_type=discharge_type_outcomes"
+	"cd_discharge_type*discharge_type_outcomes"
   ],
   "returnRowStart": 37,
   "chartType": "line",
