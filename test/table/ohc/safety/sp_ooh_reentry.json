@@ -86,6 +86,7 @@
       "y": "Percentage Re-Entering"
   },
   "numberFormat": {
+    "suffix": "%",
     "fractionDigits": 2
   }
 }

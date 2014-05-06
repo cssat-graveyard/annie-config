@@ -86,6 +86,7 @@
     "y": "Percentage Achieving Outcome"
   }, 
   "numberFormat": {
+      "suffix": "%",
       "fractionDigits": 2
   }
 }

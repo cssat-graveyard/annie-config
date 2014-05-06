@@ -69,6 +69,7 @@
     "y": "Percentage of Children Placed"
   },
   "numberFormat": {
+    "suffix": "%",
     "fractionDigits": 2
   }
 }
