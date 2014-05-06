@@ -333,7 +333,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for out-of-home care cases are aggregated into counts of first, unduplicated/unique, and all children in out-of-home care. First or initial counts/rates will be the lowest, all will be the highest count/rate.  The count of all cases will capture multiple entries and exits for the selected cohort while unduplicated or unique cases will capture the first out-of-home care case in the selected  time period. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for out-of-home care cases are aggregated into counts of first, unduplicated/unique, and all children in out-of-home care. First or initial counts/rates will be the lowest; all will be the highest count/rate.  The count of all cases will capture multiple entries and exits for the selected cohort while unduplicated or unique cases will capture the first out-of-home care case in the selected time period. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_all": {
