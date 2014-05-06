@@ -359,7 +359,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for children who are re-referred are aggregated into counts of unduplicated or unique re-referrals and first or initial re-referrals within the selected time interval."
+			"help": "Cohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-referrals or re-entries and first or initial re-referrals or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc2": {
