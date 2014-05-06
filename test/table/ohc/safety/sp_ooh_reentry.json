@@ -4,7 +4,7 @@
   "transform": {
     "Function": "daterow",
 	"dateField": "Month",
-    "valueFields": ["Re-Entry Percent"],
+    "valueFields": ["Reentry Percent"],
 	"removeFields": []
   },
   "controls": [
