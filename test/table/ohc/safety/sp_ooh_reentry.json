@@ -1,6 +1,6 @@
 {
   "table": "sp_ooh_reentry",
-  "title": "Re-Entry - Comparison",
+  "title": "Re-Entry into Out-of-Home Care",
   "transform": {
     "Function": "daterow",
 	"dateField": "Month",
@@ -82,8 +82,8 @@
   "returnRowStart": 37,
   "chartType": "line",
   "labels": {
-      "x": "Months Since Exiting",
-      "y": "Percentage Re-Entering"
+      "x": "Months Since Exiting Out-of-Home Care",
+      "y": "Percentage"
   },
   "numberFormat": {
     "suffix": "%",
