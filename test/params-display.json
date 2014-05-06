@@ -116,6 +116,21 @@
 			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other (e.g., transfer to another Washington State authority). The default selection is exits to all five outcomes."
 		}
 	},
+	"discharge_type_exits": {
+		"table": "ref_lookup_cd_discharge_type_exits",
+		"display": {
+		    "alias": "cd_discharge_type",
+			"legend": "Permanency Type",
+			"column": "fieldsRight",
+			"visible": false,
+			"type": "filter",
+			"selected": [0],
+			"multi": true,
+			"zeroLast": true,
+			"resultUnavailable": "disable",
+			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other (e.g., transfer to another Washington State authority). The default selection is exits to all five outcomes."
+		}
+	},
 	"bin_sibling_group_size": {
 		"values": {
 			"0": "All",
