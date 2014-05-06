@@ -444,8 +444,7 @@
 			"legend": "Cohort Duration",
 			"column": "fieldsLeft",
 			"type": "filter",
-			"selected": 2,
-			"resultUnavailable": "hide"
+			"selected": 2
 		}
 	},
 	"nbrSiblings": {
