@@ -359,7 +359,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for children re-entering or exiting out-of-home care are aggregated into counts of first/initial and all re-entries or exits to or from out-of-home care. 'All' can include multiple re-entries or exits for the selected cohort. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for children who are re-referred are aggregated into counts of unduplicated or unique re-referrals and first or initial re-referrals within the selected time interval."
 		}
 	},
 	"qry_type_poc2": {
