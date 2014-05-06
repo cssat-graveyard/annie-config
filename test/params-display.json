@@ -95,7 +95,7 @@
 			"column": "fieldsRight",
 			"visible": true,
 			"type": "filter",
-			"selected": [1, 3],
+			"selected": [1, 2, 3],
 			"multi": true,
 			"zeroLast": false,
 			"help": "You can select re-entry to out-of-home care from <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. Re-entry is calculated 48 months from the ‘Exit Cohort Year’ you have chosen. The default includes all three outcomes."
