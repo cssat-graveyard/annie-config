@@ -431,10 +431,21 @@
 	"date_type": {
 		"table": "ref_lookup_date_type",
 		"display": {
-			"legend": "Time Interval",
+		    "legend": "Time Interval",
 			"column": "fieldsLeft",
 			"type": "filter",
-			"selected": 0
+			"selected": 2
+		}
+	},
+	"date_type_cohort": {
+		"table": "ref_lookup_date_type",
+		"display": {
+		    "alias": "date_type",
+			"legend": "Cohort Duration",
+			"column": "fieldsLeft",
+			"type": "filter",
+			"selected": 2,
+			"resultUnavailable": "hide"
 		}
 	},
 	"nbrSiblings": {

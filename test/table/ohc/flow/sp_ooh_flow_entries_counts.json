@@ -13,7 +13,7 @@
   },
   "controls": [
     "qry_type_poc1",
-    "date_type"
+    "date_type_cohort"
   ],
   "params": [
     "dynamicMonthStart",
