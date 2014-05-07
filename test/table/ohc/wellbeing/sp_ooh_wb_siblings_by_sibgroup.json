@@ -72,7 +72,7 @@
 	  "Service Type=service_category",
 	  "Budget=budget_category",
 	  "Placement Type=kincare",
-	  "Sibling Group Cohesion=measure_nbr"
+	  "Sibling Group Cohesion*measure_nbr"
 	],
 	"returnRowStart": 37,
     "columnClusterSize": 4,
