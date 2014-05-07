@@ -1,18 +1,7 @@
 {
-	"table": "sp_ooh_wb_siblings",
+	"table": "sp_ooh_wb_siblings_pvt",
 	"title": "Placement with Siblings - By Sibling Count",
 	"measurementOrder": 3,
-	"transform": {
-		"Function": "daterow",
-		"dateField": "bin_sibling_group_size",
-		"valueFields": [
-		    "All_Together",
-		    "Some_Together",
-		    "None_Together",
-		    "Number in Cohort"
-		],
-		"removeFields": []
-	},
 	"controls": [
 	    "qry_type_first_all",
 	    "kincare",
@@ -40,27 +29,26 @@
 	"requiredParams": [],
 	"showAllOthers": true,
 	"returnRowHeaders": [
-      0,
-      4,
-      6,
-      8,
-      10,
-      12,
-      14,
-      16,
-      18,
-      20,
-      22,
-      24,
-      26,
-      28,
-      30,
-      32,
-      34
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33
 	],
 	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [
-	  1, 2, 36
+	  0, 1, 35
 	],
 	"headerNames": [
       "*bin_sibling_group_size",
@@ -84,69 +72,11 @@
 	  "Budget=budget_category",
 	  "Placement Type=kincare"
 	],
-	"returnRowStart": 38,
+	"returnRowStart": 37,
     "columnClusterSize": 4,
-"multicharts": {
-    "Overview": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Year",
-          "y": "Percentage"
-        },
-        "hideColumns": [3]
-      }
-    ],    
-    "All-of-Sibling_-Group-Together": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Year",
-          "y": "Percentage"
-        },
-        "hideColumns": [
-          1,
-          2,
-          3
-        ]
-      }
-    ],
-    "Some-of-Sibling_-Group-Together": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Year",
-          "y": "Percentage"
-        },
-        "hideColumns": [
-          0,
-          2,
-          3
-        ]
-      }
-    ],
-    "None-of-Sibling_-Group-Together": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "Year",
-          "y": "Percentage"
-        },
-        "hideColumns": [
-          0,
-          1,
-          3
-        ]
-      }
-    ]
-
+  "chartType": "column",
+  "labels": {
+    "x": "Sibling Placement",
+    "y": "Percentage of Children"
   }
 }
