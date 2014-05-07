@@ -653,7 +653,7 @@
 			"column": "fieldsLeft",
 			"type": "filter",
 			"multi": true,
-			"selected": "2010",
+			"selected": "2013",
 			"resultUnavailable": "disable"
 		}
 	},
