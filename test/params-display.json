@@ -53,6 +53,16 @@
 			"help": "Age references the child’s/youth’s age on a given date (i.e., the first day of the year or quarter). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
 		}
 	},
+	"ageExits": {
+		"table": "vw_age_developmental_exits",
+		"valueColumn": 1,
+		"display": {
+			"legend": "Age at Exit",
+			"column": "fieldsRight",
+			"type": "param",
+			"help": "TODOAge references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
+		}
+	},
 	"ageSib": {
 		"table": "ref_lookup_sib_age_grp",
 		"removeKeys": [4],
@@ -81,6 +91,16 @@
 			"visible": false,
 			"type": "param",
 			"help": "This is the county the child/youth was placed in on this date. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+		}
+	},
+	"exitCounty": {
+		"table": "ref_lookup_county",
+		"display": {
+			"legend": "Exit County",
+			"column": "fieldsRight",
+			"visible": false,
+			"type": "param",
+			"help": "This is the county the child/youth TODO date. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}
 	},
 	"discharge_type_safety": {
