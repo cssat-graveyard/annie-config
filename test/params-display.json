@@ -594,7 +594,6 @@
 			"legend": "Reporter",
 			"column": "advancedLeft",
 			"visible": false,
-			"zeroLast": true,
 			"type": "param",
 			"multi": true,
 			"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. ‘Law Enforcement Officer’ includes ‘Correction Personnel’.  Adults below the line are mandated to report if they are “residing with a child suspected to have been severely abused”. ‘Other’ reporters include reports by the subject or the victim. ‘All’ includes all reporters, mandated or not."
