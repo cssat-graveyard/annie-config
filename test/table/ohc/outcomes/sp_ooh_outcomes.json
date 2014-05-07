@@ -80,6 +80,7 @@
 	"cd_discharge_type*discharge_type_outcomes"
   ],
   "returnRowStart": 37,
+  "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
 	"x": "Months Since Entering",

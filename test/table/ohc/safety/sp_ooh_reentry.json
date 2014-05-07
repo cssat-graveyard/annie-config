@@ -80,6 +80,7 @@
 	"Discharge Type=discharge_type_safety"
   ],
   "returnRowStart": 37,
+  "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
       "x": "Months Since Exiting Out-of-Home Care",

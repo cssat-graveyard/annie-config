@@ -63,6 +63,7 @@
 	"Budget=budget_category"
   ],
   "returnRowStart": 24,
+  "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
     "x": "Months Since In-Home Services Cases Opened",
