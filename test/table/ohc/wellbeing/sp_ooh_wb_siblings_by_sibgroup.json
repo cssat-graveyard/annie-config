@@ -77,7 +77,7 @@
     "columnClusterSize": 4,
   "chartType": "column",
   "labels": {
-    "x": "Sibling Placement",
-    "y": "Percentage of Children"
+    "x": "Sibling Group Size",
+    "y": "Percentage of Sibling Groups"
   }
 }
