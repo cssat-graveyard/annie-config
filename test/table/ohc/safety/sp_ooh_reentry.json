@@ -53,7 +53,8 @@
     30,
     32,
     34,
-    36
+    36,
+	37
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [1, 2, 36],
@@ -77,7 +78,8 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-	"Discharge Type=discharge_type_safety"
+	"Discharge Type=discharge_type_safety",
+	"Re-Entry Percent"
   ],
   "returnRowStart": 37,
   "hideRow": "allEmpty",
