@@ -665,7 +665,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "The cohort entry year for this measurement. TODO"
+			"help": "The entry cohort you are following is that group of children/youth who entered out-of-home care in the chosen year. ENTRY COHORT YEAR choices begin January 2000 and end on the most recent year for which we have data. Because nearly all children/youth in out-of-home care have achieved permanency or turned 18 years old within four years, the default year is set approximately four years earlier than the most recent year and results are returned for up to 48 months."
 		}
 	},
 	"cohort_year_int": {
@@ -756,7 +756,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "The cohort entry year TODO"
+			"help": "The exit cohort you are following is that group of children/youth who exited out-of-home care in the chosen year. EXIT COHORT YEARS choices begin January 2000 and end on the most recent year for which we have data. Because the number of re-entries begins to level off after four years, the default date is set approximately four years earlier than the most recent year and results are returned for up to 48 months."
 		}
 	},
 	"quarterStart": {
