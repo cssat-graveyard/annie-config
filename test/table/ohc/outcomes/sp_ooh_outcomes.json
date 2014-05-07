@@ -13,7 +13,7 @@
 	"cohort_year"
   ],
   "params": [
-    "age",
+    "ageExits",
     "ethnicityCensus",
     "gender",
     "initSetng",
@@ -61,7 +61,7 @@
     "&nbsp;",
     "*cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique",
-	"Age Grouping=ageCensus",
+	"Age Grouping=ageExits",
     "Gender=gender",
     "Race/Ethnicity",
     "Initial Placement=initSetng",

@@ -24,6 +24,15 @@
 			"help": "Age references the child’s/youth’s age at the time of placement in out-of-home care."
 		}
 	},
+	"age_reentry": {
+		"table": "ref_lookup_age",
+		"display": {
+			"legend": "Age at Exit",
+			"column": "fieldsRight",
+			"type": "param",
+			"help": "TODO Age references the child’s/youth’s age at the time of placement in out-of-home care."
+		}
+	},
 	"pitAge": {
 		"table": "ref_lookup_age",
 		"display": {
