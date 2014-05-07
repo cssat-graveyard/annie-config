@@ -4,13 +4,13 @@
   "transform": {
     "Function": "daterow",
 	"dateField": "Month",
-    "valueFields": ["Re-Entry Percent"],
+    "valueFields": ["Reentry Percent"],
 	"removeFields": []
   },
   "controls": [
     "qry_type_first_unique",
     "discharge_type_safety",
-    "cohort_year"
+    "cohort_year_ooh_safety"
   ],
   "params": [
     "age_reentry",
@@ -53,15 +53,14 @@
     30,
     32,
     34,
-    36,
-	37
+    36
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [1, 2, 36],
   "headerNames": [
 	"&nbsp;",
     "qry_type_poc1_first_unique*qry_type_first_unique",
-	"Cohort Entry Date*cohort_year",
+	"Cohort Entry Date*cohort_year_ooh_safety",
     "Age Grouping=age_reentry",
     "Gender=gender",
     "Race/Ethnicity",
@@ -78,8 +77,7 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-	"Discharge Type=discharge_type_safety",
-	"Re-Entry Percent"
+	"Discharge Type=discharge_type_safety"
   ],
   "returnRowStart": 37,
   "hideRow": "allEmpty",
