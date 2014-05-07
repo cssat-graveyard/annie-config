@@ -112,6 +112,17 @@
 			"help": "The location of the child/youth when she/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old)."
 		}
 	},
+		"exitCounty_devAge": {
+		"table": "ref_lookup_county",
+		"display": {
+			"legend": "Exit County",
+			"column": "fieldsRight",
+			"visible": false,
+			"type": "param",
+			"help": "The location of the child/youth when she/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old). TODO"
+			}
+	},
+	
 	"discharge_type_safety": {
 		"values": {
 			"1": "Reunification",
