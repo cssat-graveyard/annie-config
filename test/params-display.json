@@ -69,7 +69,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at exit references the age of the child/youth when she/he left out-of-home placement."
+			"help": "Age at exit uses a modified developmental age of the child/youth when she/he left out-of-home placement. This age category includes youth through to age 18."
 		}
 	},
 	"ageSib": {
