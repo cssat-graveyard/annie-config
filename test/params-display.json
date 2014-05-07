@@ -150,6 +150,24 @@
 			"help": "This filter returns data on the number of siblings in a family in order to more clearly understand the configuration of siblings who are placed together."
 		}
 	},
+	"sib_plc_measure": {
+		"values": {
+			"1": "All Together",
+			"2": "Some Together",
+			"3": "None Together"
+		},
+		"display": {
+			"legend": "Sibling Group Cohesion",
+			"alias": "measure_nbr",
+			"column": "fieldsRight",
+			"visible": false,
+			"type": "filter",
+			"selected": [1],
+			"multi": true,
+			"zeroLast": false,
+			"help": "This filter selects the extent to which siblings are placed completely together."
+		}
+	},	
 	"kincare": {
 		"values": {
 			"0": "All including Kin",

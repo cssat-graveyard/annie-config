@@ -5,7 +5,8 @@
 	"controls": [
 	    "qry_type_first_all",
 	    "kincare",
-	    "yearPIT"
+	    "yearPIT",
+	    "sib_plc_measure"
 	],
 	"params": [
 		"pitAge",
@@ -70,7 +71,8 @@
 	  "Finding=finding",
 	  "Service Type=service_category",
 	  "Budget=budget_category",
-	  "Placement Type=kincare"
+	  "Placement Type=kincare",
+	  "Sibling Group Cohesion=measure_nbr"
 	],
 	"returnRowStart": 37,
     "columnClusterSize": 4,
