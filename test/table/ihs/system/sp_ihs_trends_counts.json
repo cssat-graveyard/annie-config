@@ -130,13 +130,13 @@
         ]
       }
     ],
-    "Total-Cases-_pFirst-Day-of-Month_sYear_P": [
+    "Total-Cases-_pFirst-Day-of-Quarter_sYear_P": [
          {
         "chartType": "column",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [
@@ -152,7 +152,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [
@@ -166,7 +166,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [
@@ -182,7 +182,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [

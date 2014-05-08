@@ -93,7 +93,7 @@
           }
         },
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Count"
         },
         "hideColumns": [
