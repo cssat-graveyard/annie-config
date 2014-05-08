@@ -7,8 +7,8 @@
     "dateField": "Month",
     "valueFields": [
       "Total In Care First Day",
-      "Number of Entries",
-      "Number of Exits"
+      "Opened Cases",
+      "Case Closures"
     ],
     "removeFields": []
   },
