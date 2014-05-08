@@ -93,8 +93,8 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Year",
-          "y": "Percentage of Sibling Groups"
+          "x": "",
+          "y": "Percentage"
         },
         "hideColumns": [3]
       }
@@ -105,8 +105,8 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Year",
-          "y": "Percentage of Sibling Groups"
+          "x": "",
+          "y": "Percentage"
         },
         "hideColumns": [
           1,
@@ -121,8 +121,8 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Year",
-          "y": "Percentage of Sibling Groups"
+          "x": "",
+          "y": "Percentage"
         },
         "hideColumns": [
           0,
@@ -137,8 +137,8 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Year",
-          "y": "Percentage of Sibling Groups"
+          "x": "",
+          "y": "Percentage"
         },
         "hideColumns": [
           0,
