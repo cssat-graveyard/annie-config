@@ -39,7 +39,7 @@
 			"legend": "Age of Child",
 			"column": "fieldsLeft",
 			"type": "param",
-			"help": "Age references the child’s/youth’s age on the given date."
+			"help": "Age references the child’s/youth’s age in the selected years."
 		} 
 	},
 	"ageCensus": {
