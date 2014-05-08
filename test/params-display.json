@@ -788,7 +788,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "cohort_year_ihs_safety This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-home care are returned for up to 48 months following the selected cohort year."
+			"help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-home care are returned for up to 48 months following the selected cohort year."
 		}
 	},
 	"cohort_year_ooh_safety": {
@@ -872,7 +872,7 @@
 			"legend": "Service Cohort Quarter",
 			"column": "fieldsLeft",
 			"type": "cohort",
-			"help": "quarterServiceThis filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
+			"help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
 		}
 	},
 	"monthStart": {
