@@ -210,8 +210,8 @@
 	},	
 	"kincare": {
 		"values": {
-			"0": "All including Kin",
-			"1": "With Kin"
+			"0": "All Out-of-Home Care",
+			"1": "Relative/Kinship Care"
 		},
 		"display": {
 			"legend": "Placement Type",
