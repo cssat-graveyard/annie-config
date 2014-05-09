@@ -404,7 +404,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"_comment_sort": "qryTypeCompare",
-			"help": "Point in time data for counts of children in out-of-home care are aggregated into counts of ‘first’ and ‘all’ children entering out-of-home care. The ‘first’ query type counts only a child’s first stay in out-of-home care. The ‘all’ query type counts all stays (i.e., the first, second, etc., stay in out-of-home care. For example, if a child’s first stay in out-of-home care started in Dec 2005 and ended in Feb 2007, and their second stay was from Dec 2007 to Jan 2008, they would be in the ‘first’ count on Jan 1 2006 and Jan 1 2007; their ‘all’ count would include those days as well Jan 1 2008. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Point in time data for counts of children in out-of-home care are aggregated into counts of ‘first’ and ‘all’ children entering out-of-home care. The ‘first’ query type counts only the first day of the year quarter of the child’s first stay in out-of-home care. The ‘all’ query type counts all stays on the first day of the year or quarter (i.e., the first, second, etc., stay in out-of-home care. For example, if a child’s first stay in out-of-home care started in Dec 2005 and ended in Feb 2007, and their second stay was from Dec 2007 to Jan 2008, they would be in the ‘first’ count on Jan 1 2006 and Jan 1 2007; their ‘all’ count would include those days as well Jan 1 2008. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique": {
