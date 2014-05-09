@@ -7,7 +7,7 @@
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Total In Care First Day"
+      "Total Count of Children In Out-of-Home Care on the First Day"
     ],
     "removeFields": [
     ]
@@ -91,7 +91,7 @@
   "chartType": "line",
   "labels": {
     "x": "",
-    "y": "Count"
+    "y": ""
   },
   "numberFormat": {
       "fractionDigits": 0
