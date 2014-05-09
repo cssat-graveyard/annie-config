@@ -7,7 +7,7 @@
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Total Count of Children In Care on the First Day"
+      "Total Count of Children In Care First Day"
     ],
     "removeFields": [
     ]
