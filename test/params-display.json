@@ -459,7 +459,7 @@
 	},
 	"qry_type_first_unique_ooh_outcomes": {
 		"values": {
-			"0": "Unique Entries into Out-of-Home Care"
+			"0": "Unique Entries into Out-of-Home Care",
 			"1": "First Entries into Out-of-Home Care"
 		},
 		"display": {
