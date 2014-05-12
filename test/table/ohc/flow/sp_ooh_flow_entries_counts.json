@@ -67,7 +67,7 @@
   ],
   "headerNames": [
     "&nbsp;",
-    "*qry_type_poc1",
+    "qry_type_poc1*qry_type_entries",
     "Age Grouping=ageCensus",
     "Gender=gender",
     "Race/Ethnicity",

@@ -381,11 +381,28 @@
 			"help": "where"
 		}
 	},
-	"qry_type_poc1": {
+	"qry_type_entries": {
 		"values": {
 			"0": "All Entries into Out-of-Home Care",
 			"1": "First Entries into Out-of-Home Care",
 			"2": "Unique Entries into Out-of-Home Care"
+		},
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"type": "filter",
+			"selected": 2,
+			"multi": true,
+			"zeroLast": false,
+			"sort": "qryTypeCompare",
+			"help": "Cohort data for out-of-home care cases are aggregated into counts of first, unduplicated/unique, and all children in out-of-home care. First or initial counts/rates will be the lowest; all will be the highest count/rate.  The count of all cases will capture multiple entries and exits for the selected cohort while unduplicated or unique cases will capture the first out-of-home care case in the selected time period. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_exits": {
+		"values": {
+			"0": "All Exits from Out-of-Home Care",
+			"1": "First Exits from Out-of-Home Care",
+			"2": "Unique Exits from Out-of-Home Care"
 		},
 		"display": {
 			"legend": "Count Type",
@@ -422,6 +439,54 @@
 			"multi": true,
 			"zeroLast": false,
 			"help": "Cohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-referrals or re-entries and first or initial re-referrals or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_first_unique_ooh_reentry": {
+		"values": {
+			"1": "First Exits from Out-of-Home Care",
+			"2": "Unique Exits from Out-of-Home Care"
+		},
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"visible": true,
+			"type": "filter",
+			"selected": 0,
+			"multi": true,
+			"zeroLast": false,
+			"help": "Cohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-referrals or re-entries and first or initial re-referrals or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_first_unique_ooh_outcomes": {
+		"values": {
+			"1": "First Entries into Out-of-Home Care",
+			"2": "Unique Entries into Out-of-Home Care"
+		},
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"visible": true,
+			"type": "filter",
+			"selected": 0,
+			"multi": true,
+			"zeroLast": false,
+			"help": "Cohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-referrals or re-entries and first or initial re-referrals or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+		}
+	},
+	"qry_type_first_unique_ia_safety": {
+		"values": {
+			"1": "First Investigations",
+			"2": "Unique Investigations"
+		},
+		"display": {
+			"legend": "Count Type",
+			"column": "fieldsRight",
+			"visible": true,
+			"type": "filter",
+			"selected": 0,
+			"multi": true,
+			"zeroLast": false,
+			"help": "TODOCohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-referrals or re-entries and first or initial re-referrals or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc2": {
