@@ -382,7 +382,11 @@
 		}
 	},
 	"qry_type_poc1": {
-		"table": "ref_lookup_qry_type_poc1",
+		"values": {
+			"0": "All Entries into Out-of-Home Care",
+			"1": "First Entries into Out-of-Home Care",
+			"2": "Unique Entries into Out-of-Home Care"
+		},
 		"display": {
 			"legend": "Count Type",
 			"column": "fieldsRight",
