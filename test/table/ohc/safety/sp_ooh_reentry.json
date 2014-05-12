@@ -8,7 +8,7 @@
 	"removeFields": []
   },
   "controls": [
-    "qry_type_first_unique",
+    "qry_type_first_unique_ooh_reentry",
     "discharge_type_safety",
     "cohort_year_ooh_safety"
   ],

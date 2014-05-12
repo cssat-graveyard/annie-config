@@ -11,7 +11,7 @@
 	"table": "sp_ia_safety"
   },
   "controls": [
-    "qry_type_first_unique",
+    "qry_type_first_unique_ia_safety",
 	"cohort_year_ia_safety"
   ],
   "params": [

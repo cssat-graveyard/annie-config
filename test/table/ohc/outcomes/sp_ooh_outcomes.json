@@ -8,7 +8,7 @@
 	"removeFields": []
   },
   "controls": [
-    "qry_type_first_unique",
+    "qry_type_first_unique_ooh_outcomes",
 	"discharge_type_outcomes",
 	"cohort_year"
   ],
@@ -60,7 +60,7 @@
   "headerNames": [
     "&nbsp;",
     "*cohort_year",
-    "qry_type_poc1_first_unique*qry_type_first_unique_outcomes",
+    "qry_type_poc1_first_unique*qry_type_first_unique_ooh_outcomes",
 	"Age Grouping=ageExits",
     "Gender=gender",
     "Race/Ethnicity",

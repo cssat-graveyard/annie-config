@@ -12,7 +12,7 @@
     "removeFields": []
   },
   "controls": [
-    "qry_type_poc1",
+    "qry_type_exits",
     "date_type",
     "discharge_type_exits"
   ],

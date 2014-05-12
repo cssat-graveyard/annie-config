@@ -12,7 +12,7 @@
     "removeFields": []
   },
   "controls": [
-    "qry_type_poc1",
+    "qry_type_entries",
     "date_type_cohort"
   ],
   "params": [
