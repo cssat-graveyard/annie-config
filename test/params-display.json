@@ -383,9 +383,9 @@
 	},
 	"qry_type_entries": {
 		"values": {
-			"0": "All Entries into Out-of-Home Care",
+			"0": "Unique Entries into Out-of-Home Care",
 			"1": "First Entries into Out-of-Home Care",
-			"2": "Unique Entries into Out-of-Home Care"
+			"2": "All Entries into Out-of-Home Care"
 		},
 		"display": {
 			"legend": "Count Type",
@@ -400,9 +400,9 @@
 	},
 	"qry_type_exits": {
 		"values": {
-			"0": "All Exits from Out-of-Home Care",
+			"0": "Unique Exits from Out-of-Home Care",
 			"1": "First Exits from Out-of-Home Care",
-			"2": "Unique Exits from Out-of-Home Care"
+			"2": "All Exits from Out-of-Home Care"
 		},
 		"display": {
 			"legend": "Count Type",
@@ -443,8 +443,8 @@
 	},
 	"qry_type_first_unique_ooh_reentry": {
 		"values": {
-			"1": "First Exits from Out-of-Home Care",
-			"2": "Unique Exits from Out-of-Home Care"
+			"0": "Unique Exits from Out-of-Home Care",
+			"1": "First Exits from Out-of-Home Care"
 		},
 		"display": {
 			"legend": "Count Type",
@@ -459,8 +459,8 @@
 	},
 	"qry_type_first_unique_ooh_outcomes": {
 		"values": {
-			"1": "First Entries into Out-of-Home Care",
-			"2": "Unique Entries into Out-of-Home Care"
+			"0": "Unique Entries into Out-of-Home Care"
+			"1": "First Entries into Out-of-Home Care"
 		},
 		"display": {
 			"legend": "Count Type",
@@ -475,8 +475,8 @@
 	},
 	"qry_type_first_unique_ia_safety": {
 		"values": {
-			"1": "First Investigations",
-			"2": "Unique Investigations"
+			"0": "Unique Investigations",
+			"1": "First Investigations"
 		},
 		"display": {
 			"legend": "Count Type",
