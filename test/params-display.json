@@ -95,7 +95,7 @@
 		"table": "ref_lookup_county",
 		"display": {
 			"legend": "Placement County",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"help": "This is the county the child/youth was placed in on this date. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
