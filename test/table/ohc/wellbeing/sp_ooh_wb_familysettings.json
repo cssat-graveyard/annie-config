@@ -97,7 +97,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Percentage"
+          "y": "",
+          "yFormat": "##'%"
         },
         "hideColumns": []
       }
@@ -109,7 +110,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Percentage"
+          "y": "",
+	      "yFormat": "##'%"
         },
         "hideColumns": [
           1,
@@ -125,7 +127,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Percentage"
+          "y": "",
+          "yFormat": "##'%"
         },
         "hideColumns": [
           0,
@@ -141,7 +144,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Percentage"
+          "y": "",
+	      "yFormat": "##'%"
         },
         "hideColumns": [
           0,
@@ -157,7 +161,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Percentage"
+          "y": "",
+	      "yFormat": "##'%"
         },
         "hideColumns": [
           0,

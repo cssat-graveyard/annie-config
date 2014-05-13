@@ -84,7 +84,8 @@
   "chartType": "line",
   "labels": {
 	"x": "Months Since Entering",
-    "y": "Percentage Achieving Outcome"
+    "y": "",
+	"yFormat": "##'%"
   }, 
   "numberFormat": {
       "suffix": "%",

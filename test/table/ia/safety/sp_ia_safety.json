@@ -57,7 +57,7 @@
   "chartType": "line",
   "labels": {
     "x": "Months Since First Investigation",
-    "y": "Percentage",
+    "y": "",
     "yFormat": "##'%"
   },
   "numberFormat": {

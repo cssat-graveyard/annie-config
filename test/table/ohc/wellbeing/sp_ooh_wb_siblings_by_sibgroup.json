@@ -78,6 +78,7 @@
   "chartType": "column",
   "labels": {
     "x": "Sibling Group Size",
-    "y": "Percentage of Sibling Groups"
+    "y": "",
+	"yFormat": "##'%"
   }
 }
