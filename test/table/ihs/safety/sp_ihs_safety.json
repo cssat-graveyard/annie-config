@@ -67,7 +67,8 @@
   "chartType": "line",
   "labels": {
     "x": "Months Since In-Home Services Cases Opened",
-    "y": "Percentage"
+    "y": "",
+	"yFormat": "##'%"
   },
   "numberFormat": {
     "suffix": "%",
