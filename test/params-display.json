@@ -105,7 +105,7 @@
 		"table": "ref_lookup_county",
 		"display": {
 			"legend": "Exit County",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"help": "The location of the child/youth when she/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old)."
@@ -664,7 +664,7 @@
 		"table": "ref_filter_los",
 		"display": {
 			"legend": "Duration of Out-of-Home Episode",
-			"column": "advancedLeft",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"multi": true,
