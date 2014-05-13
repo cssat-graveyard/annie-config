@@ -395,7 +395,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for out-of-home care cases are aggregated into counts of first, unduplicated/unique, and all children in out-of-home care. First or initial counts/rates will be the lowest; all will be the highest count/rate.  The count of all cases will capture multiple entries and exits for the selected cohort while unduplicated or unique cases will capture the first out-of-home care case in the selected time period. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for counts of children in out-of-home care are aggregated into counts of ‘first’, ‘unique’, and ‘all’ children entering out-of-home care. Let’s assume we are counting by year (not quarter) and the child’s first entry into out-of-home care was in (March) 2008 and ended in (November) 2008, their second entry began in (February) 2009 and ended shortly after in (May) 2009, and their third entry began in (August) 2009 and ended in (December) 2009. This child’s ‘first’ entry would be in (March) 2008, their ‘unique’ count of entries would include (March) 2008 and (February) 2009; and their ‘all’ count would be their unique count plus the second entry into out-of-home care in (August) 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_exits": {
@@ -412,7 +412,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for out-of-home care cases are aggregated into counts of first, unduplicated/unique, and all children in out-of-home care. First or initial counts/rates will be the lowest; all will be the highest count/rate.  The count of all cases will capture multiple entries and exits for the selected cohort while unduplicated or unique cases will capture the first out-of-home care case in the selected time period. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": " Cohort data for counts of children in out-of-home care are aggregated into counts of ‘first’, ‘unique’, and ‘all’ children exiting out-of-home care. Let’s assume we are counting by year (not quarter) and the child was in out-of-home care for three time periods:  (March) 2008 to (November) 2008, (February) 2009 to (May) 2009, and (August) 2009 to (December) 2009. This child’s ‘first’ exit would be in (November) 2008, their ‘unique’ count of exits would include (November) 2008 and (May) 2009; and their ‘all’ count would be their unique count plus the second exit from out-of-home care in (December) 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_all": {
@@ -425,7 +425,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"_comment_sort": "qryTypeCompare",
-			"help": "Point in time data for counts of children in out-of-home care are aggregated into counts of ‘first’ and ‘all’ children entering out-of-home care. The ‘first’ query type counts only the first day of the year or quarter of the child’s first stay in out-of-home care. The ‘all’ query type counts all stays on the first day of the year or quarter. For example, if a child’s ‘first’ stay in out-of-home care started in 2004 and ended in early 2008, and their second stay began later in 2008 and ended in 2009, they would be IN their first stay on the first day 2005, 2006, 2007, and 2008. Their ‘all’ count would include those days as well as the first day of 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Point in time data for counts of children in out-of-home care are aggregated into counts of ‘first’ and ‘all’ children in out-of-home care. Point in time counts count the first day of the year or quarter. Let’s assume we are counting years and the child’s first stay in out-of-home care started in (December) 2005 and ended in (February) 2007 and their second stay began in (December) 2007 and ended in (January) 2008. This child would be IN their ‘first’ stay on the first day of 2006 and the first day of 2007; the count of ‘all’ stays would be the count of the first stays plus the first day of 2008. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique": {
