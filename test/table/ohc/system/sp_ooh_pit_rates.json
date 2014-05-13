@@ -90,7 +90,7 @@
 	"chartType": "line",
 	"labels": {
 		"x": "",
-		"y": "Population Rate"
+		"y": ""
 	},
     "numberFormat": {
 		"fractionDigits": 2
