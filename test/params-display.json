@@ -76,7 +76,7 @@
 		"removeKeys": [4],
 		"display": {
 			"legend": "Age of Children in Household",
-			"column": "fieldsLeft",
+			"column": "fieldsRight",
 			"type": "param",
 			"help": "This filter is used for all the Investigations & Assessments and In-Home Services measures. It references the ages of the children/youth in the household at the time the investigation/assessment was opened or at the time the family was receiving in-home services. The age categories follow U.S. Census conventions, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices. Please see Filters Explained for more information on how to interpret the four age categories."
 		}
