@@ -137,7 +137,7 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "Count"
         },
         "hideColumns": [
           1,
