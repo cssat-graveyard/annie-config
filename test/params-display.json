@@ -240,7 +240,7 @@
 		"removeKeys": [7],
 		"display": {
 			"legend": "Race/Ethnicity",
-			"column": "fieldsLeft",
+			"column": "fieldsRight",
 			"type": "param",
 			"sort": "raceEthnicityCompare",
 			"zeroLast": false,
