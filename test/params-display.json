@@ -454,7 +454,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-referrals or re-entries and first or initial re-referrals or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for children who re-enter out-of-home care are aggregated into counts of ‘first’ and ‘unique’ exits from out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ exit would be in (November) 2008 and their ‘unique’ exits would include their first exit plus (May) 2009.See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique_ooh_outcomes": {
@@ -470,7 +470,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-referrals or re-entries and first or initial re-referrals or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for children who enter out-of-home care are aggregated into counts of ‘first’ and ‘unique’ entries into out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ entry would be in (March) 2008 and their ‘unique’ entry count would include their first entry plus (Februrary) 2009.See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique_ia_safety": {
