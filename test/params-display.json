@@ -499,7 +499,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of investigations/assessments are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘Total Cases First Day’ is a point in time count, meaning investigations are counted on the first day of the year or quarter. ‘Opened Cases’ and ‘Case Closures’ are cohort counts, meaning investigations are counted as being opened or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rate of investigations/assessments are aggregated into counts/rates of first, unduplicated/unique, and all investigations/assessments in the selected time period. First investigations will be the lowest count/rate for households, while counts/rates for all investigations will include households with repeat investigations in the time period. Unduplicated investigations count unique cases (i.e., the first investigation for a household in the chosen time interval). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc3": {
@@ -512,7 +512,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of in-home services are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ in-home service cases per household. ‘Total Cases First Day’ is a point in time count, meaning in-home service cases are counted on the first day of the year or quarter. ‘Opened Cases’ and ‘Case Closures’ are cohort counts, meaning in-home service cases are counted as being opened or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rate of in-home services are aggregated into counts/rates of first, unduplicated/unique, and all in-home services in the selected time period. First in-home services will be the lowest count/rate of households, while counts/rates for all in-home services will include households with repeat in-home services in the time period. Unduplicated in-home services count unique cases (i.e., the first in-home services for a household in the chosen time interval). See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"service_type": {

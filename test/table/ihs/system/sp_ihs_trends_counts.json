@@ -6,7 +6,7 @@
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Total Cases First Day",
+      "Total In Care First Day",
       "Opened Cases",
       "Case Closures"
     ],
@@ -100,7 +100,7 @@
         },
         "labels": {
           "x": "",
-          "y": ""
+          "y": "Count"
         },
         "hideColumns": [
           1,
@@ -123,7 +123,7 @@
         },
         "labels": {
           "x": "",
-          "y": ""
+          "y": "Count"
         },
         "hideColumns": [
           0
@@ -153,7 +153,7 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "Count"
         },
         "hideColumns": [
           0
@@ -167,7 +167,7 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "Count"
         },
         "hideColumns": [
           0,
@@ -183,7 +183,7 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "Count"
         },
         "hideColumns": [
           0,
