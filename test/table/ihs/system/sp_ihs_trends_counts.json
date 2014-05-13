@@ -6,7 +6,7 @@
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Total Cases First Day",
+      "Total In Care First Day",
       "Opened Cases",
       "Case Closures"
     ],
