@@ -279,7 +279,7 @@
 		"_comment": "Missing / Other",
 		"display": {
 			"legend": "DCFS Office",
-			"column": "advanceRight",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"sort": true,
