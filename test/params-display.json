@@ -36,7 +36,7 @@
 		"table": "ref_lookup_age",
 		"display": {
 			"legend": "Age of Child",
-			"column": "fieldsLeft",
+			"column": "fieldsRight",
 			"type": "param",
 			"help": "Age references the child’s/youth’s age in the selected years."
 		} 
@@ -115,7 +115,7 @@
 		"table": "ref_lookup_county",
 		"display": {
 			"legend": "Exit County",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"help": "The location of the child/youth when she/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old). TODO"
@@ -180,7 +180,7 @@
 		},
 		"display": {
 			"legend": "Sibling Group Size",
-			"column": "fieldsRight",
+			"column": "fieldsLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 0,
@@ -198,7 +198,7 @@
 		"display": {
 			"legend": "Sibling Group Cohesion",
 			"alias": "measure_nbr",
-			"column": "fieldsRight",
+			"column": "fieldsLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": [1],
