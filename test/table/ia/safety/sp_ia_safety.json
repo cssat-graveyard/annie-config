@@ -58,7 +58,7 @@
   "labels": {
     "x": "Months Since First Investigation",
     "y": "Percentage",
-    "yFormat": "##'%'
+    "yFormat": "##'%"
   },
   "numberFormat": {
     "fractionDigits": 2,
