@@ -100,7 +100,7 @@
         },
         "labels": {
           "x": "",
-          "y": "Count"
+          "y": ""
         },
         "hideColumns": [
           1,
@@ -123,7 +123,7 @@
         },
         "labels": {
           "x": "",
-          "y": "Count"
+          "y": ""
         },
         "hideColumns": [
           0
@@ -137,7 +137,7 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Count"
+          "y": ""
         },
         "hideColumns": [
           1,
@@ -153,7 +153,7 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Count"
+          "y": ""
         },
         "hideColumns": [
           0
@@ -167,7 +167,7 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Count"
+          "y": ""
         },
         "hideColumns": [
           0,
@@ -183,7 +183,7 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Count"
+          "y": ""
         },
         "hideColumns": [
           0,
