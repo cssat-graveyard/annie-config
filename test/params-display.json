@@ -160,7 +160,7 @@
 		"display": {
 		    "alias": "cd_discharge_type",
 			"legend": "Permanency Type",
-			"column": "fieldsLeft",
+			"column": "fieldsRight",
 			"visible": false,
 			"type": "filter",
 			"selected": [0],
