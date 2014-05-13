@@ -89,7 +89,7 @@
   "chartType": "line",
   "labels": {
     "x": "",
-	"y": "Count"
+	"y": ""
   },
   "numberFormat": {
       "fractionDigits": 0

@@ -92,7 +92,7 @@
   "chartType": "line",
   "labels": {
     "x": "",
-    "y": "Count of Exits"
+    "y": ""
   },
   "numberFormat": [
     {
