@@ -619,7 +619,7 @@
 		"table": "ref_filter_dependency",
 		"display": {
 			"legend": "Court Involvement",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"multi": true,
