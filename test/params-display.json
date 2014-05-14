@@ -608,7 +608,7 @@
 		"table": "ref_filter_los",
 		"display": {
 			"legend": "Duration of Out-of-Home Episode",
-			"column": "advancedLeft",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"multi": true,
@@ -619,7 +619,7 @@
 		"table": "ref_filter_dependency",
 		"display": {
 			"legend": "Court Involvement",
-			"column": "advancedLeft",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "filter",
 			"multi": true,
