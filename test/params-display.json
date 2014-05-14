@@ -593,6 +593,17 @@
 			"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any Legal Finding’ from ‘All (With or Without Legal Finding).’"
 		}
 	},
+		"nbr_placement": {
+		"table": "ref_filter_nbr_placement",
+		"display": {
+			"legend": "Number of Out-of-Home Placements",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
+		}
+	},
 	"ooh_los": {
 		"table": "ref_filter_los",
 		"display": {
@@ -625,17 +636,6 @@
 			"type": "param",
 			"multi": true,
 			"help": "Some in-home services are paid by Children’s Administration (CA) or and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA: cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
-		}
-	},
-	"nbr_placement": {
-		"table": "ref_filter_nbr_placement",
-		"display": {
-			"legend": "Number of Out-of-Home Placements",
-			"column": "advancedLeft",
-			"visible": false,
-			"type": "param",
-			"multi": true,
-			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
 		}
 	},
 	"service_category": {
