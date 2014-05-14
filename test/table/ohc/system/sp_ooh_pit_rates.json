@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_pit_rates",
-	"title": "Rate (per 1,000) of Children in Out-of-Home Care",
+	"title": "Rate of Out-of-Home Care per 1,000 Children",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
