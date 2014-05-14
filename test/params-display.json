@@ -608,7 +608,7 @@
 		"table": "ref_filter_los",
 		"display": {
 			"legend": "Duration of Out-of-Home Episode",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "param",
 			"multi": true,
