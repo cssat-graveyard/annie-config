@@ -173,7 +173,7 @@
 		},
 		"display": {
 			"legend": "Placement Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 0,
