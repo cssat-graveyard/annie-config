@@ -605,6 +605,17 @@
 			"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any Legal Finding’ from ‘All (With or Without Legal Finding).’"
 		}
 	},
+	"ooh_los": {
+		"table": "ref_filter_los",
+		"display": {
+			"legend": "Duration of Out-of-Home Episode",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "An out-of-home care episode begins with a state custody date and ends with a federal discharge date. Multiple placements into out-of-home placement settings can occur within a single episode. This filter allows you to determine how many episodes are greater than 7 days, 60 days, 1 year, or 2 years."
+		}
+	},		
 	"ihs_services": {
 		"table": "ref_filter_ihs_services",
 		"display": {
@@ -616,17 +627,6 @@
 			"help": "Some in-home services are paid by Children’s Administration (CA) or and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA: cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
 		}
 	},
-	"ooh_los": {
-		"table": "ref_filter_los",
-		"display": {
-			"legend": "Duration of Out-of-Home Episode",
-			"column": "advancedRight",
-			"visible": false,
-			"type": "param",
-			"multi": true,
-			"help": "An out-of-home care episode begins with a state custody date and ends with a federal discharge date. Multiple placements into out-of-home placement settings can occur within a single episode. This filter allows you to determine how many episodes are greater than 7 days, 60 days, 1 year, or 2 years."
-		}
-	},
 	"nbr_placement": {
 		"table": "ref_filter_nbr_placement",
 		"display": {
@@ -636,19 +636,6 @@
 			"type": "param",
 			"multi": true,
 			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
-		}
-	},
-	"reporter_type": {
-    	"removeKeys": [-99],
-		"table": "ref_filter_reporter_type",
-		"orderBy": "ordering",
-		"display": {
-			"legend": "Reporter",
-			"column": "advancedLeft",
-			"visible": false,
-			"type": "param",
-			"multi": true,
-			"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report. Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. ‘Law Enforcement Officer’ includes ‘Correction Personnel’.  Adults below the line are mandated to report if they are “residing with a child suspected to have been severely abused”. ‘Other’ reporters include reports by the subject or the victim. ‘All’ includes all reporters, mandated or not."
 		}
 	},
 	"service_category": {
