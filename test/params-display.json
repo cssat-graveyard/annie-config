@@ -229,22 +229,6 @@
 			
 		}
 	},
-	"office": {
-		"table": "ref_lookup_office_collapse",
-		"addKeyValues": {
-			"0": "All"
-		},
-		"removeKeys": [-99],
-		"_comment": "Missing / Other",
-		"display": {
-			"legend": "DCFS Office",
-			"column": "advancedRight",
-			"visible": false,
-			"type": "param",
-			"sort": true,
-			"help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
-		}
-	},
 	"officeGroup": {
 		"table": "ref_lookup_cd_office_county_grp",
 		"orderBy": "tx_office_county_grp",
@@ -981,6 +965,22 @@
 			"visible": false,
 			"type": "param",
 			"help": "The location of the child/youth when she/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old). TODO"
+		}	
+	},
+	"office": {
+		"table": "ref_lookup_office_collapse",
+		"addKeyValues": {
+			"0": "All"
+		},
+		"removeKeys": [-99],
+		"_comment": "Missing / Other",
+		"display": {
+			"legend": "DCFS Office",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"sort": true,
+			"help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
 		}
 	}
 }
