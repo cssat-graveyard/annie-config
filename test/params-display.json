@@ -68,7 +68,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at exit uses a modified developmental age of the child/youth when s/he left out-of-home placement. This age category includes youth through to age 18."
+			"help": "Age at the time the child/youth exited out-of-home placement uses modified developmental age categories. This age category includes youth through age 18."
 		}
 	},
 	"ageSib": {
@@ -111,7 +111,7 @@
 			"multi": true,
 			"zeroLast": true,
 			"resultUnavailable": "disable",
-			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other (e.g., transfer to another Washington State authority). The default selection is exits to all five outcomes."
+			"help": "You can select exit from out-of-home care to <a href=' /data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default ‘exit type’ includes reunification, adoption and guardianship."
 		}
 	},
 	"discharge_type_exits": {
@@ -397,7 +397,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for children who re-enter out-of-home care are aggregated into counts of ‘first’ and ‘unique’ exits from out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ exit would be in (November) 2008 and their ‘unique’ exits would include their first exit plus (May) 2009.See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for children who re-enter out-of-home care are aggregated into ‘first’ and ‘unique’ exits from out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ exit would be in (November) 2008 and their ‘unique’ exits would include their first exit plus (May) 2009.See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique_ooh_outcomes": {
@@ -413,7 +413,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for children who enter out-of-home care are aggregated into counts of ‘first’ and ‘unique’ entries into out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ entry would be in (March) 2008 and their ‘unique’ entry count would include their first entry plus (Februrary) 2009.See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for children who enter out-of-home care are aggregated into ‘first’ and ‘unique’ entries into out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ entry would be in (March) 2008 and their ‘unique’ entry count would include their first entry plus (February) 2009.See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique_ia_safety": {
@@ -843,7 +843,7 @@
 			"column": "fieldsLeft",
 			"type": "cohort",
 			"quarterDate": "start",
-			"help": "The entry cohort you are following is that group of children/youth who entered out-of-home care in the chosen year. ENTRY COHORT YEAR choices begin January 2000 and end on the most recent year for which we have data. Because nearly all children/youth in out-of-home care have achieved permanency or turned 18 years old within four years, the default year is set approximately four years earlier than the most recent date and results are returned for up to 48 months."
+			"help": "Not used?"
 		}
 	},
 	"quarterCompellingReasonEntry": {
@@ -862,7 +862,7 @@
 			"column": "fieldsLeft",
 			"type": "cohort",
 			"quarterDate": "start",
-			"help": "The exit cohort you are following is that group of children/youth who exited out-of-home care in the chosen year. EXIT COHORT YEARS choices begin January 2000 and end on the most recent year for which we have data. Because the number of re-entries begins to level off after four years, the default year is set approximately four years earlier than the most recent year and results are returned for up to 48 months."
+			"help": "The exit cohort is that group of children/youth who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If a year that was less than 48 ago is selected, the line graph and the data will be truncated."
 		}
 	},
 	"quarterService": {
