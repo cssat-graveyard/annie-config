@@ -257,7 +257,8 @@
 			  "sp_ooh_flow_entries_rates": "This filter provides counts or rates of children/youth in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
 			  "sp_ooh_flow_exits": "This filter provides counts or rates of children/youth in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
 			  "sp_ooh_flow_entries_counts": "This filter provides counts or rates of children/youth in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_reentry":	"The percentage of re-entries by exit type can be filtered by the child's/youth's initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."	  
+			  "sp_ooh_reentry":	"The percentage of re-entries into out-of-home care can be filtered by the child's/youth's initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",	 
+			  "sp_ooh_outcomes": "The percentage of exits from out-of-home care can be filtered by the child's/youth's initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."			  
 			}
 		}
 	},
@@ -282,7 +283,8 @@
 			  "sp_ooh_flow_entries_rates": "This filter provides counts or rates of children/youth in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
 			  "sp_ooh_flow_exits": "This filter provides counts or rates of children/youth in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
 			  "sp_ooh_flow_entries_counts": "This filter provides counts or rates of children/youth in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",  
-			  "sp_ooh_reentry": "The percentage of re-entries by exit type can be filtered by the child's/youth's longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."	
+			  "sp_ooh_reentry": "The percentage of re-entries from out-of-home care can be filtered by the child's/youth's longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_outcomes": "The percentage of exits from out-of-home care can be filtered by the child's/youth's longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."			  
 			}
 		}
 	},
@@ -814,7 +816,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "The exit cohort is that group of children/youth who exited out-of-home care in the selected years. ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If a year that was less than 48 ago is selected, the line graph and the data will be truncated."
+			"help": "The exit cohort is that group of children/youth who exited out-of-home care in the selected years. ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If the selected year(s) are less than 48 month in the past, the line graph and the data will be truncated."
 		}
 	},
 	"quarterStart": {
