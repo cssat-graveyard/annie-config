@@ -29,7 +29,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at exit references the age of the child/youth when she/he left out-of-home placement."
+			"help": "Age at exit references the age of the child/youth when s/he left out-of-home placement."
 		}
 	},
 	"pitAge": {
@@ -48,7 +48,7 @@
 			"legend": "Age at Removal",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age references the child’s/youth’s age at the time she/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
+			"help": "Age references the child’s/youth’s age at the time s/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
 		}
 	},
 	"pitAgeCensus": {
@@ -68,7 +68,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at exit uses a modified developmental age of the child/youth when she/he left out-of-home placement. This age category includes youth through to age 18."
+			"help": "Age at exit uses a modified developmental age of the child/youth when s/he left out-of-home placement. This age category includes youth through to age 18."
 		}
 	},
 	"ageSib": {
@@ -338,7 +338,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for counts of children in out-of-home care are aggregated into counts of ‘first’, ‘unique’, and ‘all’ children entering out-of-home care. Let’s assume we are counting by year (not quarter) and the child’s first entry into out-of-home care was in (March) 2008 and ended in (November) 2008, their second entry began in (February) 2009 and ended shortly after in (May) 2009, and their third entry began in (August) 2009 and ended in (December) 2009. This child’s ‘first’ entry would be in (March) 2008, their ‘unique’ count of entries would include (March) 2008 and (February) 2009; and their ‘all’ count would be their unique count plus the second entry into out-of-home care in (August) 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for counts and rates of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children entering out-of-home care. Let’s assume we are counting by year (not quarter) and the child’s first entry into out-of-home care was in (March) 2008 through (November) 2008, their second entry began in (February) 2009 and ended shortly after in (May) 2009, and their third entry began in (August) 2009 and ended in (December) 2009. This child’s ‘first’ entry would be in (March) 2008, their ‘unique’ count of entries would include (March) 2008 and (February) 2009 and their ‘all’ count would be their unique count plus the second entry into out-of-home care in (August) 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_exits": {
@@ -355,7 +355,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": " Cohort data for counts of children in out-of-home care are aggregated into counts of ‘first’, ‘unique’, and ‘all’ children exiting out-of-home care. Let’s assume we are counting by year (not quarter) and the child was in out-of-home care for three time periods:  (March) 2008 to (November) 2008, (February) 2009 to (May) 2009, and (August) 2009 to (December) 2009. This child’s ‘first’ exit would be in (November) 2008, their ‘unique’ count of exits would include (November) 2008 and (May) 2009; and their ‘all’ count would be their unique count plus the second exit from out-of-home care in (December) 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for counts of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children exiting out-of-home care. Let’s assume we are counting by year (not quarter) and the child was in out-of-home care for three time periods:  (March) 2008 to (November) 2008, (February) 2009 to (May) 2009, and (August) 2009 to (December) 2009. This child’s ‘first’ exit would be in (November) 2008, their ‘unique’ count of exits would include (November) 2008 and (May) 2009; and their ‘all’ count would be their unique count plus the second exit from out-of-home care in (December) 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_all": {
@@ -368,7 +368,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"_comment_sort": "qryTypeCompare",
-			"help": "Point in time data for counts of children in out-of-home care are aggregated into counts of ‘first’ and ‘all’ children in out-of-home care. Point in time counts count the first day of the year or quarter. Let’s assume we are counting years and the child’s first stay in out-of-home care started in (December) 2005 and ended in (February) 2007 and their second stay began in (December) 2007 and ended in (January) 2008. This child would be IN their ‘first’ stay on the first day of 2006 and the first day of 2007; the count of ‘all’ stays would be the count of the first stays plus the first day of 2008. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Point in time data for counts and rates of children in out-of-home care are aggregated into ‘first’ and ‘all’ children in out-of-home care. The point in time counts reference the first day of the year or quarter. Let’s assume we are counting years and the child’s first stay in out-of-home care started in (December) 2005 and ended in (February) 2007 and their second stay began in (December) 2007 and ended in (January) 2008. This child would be IN their ‘first’ stay on the first day of 2006 and the first day of 2007; the count of ‘all’ stays would be the count of the first stays plus the first day of 2008. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique": {
@@ -601,7 +601,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, he/she would have had four placements."
+			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, s/he would have had four placements."
 		}
 	},
 	"ooh_los": {
@@ -954,7 +954,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "The location of the child/youth when she/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old)."
+			"help": "The location of the child/youth when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old)."
 		}
 	},
 		"exitCounty_devAge": {
@@ -964,7 +964,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "The location of the child/youth when she/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old). TODO"
+			"help": "The location of the child/youth when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old). TODO"
 		}	
 	},
 	"office": {
