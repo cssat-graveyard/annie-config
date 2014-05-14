@@ -597,7 +597,7 @@
 		"table": "ref_filter_nbr_placement",
 		"display": {
 			"legend": "Number of Out-of-Home Placements",
-			"column": "advancedLeft",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"multi": true,
