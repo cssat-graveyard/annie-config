@@ -145,7 +145,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "This filter returns data on the number of siblings in a family in order to more clearly understand the configuration of siblings who are placed together."
+			"help": "This filter returns data on the number of siblings in a family in order to assess the configuration of siblings who are placed together."
 		}
 	},
 	"sib_plc_measure": {
@@ -163,7 +163,7 @@
 			"selected": [1],
 			"multi": true,
 			"zeroLast": false,
-			"help": "This filter selects the extent to which siblings are placed completely together."
+			"help": "This filter returns data on the groupings (i.e., all, some, or none) of siblings placed in out-of-home care."
 		}
 	},	
 	"kincare": {
@@ -179,7 +179,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": true,
-			"help": "You can filter for kinship placements only or for all types of placement (foster care, kinship care, group home, etc.)."
+			"help": "You can filter for relative/kinship placements only or for all types of placement (foster care, kinship care, group home, etc.)."
 		}
 	},
 	"ethnicity": {
