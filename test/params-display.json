@@ -78,7 +78,7 @@
 			"legend": "Age of Children in Household",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "This filter is used for all the Investigations & Assessments and In-Home Services measures. It references the ages of the children/youth in the household at the time the investigation/assessment was opened or at the time the family was receiving in-home services. The age categories follow U.S. Census conventions, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices. Please see Filters Explained for more information on how to interpret the four age categories."
+			"help": "This filter is used for all the Investigations & Assessments and In-Home Services measures. It references the ages of the children/youth in the household at the time the investigation/assessment was opened or at the time the family was receiving in-home services. The age categories follow U.S. Census conventions, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices. Please see 'Filters Explained' for more information on how to interpret the four age categories."
 		}
 	},	
 	"discharge_type_safety": {
@@ -310,7 +310,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for household with children who are placed following in-home services are aggregated into counts of ‘first’ and ‘all’ in-home service cases. Let’s assume an in-home services was opened in March and June of 2008 and then again in February 2009. The ‘first’ in-home service case would be in (March) 2008 and ‘all’ in-home service cases would include both the cases in 2008 and the case in 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for household with children who are placed following in-home services are aggregated into ‘first’ and ‘all’ in-home service cases. Let’s assume an in-home services was opened in March and June of 2008 and then again in February 2009. The ‘first’ in-home service case would be in (March) 2008 and ‘all’ in-home service cases would include both the cases in 2008 and the case in 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_ia_safety": {
@@ -772,7 +772,7 @@
 			"selected": "2010",
 			"multi": true,
 			"resultUnavailable": "disable",
-			"help": "This filter follows households which received their (first) investigation/assessment within the year(s) selected. Data on the percent of children re-referred are returned for up to 48 months following the selected cohort year."
+			"help": "Use this filter to follows households which received their (first) investigation/assessment within the year(s) selected. Data on the percent of households (with at least one child involved in a re-referral) are returned for up to 48 months following the selected cohort year."
 		}
 	},
 	"cohort_year_ihs_safety": {
@@ -789,7 +789,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-home care are returned for up to 48 months following the selected cohort year."
+			"help": "This filter follows household that received in-home services in the selected cohort year(s). Data on the percent of households (with at least one child placed in out-of-home care) are returned for up to 48 months following the selected cohort year."
 		}
 	},
 	"cohort_year_ooh_safety": {
