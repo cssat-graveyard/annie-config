@@ -772,7 +772,7 @@
 			"selected": "2010",
 			"multi": true,
 			"resultUnavailable": "disable",
-			"help": "Use this filter to follows households which received their (first) investigation/assessment within the year(s) selected. Data on the percent of households (with at least one child involved in a re-referral) are returned for up to 48 months following the selected cohort year."
+			"help": "This filter allows you to follow households that had an investigation/assessment from 2006 through the most recent date for which there is data.  Data on the percent of households (with at least one child involved in a re-referral) are returned for up to 48 months following the selected cohort year(s)."
 		}
 	},
 	"cohort_year_ihs_safety": {
@@ -789,7 +789,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "This filter follows household that received in-home services in the selected cohort year(s). Data on the percent of households (with at least one child placed in out-of-home care) are returned for up to 48 months following the selected cohort year."
+			"help": "This filter allows you to follow households that received in-home services from 2009 to the most recent data for which there is data. Data on the percent of households (with at least one child placed in out-of-home care) are returned for up to 48 months following the selected cohort year(s)."
 		}
 	},
 	"cohort_year_ooh_safety": {
