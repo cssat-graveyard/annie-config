@@ -493,7 +493,7 @@
 		"display": {
 		    "legend": "Time Interval",
 			"column": "fieldsLeft",
-			"type": "filter",
+			"type": "dateType",
 			"selected": 2
 		}
 	},
@@ -503,7 +503,7 @@
 		    "alias": "date_type",
 			"legend": "Cohort Duration",
 			"column": "fieldsLeft",
-			"type": "filter",
+			"type": "dateType",
 			"selected": 2
 		}
 	},
