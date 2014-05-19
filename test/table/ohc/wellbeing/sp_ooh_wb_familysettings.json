@@ -96,8 +96,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-		  "y": "",
-    	  "yFormat": "##'%"
+		  "y": "Percent"
         },
         "hideColumns": []
       }
