@@ -89,81 +89,44 @@
   ],
   "returnRowStart": 34,
   "columnClusterSize": 4,
+  "chartType": "area",
+  "chartId": "chart1",
+  "style": "",
+  "labels": {
+    "x": "",
+    "y": "Percentage"
+  },
   "multicharts": {
-    "Overview": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-		  "y": "Percent"
-        },
-        "hideColumns": []
-      }
-    ],    
-    "Family-Setting-_pState-Foster-Home_P": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Percent"
-        },
-        "hideColumns": [
-          1,
-          2,
-          3
-        ]
-      }
-    ],
-    "Family-Setting-_pPrivate-Foster-Home_P": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Percent"
-        },
-        "hideColumns": [
-          0,
-          2,
-          3
-        ]
-      }
-    ],
-    "Family-Setting-_pKin-Placement_P": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Percent"
-        },
-        "hideColumns": [
-          0,
-          1,
-          3
-        ]
-      }
-    ],
-    "Non_-Family-Setting": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Percent"
-        },
-        "hideColumns": [
-          0,
-          1,
-          2
-        ]
-      }
-    ]
+    "Overview": {
+      "hideColumns": []
+    },
+    "Family-Setting-_pState-Foster-Home_P": {
+      "hideColumns": [
+        1,
+        2,
+        3
+      ]
+    },
+    "Family-Setting-_pPrivate-Foster-Home_P": {
+      "hideColumns": [
+        0,
+        2,
+        3
+      ]
+    },
+    "Family-Setting-_pKin-Placement_P":{
+      "hideColumns": [
+        0,
+        1,
+        3
+      ]
+    },
+    "Non_-Family-Setting":{
+      "hideColumns": [
+        0,
+        1,
+        2
+      ]
+    }
   }
 }
