@@ -44,6 +44,9 @@
 	"ageCensus": {
 		"table": "ref_lookup_age_census",
 		"valueColumn": 3,
+		"addKeyValues": {
+			"-4","-"
+		}
 		"display": {
 			"legend": "Age at Removal",
 			"column": "fieldsRight",
