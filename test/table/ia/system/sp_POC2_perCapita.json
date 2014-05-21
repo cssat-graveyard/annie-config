@@ -1,5 +1,5 @@
 {
-  "title": "Rate of Investigations per 1,000 Households",
+  "title": "Rate of Screened-In Referrals per 1,000 Households",
   "measurementOrder": 2,
   "table": "sp_poc2_perCapita",
   "transform": {
