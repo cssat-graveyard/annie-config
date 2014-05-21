@@ -140,7 +140,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "New-and-Closed_Screened_-In-Referrals": [
+    "New-and-Closed-Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
