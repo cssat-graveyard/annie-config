@@ -1,14 +1,14 @@
 {
-  "title": "Count of Screened-In Referrals",
+  "title": "Count of Investigations",
   "measurementOrder": 1,
   "table": "sp_ia_trends_counts",
   "transform": {
     "Function": "daterow",
     "dateField": "Month",
     "valueFields": [
-      "Total Screened-In Referrals",
-      "New Screened-In Referrals",
-      "Closed Screened-In Referrals"
+      "Total Cases First Day",
+      "Opened Cases",
+      "Case Closures"
     ],
     "removeFields": []
   },
@@ -20,7 +20,7 @@
     "dynamicMonthStart",
     "ageSib",
     "ethnicityCensus",
-    "Ref_Serv_County",
+    "office",
 	"reporter_type",
 	"access_type",
 	"allegation",
@@ -51,7 +51,7 @@
     "*qry_type_poc2",
     "Age Grouping=ageSib",
     "Race/Ethnicity",
-    "County=Ref_Serv_County",
+    "Office=office",
     "Reporter_Desc=reporter_type",
     "Access_type_desc=Entry Point",
     "Allegation=allegation",
