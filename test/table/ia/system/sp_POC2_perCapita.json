@@ -21,7 +21,7 @@
     "dynamicMonthStart",
     "ageSib",
     "ethnicityCensus",
-    "officeGroup"
+    "Ref_Serv_County"
   ],
   "dateParams": [],
   "requiredParams": [
@@ -47,7 +47,7 @@
     "*qry_type_poc2",
     "Age Grouping",
     "Race/Ethnicity",
-    "DCFS Office Group"
+    "County=Ref_Serv_County"
   ],
   "returnRowStart": 10,
   "columnClusterSize": "4",
@@ -101,7 +101,7 @@
         ]
       }
     ],
-    "Total-Cases-_pFirst-Day-of-Month-or-Year_P": [
+    "Total-Screened_-In-Referrals": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -118,7 +118,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-Investigations": [
+    "New-and-Closed-Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -133,7 +133,7 @@
         ]
       }
     ],
-    "Opened-Investigations": [
+    "New-Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -150,7 +150,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Investigation-Closures": [
+    "Closed-Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
