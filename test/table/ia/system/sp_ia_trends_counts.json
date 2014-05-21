@@ -170,7 +170,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Investigation-Closures": [
+    "Closed Screened=In Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
