@@ -423,8 +423,8 @@
 	},
 	"qry_type_first_unique_ia_safety": {
 		"values": {
-			"0": "Unique Investigations",
-			"1": "First Investigations"
+			"0": "Unique Screened-In Referrals",
+			"1": "First Screened-In Referral"
 		},
 		"display": {
 			"legend": "Count Type",
