@@ -124,7 +124,7 @@
         ]
       }
     ],
-    "Total-Cases-_pFirst-Day-of-Quarter_sYear_P": [
+    "Total-Screened_-In-Referrals": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -140,7 +140,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-Investigations": [
+    "New_and_Closed_Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -154,7 +154,7 @@
         ]
       }
     ],
-    "Opened-Investigations": [
+    "New_Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -170,7 +170,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Investigation-Closures": [
+    "Closed_Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
