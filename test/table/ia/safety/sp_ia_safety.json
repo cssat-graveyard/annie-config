@@ -1,6 +1,6 @@
 {
   "table": "sp_ia_safety",
-  "title": "Children Re-Referred",
+  "title": "Re-Referrals",
   "transform": {
     "Function": "daterow",
     "dateField": "Months",
@@ -17,7 +17,7 @@
   "params": [
     "ageSib",
     "ethnicityCensus",
-    "office",
+    "Ref_Serv_County",
     "reporter_type",
     "access_type",
     "allegation",
@@ -46,7 +46,7 @@
 	"Year*cohort_year_ia_safety",
 	"Age Grouping=ageSib",
 	"Race/Ethnicity",
-	"Office=office",
+	"County=Ref_Serv_County",
 	"Reporter Desc=reporter_type",
 	"Access type desc=access_type",
 	"Allegation=allegation",

@@ -434,7 +434,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for households with children who are re-referred following an prior screened-in referral are aggregated into counts of ‘first’ and ‘unique’ screened-in referrals. See Filters Explained for a ‘count type’ example. . See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for households with children who are re-referred following a prior screened-in referral are aggregated into counts of ‘first’ and ‘unique’ screened-in referrals. See Filters Explained for a ‘count type’ example. . See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc2": {
