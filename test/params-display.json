@@ -434,7 +434,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "TODOCohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-referrals or re-entries and first or initial re-referrals or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for households with children who are re-referred following an prior screened-in referral are aggregated into counts of ‘first’ and ‘unique’ screened-in referrals. See Filters Explained for a ‘count type’ example. . See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc2": {
@@ -447,7 +447,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of screened-in referrals are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ screened-in referrals per household. ‘Total Screened-In Referrals’ is a point in time count, meaning screened-in referrals are counted on the first day of the year or quarter. ‘New Screened-In Referrals and ‘Closed Screened-In Referrals are cohort counts, meaning cases are counted as being new or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rate of screened-in referrals are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ screened-in referrals per household. ‘Total Screened-In Referrals’ is a point in time count, meaning screened-in referrals are counted on the first day of the year or quarter. ‘New Screened-In Referrals' and ‘Closed Screened-In Referrals' are cohort counts, meaning cases are counted as being new or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc3": {
@@ -768,14 +768,14 @@
 			"2012": 2012
 		},
 		"display": {
-			"legend": "Investigation Cohort Year",
+			"legend": "Screened-In Referral Cohort Year",
 			"column": "fieldsLeft",
 			"type": "filter",
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
 			"resultUnavailable": "disable",
-			"help": "This filter allows you to follow households that had an investigation/assessment from 2006 through the most recent date for which there is data.  Data on the percent of households (with at least one child involved in a re-referral) are returned for up to 48 months following the selected cohort year(s)."
+			"help": " This filter allows you to follow households with at least one child involved in a screened-in referral from 2006 through the most recent date for which there is data.  Data on the percent of households with children re-referred are returned for up to 48 months following the selected cohort year(s)."
 		}
 	},
 	"cohort_year_ihs_safety": {
