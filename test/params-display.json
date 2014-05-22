@@ -636,7 +636,7 @@
 	"ihs_services": {
 		"table": "ref_filter_ihs_services",
 		"display": {
-			"legend": "Placement Prevention Services Received"
+			"legend": "Placement Prevention Services Received",
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
