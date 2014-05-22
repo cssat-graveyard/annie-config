@@ -190,7 +190,7 @@
     "fractionDigits": 2
   },
   "labels": {
-    "x": "Time",
-    "y": "Count of Children"
+    "x": "",
+    "y": ""
   }
 }
