@@ -130,7 +130,7 @@
         ]
       }
     ],
-    "Total-_pPPS_P-Cases": [
+    "Total-PPS-Cases": [
          {
         "chartType": "column",
         "chartId": "chart1",
@@ -146,7 +146,7 @@
         "addInputClass": "multiAllowed"
       }
     ], 
-   "Opened-and-Closed-_pPPS_P-Cases": [
+   "Opened-and-Closed-PPS-Cases": [
           {
         "chartType": "area",
         "chartId": "chart1",
@@ -160,7 +160,7 @@
         ]
       }
     ],
-    "Opened-_pPPS_P-Cases": [
+    "Opened-PPS-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -176,7 +176,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-_pPPS_P-Cases": [
+    "Closed-PPS-Cases": [
     {
         "chartType": "area",
         "chartId": "chart1",
