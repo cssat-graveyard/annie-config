@@ -1,5 +1,5 @@
 {
-  "title": "Rate of Placement Prevention Service Cases per 1,000 Households",
+  "title": "Rate of Placement Prevention Service (PPS) Cases per 1,000 Households",
   "measurementOrder": 2,
   "table": "sp_poc3_perCapita",
   "transform": {
@@ -101,7 +101,7 @@
         ]
       }
     ],
-    "Total-Placement-Prevention-Service-_pPPS_P-Cases": [
+    "Total-_pPPS_P-Cases": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -118,7 +118,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-Placement-Prevention-Service-Cases": [
+    "Opened-and-Closed-_pPPS_P-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -133,7 +133,7 @@
         ]
       }
     ],
-    "Opened-Placement-Prevention-Service-Cases": [
+    "Opened-_pPPS_P-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -150,7 +150,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-Placement-Prevention-Service-Cases": [
+    "Closed-_pPPS_P-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -167,7 +167,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closures-per-Opened-Placement-Prevention-Service-Case": [
+    "Closures-per-Opened-_pPPS_P-Case": [
       {
         "chartType": "area",
         "chartId": "chart1",

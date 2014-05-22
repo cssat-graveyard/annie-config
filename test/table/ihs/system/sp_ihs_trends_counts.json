@@ -1,5 +1,5 @@
 {
-  "title": "Count of Placement Prevention Service Cases",
+  "title": "Count of Placement Prevention Service (PPS) Cases",
   "measurementOrder": 1,  
   "table": "sp_ihs_trends_counts",
   "transform": {
@@ -130,7 +130,7 @@
         ]
       }
     ],
-    "Total-Placement-Prevention-Service-(PPS)-Cases": [
+    "Total-_pPPS_P-Cases": [
          {
         "chartType": "column",
         "chartId": "chart1",
@@ -146,7 +146,7 @@
         "addInputClass": "multiAllowed"
       }
     ], 
-   "Opened-and-Closed-Placement-Prevention-Service-Cases": [
+   "Opened-and-Closed-_pPPS_P-Cases": [
           {
         "chartType": "area",
         "chartId": "chart1",
@@ -160,7 +160,7 @@
         ]
       }
     ],
-    "Opened-Placement-Prevention-Service-Cases": [
+    "Opened-_pPPS_P-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -176,7 +176,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-Placement-Prevention-Service-Cases": [
+    "Closed-_pPPS_P-Cases": [
     {
         "chartType": "area",
         "chartId": "chart1",
