@@ -55,7 +55,7 @@
     "Age of Children in Household",
     "Race/Ethnicity",
     "DCFS Office",
-    "Placement Prevention Services Received",
+    "Placement Prevention Services Received=ihs_services",
     "Reporter",
     "Entry Point",
     "Allegation",
