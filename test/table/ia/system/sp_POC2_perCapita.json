@@ -118,7 +118,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "New-and-Closed-Screened_-In-Referrals": [
+    "Opened-and-Closed-Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -133,7 +133,7 @@
         ]
       }
     ],
-    "New-Screened_-In-Referrals": [
+    "Opened-Screened_-In-Referrals": [
       {
         "chartType": "area",
         "chartId": "chart1",
