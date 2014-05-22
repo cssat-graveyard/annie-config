@@ -1,5 +1,5 @@
 {
-  "title": "Rate of In-Home Service Cases per 1,000 Households",
+  "title": "Rate of Placement Prevention Service Cases per 1,000 Households",
   "measurementOrder": 2,
   "table": "sp_poc3_perCapita",
   "transform": {
@@ -68,8 +68,8 @@
           }
         },
         "labels": {
-          "x": "Time",
-          "y": "Rate per 1,000 Households"
+          "x": "",
+          "y": ""
         },
         "hideColumns": [
           1,
@@ -92,8 +92,8 @@
           }
         },
         "labels": {
-          "x": "Time",
-          "y": "Rate per 1,000 Households"
+          "x": "",
+          "y": ""
         },
         "hideColumns": [
           0,
@@ -101,14 +101,14 @@
         ]
       }
     ],
-    "Total-Cases-_pFirst-Day-of-Month-or-Year_P": [
+    "Total-Placement-Prevention-Service-Cases": [
       {
         "chartType": "column",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
-          "y": "Rate per 1,000 Households"
+          "x": "",
+          "y": ""
         },
         "hideColumns": [
           1,
@@ -118,14 +118,14 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-In_-Home-Service-Cases": [
+    "Opened-and-Closed-Placement-Prevention-Service-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
-          "y": "Rate per 1,000 Households"
+          "x": "",
+          "y": ""
         },
         "hideColumns": [
           0,
@@ -133,14 +133,14 @@
         ]
       }
     ],
-    "Opened-In_-Home-Service-Cases": [
+    "Opened-Placement-Prevention-Service-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
-          "y": "Rate per 1,000 Households"
+          "x": "",
+          "y": ""
         },
         "hideColumns": [
           0,
@@ -150,14 +150,14 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "In_-Home-Service-Case-Closures": [
+    "Closed-Placement-Prevention-Service-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
-          "y": "Rate per 1,000 Households"
+          "x": "",
+          "y": ""
         },
         "hideColumns": [
           0,
@@ -167,14 +167,14 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closures-per-Opened-In_-Home-Service-Case": [
+    "Closures-per-Opened-Placement-Prevention-Service-Case": [
       {
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
-          "y": "Rate of Closures per Opened In-Home Service Case",
+          "x": "",
+          "y": "",
           "yMax": 2
         },
         "hideColumns": [

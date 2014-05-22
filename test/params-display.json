@@ -461,7 +461,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of in-home services are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ in-home service cases per household. ‘Total Cases First Day’ is a point in time count, meaning in-home service cases are counted on the first day of the year or quarter. ‘Opened Cases’ and ‘Case Closures’ are cohort counts, meaning in-home service cases are counted as being opened or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rate of placement prevention service cases are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. ‘Total Placement Prevention Service Cases’ is a point in time count, meaning placement prevention service cases are counted on the first day of the year or quarter. ‘Opened Cases’ and ‘Case Closures’ are cohort counts, meaning placement prevention service cases are counted as being opened or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"service_type": {
