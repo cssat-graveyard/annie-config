@@ -1,5 +1,5 @@
 {
-  "title": "Count of In-Home Service Cases",
+  "title": "Count of Placement Prevention Service Cases",
   "measurementOrder": 1,  
   "table": "sp_ihs_trends_counts",
   "transform": {
@@ -55,7 +55,7 @@
     "Age of Children in Household",
     "Race/Ethnicity",
     "DCFS Office",
-    "In-Home Services Received",
+    "Placement Prevention Services Received",
     "Reporter",
     "Entry Point",
     "Allegation",
@@ -130,7 +130,7 @@
         ]
       }
     ],
-    "Total-Cases-_pFirst-Day-of-Quarter_sYear_P": [
+    "Total-Placement-Prevention-Service Cases": [
          {
         "chartType": "column",
         "chartId": "chart1",
@@ -146,7 +146,7 @@
         "addInputClass": "multiAllowed"
       }
     ], 
-   "Opened-and-Closed-In_-Home-Service-Cases": [
+   "Opened-and-Closed-Placement-Prevention-Service Cases": [
           {
         "chartType": "area",
         "chartId": "chart1",
@@ -160,7 +160,7 @@
         ]
       }
     ],
-    "Opened-In_-Home-Service-Cases": [
+    "Opened-Placement-Prevention-Service-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -176,7 +176,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "In_-Home-Service-Case-Closures": [
+    "Placement-Prevention-Service-Cases-Closures": [
     {
         "chartType": "area",
         "chartId": "chart1",
