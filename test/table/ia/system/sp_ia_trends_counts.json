@@ -1,5 +1,5 @@
 {
-  "title": "Count of Screened-In Referrals",
+  "title": "Count of Screened-In Cases",
   "measurementOrder": 1,
   "table": "sp_ia_trends_counts",
   "transform": {
@@ -124,7 +124,7 @@
         ]
       }
     ],
-    "Total-Screened_-In-Referrals": [
+    "Total-Screened_-In-Cases-_pFirst Day of Quarter or Year_P": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -140,7 +140,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-Screened_-In-Referrals": [
+    "Opened-and-Closed-Screened_-In-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -154,7 +154,7 @@
         ]
       }
     ],
-    "Opened-Screened_-In-Referrals": [
+    "Opened-Screened_-In-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -170,7 +170,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-Screened_-In-Referrals": [
+    "Closed-Screened_-In-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",

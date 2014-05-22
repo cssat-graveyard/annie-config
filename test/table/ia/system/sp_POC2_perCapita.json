@@ -1,5 +1,5 @@
 {
-  "title": "Rate of Screened-In Referrals per 1,000 Households",
+  "title": "Rate of Screened-In Cases per 1,000 Households",
   "measurementOrder": 2,
   "table": "sp_poc2_perCapita",
   "transform": {
@@ -101,7 +101,7 @@
         ]
       }
     ],
-    "Total-Screened_-In-Referrals": [
+    "Total-Screened_-In-Cases__pFirst Day of Quarter or Year_P": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -118,7 +118,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-Screened_-In-Referrals": [
+    "Opened-and-Closed-Screened_-In-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -133,7 +133,7 @@
         ]
       }
     ],
-    "Opened-Screened_-In-Referrals": [
+    "Opened-Screened_-In-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -150,7 +150,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-Screened_-In-Referrals": [
+    "Closed-Screened_-In-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -167,14 +167,14 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closures-per-Opened-Investigation": [
+    "Closures-per-Opened-Case": [
       {
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
           "x": "Time",
-          "y": "Rate of Closures per Opened Investigation",
+          "y": "Rate of Closures per Opened Case",
           "yMax": 2
         },
         "hideColumns": [
