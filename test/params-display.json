@@ -9,6 +9,7 @@
 			"selected": "Overview",
 			"help": {
 				"default": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases screened-in on the first day of the quarter or year (point in time data). The chart format also displays a line graph of the number of new screened-in referrals and the number of closed screened-in referrals for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data.",
+				"sp_ihs_trends_counts":"In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of placement prevention service cases on the first day of the quarter or year (point in time data). The chart format also displays a line graph of the number of open placement prevention service cases and the number of closed placement prevention service cases for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data.",
 				"sp_ooh_wb_familysettings": "The chart format provides a line graph of the percentage of children in one of three family settings—a state foster home, a private foster home, or with relatives/kin—on the first day of the year. The ‘Overview’ displays the percentage of children in all family settings, as well as those in a ‘non-family setting (e.g., group home).",
                 "sp_ooh_wb_siblings_by_year": "With this filter you can examine whether all, some, of none of the siblings in family are placed into out-of-home care. The ‘Overview’ selection compares the three choices." 				
 			}
@@ -584,7 +585,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning there will be more allegations than cases. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter. To determine how many cases have no allegations, subtract ‘Any Legal Finding’ from ‘All (With or Without Allegation).’"
+			"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning there will be more allegations than cases. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter. To determine how many cases have no allegations, subtract ‘Any of the Above’ from ‘All (With or Without Allegation).’"
 		}
 	},
 	"finding": {
@@ -595,7 +596,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any Legal Finding’ from ‘All (With or Without Legal Finding).’"
+			"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any of the Above’ from ‘All (With or Without Legal Finding).’"
 		}
 	},
 		"nbr_placement": {
