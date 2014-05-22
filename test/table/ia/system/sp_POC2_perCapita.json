@@ -101,7 +101,7 @@
         ]
       }
     ],
-    "Total-Screened_-In-Cases__pFirst Day of Quarter or Year_P": [
+    "Total-Screened_-In-Cases__pFirst-Day-of-Quarter-or-Year_P": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -173,7 +173,7 @@
         "chartId": "chart1",
         "style": "",
         "labels": {
-          "x": "Time",
+          "x": "",
           "y": "Rate of Closures per Opened Case",
           "yMax": 2
         },
@@ -190,7 +190,7 @@
     "fractionDigits": 2
   },
   "labels": {
-    "x": "Time",
-    "y": "Count of Children"
+    "x": "",
+    "y": ""
   }
 }
