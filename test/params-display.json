@@ -440,10 +440,10 @@
 	},
 	"qry_type_poc2": {
 		"table": "ref_lookup_qry_type_poc2",
-		"removeKeys": 0,
+		"removeKeys": 2,
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"type": "filter",
 			"selected": 0,
 			"multi": true,
