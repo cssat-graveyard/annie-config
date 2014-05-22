@@ -308,7 +308,7 @@
 		"table": "ref_lookup_qry_type",
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"type": "filter",
 			"selected": 0,
 			"multi": true,
@@ -321,7 +321,7 @@
 		"table": "ref_lookup_qry_type",
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"type": "filter",
 			"selected": 0,
 			"multi": true,
@@ -338,7 +338,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"type": "filter",
 			"selected": 2,
 			"multi": true,
@@ -355,7 +355,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"type": "filter",
 			"selected": 2,
 			"multi": true,
@@ -368,7 +368,7 @@
 		"table": "vw_qry_type_poc1ab_first_all",
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"type": "filter",
 			"selected": 2,
 			"multi": true,
@@ -381,7 +381,7 @@
 		"table": "vw_qry_type_poc1ab_unique_first",
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"visible": true,
 			"type": "filter",
 			"selected": 0,
@@ -397,7 +397,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"visible": true,
 			"type": "filter",
 			"selected": 0,
@@ -413,7 +413,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"visible": true,
 			"type": "filter",
 			"selected": 0,
@@ -429,7 +429,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"visible": true,
 			"type": "filter",
 			"selected": 0,
@@ -456,7 +456,7 @@
 		"table": "ref_lookup_qry_type_poc3",
 		"display": {
 			"legend": "Count Type",
-			"column": "fieldsRight",
+			"column": "advancedRight",
 			"type": "filter",
 			"selected": 2,
 			"multi": true,
