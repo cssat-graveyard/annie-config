@@ -130,7 +130,7 @@
         ]
       }
     ],
-    "Total-Placement-Prevention-Service Cases": [
+    "Total-Placement-Prevention-Service-Cases": [
          {
         "chartType": "column",
         "chartId": "chart1",
@@ -146,7 +146,7 @@
         "addInputClass": "multiAllowed"
       }
     ], 
-   "Opened-and-Closed-Placement-Prevention-Service Cases": [
+   "Opened-and-Closed-Placement-Prevention-Service-Cases": [
           {
         "chartType": "area",
         "chartId": "chart1",
@@ -176,7 +176,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Placement-Prevention-Service-Cases-Closures": [
+    "Closed-Placement-Prevention-Service-Cases": [
     {
         "chartType": "area",
         "chartId": "chart1",
