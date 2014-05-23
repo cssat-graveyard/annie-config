@@ -8,7 +8,7 @@
 			"type": "filter",
 			"selected": "Overview",
 			"help": {
-				"default": "In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of cases screened-in on the first day of the quarter or year (point in time data). The chart format also displays a line graph of the number of new screened-in referrals and the number of closed screened-in referrals for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data.",
+				"default": "This filter allows you to select: 1) the count or rate of cases screened-in on the first day of the quarter or year (point-in-time data) or 2) the count or rate of opened and closed screened-in cases (cohort data). The ‘Overview’ selection shows the point-in-time data in the top bar graph and the cohort data in the bottom line graph.",
 				"sp_ihs_trends_counts":"In the chart format, ‘Overview’ displays a bar graph of the count (or rate) of placement prevention service cases on the first day of the quarter or year (point in time data). The chart format also displays a line graph of the number of open placement prevention service cases and the number of closed placement prevention service cases for the entire month or year (cohort data). Each ‘Overview’ count or rate is available individually in the chart format. The table format returns all the ‘Overview’ data.",
 				"sp_ooh_wb_familysettings": "The chart format provides a line graph of the percentage of children in one of three family settings—a state foster home, a private foster home, or with relatives/kin—on the first day of the year. The ‘Overview’ displays the percentage of children in all family settings, as well as those in a ‘non-family setting (e.g., group home).",
                 "sp_ooh_wb_siblings_by_year": "With this filter you can examine whether all, some, of none of the siblings in family are placed into out-of-home care. The ‘Overview’ selection compares the three choices." 				
@@ -449,7 +449,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of screened-in referrals are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ screened-in referrals per household. ‘Total Screened-In Referrals’ is a point in time count, meaning screened-in referrals are counted on the first day of the year or quarter. ‘New Screened-In Referrals' and ‘Closed Screened-In Referrals' are cohort counts, meaning cases are counted as being new or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rate of screened-in cases are aggregated into counts/rates of ‘first’ and ‘all’ screened-in cases per household. ‘First Screened-In Case’ is the first ever referral that was screened in for investigation/assessment.  ‘All Screened-In Cases’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>. "
 		}
 	},
 	"qry_type_poc3": {
