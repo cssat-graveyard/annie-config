@@ -925,13 +925,13 @@
 		"table": "ref_lookup_qry_type_poc3",
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"type": "filter",
 			"selected": 2,
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of placement prevention service cases are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. ‘Total Placement Prevention Service Cases’ is a point in time count, meaning placement prevention service cases are counted on the first day of the year or quarter. ‘Opened Cases’ and ‘Case Closures’ are cohort counts, meaning placement prevention service cases are counted as being opened or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rate of placement prevention service cases are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. See Placement Preventions Services: Trends, ‘Filters Explained’ for an example of these three county types. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 		"removalCounty": {
