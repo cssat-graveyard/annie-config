@@ -62,7 +62,7 @@
 			"legend": "Age",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age references the child’s/youth’s age on a given date (i.e., the first day of the year or quarter). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
+			"help": " Age references the child’s age on a given date (i.e., the first day of the year or quarter). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
 		}
 	},
 	"ageExits": {
@@ -208,7 +208,7 @@
 			"sort": "raceEthnicityCompare",
 			"zeroLast": false,
 			"selected": 0,
-			"help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state, county, or Division of Children and Family Services Office. Note that each household or child has a race AND an ethnicity." 
+			"help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state or county.  Note that each household or child has a race AND an ethnicity." 
 		}	
 	},
 	"exitType": {
@@ -257,12 +257,12 @@
 			"visible": false,
 			"type": "param",
 			"help": {
-			  "default": "This filter provides counts or rates of children/youth in their initial or first placement setting on the first day of a given year or quarter (point in time data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_flow_entries_rates": "This filter provides counts or rates of children/youth in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_flow_exits": "This filter provides counts or rates of children/youth in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_flow_entries_counts": "This filter provides counts or rates of children/youth in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_reentry":	"The percentage of re-entries into out-of-home care can be filtered by the child's/youth's initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",	 
-			  "sp_ooh_outcomes": "The percentage of exits from out-of-home care can be filtered by the child's/youth's initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."			  
+			  "default": "This filter provides counts or rates of children in their initial or first placement setting on the first day of a given year or quarter (point in time data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_flow_entries_rates": "This filter provides counts or rates of children in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_flow_exits": "This filter provides counts or rates of children in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_flow_entries_counts": "This filter provides counts or rates of children in their initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_reentry":	"The percentage of re-entries into out-of-home care can be filtered by the child's initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",	 
+			  "sp_ooh_outcomes": "The percentage of exits from out-of-home care can be filtered by the child's initial or first placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."			  
 			}
 		}
 	},
@@ -283,12 +283,12 @@
 			"visible": false,
 			"type": "param",
 			"help": {
-			  "default": "This filter provides counts or rates of children/youth in their longest placement setting on the first day of a given year or quarter (point in time data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_flow_entries_rates": "This filter provides counts or rates of children/youth in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_flow_exits": "This filter provides counts or rates of children/youth in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_flow_entries_counts": "This filter provides counts or rates of children/youth in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",  
-			  "sp_ooh_reentry": "The percentage of re-entries from out-of-home care can be filtered by the child's/youth's longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_outcomes": "The percentage of exits from out-of-home care can be filtered by the child's/youth's longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."			  
+			  "default": "This filter provides counts or rates of children in their longest placement setting on the first day of a given year or quarter (point in time data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_flow_entries_rates": "This filter provides counts or rates of children in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_flow_exits": "This filter provides counts or rates of children in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_flow_entries_counts": "This filter provides counts or rates of children in their longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",  
+			  "sp_ooh_reentry": "The percentage of re-entries from out-of-home care can be filtered by the child's longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
+			  "sp_ooh_outcomes": "The percentage of exits from out-of-home care can be filtered by the child's/longest placement setting during a given year or quarter (cohort data). See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."			  
 			}
 		}
 	},
@@ -379,7 +379,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"_comment_sort": "qryTypeCompare",
-			"help": "Point in time data for counts and rates of children in out-of-home care are aggregated into ‘first’ and ‘all’ children in out-of-home care. The point in time counts reference the first day of the year or quarter. Let’s assume we are counting years and the child’s first stay in out-of-home care started in (December) 2005 and ended in (February) 2007 and their second stay began in (December) 2007 and ended in (January) 2008. This child would be IN their ‘first’ stay on the first day of 2006 and the first day of 2007; the count of ‘all’ stays would be the count of the first stays plus the first day of 2008. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rates of children in out-of-home care are aggregated into ‘first’ and ‘all’ stays in out-of-home care.  ‘First Stays in Out-of-Home Care’ refers to the first ever stay/episode in out-of-home care; ‘All Stays in Out-of-Home’ includes all stays/episodes during the selected quarter or year. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique": {
