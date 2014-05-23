@@ -347,7 +347,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for counts and rates of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children entering out-of-home care. Let’s assume we are counting by year (not quarter) and the child’s first entry into out-of-home care was in (March) 2008 through (November) 2008, their second entry began in (February) 2009 and ended shortly after in (May) 2009, and their third entry began in (August) 2009 and ended in (December) 2009. This child’s ‘first’ entry would be in (March) 2008, their ‘unique’ count of entries would include (March) 2008 and (February) 2009 and their ‘all’ count would be their unique count plus the second entry into out-of-home care in (August) 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for counts and rates of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children entering out-of-home care. Let’s assume we are counting by year (not quarter) and the child’s first entry into out-of-home care was in (March) 2008 through (November) 2008, their second entry began in (February) 2009 and ended shortly after in (May) 2009, and their third entry began in (August) 2009 and ended in (December) 2009. This child’s ‘first’ entry would be in (March) 2008, their ‘unique’ count of entries would include (March) 2008 and (February) 2009 and their ‘all’ count would be their unique count plus the second entry into out-of-home care in (August) 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_exits": {
@@ -365,7 +365,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for counts of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children exiting out-of-home care. Let’s assume we are counting by year (not quarter) and the child was in out-of-home care for three time periods:  (March) 2008 to (November) 2008, (February) 2009 to (May) 2009, and (August) 2009 to (December) 2009. This child’s ‘first’ exit would be in (November) 2008, their ‘unique’ count of exits would include (November) 2008 and (May) 2009; and their ‘all’ count would be their unique count plus the second exit from out-of-home care in (December) 2009. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for counts of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children exiting out-of-home care. Let’s assume we are counting by year (not quarter) and the child was in out-of-home care for three time periods:  (March) 2008 to (November) 2008, (February) 2009 to (May) 2009, and (August) 2009 to (December) 2009. This child’s ‘first’ exit would be in (November) 2008, their ‘unique’ count of exits would include (November) 2008 and (May) 2009; and their ‘all’ count would be their unique count plus the second exit from out-of-home care in (December) 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_all": {
@@ -379,7 +379,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"_comment_sort": "qryTypeCompare",
-			"help": "Data for counts/rates of children in out-of-home care are aggregated into ‘first’ and ‘all’ stays in out-of-home care.  ‘First Stays in Out-of-Home Care’ refers to the first ever stay/episode in out-of-home care; ‘All Stays in Out-of-Home’ includes all stays/episodes during the selected quarter or year. ‘See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rates of children in out-of-home care are aggregated into ‘first’ and ‘all’ stays in out-of-home care.  ‘First Stays in Out-of-Home Care’ refers to the first ever stay/episode in out-of-home care; ‘All Stays in Out-of-Home’ includes all stays/episodes during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique": {
@@ -408,7 +408,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for children who re-enter out-of-home care are aggregated into ‘first’ and ‘unique’ exits from out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ exit would be in (November) 2008 and their ‘unique’ exits would include their first exit plus (May) 2009.See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for children who re-enter out-of-home care are aggregated into ‘first’ and ‘unique’ exits from out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ exit would be in (November) 2008 and their ‘unique’ exits would include their first exit plus (May) 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique_ooh_outcomes": {
@@ -579,7 +579,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "An allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning there will be more allegations than cases. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter. To determine how many cases have no allegations, subtract ‘Any of the Above’ from ‘All (With or Without Allegation).’"
+			"help": "AAn allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning there may be more allegations than cases. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter."
 		}
 	},
 	"finding": {
@@ -590,7 +590,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur. To determine how many cases have no legal finding, subtract ‘Any of the Above’ from ‘All (With or Without Legal Finding).’"
+			"help": "An allegation finding means that, more likely than not, the Children’s Administration Child Protection Services (CPS) investigator determined that child abuse or neglect did occur."
 		}
 	},
 		"nbr_placement": {
@@ -601,7 +601,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "An out-of-home care episode begins with a formal custody date and ends with a formal discharge date to a permanency outcome. A child/youth in out-of-home care can have MULTIPLE PLACEMENTS WITN AN EPISODE. If, for example, you selected a four year period to examine, and within that time the child/youth had two episodes, with two placements in each episode, s/he would have had four placements."
+			"help": ":  An out-of-home care episode or stay begins with a state custody date and ends with a federal discharge date. A child in out-of-home care can have MULTIPLE PLACEMENTS PER EPISODE. For example, you might find that within a four year period a child had two episodes, with two placements in each episode, for a total of four placements."
 		}
 	},
 	"ooh_los": {
@@ -624,7 +624,7 @@
 			"type": "filter",
 			"multi": true,
 			"selected": 0,
-			"help": "The courts become involved when there is a <a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
+			"help": "The courts become involved when there is a <a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting. In this filter, ‘Immediate Dependency’  means a dependency petition was filed within 45 days of the start of the out-of-home episode and ‘Eventual Dependency’ means the petition was filed more than 45 days after the start of the episode."
 		}
 	},	
 	"ihs_services": {
@@ -658,7 +658,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "The six Department of Social and Health Services (DSHS) budget categories include all the major IN-HOME budget categories. DSHS codes are provided for people familiar with Children's Administration budget categories."
+			"help": "The six Department of Social and Health Services (DSHS) budget categories include all the major placement prevention services budget categories. DSHS codes are provided for people familiar with Children’s Administration budget categories."
 		}
 	},
 	"quarterPIT": {
@@ -958,7 +958,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "This is the county the child/youth was placed in on this date. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+			"help": "This is the county the child/youth was placed in on this date. You can select any of Washington State’s 39 counties; ‘All’ (default) returns statewide data."
 		}
 	},
 	"exitCounty": {
