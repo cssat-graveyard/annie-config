@@ -308,13 +308,13 @@
 		"table": "ref_lookup_qry_type",
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"type": "filter",
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for household with children who are placed following in-home services are aggregated into ‘first’ and ‘all’ in-home service cases. Let’s assume an in-home services was opened in March and June of 2008 and then again in February 2009. The ‘first’ in-home service case would be in (March) 2008 and ‘all’ in-home service cases would include both the cases in 2008 and the case in 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "TO DO Cohort data for household with children who are placed following in-home services are aggregated into ‘first’ and ‘all’ in-home service cases. Let’s assume an in-home services was opened in March and June of 2008 and then again in February 2009. The ‘first’ in-home service case would be in (March) 2008 and ‘all’ in-home service cases would include both the cases in 2008 and the case in 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_ia_safety": {
@@ -569,7 +569,7 @@
 		"table": "ref_filter_allegation",
 		"display": {
 			"legend": "Allegation",
-			"column": "advancedLeft",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"multi": true,
