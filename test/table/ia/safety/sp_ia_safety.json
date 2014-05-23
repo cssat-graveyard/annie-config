@@ -56,7 +56,7 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "Months Since First Screened-In Referral",
+    "x": "Months Since First Screened-In Case",
     "y": "",
     "yFormat": "##'%"
   },

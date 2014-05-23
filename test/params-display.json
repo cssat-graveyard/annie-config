@@ -770,7 +770,7 @@
 			"2012": 2012
 		},
 		"display": {
-			"legend": "Screened-In Referral Cohort Year",
+			"legend": "Screened-In Case Cohort Year",
 			"column": "fieldsLeft",
 			"type": "filter",
 			"zeroLast": false,
