@@ -455,7 +455,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of screened-in cases are aggregated into counts/rates of ‘first’ and ‘all’ screened-in cases per household. ‘First Screened-In Case’ is the first ever referral that was screened-in for investigation/assessment.  ‘All Screened-In Cases’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>. "
+			"help": "Data for counts/rates of screened-in cases are aggregated into ‘first’ and ‘all’ screened-in cases per household. ‘First Screened-In Case’ is the first ever referral that was screened-in for investigation/assessment.  ‘All Screened-In Cases’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>. "
 		}
 	},
 	"service_type": {
@@ -938,7 +938,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of placement prevention service cases are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rates of placement prevention service cases are aggregated into ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 		"removalCounty": {
