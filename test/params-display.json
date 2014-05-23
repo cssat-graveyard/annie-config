@@ -435,6 +435,7 @@
 		"display": {
 			"legend": "Count Type",
 			"column": "advancedLeft",
+			"visible": false,
 			"type": "filter",
 			"selected": 0,
 			"multi": true,
@@ -574,7 +575,7 @@
 		"table": "ref_filter_allegation",
 		"display": {
 			"legend": "Allegation",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "param",
 			"multi": true,
@@ -585,7 +586,7 @@
 		"table": "ref_filter_finding",
 		"display": {
 			"legend": "Allegation Finding",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "param",
 			"multi": true,
