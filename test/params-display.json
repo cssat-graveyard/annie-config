@@ -926,6 +926,7 @@
 		"display": {
 			"legend": "Count Type",
 			"column": "advancedLeft",
+			"visible": false,
 			"type": "filter",
 			"selected": 2,
 			"multi": true,
