@@ -452,19 +452,6 @@
 			"help": "Data for counts/rate of screened-in cases are aggregated into counts/rates of ‘first’ and ‘all’ screened-in cases per household. ‘First Screened-In Case’ is the first ever referral that was screened-in for investigation/assessment.  ‘All Screened-In Cases’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>. "
 		}
 	},
-	"qry_type_poc3": {
-		"table": "ref_lookup_qry_type_poc3",
-		"display": {
-			"legend": "Count Type",
-			"column": "advancedRight",
-			"type": "filter",
-			"selected": 2,
-			"multi": true,
-			"zeroLast": false,
-			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of placement prevention service cases are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. ‘Total Placement Prevention Service Cases’ is a point in time count, meaning placement prevention service cases are counted on the first day of the year or quarter. ‘Opened Cases’ and ‘Case Closures’ are cohort counts, meaning placement prevention service cases are counted as being opened or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
-		}
-	},
 	"service_type": {
 		"table": "ref_lookup_service_type",
 		"display": {
@@ -932,6 +919,19 @@
 			"legend": "Months",
 			"column": "fieldsLeft",
 			"type": "param"
+		}
+	},
+		"qry_type_poc3": {
+		"table": "ref_lookup_qry_type_poc3",
+		"display": {
+			"legend": "Count Type",
+			"column": "advancedRight",
+			"type": "filter",
+			"selected": 2,
+			"multi": true,
+			"zeroLast": false,
+			"sort": "qryTypeCompare",
+			"help": "Data for counts/rate of placement prevention service cases are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. ‘Total Placement Prevention Service Cases’ is a point in time count, meaning placement prevention service cases are counted on the first day of the year or quarter. ‘Opened Cases’ and ‘Case Closures’ are cohort counts, meaning placement prevention service cases are counted as being opened or closed during that quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 		"removalCounty": {
