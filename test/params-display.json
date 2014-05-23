@@ -82,7 +82,7 @@
 			"legend": "Age of Children in Household",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "This filter is used for the Screened-In Referrals and Placement Prevention Services measures. It references the ages of the children in the household at the time the referral was screened-in or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices."
+			"help": "This filter is used for the Screened-In Cases and Placement Prevention Services measures. It references the ages of the children in the household at the time the referral was screened-in or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices."
 		}
 	},	
 	"discharge_type_safety": {
@@ -637,7 +637,7 @@
 	"ihs_services": {
 		"table": "ref_filter_ihs_services",
 		"display": {
-			"legend": "Placement Prevention Services Received",
+			"legend": "PPS Received",
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
