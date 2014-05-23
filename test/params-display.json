@@ -424,8 +424,8 @@
 	},
 	"qry_type_first_unique_ia_safety": {
 		"values": {
-			"0": "Unique Screened-In Referrals",
-			"1": "First Screened-In Referral"
+			"0": "All Screened-In Cases",
+			"1": "First Screened-In Case"
 		},
 		"display": {
 			"legend": "Count Type",
@@ -449,7 +449,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of screened-in cases are aggregated into counts/rates of ‘first’ and ‘all’ screened-in cases per household. ‘First Screened-In Case’ is the first ever referral that was screened in for investigation/assessment.  ‘All Screened-In Cases’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>. "
+			"help": "Data for counts/rate of screened-in cases are aggregated into counts/rates of ‘first’ and ‘all’ screened-in cases per household. ‘First Screened-In Case’ is the first ever referral that was screened-in for investigation/assessment.  ‘All Screened-In Cases’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>. "
 		}
 	},
 	"qry_type_poc3": {
