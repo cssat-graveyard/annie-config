@@ -322,7 +322,7 @@
 		"table": "ref_lookup_qry_type",
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 0,
@@ -358,7 +358,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 2,
@@ -372,7 +372,7 @@
 		"table": "vw_qry_type_poc1ab_first_all",
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 2,
@@ -386,7 +386,7 @@
 		"table": "vw_qry_type_poc1ab_unique_first",
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": true,
 			"type": "filter",
 			"selected": 0,
@@ -418,7 +418,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 0,
@@ -434,13 +434,12 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
-			"visible": false,
+			"column": "advancedLeft",
 			"type": "filter",
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for households with children who are re-referred following a prior screened-in referral are aggregated into counts of ‘first’ and ‘unique’ screened-in referrals. See Filters Explained for a ‘count type’ example. . See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for households with children who are re-referred following a prior screened-in referral are aggregated into counts of ‘first’ and ‘all’ screened-in referrals. See 'Filters Explained' for a ‘count type’ example. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc2": {
@@ -448,7 +447,7 @@
 		"removeKeys": [2],
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 0,
@@ -586,7 +585,7 @@
 		"table": "ref_filter_finding",
 		"display": {
 			"legend": "Allegation Finding",
-			"column": "advancedLeft",
+			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"multi": true,
