@@ -340,7 +340,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 2,
@@ -402,7 +402,7 @@
 		},
 		"display": {
 			"legend": "Count Type",
-			"column": "advancedRight",
+			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
 			"selected": 0,
