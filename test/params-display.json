@@ -82,7 +82,7 @@
 			"legend": "Age of Children in Household",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "This filter is used for the Screened-In Cases and Placement Prevention Services measures. It references the ages of the children in the household at the time the referral was screened-in or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases (per 1,000) by age category for the Division of Children and Family Services Offices."
+			"help": "This filter is used for the Screened-In Cases and Placement Prevention Services measures. It references the ages of the children in the household at the time the referral was screened-in or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases (per 1,000) in an age category for each county."
 		}
 	},	
 	"discharge_type_safety": {
@@ -315,7 +315,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "TO DO Cohort data for household with children who are placed following in-home services are aggregated into ‘first’ and ‘all’ in-home service cases. Let’s assume an in-home services was opened in March and June of 2008 and then again in February 2009. The ‘first’ in-home service case would be in (March) 2008 and ‘all’ in-home service cases would include both the cases in 2008 and the case in 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for household with children who are placed following in-home services are aggregated into ‘first’ and ‘all’ in-home service cases. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_ia_safety": {
@@ -439,7 +439,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for households with children who are re-referred following a prior screened-in referral are aggregated into counts of ‘first’ and ‘all’ screened-in referrals. See 'Filters Explained' for a ‘count type’ example. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for households with children who are re-referred following a prior screened-in referral are aggregated into counts of ‘first’ and ‘all’ screened-in referrals. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc2": {
@@ -769,7 +769,7 @@
 			"selected": "2010",
 			"multi": true,
 			"resultUnavailable": "disable",
-			"help": " This filter allows you to follow households with at least one child involved in a screened-in referral from 2006 through the most recent date for which there is data.  Data on the percent of households with children re-referred are returned for up to 48 months following the selected cohort year(s)."
+			"help": " This filter allows you to follow households with at least one child involved in a screened-in referral from 2006 to the most recent available data.  Data on the percent of households with children re-referred are returned for up to 48 months following the selected cohort year(s)."
 		}
 	},
 	"cohort_year_ihs_safety": {
@@ -786,7 +786,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "This filter allows you to follow households that received in-home services from 2009 to the most recent data for which there is data. Data on the percent of households (with at least one child placed in out-of-home care) are returned for up to 48 months following the selected cohort year(s)."
+			"help": "This filter allows you to follow households that received placement prevention services from 2009 to the most recent available data. Data on the percent of households (with at least one child placed in out-of-home care) are returned for up to 48 months following the selected cohort year(s)."
 		}
 	},
 	"cohort_year_ooh_safety": {
@@ -937,7 +937,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of placement prevention service cases are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. See Placement Preventions Services: Trends, ‘Filters Explained’ for an example of these three county types. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rate of placement prevention service cases are aggregated into counts/rates of ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 		"removalCounty": {
