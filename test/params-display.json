@@ -43,11 +43,7 @@
 		} 
 	},
 	"ageCensus": {
-		"table": "ref_lookup_age_census",
-		"valueColumn": 3,
-		"addKeyValues": {
-			"-4": "-"
-		},
+		"table": "ref_lookup_age_cdc_census_mix",
 		"display": {
 			"legend": "Age at Removal",
 			"column": "fieldsRight",
@@ -365,7 +361,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for counts of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children exiting out-of-home care. Let’s assume we are counting by year (not quarter) and the child was in out-of-home care for three time periods:  (March) 2008 to (November) 2008, (February) 2009 to (May) 2009, and (August) 2009 to (December) 2009. This child’s ‘first’ exit would be in (November) 2008, their ‘unique’ count of exits would include (November) 2008 and (May) 2009; and their ‘all’ count would be their unique count plus the second exit from out-of-home care in (December) 2009. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for counts of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children exiting out-of-home care. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_all": {
