@@ -62,8 +62,7 @@
 		}
 	},
 	"ageExits": {
-		"table": "vw_age_developmental_exits",
-		"valueColumn": 1,
+		"table": "ref_lookup_age_cdc_census_mix",
 		"display": {
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
