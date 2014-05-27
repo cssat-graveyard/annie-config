@@ -21,7 +21,7 @@
 			"legend": "Age at Time of Placement",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age references the child’s/youth’s age at the time of placement in out-of-home care."
+			"help": "Age references the child’s age at the time of placement in out-of-home care."
 		}
 	},
 	"age_reentry": {
@@ -30,7 +30,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at exit references the age of the child/youth when s/he left out-of-home placement."
+			"help": "Age at exit references the age of the child when s/he left out-of-home placement."
 		}
 	},
 	"pitAge": {
@@ -39,7 +39,7 @@
 			"legend": "Age of Child",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age references the child’s/youth’s age in the selected years."
+			"help": "Age references the child’s age in the selected years."
 		} 
 	},
 	"ageCensus": {
@@ -48,7 +48,7 @@
 			"legend": "Age at Removal",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age references the child’s/youth’s age at the time s/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
+			"help": "Age references the child’s age at the time s/he was removed from their home and placed into out-of-home care (e.g., kinship care, foster care). Because the age categories are based on U.S. Census classifications, we are able to calculate the rate of cases (per 1,000) by age for the state or county."
 		}
 	},
 	"pitAgeCensus": {
@@ -67,7 +67,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at the time the child/youth exited out-of-home placement uses modified developmental age categories. This age category includes youth through age 18."
+			"help": "Age at the time the child exited out-of-home placement uses modified developmental age categories. This age category includes youth through age 18."
 		}
 	},
 	"ageSib": {
@@ -719,7 +719,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "The entry cohort you are following is that group of children/youth who entered out-of-home care in the chosen year. ENTRY COHORT YEAR choices begin January 2000 and end on the most recent year for which we have data. Because nearly all children/youth in out-of-home care have achieved permanency or turned 18 years old within four years, the default year is set approximately four years earlier than the most recent year and results are returned for up to 48 months."
+			"help": "The entry cohort you are following is that group of children who entered out-of-home care in the chosen year. ENTRY COHORT YEAR choices begin January 2000 and end on the most recent year for which we have data. Because nearly all children in out-of-home care have achieved permanency or turned 18 years old within four years, the default year is set approximately four years earlier than the most recent year and results are returned for up to 48 months."
 		}
 	},
 	"cohort_year_int": {
@@ -810,7 +810,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "The exit cohort is that group of children/youth who exited out-of-home care in the selected years. ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If the selected year(s) are less than 48 month in the past, the line graph and the data will be truncated."
+			"help": "The exit cohort is that group of children who exited out-of-home care in the selected years. ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If the selected year(s) are less than 48 month in the past, the line graph and the data will be truncated."
 		}
 	},
 	"quarterStart": {
@@ -858,7 +858,7 @@
 			"column": "fieldsLeft",
 			"type": "cohort",
 			"quarterDate": "start",
-			"help": "The exit cohort is that group of children/youth who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If a year that was less than 48 ago is selected, the line graph and the data will be truncated."
+			"help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If a year that was less than 48 ago is selected, the line graph and the data will be truncated."
 		}
 	},
 	"quarterService": {
@@ -944,7 +944,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "This is the county the data suggests the child/youth lived in prior to removal. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+			"help": "This is the county the data suggests the child lived in prior to removal. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}
 	},
 	"pitCounty": {
@@ -954,7 +954,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "This is the county the child/youth was placed in on this date. You can select any of Washington State’s 39 counties; ‘All’ (default) returns statewide data."
+			"help": "This is the county the child was placed in on this date. You can select any of Washington State’s 39 counties; ‘All’ (default) returns statewide data."
 		}
 	},
 	"exitCounty": {
@@ -964,7 +964,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "The location of the child/youth when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old)."
+			"help": "The location of the child when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old)."
 		}
 	},
 		"exitCounty_devAge": {
@@ -974,7 +974,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "The location of the child/youth when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old). TODO"
+			"help": "The location of the child when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old). TODO"
 		}	
 	},	
 		"Ref_Serv_County": {
