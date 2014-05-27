@@ -13,7 +13,7 @@
   },
   "controls": [
     "qry_type_exits",
-    "date_type",
+    "date_type_cohort",
     "discharge_type_exits"
   ],
   "params": [
