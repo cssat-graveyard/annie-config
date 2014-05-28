@@ -92,7 +92,7 @@
 			"alias": "cd_discharge_type",
 			"legend": "Re-Entry by Exit Type",
 			"column": "fieldsRight",
-			"visible": true,
+			"visible": false,
 			"type": "filter",
 			"selected": [1, 3, 4],
 			"multi": true,
