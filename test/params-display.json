@@ -43,7 +43,7 @@
 		} 
 	},
 	"ageCensus": {
-		"table": "ref_lookup_age",
+		"table": "ref_lookup_age_census",
 		"display": {
 			"legend": "Age at Removal",
 			"column": "fieldsRight",
