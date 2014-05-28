@@ -25,7 +25,7 @@
 		}
 	},
 	"age_reentry": {
-		"table": "ref_lookup_age",
+		"table": "ref_lookup_age_cdc_census_mix",
 		"display": {
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
@@ -310,7 +310,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Cohort data for household with children who are placed following in-home services are aggregated into ‘first’ and ‘all’ in-home service cases. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for household with children who are placed in out-of-home care after receiving placement prevention services are aggregated into ‘first’ and ‘all’ placement prevention cases. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_ia_safety": {
