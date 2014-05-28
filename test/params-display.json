@@ -34,7 +34,7 @@
 		}
 	},
 	"pitAge": {
-		"table": "ref_lookup_age",
+		"table": "ref_lookup_age_cdc_census_mix",
 		"display": {
 			"legend": "Age of Child",
 			"column": "fieldsRight",
