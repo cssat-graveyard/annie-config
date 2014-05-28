@@ -8,8 +8,8 @@
 			"type": "filter",
 			"selected": "Overview",
 			"help": {
-				"default": "This filter allows you to select: 1) the count or rate of cases screened-in on the first day of the quarter or year (point-in-time data) or 2) the count or rate of opened and closed screened-in cases (cohort data). The ‘Overview’ selection shows the point-in-time data in the top bar graph and the cohort data in the bottom line graph.",
-				"sp_ihs_trends_counts":"This filter allows you to select: 1) the count or rate of placement prevention service cases on the first day of the quarter or year (point-in-time data) or 2) the count or rate of opened and closed placement prevention service cases (cohort data). The ‘Overview’ selection shows the point-in-time data in the top bar graph and the cohort data in the bottom line graph.",
+				"default": "This filter allows you to select: 1) the count or rate of cases screened-in on the first day of the quarter or year (point-in-time data) or 2) the count or rate of opened and closed screened-in cases over the course of a quarter or year (cohort data). The ‘Overview’ selection shows the point-in-time data in the top bar graph and the cohort data in the bottom line graph.",
+				"sp_ihs_trends_counts":"This filter allows you to select: 1) the count or rate of placement prevention service cases on the first day of the quarter or year (point-in-time data) or 2) the count or rate of opened and closed placement prevention service cases over the course of a quarter or year (cohort data). The ‘Overview’ selection shows the point-in-time data in the top bar graph and the cohort data in the bottom line graph.",
 				"sp_ooh_wb_familysettings": "The chart format provides a line graph of the percentage of children in one of three family settings—a state foster home, a private foster home, or with relatives/kin—on the first day of the year. The ‘Overview’ displays the percentage of children in all family settings, as well as those in a ‘non-family setting (e.g., group home).",
                 "sp_ooh_wb_siblings_by_year": "With this filter you can examine whether all, some, of none of the siblings in family are placed into out-of-home care. The ‘Overview’ selection compares the three choices." 				
 			}
@@ -77,7 +77,7 @@
 			"legend": "Age of Children in Household",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "This filter is used for the Screened-In Cases and Placement Prevention Services measures. It references the ages of the children in the household at the time the referral was screened-in or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases (per 1,000) in an age category for each county."
+			"help": " This filter is used for the screened-in cases and placement prevention services measures. It references the ages of the children in the household at the time the referral was screened-in or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases (per 1,000) in an age category for each county."
 		}
 	},	
 	"discharge_type_safety": {
@@ -450,7 +450,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rates of screened-in cases are aggregated into ‘first’ and ‘all’ screened-in cases per household. ‘First Screened-In Case’ is the first ever referral that was screened-in for investigation/assessment.  ‘All Screened-In Cases’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>. "
+			"help": "Data for counts/rate of screened-in cases are aggregated into ‘first’ and ‘all’ screened-in cases per household. ‘First Screened-In Case’ is the first ever referral that was screened in for investigation/assessment. ‘All Screened-In Cases’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year, which may include multiple screened-in referrals for a single household. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"service_type": {
