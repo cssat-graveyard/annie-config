@@ -43,7 +43,7 @@
 		} 
 	},
 	"ageCensus": {
-		"table": "ref_lookup_age_cdc_census_mix",
+		"table": "ref_lookup_age",
 		"display": {
 			"legend": "Age at Removal",
 			"column": "fieldsRight",
