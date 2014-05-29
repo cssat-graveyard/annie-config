@@ -504,6 +504,15 @@
 			"help": "This references the length of the selected cohort (group) by quarter(s) or year(s)."
 		}
 	},
+	"date_type_pit": {
+		"table": "ref_lookup_date_type",
+		"display": {
+		    "legend": "Point-in-Time",
+			"column": "fieldsLeft",
+			"type": "dateType",
+			"selected": 2
+		}
+	},
 	"nbrSiblings": {
 		"values": [
 			"All Others",

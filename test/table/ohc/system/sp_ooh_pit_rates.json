@@ -13,7 +13,7 @@
 	},
 	"controls": [
 	  "qry_type_first_all",
-	  "date_type_cohort"
+	  "date_type_pit"
 	],
 	"params": [
 	  "dynamicMonthStart",
