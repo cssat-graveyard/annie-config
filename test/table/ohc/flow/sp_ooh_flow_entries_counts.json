@@ -73,7 +73,7 @@
     "Race/Ethnicity",
     "Initial Placement=initSetng",
     "Longest Placement=longSetng",
-    "County=removalCounty",
+    "Removal County=removalCounty",
     "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
     "Placement Count Desc=nbr_placement",
