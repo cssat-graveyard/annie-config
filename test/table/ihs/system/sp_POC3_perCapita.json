@@ -47,7 +47,7 @@
     "*qry_type_poc3",
     "Age Grouping",
     "Race/Ethnicity",
-    "DCFS Office Group"
+    "Referral County"
   ],
   "returnRowStart": 10,
   "columnClusterSize": "4",
