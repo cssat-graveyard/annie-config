@@ -239,7 +239,7 @@
 		"removeKeys": [28],
 		"_comment": "State level location",
 		"display": {
-			"legend": "DCFS Office or Office Group",
+			"legend": "Servcie County",
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
@@ -986,7 +986,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "This is the county where the referral was screened-in for investigation or the county where the services are received.  You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+			"help": "This is the county where the referral was screened-in for investigation. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}	
 	},	
 	"office": {
@@ -997,12 +997,12 @@
 		"removeKeys": [-99],
 		"_comment": "Missing / Other",
 		"display": {
-			"legend": "DCFS Office",
+			"legend": "Service County",
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"sort": true,
-			"help": "There are 43 DCFS Offices (<a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>Division of Children and Family Services</span></a>) offices in Washington State."
+			"help": "This is the county where the services were received. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}
 	}
 }
