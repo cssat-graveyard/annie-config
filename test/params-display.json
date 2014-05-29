@@ -69,7 +69,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at the time the child exited out-of-home placement uses modified developmental age categories. This age category includes youth through age 18."
+			"help": "Age at the time the child exited out-of-home placement uses modified developmental age categories and includes youth through the 18th year (to account for all emancipations)."
 		}
 	},
 	"ageSib": {
@@ -1003,7 +1003,7 @@
 			"visible": false,
 			"type": "param",
 			"sort": true,
-			"help": "This is the county where the services were received. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+			"help": "This is the county where the placement prevention services were received. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}
 	}
 }
