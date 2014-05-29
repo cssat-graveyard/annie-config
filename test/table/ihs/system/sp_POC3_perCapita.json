@@ -21,7 +21,7 @@
     "monthStart",
     "ageSib",
     "ethnicityCensus",
-    "officeGroup"
+    "office"
   ],
   "dateParams": [],
   "requiredParams": [
