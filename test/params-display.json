@@ -239,11 +239,12 @@
 		"removeKeys": [28],
 		"_comment": "State level location",
 		"display": {
-			"legend": "Servcie County",
+			"legend": "Service County",
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
 			"sort": true
+			"help": "This is the county where the referral was screened-in for investigation. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}
 	},
 	"initSetng": {
@@ -982,7 +983,7 @@
 		"Ref_Serv_County": {
 		"table": "ref_lookup_county",
 		"display": {
-			"legend": "County",
+			"legend": "Referral County",
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
