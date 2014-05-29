@@ -17,7 +17,7 @@
     "discharge_type_exits"
   ],
   "params": [
-    "dynamicMonthStart",
+    "date_type_cohort",
     "ageExits",
     "ethnicityCensus",
     "gender",
@@ -37,7 +37,7 @@
   ],
   "dateParams": [],
   "requiredParams": [
-    "dynamicMonthStart"
+    "date_type_cohort"
   ],
   "showAllOthers": true,
   "mutexAllOther": false,
@@ -75,7 +75,7 @@
     "Race/Ethnicity",
     "Initial Placement=initSetng",
     "Longest Placement=longSetng",
-    "County=exitCounty_devAge",
+    "Exit County=exitCounty_devAge",
     "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
     "Placement Count Desc=nbr_placement",
