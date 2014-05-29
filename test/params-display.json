@@ -243,7 +243,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"sort": true
+			"sort": true,
 			"help": "This is the county where the referral was screened-in for investigation. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}
 	},
