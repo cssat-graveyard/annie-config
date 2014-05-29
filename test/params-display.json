@@ -571,12 +571,9 @@
 			"column": "advancedLeft",
 			"visible": false,
 			"type": "param",
-			"disabled": [2,
-			3,
-			4,
-			5],
+			"disabled": [7],
 			"multi": true,
-			"help": "There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/ referrals of alleged child abuse and neglect."
+			"help": "TODO There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/ referrals of alleged child abuse and neglect."
 		}
 	},
 	"allegation": {
