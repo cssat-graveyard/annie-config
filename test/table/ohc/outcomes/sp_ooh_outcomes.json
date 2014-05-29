@@ -13,7 +13,7 @@
 	"cohort_year"
   ],
   "params": [
-    "ageExits",
+    "ageEntry",
     "ethnicityCensus",
     "gender",
     "initSetng",
@@ -61,7 +61,7 @@
     "&nbsp;",
     "*cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique_ooh_outcomes",
-	"Age Grouping=ageExits",
+	"Age Grouping=ageEntry",
     "Gender=gender",
     "Race/Ethnicity",
     "Initial Placement=initSetng",
@@ -83,7 +83,7 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-	"x": "Months Since Entering",
+	"x": "Months Since Entering Out-of-Home Care",
     "y": "",
 	"yFormat": "##'%"
   }, 

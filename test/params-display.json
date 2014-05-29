@@ -34,13 +34,22 @@
 			"help": "Age at exit references the age of the child when s/he left out-of-home placement."
 		}
 	},
+	"ageEntry": {
+		"table": "ref_lookup_age_cdc_census_mix",
+		"display": {
+			"legend": "Age at Entry",
+			"column": "fieldsRight",
+			"type": "param",
+			"help": "Age references the child’s age in the year the child entered out-of-home care."
+		} 
+	},
 	"pitAge": {
 		"table": "ref_lookup_age_cdc_census_mix",
 		"display": {
 			"legend": "Age of Child",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age references the child’s age in the selected years."
+			"help": "Age references the child’s age on the first day of the year(s)."
 		} 
 	},
 	"ageCensus": {
