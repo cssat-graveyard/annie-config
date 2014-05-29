@@ -47,7 +47,7 @@
     "*qry_type_poc2",
     "Age Grouping",
     "Race/Ethnicity",
-    "County=Ref_Serv_County"
+    "Referral County=Ref_Serv_County"
   ],
   "returnRowStart": 10,
   "columnClusterSize": "4",
