@@ -51,7 +51,7 @@
     "*qry_type_poc2",
     "Age Grouping=ageSib",
     "Race/Ethnicity",
-    "County=Ref_Serv_County",
+    "Referral County=Ref_Serv_County",
     "Reporter_Desc=reporter_type",
     "Access_type_desc=Entry Point",
     "Allegation=allegation",
