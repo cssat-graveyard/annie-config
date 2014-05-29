@@ -113,7 +113,7 @@
 		"table": "ref_lookup_type_of_exit",
 		"display": {
 		    "alias": "cd_discharge_type",
-			"legend": "Exit Type",
+			"legend": "Outcome",
 			"column": "fieldsRight",
 			"visible": false,
 			"type": "filter",
@@ -121,7 +121,7 @@
 			"multi": true,
 			"zeroLast": true,
 			"resultUnavailable": "disable",
-			"help": "You can select exit from out-of-home care to <a href=' /data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other. The default ‘exit type’ includes reunification, adoption and guardianship."
+			"help": "The 'outcome' is the current status of the child. You can select one of three permanency outcomes (reunification, guardianship, or adoption), as well as emancipation, other (e.g. transfer to another authority), or still in out-of-home care. The default ‘outcome’ includes reunification, adoption and guardianship."
 		}
 	},
 	"discharge_type_exits": {
