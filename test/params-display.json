@@ -79,7 +79,7 @@
 			"legend": "Age of Children in Household",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": " This filter is used for the screened-in cases and placement prevention services measures. It references the ages of the children in the household at the time the referral was screened-in or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases (per 1,000) in an age category for each county."
+			"help": " This filter is used for the screened-in cases and placement prevention services measures. It references the ages of the children in the household at the time the referral was screened-in or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases per 1,000 households."
 		}
 	},	
 	"discharge_type_safety": {
