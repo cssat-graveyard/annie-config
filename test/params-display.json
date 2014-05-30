@@ -583,7 +583,7 @@
 			"type": "param",
 			"disabled": [7],
 			"multi": true,
-			"help": "TODO There are five primary entry points, i.e., first point of contact with Children’s Administration. Currently, the Data Portal can return data for Child Protective Services (CPS) and ‘All’ entry points. <a href='/data-portal/glossary#letter_c' target ='_blank'><span style='text-decoration: underline;'>CPS</span></a> provides 24 hour, seven days a week intake, screening, and investigative services for reports/ referrals of alleged child abuse and neglect."
+			"help": "There are seven primary entry points in the child welfare system, i.e., first point of contact with Children’s Administration. Currently, the Data Portal returns data for: 1) <a href='http://poctest.spiders.net/data-portal/glossary#letter_c' target='_blank'>Child Protective Services</a> (CPS), which provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect; 2) <a href='http://poctest.spiders.net/data-portal/glossary#letter_f' target='_blank'>Family Reconciliation Services</a> (FRS), a voluntary program serving runaway adolescents and youth in conflict with their families; 3) <a href='http://poctest.spiders.net/data-portal/glossary#letter_c' target='_blank'>Child and Family Welfare Services</a> (CFWS), which provides both permanency planning and court-ordered services to children and families to mitigate the risk of abuse or neglect so that children are able to safely return to their home of origin; 4) <a href='http://www.dshs.wa.gov/CA/pubs/mnl_pnpg/chapter2.asp'>Risk Only</a>, a referral made when information collected gives reasonable cause to believe that risk or safety factors exist that place the child at imminent risk of serious harm; 5) <a href='http://www.dshs.wa.gov/pdf/ca/ARS_FY04.pdf'>Alternative Response System</a> (ARS), a voluntary program for low-to-moderate risk families who were referred to CPS; and 6) <a href='http://poctest.spiders.net/data-portal/glossary#letter_f' target='_blank'>Family Assessment Response</a> (FAR), a new alternative pathway for accepted reports of low-to-moderate risk of child maltreatment.</p><p><em><br/></em></p>"
 		}
 	},
 	"allegation": {
@@ -616,7 +616,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": ":  An out-of-home care episode or stay begins with a state custody date and ends with a federal discharge date. A child in out-of-home care can have MULTIPLE PLACEMENTS PER EPISODE. For example, you might find that within a four year period a child had two episodes, with two placements in each episode, for a total of four placements."
+			"help": ": An out-of-home care episode or stay begins with a state custody date and ends with a federal discharge date. A child in out-of-home care can have MULTIPLE PLACEMENTS PER EPISODE. For example, you might find that within a four year period a child had two episodes, with two placements in each episode, for a total of four placements."
 		}
 	},
 	"ooh_los": {
