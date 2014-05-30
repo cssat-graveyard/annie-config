@@ -669,7 +669,7 @@
 		"table": "ref_service_cd_subctgry_poc",
 		"orderBy": "ordering",
 		"display": {
-			"legend": "Placement Prevention Service Category",
+			"legend": "Service Category",
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
