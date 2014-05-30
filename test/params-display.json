@@ -784,7 +784,7 @@
 			"selected": "2010",
 			"multi": true,
 			"resultUnavailable": "disable",
-			"help": " This filter allows you to follow households with at least one child involved in a screened-in referral from 2006 to the most recent available data.  Data on the percent of households with children re-referred are returned for up to 48 months following the selected cohort year(s)."
+			"help": "This filter allows you to follow households with at least one child involved in a screened-in referral from 2006 to the most recent available data.  Data on the percent of households with children re-referred are returned in three month increments for up to 48 months following the selected cohort year. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
 		}
 	},
 	"cohort_year_ihs_safety": {
@@ -801,7 +801,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "This filter allows you to follow households that received placement prevention services from 2009 to the most recent available data. Data on the percent of households (with at least one child placed in out-of-home care) are returned for up to 48 months following the selected cohort year(s)."
+			"help": "This filter allows you to follow households that received placement prevention services from 2009 to the most recent available data. Data on the percent of households (with at least one child placed in out-of-home care) are returned in three month increments for up to 48 months following the selected cohort year. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
 		}
 	},
 	"cohort_year_ooh_safety": {
@@ -876,7 +876,7 @@
 			"column": "fieldsLeft",
 			"type": "cohort",
 			"quarterDate": "start",
-			"help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If the selected year(s) are less than 48 month in the past, the line graph and the data will be truncated."
+			"help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
 		}
 	},
 	"quarterService": {
