@@ -113,7 +113,7 @@
 		"table": "ref_lookup_type_of_exit",
 		"display": {
 		    "alias": "cd_discharge_type",
-			"legend": "Outcome",
+			"legend": "Exit Type/Still in Care",
 			"column": "fieldsRight",
 			"visible": false,
 			"type": "filter",
@@ -121,7 +121,7 @@
 			"multi": true,
 			"zeroLast": true,
 			"resultUnavailable": "disable",
-			"help": "The 'outcome' is the current status of the child. You can select one of three permanency outcomes (<a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, <a href='/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, or adoption), as well as <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a>, other (e.g., transfer to another authority), or still in out-of-home care. The default ‘outcome’ includes reunification, adoption, and guardianship."
+			"help": "You can select one of three permanency outcomes (<a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, <a href='/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, or adoption), as well as <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a>, other exit (e.g., transfer to another authority), or still in out-of-home care. The default ‘outcome’ includes reunification, adoption, and guardianship."
 		}
 	},
 	"discharge_type_exits": {
@@ -644,7 +644,7 @@
 	"ihs_services": {
 		"table": "ref_filter_ihs_services",
 		"display": {
-			"legend": "Placement Prevention Services Received",
+			"legend": "Placement Prevention Services",
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
