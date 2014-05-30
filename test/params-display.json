@@ -667,7 +667,7 @@
 	},	
 	"pp_service_category": {
 		"table": "ref_service_cd_subctgry_poc",
-		"removeKeys": [8],
+		"removeKeys": [14, 12, 6, 16, 5, 4,10, 13, 9],
 		"orderBy": "ordering",
 		"display": {
 			"legend": "Service Category",
