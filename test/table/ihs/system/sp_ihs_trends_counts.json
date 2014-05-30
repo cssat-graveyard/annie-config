@@ -55,7 +55,7 @@
     "Age of Children in Household",
     "Race/Ethnicity",
     "Referral County",
-    "Placement Prevention Services Received=ihs_services",
+    "Placement Prevention Services=ihs_services",
     "Reporter",
     "Entry Point",
     "Allegation",

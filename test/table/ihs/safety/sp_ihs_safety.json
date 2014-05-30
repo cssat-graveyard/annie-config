@@ -59,7 +59,7 @@
 	"Access type desc=access_type",
 	"Allegation=allegation",
 	"Finding=finding",
-	"Service Type=service_category",
+	"Service Type=pp_service_category",
 	"Budget=budget_category"
   ],
   "returnRowStart": 24,
