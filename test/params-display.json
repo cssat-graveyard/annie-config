@@ -121,7 +121,7 @@
 			"multi": true,
 			"zeroLast": true,
 			"resultUnavailable": "disable",
-			"help": "You can select one of three permanency outcomes (<a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, <a href='/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, or adoption), as well as <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a>, other exit (e.g., transfer to another authority), or still in out-of-home care. The default ‘outcome’ includes reunification, adoption, and guardianship."
+			"help": "You can select one of three permanency outcomes (<a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, <a href='/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, or adoption), as well as <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a>, other exit (e.g., transfer to another authority), or still in out-of-home care. The default outcome/exit type includes reunification, adoption, and guardianship."
 		}
 	},
 	"discharge_type_exits": {
@@ -431,7 +431,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for children who enter out-of-home care are aggregated into ‘first’ and ‘unique’ entries into out-of-home care. Let’s assume a child was in out-of-home care from (March) 2008 to (November) 2008 and from (February) 2009 to (May) 2009. This child’s ‘first’ entry would be in (March) 2008 and their ‘unique’ entry count would include their first entry plus (February) 2009.See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for children who enter out-of-home care are aggregated into ‘first’ and ‘unique’ entries into out-of-home care. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_first_unique_ia_safety": {
