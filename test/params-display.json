@@ -519,7 +519,8 @@
 		    "legend": "Point-in-Time",
 			"column": "fieldsLeft",
 			"type": "dateType",
-			"selected": 2
+			"selected": 2,
+			"help": "This references the count or rate on the first day of the quarter(s) or year(s) selected."
 		}
 	},
 	"nbrSiblings": {
@@ -828,7 +829,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "The exit cohort is that group of children who exited out-of-home care in the selected years. ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If the selected year(s) are less than 48 month in the past, the line graph and the data will be truncated."
+			"help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 to the most recent available data. Data on the percent of children who have re-entered out-of-home care are returned in three month increments for up to 48 months following the selected cohort year. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
 		}
 	},
 	"quarterStart": {
