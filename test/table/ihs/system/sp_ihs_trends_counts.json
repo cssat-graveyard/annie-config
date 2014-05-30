@@ -26,7 +26,7 @@
     "access_type",
     "allegation",
     "finding",
-    "service_category",
+    "pp_service_category",
     "budget_category"
   ],
   "returnRowHeaders": [
@@ -60,7 +60,7 @@
     "Entry Point",
     "Allegation",
     "Allegation Finding",
-    "Service Category",
+    "Service Category=pp_service_category",
     "Budget Category"
   ],
   "returnRowStart": 23,
