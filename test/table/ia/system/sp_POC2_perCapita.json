@@ -6,9 +6,9 @@
     "Function": "daterow",
     "dateField": "period_start",
     "valueFields": [
-      "Total Cases (First Day of Month or Year)",
+      "Total Screened-In Cases 1st Day Quarter/Year",
       "Opened Cases",
-      "Case Closures",
+      "Closed Cases",
       "Closures per Opened Case"
     ],
     "removeFields": []

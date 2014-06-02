@@ -4,11 +4,11 @@
   "table": "sp_ia_trends_counts",
   "transform": {
     "Function": "daterow",
-    "dateField": "Month",
+    "dateField": "Year",
     "valueFields": [
-      "Total Cases First Day",
-      "Opened Cases",
-      "Case Closures"
+      "Total Screened-In Cases 1st Day Quarter/Year",
+      "Opened Screened-In Cases",
+      "Closed Screened-In Cases"
     ],
     "removeFields": []
   },

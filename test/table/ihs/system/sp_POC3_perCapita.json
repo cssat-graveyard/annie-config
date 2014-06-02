@@ -6,7 +6,7 @@
     "Function": "daterow",
     "dateField": "period_start",
     "valueFields": [
-      "Total Cases First Day",
+      "Total PPS Cases 1st Day Quarter/Year",
       "Opened Cases",
       "Case Closures",
       "Closures per Opened Case"
