@@ -113,7 +113,7 @@
 		"table": "ref_lookup_type_of_exit",
 		"display": {
 		    "alias": "cd_discharge_type",
-			"legend": "Exit Type/Still in Care",
+			"legend": "Outcome/Still in Care",
 			"column": "fieldsRight",
 			"visible": false,
 			"type": "filter",
@@ -563,9 +563,6 @@
 	},
 	"reporter_type": {
     	"removeKeys": [-99],
-		"addKeyValues": {
-			"-14": "-"
-		},
 		"table": "ref_filter_reporter_type",
 		"orderBy": "ordering",
 		"display": {
