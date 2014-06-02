@@ -563,6 +563,9 @@
 	},
 	"reporter_type": {
     	"removeKeys": [-99],
+		"addKeyValues": {
+			"-14": "-"
+		},
 		"table": "ref_filter_reporter_type",
 		"orderBy": "ordering",
 		"display": {
