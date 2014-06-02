@@ -4,9 +4,9 @@
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Month",
+		"dateField": "1st Day Quarter/Year",
 		"valueFields": [
-		  "Total In Care First Day"
+		  "Total in Out-of-Home Care 1st Day"
 		],
 		"removeFields": [
 		]

@@ -3,7 +3,7 @@
   "title": "Re-Referrals",
   "transform": {
     "Function": "daterow",
-    "dateField": "Months",
+    "dateField": "Months Since 1st Screened-In Case",
     "valueFields": [
       "Among first referrals, percent that are re-referred"
     ],

@@ -3,7 +3,7 @@
   "title": "Placement Following Placement Prevention Services",
   "transform": {
     "Function": "daterow",
-    "dateField": "Month",
+    "dateField": "Months Since Placement Prevention Service Case Opened",
     "valueFields": [
       "Placed"
 	],

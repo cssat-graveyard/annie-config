@@ -3,7 +3,7 @@
   "title": "Exits from Out-of-Home Care",
   "transform": {
     "Function": "daterow",
-    "dateField": "Month",
+    "dateField": "Date",
 	"valueFields": ["Rate"],
 	"removeFields": []
   },

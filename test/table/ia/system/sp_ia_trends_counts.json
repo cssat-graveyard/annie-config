@@ -4,9 +4,9 @@
   "table": "sp_ia_trends_counts",
   "transform": {
     "Function": "daterow",
-    "dateField": "Year",
+    "dateField": "Date",
     "valueFields": [
-      "Total Screened-In Cases 1st Day Quarter/Year",
+      "Total Screened-In Cases 1st Day",
       "Opened Screened-In Cases",
       "Closed Screened-In Cases"
     ],

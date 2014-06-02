@@ -3,7 +3,7 @@
   "title": "Re-Entry into Out-of-Home Care",
   "transform": {
     "Function": "daterow",
-	"dateField": "Month",
+	"dateField": "Months Since Exiting Out-of-Home Care",
     "valueFields": ["Re-Entry Percent"],
 	"removeFields": []
   },

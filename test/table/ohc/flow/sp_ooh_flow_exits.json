@@ -5,7 +5,7 @@
   "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
-    "dateField": "Month",
+    "dateField": "Date",
     "valueFields": [
       "Number of Exits"
     ],
