@@ -516,6 +516,7 @@
 	"date_type_pit": {
 		"table": "ref_lookup_date_type",
 		"display": {
+		    "alias": "date_type",
 		    "legend": "Point-in-Time",
 			"column": "fieldsLeft",
 			"type": "dateType",
