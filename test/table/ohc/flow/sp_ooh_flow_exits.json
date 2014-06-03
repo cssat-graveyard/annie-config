@@ -5,7 +5,7 @@
   "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
-    "dateField": "Date",
+    "dateField": "Cohort Period",
     "valueFields": [
       "Number of Exits"
     ],
@@ -75,7 +75,7 @@
     "Race/Ethnicity",
     "Initial Placement=initSetng",
     "Longest Placement=longSetng",
-    "Exit County=exitCounty_devAge",
+    "County=exitCounty_devAge",
     "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
     "Placement Count Desc=nbr_placement",

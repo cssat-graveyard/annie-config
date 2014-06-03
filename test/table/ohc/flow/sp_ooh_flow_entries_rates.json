@@ -4,7 +4,7 @@
   "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
-    "dateField": "Date",
+    "dateField": "Cohort Period",
     "valueFields": [
       "Rate of Entries"
     ],
@@ -74,7 +74,7 @@
     "Race/Ethnicity",
     "Initial Placement=initSetng",
     "Longest Placement=longSetng",
-    "Removal County=removalCounty",
+    "County=removalCounty",
     "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
     "Placement Count Desc=nbr_placement",
