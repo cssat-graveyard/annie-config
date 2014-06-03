@@ -50,7 +50,7 @@
   "headerNames": [
 	"&nbsp;",
 	"qry_type*qry_type_first_unique",
-	"Year*cohort_year_ihs_safety",
+	"Cohort Period*cohort_year_ihs_safety",
 	"Age Grouping=ageSib",
 	"Race/Ethnicity",
 	"Service County=office",
