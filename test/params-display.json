@@ -748,6 +748,7 @@
 		},
 		"display": {
 			"legend": "Entry Cohort Year",
+			"alias": "Cohort Period",
 			"column": "fieldsLeft",
 			"type": "filter",
 			"resultUnavailable": "disable",

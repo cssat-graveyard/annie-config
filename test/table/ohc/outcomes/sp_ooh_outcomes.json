@@ -3,7 +3,7 @@
   "title": "Outcomes",
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Period",
+    "dateField": "Month",
 	"valueFields": ["Rate"],
 	"removeFields": []
   },
@@ -59,7 +59,7 @@
   "returnRowControlHeaders": [1, 2, 36],
   "headerNames": [
     "&nbsp;",
-    "*cohort_year",
+    "Cohort Period*cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique_ooh_outcomes",
 	"Age Grouping=ageEntry",
     "Gender=gender",
