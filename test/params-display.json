@@ -595,7 +595,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "AAn allegation of child abuse, neglect, or any maltreatment can come from any person (mandated reporter or not). Social workers have the option of entering up to four types of maltreatment per case, meaning there may be more allegations than cases. Neglect and physical abuse comprise the bulk of allegations; due to the severity of sexual abuse, it is also included in the allegation filter."
+			"help": "During an investigation or assessment, social workers have the option of entering up to four different types of suspected maltreatment per case. That is, there may be up to four allegations per case. <a href=http://www.dshs.wa.gov/ca/safety/indicatorNeglect.asp?2>Neglect</a> comprises the bulk of allegations."
 		}
 	},
 	"finding": {
