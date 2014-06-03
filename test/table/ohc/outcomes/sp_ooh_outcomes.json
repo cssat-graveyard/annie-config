@@ -3,7 +3,7 @@
   "title": "Outcomes",
   "transform": {
     "Function": "daterow",
-    "dateField": "Date",
+    "dateField": "Cohort Period",
 	"valueFields": ["Rate"],
 	"removeFields": []
   },
