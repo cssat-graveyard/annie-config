@@ -1,15 +1,14 @@
 {
-  "title": "Rate of Screened-In Cases per 1,000 Households",
+  "title": "Rate of Screened-In Cases (per 1,000)",
   "measurementOrder": 2,
-  "table": "sp_poc2_perCapita",
+  "table": "sp_ia_trends_rates",
   "transform": {
     "Function": "daterow",
-    "dateField": "period_start",
+    "dateField": "Date",
     "valueFields": [
-      "Total Screened-In Cases 1st Day Quarter/Year",
-      "Opened Cases",
-      "Closed Cases",
-      "Closures per Opened Case"
+      "Total Screened-In Cases 1st Day",
+      "Opened Screened-In Cases",
+      "Closed Screened-In Cases"
     ],
     "removeFields": []
   },
@@ -21,36 +20,62 @@
     "dynamicMonthStart",
     "ageSib",
     "ethnicityCensus",
-    "Ref_Serv_County"
+    "Ref_Serv_County",
+	"reporter_type",
+	"access_type",
+	"allegation",
+	"finding"
   ],
-  "dateParams": [],
   "requiredParams": [
-    "dynamicMonthStart"
+	"dynamicMonthStart"
   ],
-  "showAllOthers": true,
-  "mutexAllOthers": false,
   "returnRowHeaders": [
-    0,
     1,
-    5,
-    7,
-    9
+    2,
+    4,
+    6,
+	8,
+	10,
+	12,
+	14,
+	16
   ],
   "returnRowDateHeaders": [
     0
   ],
   "returnRowControlHeaders": [
-    1
+    1,2
   ],
   "headerNames": [
     "&nbsp;",
     "*qry_type_poc2",
-    "Age Grouping",
+    "Age Grouping=ageSib",
     "Race/Ethnicity",
-    "Referral County=Ref_Serv_County"
+    "Referral County=Ref_Serv_County",
+    "Reporter_Desc=reporter_type",
+    "Access_type_desc=Entry Point",
+    "Allegation=allegation",
+    "Finding=finding"
   ],
-  "returnRowStart": 10,
-  "columnClusterSize": "4",
+  "returnRowStart": 17,
+  "columnClusterSize": 3,
+  "showAllOthers": true,
+  "mutexAllOthers": false,
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "numberFormat": [
+    {
+      "fractionDigits": 2
+    },
+    {
+      "fractionDigits": 2
+    },
+    {
+      "fractionDigits": 2
+    }
+  ],
   "multicharts": {
     "Overview": [
       {
@@ -69,12 +94,11 @@
         },
         "labels": {
           "x": "",
-          "y": "Rate per 1,000 Households"
+          "y": ""
         },
         "hideColumns": [
           1,
-          2,
-          3
+          2
         ]
       },
       {
@@ -93,11 +117,10 @@
         },
         "labels": {
           "x": "",
-          "y": "Rate per 1,000 Households"
+          "y": ""
         },
         "hideColumns": [
-          0,
-          3
+          0
         ]
       }
     ],
@@ -108,12 +131,11 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Rate per 1,000 Households"
+          "y": "Rate (per 1,000)"
         },
         "hideColumns": [
           1,
-          2,
-          3
+          2
         ],
         "addInputClass": "multiAllowed"
       }
@@ -125,11 +147,10 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Rate per 1,000 Households"
+          "y": "Rate (per 1,000)"
         },
         "hideColumns": [
-          0,
-          3
+          0
         ]
       }
     ],
@@ -140,12 +161,11 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Rate per 1,000 Households"
+          "y": "Rate (per 1,000)"
         },
         "hideColumns": [
           0,
-          2,
-          3
+          2
         ],
         "addInputClass": "multiAllowed"
       }
@@ -157,40 +177,14 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": "Rate per 1,000 Households"
+          "y": "Rate (per 1,000)"
         },
         "hideColumns": [
           0,
-          1,
-          3
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ],
-    "Closures-per-Opened-Case": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Rate of Closures per Opened Case",
-          "yMax": 2
-        },
-        "hideColumns": [
-          0,
-          1,
-          2
+          1
         ],
         "addInputClass": "multiAllowed"
       }
     ]
-  },
-  "numberFormat": {
-    "fractionDigits": 2
-  },
-  "labels": {
-    "x": "",
-    "y": ""
   }
 }
