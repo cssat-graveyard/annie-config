@@ -6,7 +6,7 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Total PPS Case 1st Day",
+      "Total PPS Cases 1st Day",
       "Opened Cases",
       "Closed Cases"
     ],
@@ -52,16 +52,16 @@
   "headerNames": [
     "&nbsp;",
     "*qry_type_poc3",
-    "Age of Children in Household",
+    "Age Grouping=ageSib",
     "Race/Ethnicity",
-    "Referral County",
-    "Placement Prevention Services=ihs_services",
-    "Reporter",
-    "Entry Point",
-    "Allegation",
-    "Allegation Finding",
+    "Referral County=Ref_Serv_County",
+	"In-Home Service Desc=ihs_services",
+    "Reporter_Desc=reporter_type",
+    "Access_type_desc=Entry Point",
+    "Allegation=allegation",
+    "Finding=finding",
     "Service Category=pp_service_category",
-    "Budget Category"
+    "Budget=budget_category"
   ],
   "returnRowStart": 23,
   "columnClusterSize": 3,
