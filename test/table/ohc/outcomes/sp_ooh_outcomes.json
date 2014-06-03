@@ -1,6 +1,6 @@
 {
   "table": "sp_ooh_outcomes",
-  "title": "Exits from Out-of-Home Care",
+  "title": "Outcomes",
   "transform": {
     "Function": "daterow",
     "dateField": "Date",
