@@ -31,7 +31,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at exit references the age of the child when s/he left out-of-home placement."
+			"help": "Age at exit references the age of the child when s/he left out-of-home care."
 		}
 	},
 	"ageEntry": {
@@ -120,7 +120,6 @@
 			"selected": [1, 3, 4],
 			"multi": true,
 			"zeroLast": true,
-			"resultUnavailable": "disable",
 			"help": "You can select one of three permanency outcomes (<a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, <a href='/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, or adoption), as well as <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a>, other exit (e.g., transfer to another authority), or still in out-of-home care. The default outcome/exit type includes reunification, adoption, and guardianship."
 		}
 	},
@@ -136,7 +135,7 @@
 			"multi": true,
 			"zeroLast": true,
 			"resultUnavailable": "disable",
-			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other (e.g., transfer to another Washington State authority). The default selection is exits to all five outcomes."
+			"help": "You can select exit from out-of-home care to <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, <a href='/data-portal/glossary#letter_pg' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a> or other (e.g., transfer to another Washington State authority)."
 		}
 	},
 	"bin_sibling_group_size": {
@@ -510,7 +509,7 @@
 			"column": "fieldsLeft",
 			"type": "dateType",
 			"selected": 2,
-			"help": "This references the length of the selected cohort (group) by quarter(s) or year(s)."
+			"help": "This references the length of time of the selected cohort (group) by quarter(s) or year(s)."
 		}
 	},
 	"date_type_pit": {
@@ -846,7 +845,7 @@
 			"zeroLast": false,
 			"selected": "2010",
 			"multi": true,
-			"help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 to the most recent available data. Data on the percent of children who have re-entered out-of-home care are returned in three month increments for up to 48 months following the selected cohort year. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
+			"help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 to the most recent available data. Data on the percent of children who have re-entered out-of-home care are available in three month increments for up to 48 months following the selected cohort year. If the selected year is fewer than 48 months ago, the line graph and the data will be truncated."
 		}
 	},
 	"quarterStart": {
