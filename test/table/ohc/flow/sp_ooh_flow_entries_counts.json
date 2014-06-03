@@ -5,7 +5,7 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "Date",
+    "dateField": "Cohort Period",
     "valueFields": [
       "Number of Entries"
     ],
