@@ -70,8 +70,8 @@
 	  "Finding=finding",
 	  "Service Type=service_category",
 	  "Budget=budget_category",
-	  "Placement Type=kincare",
-	  "Sibling Group Cohesion=measure_nbr"
+	  "*kincare",
+	  "measure_nbr*sib_plc_measure"
 	],
 	"returnRowStart": 37,
     "columnClusterSize": 4,
