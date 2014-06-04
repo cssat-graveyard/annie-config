@@ -3,7 +3,7 @@
   "title": "Outcomes",
   "transform": {
     "Function": "daterow",
-    "dateField": "Month",
+    "dateField": "Months Since Entering Out-of-Home Care",
 	"valueFields": ["Rate"],
 	"removeFields": []
   },
