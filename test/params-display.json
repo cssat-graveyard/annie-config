@@ -616,7 +616,18 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": ": An out-of-home care episode or stay begins with a state custody date and ends with a federal discharge date. A child in out-of-home care can have MULTIPLE PLACEMENTS PER EPISODE. For example, you might find that within a four year period a child had two episodes, with two placements in each episode, for a total of four placements."
+			"help": "Episodes or stays in out-of-home care are defined as the time between a child’s removal from home and their return home (or to another permanent outcome). A child can be placed more than once in an episode. The Entry & Exit Trends measures provide cohort counts and rates of out-of-home care entries, as well as cohort counts of exits. Therefore the filter—‘number of out-of-home care placements’— will return data for the entire quarter or month. If, for example you select ‘2 placements’ and the year 2004, the results will show (or provide the rate for) the number of children in out-of-home care in 2004 who had three placements in 2004. For example, a child who enters out-of-home care in 2003, goes home in early 2004, returns to out-of-home care in mid-2004 and moves to two different foster homes, and returns home before 2005, has had 2 or 3 ? entries/placements  (is the beginning of the episode counted as one, or are we only counting the 2 moves within the episode in 2004? Using the ‘count of out-of-home exits,’ measure, for this child there would be  2 ? exits."
+		}
+	},
+	    "pit_nbr_placement": {
+		"table": "ref_filter_nbr_placement",
+		"display": {
+			"legend": "Number of Out-of-Home Placements",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "Episodes or stays in out-of-home care are defined as the time between a child’s removal from home and their return home (or to another permanent outcome). A child can be placed more than once in an episode. The Placement Trends measures provides point-in-time counts and rates of out-of-home care placements. Therefore the filter—‘number of out-of-home care placements’—will return data for the first day of the month or quarter selected. If, for example you select ‘3 placements’ and January 1, 2004 as the point-in-time, the results will show (or provide the rate for) the number of children in out-of-home care on January 1, 2004 who have had three placements within the current out-of-home care episode."
 		}
 	},
 	"ooh_los": {
