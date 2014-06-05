@@ -4,7 +4,7 @@
   "transform": {
     "Function": "daterow",
     "dateField": "Months Since Entering Out-of-Home Care",
-	"valueFields": ["Rate"],
+	"valueFields": ["Percent"],
 	"removeFields": []
   },
   "controls": [
