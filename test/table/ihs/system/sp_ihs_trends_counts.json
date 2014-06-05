@@ -130,7 +130,7 @@
         ]
       }
     ],
-    "Total-PPS-Cases-_pFirst-Day-of-Quarter-or-Year_P": [
+    "Total-PPS-Cases-_p1st-Day-Qrtr_sYr_P": [
          {
         "chartType": "column",
         "chartId": "chart1",
