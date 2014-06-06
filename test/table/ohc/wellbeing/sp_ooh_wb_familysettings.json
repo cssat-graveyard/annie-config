@@ -94,7 +94,8 @@
   "style": "",
   "labels": {
     "x": "",
-    "y": "Percentage"
+    "y": "",
+	"yFormat": "##'%"
   },
   "multicharts": {
     "Overview": {
