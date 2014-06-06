@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_wb_siblings_pvt",
-	"title": "Placement with Siblings - By Sibling Count",
+	"title": "Sibling Placement - by Group Size",
 	"measurementOrder": 3,
 	"controls": [
 	    "qry_type_first_all",
