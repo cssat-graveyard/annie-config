@@ -627,7 +627,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "Episodes or stays in out-of-home care are defined as the time between a child’s removal from home and their return home (or to another permanent outcome). A child can be placed more than once in an episode. The Placement Trends measures provides <span style='text-decoration: underline;'> point-in-time</span> counts and rates of out-of-home care placements.  An example of the filter—‘number of out-of-home care placements’—is as follows:  If you select ‘3 placements’ and January 1, 2004 as the point-in-time, the results will show (or provide the rate for) the number of children placed in out-of-home care on January 1, 2004 who have had three placements <span style='text-decoration: underline;'>within the current out-of-home care episode as of January 1, 2004</span>."
+			"help": "Episodes or stays in out-of-home care are defined as the time between a child’s removal from home and their return home (or to another permanent outcome). A child can be placed more than once in an episode, e.g., a child may first be placed in a foster home, and then be placed in the care of a relative before reunification with a bio-parent, which ends the episode. The Placement Trends measures provides <em> point-in-time</em> counts and rates of out-of-home care placements.<strong></strong></p><p>An example of the filter—‘number of out-of-home care placements’—is as follows:  If you select ‘3 placements’ and January 1, 2004 as the point-in-time, the results will show (or provide the rate for) the number of children placed in out-of-home care on January 1, 2004 who have had three placements within the current out-of-home care episode as of that day."
 		}
 	},
 	"ooh_los": {
@@ -649,7 +649,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "Episodes or stays in out-of-home care are defined as the time between a child’s removal from home and their return home (or to another permanent outcome). A child can be placed more than once in an episode. The Placement Trends measures provides <span style=’text-decoration: underline;’> point-in-time</span> counts and rates of the episode duration in an out-of-home stay.  An example of the filter—‘duration of out-of-home stay’—is as follows:  If you select ‘episode duration greater than 60 days’ and January 1, 2004 as the point-in-time, the results will show (or provide the rate for) the number of children in out-of-home care on January 1, 2004 whose current episode length is greater than 60 days as of January 1, 2004."
+			"help": "Episodes or stays in out-of-home care are defined as the time between a child’s removal from home and their return home (or to another permanent outcome). A child can be placed more than once in an episode, e.g., a child can be placed more than once in an episode, e.g., a child may first be placed in a foster home, and then be placed in the care of a relative before reunification with a bio-parent, which ends the episode. The Placement Trends measures provides <em> point-in-time</em> counts and rates of the episode duration in an out-of-home stay. <strong></strong></p><p>An example of the filter—‘duration of out-of-home stay’—is as follows:  If you select ‘episode duration greater than 60 days’ and January 1, 2004 as the point-in-time, the results will show (or provide the rate for) the number of children in out-of-home care on January 1, 2004 whose current episode length is greater than 60 days as of that day."
 		}
 	},	
 	"dependency_cd": {
