@@ -617,7 +617,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "<em>Episodes</em> or <em>stays</em>in out-of-home care start with child’s removal from home and end with their return home (or to another permanent outcome). A child can have more than one <em>placement</em> in an episode, e.g., they might first go to foster care, then go to a relative’s home before reunifying—one episode, two placements. The Entry & Exit Trends measures provide <em>cohort</em> counts and rates of out-of-home care entries, as well as cohort counts of exits. Therefore the filter, ‘number of out-of-home care placements,’ will return data about all episodes starting (entry) or ending (exit) at any point during the selected quarter or month. <strong></strong></p><p>For example, if you use the “Count of Out-of-Home Entries’ measure and select ‘2 placements’ and the year 2004, the results will show the number of children entering out-of-home care in 2004 who had two placements <em>in the course of that episode</em>."
+			"help": "<em>Episodes</em> or <em>stays</em>in out-of-home care start with child’s removal from home and end with their return home (or to another permanent outcome). A child can have more than one <em>placement</em> in an episode, e.g., they might first go to foster care, then go to a relative’s home before reunifying—one episode, two placements. The Entry & Exit Trends measures provide <em>cohort</em> counts and rates of out-of-home care entries, as well as cohort counts of exits. Therefore the filter, ‘number of out-of-home care placements,’ will return data about all episodes starting (entry) or ending (exit) at any point during the quarter or month. <strong></strong></p><p>For example, if you use the “Count of Out-of-Home Entries’ measure and select ‘2 placements’ and the year 2004, the results will show the number of children entering out-of-home care in 2004 who had two placements <em>in the course of that episode</em>."
 		}
 	},
 	    "pit_nbr_placement": {
@@ -639,7 +639,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "An out-of-home care stay or episode begins with a state custody date and ends with a federal discharge date. Multiple placements into out-of-home placement settings can occur within a single episode. This filter allows you to determine how many stays/episodes are greater than 7 days, 60 days, 1 year, or 2 years."
+			"help": "<em>Episodes</em> or <em>stays</em>in out-of-home care start with child’s removal from home and end with their return home (or to another permanent outcome). The Entry & Exit Trends measures provide <em>cohort</em> counts and rates of out-of-home care entries, as well as cohort counts of exits.  The ‘duration of out-of-home stay’ filter will return data about the number of days in an episode for children who entered and children who exited at any point during the quarter or month.<strong></strong></p><p>For example, if you use the “Count of Out-of-Home Entries’ measure and select ‘episode duration greater than 60 days’ and the year 2004, the results will show the number of children entering out-of-home care in 2004 who were in care 60 or more days <em>in the course of that episode</em>."
 		}
 	},	
 		"pit_ooh_los": {
