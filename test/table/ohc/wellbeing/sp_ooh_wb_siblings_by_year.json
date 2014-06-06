@@ -100,7 +100,7 @@
         "hideColumns": [3]
       }
     ],    
-    "All-of-Sibling_-Group-Together": [
+    "All-Siblings-Grouped-Together": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -117,7 +117,7 @@
         ]
       }
     ],
-    "Some-of-Sibling_-Group-Together": [
+    "Some-Siblings-Grouped-Together": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -134,7 +134,7 @@
         ]
       }
     ],
-    "None-of-Sibling_-Group-Together": [
+    "No-Siblings-Grouped-Together": [
       {
         "chartType": "area",
         "chartId": "chart1",
