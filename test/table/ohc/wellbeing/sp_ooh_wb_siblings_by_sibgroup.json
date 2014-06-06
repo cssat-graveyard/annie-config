@@ -78,7 +78,7 @@
   "chartType": "column",
   "labels": {
     "x": "Sibling Group Size",
-    "y": "Siblings Placed Together with Some or All of Their Sibling Group",
+    "y": "Placed Together with Some or All of Sibling Group",
 	"yFormat": "##'%"
   }
 }
