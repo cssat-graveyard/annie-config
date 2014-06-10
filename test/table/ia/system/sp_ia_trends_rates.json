@@ -53,7 +53,7 @@
     "Race/Ethnicity",
     "Referral County=Ref_Serv_County",
     "Reporter_Desc=reporter_type",
-    "Access_type_desc=Entry Point",
+    "Access_type_desc=access_type",
     "Allegation=allegation",
     "Finding=finding"
   ],

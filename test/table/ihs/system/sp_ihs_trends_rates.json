@@ -57,7 +57,7 @@
     "Referral County=Ref_Serv_County",
 	"In-Home Service Desc=ihs_services",
     "Reporter_Desc=reporter_type",
-    "Access_type_desc=Entry Point",
+    "Access_type_desc=access_type",
     "Allegation=allegation",
     "Finding=finding",
     "Service Category=pp_service_category",
