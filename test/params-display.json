@@ -666,8 +666,11 @@
 		}
 	},	
 	"ihs_services": {
-		"table": "ref_filter_ihs_services",
-		"removeKeys": [3],
+		"values": {
+			"0": "All Cases",
+			"1": "PPS Received: CA Paid",
+			"2": "PPS Received: Not CA Paid"
+		},
 		"display": {
 			"legend": "Placement Prevention Services",
 			"column": "advancedRight",
