@@ -667,7 +667,7 @@
 	},	
 	"ihs_services": {
 		"table": "ref_filter_ihs_services",
-		"removeKeys": 3,
+		"removeKeys": [3],
 		"display": {
 			"legend": "Placement Prevention Services",
 			"column": "advancedRight",
