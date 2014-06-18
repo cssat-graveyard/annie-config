@@ -46,7 +46,7 @@
 	"Cohort Period*cohort_year_ia_safety",
 	"Age Grouping=ageSib",
 	"Race/Ethnicity",
-	"Referral County=Ref_Serv_County",
+	"County=Ref_Serv_County",
 	"Reporter Desc=reporter_type",
 	"Access type desc=access_type",
 	"Allegation=allegation",
