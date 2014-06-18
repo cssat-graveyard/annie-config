@@ -1,5 +1,6 @@
 {
   "title": "Count of Screened-In Cases",
+  "Base": "sp_ia_trends_rates",
   "measurementOrder": 1,
   "table": "sp_ia_trends_counts",
   "transform": {
@@ -52,8 +53,8 @@
     "Age Grouping=ageSib",
     "Race/Ethnicity",
     "County=Ref_Serv_County",
-    "Reporter_Desc=reporter_type",
-    "Access_type_desc=access_type",
+    "Reporter Desc=reporter_type",
+    "Access type desc=access_type",
     "Allegation=allegation",
     "Finding=finding"
   ],
