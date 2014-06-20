@@ -16,7 +16,7 @@
   "params": [
     "ageSib",
     "ethnicityCensus",
-    "Ref_Serv_County",
+    "office",
     "ihs_services",
     "reporter_type",
     "access_type",
@@ -53,7 +53,7 @@
 	"Cohort Period*cohort_year_ihs_safety",
 	"Age Grouping=ageSib",
 	"Race/Ethnicity",
-	"Service County=Ref_Serv_County",
+	"County=office",
 	"In-Home Service Desc=ihs_services",
 	"Reporter Desc=reporter_type",
 	"Access type desc=access_type",
