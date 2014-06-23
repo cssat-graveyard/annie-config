@@ -10,7 +10,7 @@
       "Opened Screened-In Cases",
       "Closed Screened-In Cases"
     ],
-    "removeFields": [],
+    "removeFields": []
   },
   "controls": [
     "qry_type_poc2",
