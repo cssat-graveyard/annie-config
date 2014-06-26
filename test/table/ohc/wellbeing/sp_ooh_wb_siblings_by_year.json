@@ -6,9 +6,9 @@
 		"Function": "daterow",
 		"dateField": "Year",
 		"valueFields": [
-		    "All_Together",
-		    "Some_Together",
-		    "None_Together",
+		    "All Together",
+		    "Some Together",
+		    "None Together",
 		    "Number in Cohort"
 		],
 		"removeFields": []

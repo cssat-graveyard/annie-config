@@ -4,7 +4,7 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "Year",
+    "dateField": "Date",
     "valueFields": [
       "Family Setting (State Foster Home)",
       "Family Setting (Private Foster Home)",
