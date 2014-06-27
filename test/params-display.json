@@ -617,21 +617,11 @@
 			"type": "param",
 			"multi": true,
 			"help": {
-			  "default": "<em>Episodes</em> or <em>stays</em> in out-of-home care startd with child’s removal from home and endd with their return home (or to another permanent outcome). A child can be placed more than once within an episode, e.g., a child may first be placed in a foster home, and then in the care of a relative before reunification with a parent, which ends the episode. The Entry & Exit Trends measures provide <em>cohort</em> counts and rates of out-of-home care entries, as well as cohort counts of exits. For any given quarter/year, the ‘number of out-of-home care placements’ filter returns counts and rates of entries into (and counts of exits from) out-of-home care for children who have had one to five or more placements. <br></br>For example, if you select the ‘Count of Out-of-Home Entries’ measureand choose ‘3 placements’ and the year 2004, the results will provide the number or rate of number of children placed in out-of-home care in 2004 who have had three placements<em>in the course of that episode</em>."
+			  "default": "<em>Episodes</em> or <em>stays</em> in out-of-home care start with a child’s removal from home and ends with their return home (or to another permanent outcome). A child can be placed more than once within an episode, e.g., a child may first be placed in a foster home, and then in the care of a relative before reunification with a parent, which ends the episode. The Entry & Exit Trends measures provide <em>cohort</em> counts and rates of out-of-home care entries, as well as cohort counts of exits. For any given quarter/year, the ‘number of out-of-home care placements’ filter returns counts and rates of entries into (and counts of exits from) out-of-home care for children who have had one to five or more placements. <br></br>For example, if you select the ‘Count of Out-of-Home Entries’ measure and choose ‘3 placements’ and the year 2004, the results will provide the number or rate of number of children placed in out-of-home care in 2004 who have had three placements<em>in the course of that episode</em>.",
+			  "pit_nbr_placement": "<em>Episodes</em> or <em>stays</em> iin out-of-home care are defined as the time between a child’s removal from home and their return home (or to another permanent outcome). A child can be placed more than once within an episode, e.g., a child may first be placed in a foster home, and then in the care of a relative before reunification with a parent, which ends the episode. The Placement Trends measures provide <em>point-in-time</em>counts and rates of out-of-home care placements. For any given point-in-time (first day of a quarter or year), the ‘number of out-of-home placements’ filter returns data on children in out-of-home care who have had one to five or more placements. <br></br>For example, if you select ‘3 placements’ and January 1, 2004 as the point-in-time, the results will provide the number or rate of number of children placed in out-of-home care on January 1, 2004 who have had three placements within the current out-of-home care episode <em>as of that day</em>."
 		}
 	}
 },	
-	    "pit_nbr_placement": {
-		"table": "ref_filter_nbr_placement",
-		"display": {
-			"legend": "Number of Out-of-Home Placements",
-			"column": "advancedRight",
-			"visible": false,
-			"type": "param",
-			"multi": true,
-			"help": "Episodes or stays in out-of-home care are defined as the time between a child’s removal from home and their return home (or to another permanent outcome). A child can be placed more than once in an episode, e.g., a child may first be placed in a foster home, and then be placed in the care of a relative before reunification with a bio-parent, which ends the episode. The Placement Trends measures provides <em> point-in-time</em> counts and rates of out-of-home care placements.<strong></strong></p><p>An example of the filter—‘number of out-of-home care placements’—is as follows:  If you select ‘3 placements’ and January 1, 2004 as the point-in-time, the results will show (or provide the rate for) the number of children placed in out-of-home care on January 1, 2004 who have had three placements within the current out-of-home care episode <em>as of that day</em>."
-		}
-	},
 	"ooh_los": {
 		"table": "ref_filter_los",
 		"display": {
