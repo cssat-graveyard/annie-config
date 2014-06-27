@@ -1,3 +1,4 @@
+
 {
 	"multichart": {
 		"_comment1": "This filter MUST be first and must use this name",
@@ -295,7 +296,7 @@
 			  "sp_ooh_flow_exits": "This filter provides counts and rates of cohorts or groups of children who entered (or exited) out-of-home care in a selected quarter or year by their longest placement setting. For example, if you select ‘foster care’ and  the cohort year 2010, the data returned will include the 2010 number or rate of entries (or the number of exits) for of all the children in out-of-home care who were initially placed in foster care. See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
 			  "sp_ooh_flow_entries_counts": "This filter provides counts and rates of cohorts or groups of children who entered (or exited) out-of-home care in a selected quarter or year by their longest placement setting. For example, if you select ‘foster care’ and  the cohort year 2010, the data returned will include the 2010 number or rate of entries (or the number of exits) for of all the children in out-of-home care who were initially placed in foster care. See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",  
 			  "sp_ooh_reentry": "This filter provides counts of cohorts or groups of children who re-entered out-of-home care in a selected quarter or year by longest placement type. For example, if you select ‘foster care’ and 2010 as the exit (from out-of-home care) cohort year, the data returned will include the percent of re-entries for all the children in out-of-home care in 2010 whose longest placement setting was foster care. See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information.",
-			  "sp_ooh_outcomes": "This filter provides counts of cohorts or groups of children who exited out-of-home care in a selected quarter or year by longest placement type. For example, if you select ‘foster care’ and 2010 as the entry (into out-of-home care) cohort year, the data returned will include the percent of the selected outcome(s) for all the children in out-of-home care in 2010 whose longest placement setting was foster care. See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."			  
+			  "sp_ooh_outcomes": "This filter provides counts of cohorts or groups of children who exited out-of-home care in a selected quarter or year by longest placement type. For example, if you select ‘foster care’ and 2010 as the entry (into out-of-home care) cohort year, the data returned will include the percent of the selected outcome(s) for all the children in out-of-home care in 2010 whose longest placement setting was foster care.. See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."			  
 			}
 		}
 	},
@@ -571,7 +572,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report (usually called a referral). Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. Law Enforcement Officer includes Corrections Personnel.<strong></strong></p><p>Adults below the line are mandated to report if they are <a href=‘http://www.dshs.wa.gov/pdf/publications/22-163.pdf’>“residing with a child suspected to have been severely abused”</a>. ‘Other’ reporters include the subject or the victim. ‘All’ includes all referrals, mandated or not."			
+			"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report (usually called a referral). Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. Law Enforcement Officer includes Corrections Personnel.<strong></strong></p><p>Adults below the line are mandated to report if they are “residing with a child suspected to have been severely abused”. ‘Other’ reporters include the subject or the victim. ‘All’ includes all referrals, mandated or not."			
 		}
 	},
 	"access_type": {
@@ -616,8 +617,12 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
+<<<<<<< HEAD
 			"help": {
 			  "default": "<em>Episodes</em> or <em>stays</em> in out-of-home care startd with child’s removal from home and endd with their return home (or to another permanent outcome). A child can be placed more than once within an episode, e.g., a child may first be placed in a foster home, and then in the care of a relative before reunification with a parent, which ends the episode. The Entry & Exit Trends measures provide <em>cohort</em> counts and rates of out-of-home care entries, as well as cohort counts of exits. For any given quarter/year, the ‘number of out-of-home care placements’ filter returns counts and rates of entries into (and counts of exits from) out-of-home care for children who have had one to five or more placements. <br></br>For example, if you select the ‘Count of Out-of-Home Entries’ measureand choose ‘3 placements’ and the year 2004, the results will provide the number or rate of number of children placed in out-of-home care in 2004 who have had three placements<em>in the course of that episode</em>."
+=======
+			"help": "<em>Episodes</em> or <em>stays</em>in out-of-home care start with child’s removal from home and end with their return home (or to another permanent outcome). A child can have more than one <em>placement</em> in an episode, e.g., they might first go to foster care, then go to a relative’s home before reunifying—one episode, two placements. The Entry & Exit Trends measures provide <em>cohort</em> counts and rates of out-of-home care entries, as well as cohort counts of exits. Therefore the filter, ‘number of out-of-home care placements,’ will return data about all episodes starting (entry) or ending (exit) at any point during the quarter or month. <strong></strong></p><p>For example, if you use the “Count of Out-of-Home Entries’ measure and select ‘2 placements’ and the year 2004, the results will show the number of children entering out-of-home care in 2004 who had two placements <em>in the course of that episode</em>."
+>>>>>>> parent of 02785b1... misc typos
 		}
 	}
 },	
@@ -1055,7 +1060,7 @@
 			"column": "advancedRight",
 			"visible": false,
 			"type": "param",
-			"help": "The location of the child when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old)."
+			"help": "The location of the child when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old). TODO"
 		}	
 	},	
 		"Ref_Serv_County": {
