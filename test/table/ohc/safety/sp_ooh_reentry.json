@@ -69,7 +69,7 @@
     "Exit County=exitCounty",
     "Dependency=dependency_cd",
     "Length of Service Desc=ooh_los",
-    "Placement Count Desc=safety_nbr_placement",
+    "Placement Count Desc=nbr_placement",
     "In-Home Service Desc=ihs_services_ooh",
     "Reporter Desc=reporter_type",
     "Access type desc=access_type",
