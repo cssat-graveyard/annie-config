@@ -43,6 +43,7 @@
 	"mutexAllOthers": false,
 	"returnRowHeaders": [
 	  0,
+	  1,
 	  4,
 	  6,
 	  8,
