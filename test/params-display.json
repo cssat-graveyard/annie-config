@@ -594,7 +594,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "During an investigation or assessment, social workers have the option of entering up to four different types of suspected maltreatment per case. That is, there may be up to four allegations per case. <a href=http://www.dshs.wa.gov/ca/safety/indicatorNeglect.asp?2>Neglect</a> comprises the bulk of allegations."
+			"help": "During an investigation or assessment, social workers record the allegation(s) (there may be more than one allegation per referral).  Abuse types fall into 3 broad categories: 1) physical abuse; 2) sexual abuse (which includes sexual exploration); and 3) neglect (which includes abandonment, negligent treatment or and medical neglect). With the default ‘count type’ set to ‘all,’ the data returned for these allegations can  include count of referrals that have duplicate allegations associated. The filter choice ‘Any of the Above’ includes the count of referrals that have either physical,sexual or neglect allegations.  If a referral has all 3 allegation types, this referral is only counted once in 'Any of the Above' but it would be counted in each allegation type if it has physical abuse,sexual abuse or neglect checked.  The filter choice ‘All (With or Without Allegation)’ means a count of referrals with NO allegation taken into account. All is counting intakes/referral 48 hours grouped together. No count type in table for placement trends, Entries & Exits for any filters.<a href=http://www.dshs.wa.gov/ca/safety/indicatorNeglect.asp?2>Neglect</a> comprises the bulk of allegations."
 		}
 	},
 	"finding": {
