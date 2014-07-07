@@ -498,7 +498,11 @@
 		    "legend": "Date(s)",
 			"column": "fieldsLeft",
 			"type": "dateType",
-			"selected": 2
+			"selected": 2,
+			"format": {
+				"1": "yyyyQQ",
+				"2": "yyyy"
+			}
 		}
 	},
 	"date_type_cohort": {
@@ -509,7 +513,11 @@
 			"column": "fieldsLeft",
 			"type": "dateType",
 			"selected": 2,
-			"help": "This references the length of time of the selected cohort (group) by quarter(s) or year(s)."
+			"help": "This references the length of time of the selected cohort (group) by quarter(s) or year(s).",
+			"format": {
+				"1": "yyyyQQ",
+				"2": "yyyy"
+			}
 		}
 	},
 	"date_type_pit": {
@@ -520,7 +528,11 @@
 			"column": "fieldsLeft",
 			"type": "dateType",
 			"selected": 2,
-			"help": "This references the count or rate on the first day of the quarter(s) or year(s) selected."
+			"help": "This references the count or rate on the first day of the quarter(s) or year(s) selected.",
+			"format": {
+				"1": "yyyyQQ",
+				"2": "yyyy"
+			}
 		}
 	},
 	"nbrSiblings": {
