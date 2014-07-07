@@ -498,12 +498,12 @@
 		    "legend": "Date(s)",
 			"column": "fieldsLeft",
 			"type": "dateType",
-			"selected": 2
-		},
-		"format": {
-			    "0": "MMMM yyyy",
+			"selected": 2,
+			"format": {
+			    "0": "MMM yyyy",
 				"1": "yyyyQQ",
 				"2": "yyyy"
+			}	
 		}
 	},
 	"date_type_cohort": {
