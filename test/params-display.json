@@ -500,6 +500,7 @@
 			"type": "dateType",
 			"selected": 2,
 			"format": {
+			    "0": "MMMM yyyy",
 				"1": "yyyyQQ",
 				"2": "yyyy"
 			}
@@ -515,6 +516,7 @@
 			"selected": 2,
 			"help": "This references the length of time of the selected cohort (group) by quarter(s) or year(s).",
 			"format": {
+				"0": "MMMM yyyy",
 				"1": "yyyyQQ",
 				"2": "yyyy"
 			}
@@ -530,6 +532,7 @@
 			"selected": 2,
 			"help": "This references the count or rate on the first day of the quarter(s) or year(s) selected.",
 			"format": {
+				"0": "MMMM yyyy",
 				"1": "yyyyQQ",
 				"2": "yyyy"
 			}
