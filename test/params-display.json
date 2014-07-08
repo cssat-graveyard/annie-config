@@ -500,8 +500,8 @@
 			"type": "dateType",
 			"selected": 2,
       			"format": {
-        		  "0": "'format-0'",
-        		  "1": "yyyyQQ'z'",
+        		  "0": "'MMM yyyy",
+        		  "1": "yyyyQQ",
         		  "2": "yyyy"
       			}
 		}
