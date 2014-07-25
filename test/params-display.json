@@ -834,7 +834,7 @@
 			"2013": 2013
 		},
 		"display": {
-			"legend":Investigation/Assessment Cohort Period",
+			"legend": "Investigation/Assessment Cohort Period",
 			"alias": "Cohort Period",
 			"column": "fieldsLeft",
 			"type": "filter",
