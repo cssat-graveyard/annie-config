@@ -1,5 +1,5 @@
 {
-  "title": "Rate of Screened-In Cases (per 1,000)",
+  "title": "Rate of Investigations & Assessments (per 1,000)",
   "measurementOrder": 2,
   "table": "sp_ia_trends_rates",
   "transform": {
