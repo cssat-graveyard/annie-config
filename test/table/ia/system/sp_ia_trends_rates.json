@@ -125,7 +125,7 @@
         ]
       }
     ],
-    "All-Screened_-In-Cases-_p1st-Day-Qrtr_sYr_P": [
+    "All-Investigations-Assessments-_p1st-Day-Qrtr_sYr_P": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -141,7 +141,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-Screened_-In-Cases": [
+    "Opened-and-Closed-Investigations-Assessments": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -155,7 +155,7 @@
         ]
       }
     ],
-    "Opened-Screened_-In-Cases": [
+    "Opened-Investigations-Assessments": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -171,7 +171,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-Screened_-In-Cases": [
+    "Closed-Investigations-Assessments": [
       {
         "chartType": "area",
         "chartId": "chart1",
