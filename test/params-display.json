@@ -436,8 +436,8 @@
 	},
 	"qry_type_first_unique_ia_safety": {
 		"values": {
-			"0": "All Screened-In Cases",
-			"1": "First Screened-In Case"
+			"0": "All Investigations/Assessments",
+			"1": "First Investigation/Assessment"
 		},
 		"display": {
 			"legend": "Count Type",
