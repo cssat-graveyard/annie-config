@@ -3,7 +3,7 @@
   "title": "Re-Referrals",
   "transform": {
     "Function": "daterow",
-    "dateField": "Months Since 1st Investigation/Assessment",
+    "dateField": "Months Since 1st Screened-In Case",
     "valueFields": [
       "Among first referrals, percent that are re-referred"
     ],
@@ -56,7 +56,7 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "Months Since First Investigation/Assessment",
+    "x": "Months Since First Screened-In Case",
     "y": "",
     "yFormat": "##'%"
   },
