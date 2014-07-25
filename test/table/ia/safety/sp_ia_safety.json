@@ -56,7 +56,7 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "Months Since First Screened-In Case",
+    "x": "Months Since 1st Investigation/Assessment",
     "y": "",
     "yFormat": "##'%"
   },
