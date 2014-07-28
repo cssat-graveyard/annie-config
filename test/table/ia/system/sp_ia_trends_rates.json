@@ -27,6 +27,7 @@
 	"finding"
   ],
   "requiredParams": [
+	
 	"dynamicMonthStart"
   ],
   "hideRow": "allEmpty",
@@ -125,7 +126,7 @@
         ]
       }
     ],
-    "All-Investigations-Assessments-_p1st-Day-Qrtr_sYr_P": [
+    "All-Investigations_sAssessments-_p1st-Day-Qrtr_sYr_P": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -141,7 +142,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-Investigations-Assessments": [
+    "Opened-and-Closed-Investigations_sAssessments": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -155,7 +156,7 @@
         ]
       }
     ],
-    "Opened-Investigations-Assessments": [
+    "Opened-Investigations_sAssessments": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -171,7 +172,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-Investigations-Assessments": [
+    "Closed-Investigations_sAssessments": [
       {
         "chartType": "area",
         "chartId": "chart1",
