@@ -7,9 +7,9 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Total Screened-In Cases 1st Day",
-      "Opened Screened-In Cases",
-      "Closed Screened-In Cases"
+      "Total Investigations & Assessments 1st Day",
+      "Opened Investigations & Assessments",
+      "Closed Investigations & Assessments"
     ],
     "removeFields": []
   },
