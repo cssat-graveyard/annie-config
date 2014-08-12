@@ -59,10 +59,6 @@
     "Finding=finding"
   ],
   "returnRowStart": 17,
-  "columnClusterSize": 3,
-  "showAllOthers": true,
-  "mutexAllOthers": false,
-  "dateParams": [],
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
