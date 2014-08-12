@@ -473,7 +473,7 @@
 			"column": "advancedLeft",
 			"visible": false,
 			"type": "filter",
-			"selected": 2,
+			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
