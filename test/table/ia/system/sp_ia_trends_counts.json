@@ -15,7 +15,8 @@
   },
   "controls": [
     "qry_type_poc2",
-    "date_type"
+    "date_type",
+    "ia_graph_display"
   ],
   "params": [
     "dynamicMonthStart",
@@ -64,129 +65,15 @@
   "mutexAllOthers": false,
   "dateParams": [],
   "hideRow": "allEmpty",
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": ""
+  },
   "requiredParams": [
     "dynamicMonthStart"
   ],
-  "numberFormat": [
-    {
-      "fractionDigits": 0
-    },
-    {
-      "fractionDigits": 0
-    },
-    {
+  "numberFormat": {
       "fractionDigits": 0
     }
-  ],
-  "multicharts": {
-    "Overview": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "baseOptions": {
-          "width": 615,
-          "height": 215,
-          "chartArea": {
-            "left": 75,
-            "top": 10,
-            "width": "85%",
-            "height": "90%"
-          }
-        },
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1,
-          2
-        ]
-      },
-      {
-        "chartType": "area",
-        "chartId": "chart2",
-        "style": "",
-        "baseOptions": {
-          "width": 615,
-          "height": 215,
-          "chartArea": {
-            "left": 75,
-            "top": 10,
-            "width": "85%",
-            "height": "75%"
-          }
-        },
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
-        ]
-      }
-    ],
-    "All-Investigations_sAssessments-_p1st-Day-Qrtr_sYr_P": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1,
-          2
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ],
-    "Opened-and-Closed-Investigations_sAssessments": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
-        ]
-      }
-    ],
-    "Opened-Investigations_sAssessments": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0,
-          2
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ],
-    "Closed-Investigations_sAssessments": [
-      {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0,
-          1
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ]
-  }
 }

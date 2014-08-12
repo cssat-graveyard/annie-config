@@ -223,6 +223,22 @@
 			
 		}
 	},
+	"ia_graph_display": {
+		"values": {
+			"1": "Opened Investigations/Assessments",
+			"2": "Closed Investigations/Assessments"
+		},
+		"display": {
+			"legend": "Graph Display",
+			"column": "fieldsRight",
+			"visible": false,
+			"type": "filter",
+			"selected": [1, 2],
+			"multi": true,
+			"zeroLast": false,
+			"help": "This filter allows you to select: 1) the count or rate of cases screened-in for investigation/assessment on the first day of the quarter or year (point-in-time data) or 2) the count or rate of opened and closed investigations/assessments (cohort data). The ‘Overview’ selection shows the point-in-time data in the top bar graph and the cohort data in the bottom line graph."
+		}
+	},
 	"gender": {
 		"table": "ref_lookup_gender",
 		"valueColumn": 2,
