@@ -17,7 +17,6 @@
     "date_type"
   ],
   "params": [
-    "dynamicMonthStart",
     "ageSib",
     "ethnicityCensus",
     "Ref_Serv_County",
@@ -65,7 +64,6 @@
     "y": ""
   },
   "requiredParams": [
-    "dynamicMonthStart"
   ],
   "numberFormat": {
       "fractionDigits": 0
