@@ -7,14 +7,13 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Total Investigations & Assessments 1st Day",
       "Opened Investigations & Assessments",
       "Closed Investigations & Assessments"
     ],
     "removeFields": []
   },
   "controls": [
-    "qry_type_poc2",
+    "ia_graph_display",
     "date_type"
   ],
   "params": [
