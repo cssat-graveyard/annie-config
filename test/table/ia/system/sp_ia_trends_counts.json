@@ -15,8 +15,7 @@
   },
   "controls": [
     "qry_type_poc2",
-    "date_type",
-    "ia_graph_display"
+    "date_type"
   ],
   "params": [
     "dynamicMonthStart",
