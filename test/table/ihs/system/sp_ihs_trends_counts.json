@@ -98,7 +98,11 @@
             "width": "85%",
             "height": "90%"
           }
-        },  
+        }, 
+		"labels": {
+          "x": "",
+          "y": ""
+        },	
         "hideColumns": [
           1,
           2
