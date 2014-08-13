@@ -88,10 +88,13 @@
 			"legend": "Age of Children in Household",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "This filter is used for the Investigations & Assessments and Placement Prevention Services measures. It references the ages of the children in the household at the time the referral was investigated/assessed or at the time the family was receiving placement prevention services. The age categories follow U.S. Census classifications, therefore we are able to calculate the rate of cases per 1,000 households."
+			"help": {
+				"default": "This filter references the ages of the children in the household at the time the referral was investigated/assessed. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups: <6 years and between 6 through 17.",
+				"sp_ihs_trends_rates": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in each of the two groups: <6 years and between 6 through 17."
+			}
 		}
 	},	
-	"discharge_type_safety": {
+	"discharge_type_safety": 
 		"values": {
 			"1": "Reunification",
 			"3": "Adoption",
