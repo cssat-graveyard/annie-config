@@ -13,41 +13,38 @@
     "removeFields": []
   },
   "controls": [
-    "ia_graph_display",
     "qry_type_poc2",
     "date_type"
   ],
   "params": [
+    "dynamicMonthStart",
     "ageSib",
     "ethnicityCensus",
     "Ref_Serv_County",
-	"reporter_type",
-	"access_type",
-	"allegation",
-	"finding"
+  "reporter_type",
+  "access_type",
+  "allegation",
+  "finding"
   ],
-  "dateParams": [],
   "requiredParams": [
-    "dynamicMonthStart"
+  "dynamicMonthStart"
   ],
-  "showAllOthers": true,
-  "mutexAllOther": false,
   "returnRowHeaders": [
     1,
     2,
     4,
     6,
-	8,
-	10,
-	12,
-	14,
-	16
+  8,
+  10,
+  12,
+  14,
+  16
   ],
   "returnRowDateHeaders": [
     0
   ],
   "returnRowControlHeaders": [
-    1
+    1,2
   ],
   "headerNames": [
     "&nbsp;",
@@ -61,17 +58,23 @@
     "Finding=finding"
   ],
   "returnRowStart": 17,
-  "columnClusterSize": 2,
+  "columnClusterSize": 3,
+  "showAllOthers": true,
+  "mutexAllOthers": false,
+  "dateParams": [],
   "hideRow": "allEmpty",
-    "numberFormat": [
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "numberFormat": [
     {
-      "fractionDigits": 2
+      "fractionDigits": 0
     },
     {
-      "fractionDigits": 2
+      "fractionDigits": 0
     },
     {
-      "fractionDigits": 2
+      "fractionDigits": 0
     }
   ],
   "chartType": "area",
@@ -79,21 +82,27 @@
   "style": "",
   "labels": {
     "x": "",
-    "y": "",
+    "y": ""
   },
   "multicharts": {
-    "Overview": {
-      "hideColumns": []
-    },
-    "Opened-and-Closed-Investigations_sAssessments": {
-      "hideColumns": [
-        1
-      ]
-    },
-    "Closed-Investigations_sAssessments": {
-      "hideColumns": [
-        0
-      ]
-    }
+    "Opened-and-Closed-Investigations_sAssessments": [
+      {
+        "hideColumns": []
+      }
+    ],
+    "Opened-Investigations_sAssessments": [
+      {
+        "hideColumns": [
+          1
+        ]
+      }
+    ],
+    "Closed-Investigations_sAssessments": [
+      {
+        "hideColumns": [
+          0
+        ]
+      }
+    ]
   }
 }
