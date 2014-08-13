@@ -6,7 +6,6 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Total Investigations & Assessments 1st Day",
       "Opened Investigations & Assessments",
       "Closed Investigations & Assessments"
     ],
