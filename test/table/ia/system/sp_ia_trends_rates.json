@@ -78,114 +78,31 @@
       "fractionDigits": 2
     }
   ],
+  "chartType": "area",
+  "chartId": "chart1",
+  "style": "",
+  "labels": {
+    "x": "",
+    "y": ""
+  },
   "multicharts": {
-    "Overview": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "baseOptions": {
-          "width": 615,
-          "height": 215,
-          "chartArea": {
-            "left": 75,
-            "top": 10,
-            "width": "85%",
-            "height": "90%"
-          }
-        },
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1,
-          2
-        ]
-      },
-      {
-        "chartType": "area",
-        "chartId": "chart2",
-        "style": "",
-        "baseOptions": {
-          "width": 615,
-          "height": 215,
-          "chartArea": {
-            "left": 75,
-            "top": 10,
-            "width": "85%",
-            "height": "75%"
-          }
-        },
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
-        ]
-      }
-    ],
-    "All-Investigations_sAssessments-_p1st-Day-Qrtr_sYr_P": [
-      {
-        "chartType": "column",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Rate (per 1,000)"
-        },
-        "hideColumns": [
-          1,
-          2
-        ],
-        "addInputClass": "multiAllowed"
-      }
-    ],
     "Opened-and-Closed-Investigations_sAssessments": [
       {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Rate (per 1,000)"
-        },
-        "hideColumns": [
-          0
-        ]
+        "hideColumns": []
       }
     ],
     "Opened-Investigations_sAssessments": [
       {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Rate (per 1,000)"
-        },
         "hideColumns": [
-          0,
-          2
-        ],
-        "addInputClass": "multiAllowed"
+          1
+        ]
       }
     ],
     "Closed-Investigations_sAssessments": [
       {
-        "chartType": "area",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "Rate (per 1,000)"
-        },
         "hideColumns": [
-          0,
-          1
-        ],
-        "addInputClass": "multiAllowed"
+          0
+        ]
       }
     ]
   }
