@@ -14,6 +14,7 @@
   },
   "controls": [
     "ia_graph_display",
+    "qry_type_poc2",
     "date_type"
   ],
   "params": [
@@ -25,9 +26,12 @@
 	"allegation",
 	"finding"
   ],
+  "dateParams": [],
   "requiredParams": [
-	"dynamicMonthStart"
+    "dynamicMonthStart"
   ],
+  "showAllOthers": true,
+  "mutexAllOther": false,
   "returnRowHeaders": [
     1,
     2,
@@ -43,7 +47,7 @@
     0
   ],
   "returnRowControlHeaders": [
-    1,2
+    1
   ],
   "headerNames": [
     "&nbsp;",
@@ -57,15 +61,39 @@
     "Finding=finding"
   ],
   "returnRowStart": 17,
+  "columnClusterSize": 2,
   "hideRow": "allEmpty",
-  "chartType": "line",
+    "numberFormat": [
+    {
+      "fractionDigits": 2
+    },
+    {
+      "fractionDigits": 2
+    },
+    {
+      "fractionDigits": 2
+    }
+  ],
+  "chartType": "area",
+  "chartId": "chart1",
+  "style": "",
   "labels": {
     "x": "",
-    "y": ""
+    "y": "",
   },
-  "requiredParams": [
-  ],
-  "numberFormat": {
-      "fractionDigits": 0
+  "multicharts": {
+    "Overview": {
+      "hideColumns": []
+    },
+    "Opened-and-Closed-Investigations_sAssessments": {
+      "hideColumns": [
+        1
+      ]
+    },
+    "Closed-Investigations_sAssessments": {
+      "hideColumns": [
+        0
+      ]
     }
+  }
 }
