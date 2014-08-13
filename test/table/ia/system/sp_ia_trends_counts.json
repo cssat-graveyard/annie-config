@@ -17,7 +17,6 @@
     "date_type"
   ],
   "params": [
-    "dynamicMonthStart",
     "ageSib",
     "ethnicityCensus",
     "Ref_Serv_County",
@@ -26,9 +25,7 @@
   "allegation",
   "finding"
   ],
-  "requiredParams": [
-  "dynamicMonthStart"
-  ],
+  "requiredParams": [],
   "returnRowHeaders": [
     1,
     2,
