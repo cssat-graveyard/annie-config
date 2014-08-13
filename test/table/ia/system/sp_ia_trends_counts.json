@@ -60,9 +60,6 @@
   "mutexAllOthers": false,
   "dateParams": [],
   "hideRow": "allEmpty",
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
   "numberFormat": [
     {
       "fractionDigits": 0
