@@ -84,13 +84,14 @@
 	"ageSib": {
 		"table": "ref_lookup_sib_age_grp",
 		"removeKeys": [4],
-		"display": {
+		"display": {	
 			"legend": "Age of Children in Household",
 			"column": "fieldsRight",
 			"type": "param", 
 				"help": {
 				"default": "This filter references the ages of the children in the household at the time the referral was investigated/assessed. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups: <6 years and between 6 through 17.",
-				"sp_ihs_trends_counts": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups: <6 years and between 6 through 17."
+				"sp_ihs_trends_counts": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups: <6 years and between 6 through 17.",
+				"sp_ihs_trends_rates": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups: <6 years and between 6 through 17."
 			}	
 		}
 	},	
