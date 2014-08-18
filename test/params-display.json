@@ -1069,7 +1069,7 @@
 		}	
 	},	
 	"ServiceCnty": {
-		"table": "ref_lookup_service",
+		"table": "ref_lookup_county",
 		"addKeyValues": {
 			"0": "All"
 		},
