@@ -1068,7 +1068,7 @@
 			"help": "This is the county where the referral was investigated/assessed. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
 		}	
 	},	
-	"office": {
+	"ServiceCnty": {
 		"table": "ref_lookup_county",
 		"addKeyValues": {
 			"0": "All"
