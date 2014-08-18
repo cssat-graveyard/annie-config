@@ -55,7 +55,7 @@
     "*qry_type_poc3",
     "Age Grouping=ageSib",
     "Race/Ethnicity",
-    "County=ServiceCnty",
+    "County=office",
 	"In-Home Service Desc=ihs_services",
     "Reporter Desc=reporter_type",
     "Access type desc=access_type",
