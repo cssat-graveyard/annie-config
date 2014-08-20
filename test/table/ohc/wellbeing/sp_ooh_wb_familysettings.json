@@ -1,6 +1,6 @@
 {
   "table": "sp_ooh_wb_familysettings",
-  "title": "Current Placement in Family Settings on the 1st Day of the Year",
+  "title": "Placement in Family Settings on the 1st Day of the Year",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
