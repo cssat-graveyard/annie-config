@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_wb_siblings_pvt",
-	"title": "Sibling Placement - by Group Size",
+	"title": "Sibling Placement by Group Size on the 1st Day of the Year",
 	"measurementOrder": 3,
 	"controls": [
 	    "qry_type_first_all",

@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_wb_siblings",
-	"title": "Sibling Placement - by Year",
+	"title": "Sibling Placement On the 1st Day of the Year",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
