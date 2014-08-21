@@ -736,6 +736,18 @@
 			"help": "The six Department of Social and Health Services (DSHS) budget categories include all the major placement prevention service budget categories. DSHS codes are provided for people familiar with Children’s Administration budget categories."
 		}
 	},
+	"budget_category_pps": {
+		"table": "ref_service_cd_budget_poc_frc",
+		"removeKeys": [15, 16, 18, 99],
+		"display": {
+			"legend": "Budget Category",
+			"column": "advancedRight",
+			"visible": false,
+			"type": "param",
+			"multi": true,
+			"help": "The six Department of Social and Health Services (DSHS) budget categories include all the major placement prevention service budget categories. DSHS codes are provided for people familiar with Children’s Administration budget categories."
+		}
+	},
 	"quarterPIT": {
 		"date": true,
 		"display": {

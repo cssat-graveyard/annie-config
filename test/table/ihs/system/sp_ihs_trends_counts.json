@@ -28,7 +28,7 @@
     "allegation",
     "finding",
     "pp_service_category",
-    "budget_category"
+    "budget_category_pps"
   ],
   "returnRowHeaders": [
     0,
@@ -62,7 +62,7 @@
     "Allegation=allegation",
     "Finding=finding",
     "Service Type=pp_service_category",
-    "Budget=budget_category"
+    "Budget=budget_category_pps"
   ],
   "returnRowStart": 23,
   "columnClusterSize": 3,
