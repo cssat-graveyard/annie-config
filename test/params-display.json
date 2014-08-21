@@ -503,7 +503,7 @@
 			"column": "fieldsLeft",
 			"type": "dateType",
 			"selected": 2,
-      			"format": {
+      		"format": {
         		  "0": "'MMM yyyy",
         		  "1": "yyyyQQ",
         		  "2": "yyyy"
@@ -518,6 +518,11 @@
 			"column": "fieldsLeft",
 			"type": "dateType",
 			"selected": 2,
+			"format": {
+        		"0": "'MMM yyyy",
+        		"1": "yyyyQQ",
+        		"2": "yyyy"
+      		},
 			"help": "This references the length of time of the selected cohort (group) by quarter(s) or year(s)."
 		}
 	},
