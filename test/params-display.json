@@ -25,13 +25,13 @@
 			"help": "Age references the child’s age at the time of placement in out-of-home care."
 		}
 	},
-	"age_reentry": {
+	"age_exit_safety": {
 		"table": "ref_lookup_age_cdc_census_mix",
 		"display": {
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "Age at exit references the age of the child when s/he left out-of-home care."
+			"help": "The age categories for children who exit out-of-home care includes youth through the 18th year in order to account for all emancipations, which can continue through the 18th year. (Other age categories in the Data Portal go through age 17.)"
 		}
 	},
 	"ageEntry": {
@@ -78,7 +78,7 @@
 			"legend": "Age at Exit",
 			"column": "fieldsRight",
 			"type": "param",
-			"help": "The age categories for children who exit out-of-homecare includes youth through the 18th year in order to account for all emancipations, which can continue through the 18th year. (Other age categories in the Data Portal end on the youth’s 18th birthday.)"
+			"help": "The age categories for children who exit out-of-home care includes youth through the 18th year in order to account for all emancipations, which can continue through the 18th year. (Other age categories in the Data Portal go through age 17.)"
 		}
 	},
 	"ageSib": {
