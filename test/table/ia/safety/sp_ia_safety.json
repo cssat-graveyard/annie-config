@@ -53,7 +53,7 @@
 	"Finding=finding"
   ],
   "returnRowStart": 17,
-  "hideRow": "allEmpty",
+  "hideRow":    "allEmpty",
   "chartType": "line",
   "labels": {
     "x": "Months Since 1st Investigation/Assessment",
