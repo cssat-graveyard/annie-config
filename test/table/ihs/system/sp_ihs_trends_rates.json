@@ -29,6 +29,10 @@
     "pp_service_category",
     "budget_category_pps"
   ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
   "returnRowHeaders": [
     0,
     1,
@@ -67,10 +71,6 @@
   "columnClusterSize": 3,
   "showAllOthers": true,
   "mutexAllOthers": false,
-  "dateParams": [],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
   "multicharts": {
     "Overview": [
       {

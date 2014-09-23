@@ -28,6 +28,7 @@
   "requiredParams": [
 	"dynamicMonthStart"
   ],
+  "dateParams": [],
   "hideRow": "allEmpty",
   "returnRowHeaders": [
     1,
@@ -61,11 +62,36 @@
   "columnClusterSize": 2,
   "showAllOthers": true,
   "mutexAllOthers": false,
-  "dateParams": [],
+  "multicharts": {
+    "Opened-and-Closed-Investigations_sAssessments": [
+      {
+		"chartType": "area",
+		"chartId": "chart1",
+		"style": ""
+      },
+	  "hideColumns": [],
+	  "addInputClass": "multiAllowed"
+    ],
+    "Opened-Investigations_sAssessments": [
+      {
+		"chartType": "area",
+		"chartId": "chart1",
+		"style": ""
+      },
+	  "hideColumns": [1],
+	  "addInputClass": "multiAllowed"
+    ],
+    "Closed-Investigations_sAssessments": [
+      {
+		"chartType": "area",
+		"chartId": "chart1",
+		"style": ""
+      },
+	  "hideColumns": [0],
+	  "addInputClass": "multiAllowed"
+    ]
+  },
   "numberFormat": [
-    {
-      "fractionDigits": 2
-    },
     {
       "fractionDigits": 2
     }
@@ -73,34 +99,5 @@
   "labels": {
     "x": "",
     "y": ""
-  },
-  "multicharts": {
-	"chartType": "area",
-	"chartId": "chart1",
-	"style": "",
-    "Opened-and-Closed-Investigations_sAssessments": [
-      {
-        "hideColumns": [],
-		"chartType": "area",
-		"chartId": "chart1",
-		"style": ""
-      }
-    ],
-    "Opened-Investigations_sAssessments": [
-      {
-        "hideColumns": [1],
-		"chartType": "area",
-		"chartId": "chart1",
-		"style": ""
-      }
-    ],
-    "Closed-Investigations_sAssessments": [
-      {
-        "hideColumns": [0],
-		"chartType": "area",
-		"chartId": "chart1",
-		"style": ""
-      }
-    ]
   }
 }
