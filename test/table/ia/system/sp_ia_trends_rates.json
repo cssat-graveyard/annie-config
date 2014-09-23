@@ -63,7 +63,7 @@
   "showAllOthers": true,
   "mutexAllOthers": false,
   "multicharts": {
-    "Opened-and-Closed-Investigations_sAssessments": [
+    "Opened-and-Closed-Investigations-_A-Assessments": [
       {
 		"chartType": "area",
 		"chartId": "chart1",
@@ -71,7 +71,7 @@
 		"hideColumns": []
       }
     ],
-    "Opened-Investigations_sAssessments": [
+    "Opened-Investigations-_A-Assessments": [
       {
 		"chartType": "area",
 		"chartId": "chart1",
@@ -80,7 +80,7 @@
 		"addInputClass": "multiAllowed"
       }
     ],
-    "Closed-Investigations_sAssessments": [
+    "Closed-Investigations-_A-Assessments": [
       {
 		"chartType": "area",
 		"chartId": "chart1",
