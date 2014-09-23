@@ -75,21 +75,28 @@
       "fractionDigits": 0
     }
   ],
-  "chartType": "area",
-  "chartId": "chart1",
-  "style": "",
-  "labels": {
-    "x": "",
-    "y": ""
-  },
   "multicharts": {
     "Opened-and-Closed-Investigations_sAssessments": [
       {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
         "hideColumns": []
       }
     ],
     "Opened-Investigations_sAssessments": [
       {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
         "hideColumns": [
           1
         ],
@@ -98,6 +105,13 @@
     ],
     "Closed-Investigations_sAssessments": [
       {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
         "hideColumns": [
           0
         ],
