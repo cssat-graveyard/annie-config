@@ -7,7 +7,6 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Opened and Closed Investigations & Assessments",
       "Opened Investigations & Assessments",
       "Closed Investigations & Assessments"
     ],
@@ -59,7 +58,7 @@
     "Finding=finding"
   ],
   "returnRowStart": 17,
-  "columnClusterSize": 3,
+  "columnClusterSize": 2,
   "showAllOthers": true,
   "mutexAllOthers": false,
   "dateParams": [],
