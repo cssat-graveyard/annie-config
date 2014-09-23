@@ -26,7 +26,6 @@
 	"finding"
   ],
   "requiredParams": [
-	
 	"dynamicMonthStart"
   ],
   "hideRow": "allEmpty",
@@ -59,17 +58,11 @@
     "Finding=finding"
   ],
   "returnRowStart": 17,
-  "columnClusterSize": 3,
+  "columnClusterSize": 2,
   "showAllOthers": true,
   "mutexAllOthers": false,
   "dateParams": [],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
   "numberFormat": [
-    {
-      "fractionDigits": 2
-    },
     {
       "fractionDigits": 2
     },
@@ -85,23 +78,25 @@
     "y": ""
   },
   "multicharts": {
+	"chartType": "area",
+	"chartId": "chart1",
+	"style": "",
     "Opened-and-Closed-Investigations_sAssessments": [
       {
-        "hideColumns": []
+        "hideColumns": [],
+		"style": ""
       }
     ],
     "Opened-Investigations_sAssessments": [
       {
-        "hideColumns": [
-          1
-        ]
+        "hideColumns": [1],
+		"style": ""
       }
     ],
     "Closed-Investigations_sAssessments": [
       {
-        "hideColumns": [
-          0
-        ]
+        "hideColumns": [0],
+		"style": ""
       }
     ]
   }
