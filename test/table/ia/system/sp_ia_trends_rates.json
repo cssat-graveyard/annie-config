@@ -70,9 +70,6 @@
       "fractionDigits": 2
     }
   ],
-  "chartType": "area",
-  "chartId": "chart1",
-  "style": "",
   "labels": {
     "x": "",
     "y": ""
@@ -84,18 +81,24 @@
     "Opened-and-Closed-Investigations_sAssessments": [
       {
         "hideColumns": [],
+		"chartType": "area",
+		"chartId": "chart1",
 		"style": ""
       }
     ],
     "Opened-Investigations_sAssessments": [
       {
         "hideColumns": [1],
+		"chartType": "area",
+		"chartId": "chart1",
 		"style": ""
       }
     ],
     "Closed-Investigations_sAssessments": [
       {
         "hideColumns": [0],
+		"chartType": "area",
+		"chartId": "chart1",
 		"style": ""
       }
     ]
