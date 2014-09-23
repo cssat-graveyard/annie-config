@@ -7,6 +7,7 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
+      "Opened and Closed Investigations & Assessments",
       "Opened Investigations & Assessments",
       "Closed Investigations & Assessments"
     ],
@@ -91,14 +92,16 @@
       {
         "hideColumns": [
           1
-        ]
+        ],
+         "addInputClass": "multiAllowed"
       }
     ],
     "Closed-Investigations_sAssessments": [
       {
         "hideColumns": [
           0
-        ]
+        ],
+         "addInputClass": "multiAllowed"
       }
     ]
   }
