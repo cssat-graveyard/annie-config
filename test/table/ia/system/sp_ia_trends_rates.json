@@ -67,28 +67,27 @@
       {
 		"chartType": "area",
 		"chartId": "chart1",
-		"style": ""
-      },
-	  "hideColumns": [],
-	  "addInputClass": "multiAllowed"
+		"style": "",
+		"hideColumns": []
+      }
     ],
     "Opened-Investigations_sAssessments": [
       {
 		"chartType": "area",
 		"chartId": "chart1",
-		"style": ""
-      },
-	  "hideColumns": [1],
-	  "addInputClass": "multiAllowed"
+		"style": "",
+		"hideColumns": [1],
+		"addInputClass": "multiAllowed"
+      }
     ],
     "Closed-Investigations_sAssessments": [
       {
 		"chartType": "area",
 		"chartId": "chart1",
-		"style": ""
-      },
-	  "hideColumns": [0],
-	  "addInputClass": "multiAllowed"
+		"style": "",
+		"hideColumns": [0],
+	    "addInputClass": "multiAllowed"
+      }
     ]
   },
   "numberFormat": [
