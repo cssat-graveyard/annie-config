@@ -5,7 +5,7 @@
     "Function": "daterow",
     "dateField": "Months Since Placement Prevention Service Case Opened",
     "valueFields": [
-      "Placed"
+      "Percent Placed"
 	],
     "removeFields": []
   },
