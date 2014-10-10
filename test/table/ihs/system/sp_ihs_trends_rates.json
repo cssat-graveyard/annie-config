@@ -119,7 +119,7 @@
         ]
       }
     ],
-    "All-PPS-Cases-_p1st-Day-Qrtr_sYr_P": [
+    "All-Placement-Prevention-Service-Cases-_p1st-Day-Qrtr_sYr_P": [
       {
         "chartType": "column",
         "chartId": "chart1",
@@ -135,7 +135,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-PPS-Cases": [
+    "Opened-and-Closed-Placement-Prevention-Service-Cases-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -165,7 +165,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-PPS-Cases": [
+    "Closed-Placement-Prevention-Service-Cases-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
