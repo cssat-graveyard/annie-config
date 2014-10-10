@@ -135,7 +135,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Opened-and-Closed-Placement-Prevention-Service-Cases-Cases": [
+    "Opened-and-Closed-Placement-Prevention-Service-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
@@ -165,7 +165,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Closed-Placement-Prevention-Service-Cases-Cases": [
+    "Closed-Placement-Prevention-Service-Cases": [
       {
         "chartType": "area",
         "chartId": "chart1",
