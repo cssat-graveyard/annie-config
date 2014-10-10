@@ -451,7 +451,7 @@
 			"selected": 0,
 			"multi": true,
 			"zeroLast": false,
-			"help": "Cohort data for households with children who are re-referred following a prior referral that was screened-in for investigation/assessment are aggregated into counts of ‘first’ and ‘all’ investigations/assessments. See <a href=‘/publications/interpreting_type_of_count_filter’ target=‘_blank’><span style=‘text-decoration: underline;’>Interpreting Type of Count</span></a>."
+			"help": "Cohort data for households with children who are re-referred following a prior referral that was screened-in for investigation/assessment are aggregated into counts of ‘first’ and ‘all’ investigations/assessments. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"qry_type_poc2": {
@@ -465,7 +465,7 @@
 			"multi": true,
 			"zeroLast": false,
 			"sort": "qryTypeCompare",
-			"help": "Data for counts/rate of investigations/assessments are aggregated into ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘First Investigation/Assessment’ is the first ever referral that was screened in for investigation/assessment. ‘Unique Investigations/Assessments’ references the first investigation/assessment within a given time period. ‘All Investigations/Assessments’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href=‘/publications/interpreting_type_of_count_filter’ target=‘_blank’><span style=‘text-decoration: underline;’>Interpreting Type of Count</span></a>."
+			"help": "Data for counts/rate of investigations/assessments are aggregated into ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘First Investigation/Assessment’ is the first ever referral that was screened in for investigation/assessment. ‘Unique Investigations/Assessments’ references the first investigation/assessment within a given time period. ‘All Investigations/Assessments’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
 		}
 	},
 	"service_type": {
@@ -608,7 +608,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "During an investigation or assessment, social workers can record one (or more)  allegation per case. If you are looking at a household level measure (Investigations & Assessments or Placement Prevention Services), allegations are counted per household. If you are examining an Out-of-Home Care measure, allegations are counted per child. <br></br> Maltreatment types fall into three broad categories: 1) physical abuse; 2) sexual abuse (which includes sexual exploration); and 3) neglect (which includes abandonment, negligent treatment, and medical neglect). <br></br> With the default ‘count type’ set to ‘all,’ a single household/child can be associated with more than one allegation. The filter choice ‘Any of the Above,’ returns a count of one allegation for each household/child. The filter choice ‘All (With or Without Allegation)’ means that cases with no allegations are also counted (as well as cases with multiple allegations per case). <a href=http://www.dshs.wa.gov/ca/safety/indicatorNeglect.asp?2>Neglect</a> comprises the bulk of allegations."
+			"help": "During an investigation or assessment, social workers can record one (or more)  allegation per case. If you are looking at a household level measure (Investigations & Assessments or Placement Prevention Services), allegations are counted per household. If you are examining an Out-of-Home Care measure, allegations are counted per child. <br></br> Maltreatment types fall into three broad categories: 1) physical abuse; 2) sexual abuse (which includes sexual exploration); and 3) neglect (which includes abandonment, negligent treatment, and medical neglect). <br></br> With the default ‘count type’ set to ‘all,’ a single household/child can be associated with more than one allegation. The filter choice ‘Any of the Above,’ returns a count of one allegation for each household/child. The filter choice ‘All (With or Without Allegation)’ means that cases with no allegations are also counted (as well as cases with multiple allegations per case). <a href='http://www.dshs.wa.gov/ca/safety/indicatorNeglect.asp?2'target='_blank'><span style='text-decoration: underline;'>Neglect</span></a>comprises the bulk of allegations."
 		}
 	},
 	"finding": {
