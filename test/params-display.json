@@ -585,7 +585,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report (usually called a referral). Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. Law Enforcement Officer includes Corrections Personnel.<strong></strong></p><p>Adults below the line are mandated to report if they are <a href=‘http://www.dshs.wa.gov/pdf/publications/22-163.pdf'target='_blank'><span style='text-decoration: underline;'>“residing with a child suspected to have been severely abused”</span></a>. ‘Other’ reporters include the subject or the victim. ‘All’ includes all referrals, mandated or not."			
+			"help": "n Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report (usually called a referral). Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. Law Enforcement Officer includes Corrections Personnel.  Adults below the line are mandated to report if they are <a href=‘http://www.dshs.wa.gov/pdf/publications/22-163.pdf’>“residing with a child suspected to have been severely abused”< </span></a> .‘Other’ reporters include the subject or the victim. ‘All’ includes all referrals, mandated or not."			
 		}
 	},
 	"access_type": {
@@ -709,7 +709,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "More about the following services can be found in the Glossary: <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> and  <a href=‘/data-portal/glossary#letter_a’ target=‘_blank’><span style=‘text-decoration: underline;’>Adoption Support</span></a>."
+			"help": "More about <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> and  <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Adoption Support</span></a> can be found in the Glossary."
 		}
 	},	
 	"pp_service_category": {
@@ -722,7 +722,7 @@
 			"visible": false,
 			"type": "param",
 			"multi": true,
-			"help": "The individual services below are CA-paid services; with the exception of Behavioral Rehabilitation Services, these services are generally for families with children in the home. Note that the 'all' includes services paid by CA and services not paid by CA. Also note that data for these services is not available for all of 2009. More about Behavioral Rehabilitation Services can be found in the Glossary: <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a>, Family Focused Services, Therapeutic Services, Receiving Care,  Family Home Placements, </span></a>."
+			"help": "The individual services below are CA-paid services; with the exception of Behavioral Rehabilitation Services, these services are generally for families with children in the home. Note that the 'all' includes services paid by CA and services not paid by CA. Also note that data for these services is not available for all of 2009. More about <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> can be found in the Glossary."
 		}
 	},
 	"budget_category": {
