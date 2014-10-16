@@ -1,16 +1,20 @@
 {
   "table": "sp_ooh_outcomes",
   "title": "Outcomes",
+  "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
+    "table": "sp_ooh_outcomes",
     "dateField": "Months Since Entering Out-of-Home Care",
-	"valueFields": ["Percent"],
-	"removeFields": []
+    "valueFields": [
+      "Percent"
+    ],
+    "removeFields": []
   },
   "controls": [
     "qry_type_first_unique_ooh_outcomes",
-	"discharge_type_outcomes",
-	"cohort_year"
+    "discharge_type_outcomes",
+    "cohort_year"
   ],
   "params": [
     "ageEntry",
@@ -22,21 +26,21 @@
     "ooh_los",
     "nbr_placement",
     "ihs_services_ooh",
-	"reporter_type",
-	"access_type",
-	"allegation",
-	"finding",
+    "reporter_type",
+    "access_type",
+    "allegation",
+    "finding",
     "service_category",
-	"budget_category",
-	"dependency_cd"
+    "budget_category",
+    "dependency_cd"
   ],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-	1,
-	2,
+    1,
+    2,
     4,
     6,
     8,
@@ -56,12 +60,16 @@
     35
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [1, 2, 36],
+  "returnRowControlHeaders": [
+    1,
+    2,
+    36
+  ],
   "headerNames": [
     "&nbsp;",
     "Cohort Period*cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique_ooh_outcomes",
-	"Age Grouping=ageEntry",
+    "Age Grouping=ageEntry",
     "Gender=gender",
     "Race/Ethnicity",
     "Initial Placement=initSetng",
@@ -77,18 +85,17 @@
     "Finding=finding",
     "Service Type=service_category",
     "Budget=budget_category",
-	"cd_discharge_type*discharge_type_outcomes"
+    "cd_discharge_type*discharge_type_outcomes"
   ],
   "returnRowStart": 37,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-	"x": "Months Since Entering Out-of-Home Care",
-    "y": "",
-	"yFormat": "##'%"
-  }, 
+    "x": "Months Since Entering Out-of-Home Care",
+    "yFormat": "##'%"
+  },
   "numberFormat": {
-      "suffix": "%",
-      "fractionDigits": 2
+    "fractionDigits": 2,
+    "suffix": "%"
   }
 }
