@@ -59,6 +59,7 @@
   ],
   "returnRowStart": 36,
   "hideRow": "ignoreEmpty",
+  "chartType": "line",
   "labels": {
     "x": "Entry Cohort Year",
     "y": "Percent Achieving Outcome",
@@ -66,12 +67,5 @@
   },
   "numberFormat": {
     "fractionDigits": 2
-  },
-  "charts": [
-    {
-      "chartType": "line",
-      "chartId": "chart1",
-      "style": ""
-    }
-  ]
+  }
 }
