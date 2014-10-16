@@ -1,15 +1,16 @@
 {
-  "table": "sp_ooh_outcomes_24m",
-  "title": "Outcomes within 24 Months",
-  "measurementOrder": 4,
-  "transform": {
-    "Function": "daterow",
     "table": "sp_ooh_outcomes_24m",
-    "dateField": "Cohort Period",
-    "valueFields": [
-      "Percent"
-    ]
-  },
+    "title": "Outcomes within 24 Months",
+    "measurementOrder": 4,
+    "transform": {
+        "Function": "daterow",
+        "table": "sp_ooh_outcomes_24m",
+        "dateField": "Cohort Period",
+        "removeFields": [],
+        "valueFields": [
+            "Percent"
+        ]
+    },
   "controls": [
     "qry_type_first_unique",
     "discharge_type_outcomes"
