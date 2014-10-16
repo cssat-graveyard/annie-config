@@ -1,0 +1,77 @@
+{
+  "table": "sp_ooh_outcomes_24m",
+  "title": "Outcomes within 24 Months",
+  "measurementOrder": 4,
+  "transform": {
+    "Function": "daterow",
+    "table": "sp_ooh_outcomes_24m",
+    "dateField": "Cohort Period",
+    "valueFields": [
+      "Percent"
+    ]
+  },
+  "controls": [
+    "qry_type_first_unique",
+    "discharge_type_outcomes"
+  ],
+  "params": [
+    "pitAge",
+    "ethnicityCensus",
+    "gender",
+    "initSetng",
+    "longSetng",
+    "pitCounty",
+    "ooh_los",
+    "nbr_placement",
+    "ihs_services_ooh",
+    "reporter_type",
+    "access_type",
+    "allegation",
+    "finding",
+    "service_category",
+    "budget_category",
+    "dependency_cd"
+  ],
+  "returnRowControlHeaders": [
+    1,
+    35
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "qry_type_poc1_first_unique*qry_type_first_unique",
+    "Age Grouping=pitAge",
+    "Race/Ethnicity",
+    "Gender=gender",
+    "Initial Placement=initSetng",
+    "Longest Placement=longSetng",
+    "County=pitCounty",
+    "Dependency=dependency_cd",
+    "Length of Service Desc=ooh_los",
+    "Placement Count Desc=nbr_placement",
+    "In-Home Service Desc=ihs_services_ooh",
+    "Reporter Desc=reporter_type",
+    "Access type desc=access_type",
+    "Allegation=allegation",
+    "Finding=finding",
+    "Service Type=service_category",
+    "Budget=budget_category",
+    "Discharge=discharge_type_outcomes"
+  ],
+  "returnRowStart": 36,
+  "hideRow": "ignoreEmpty",
+  "labels": {
+    "x": "Entry Cohort Year",
+    "y": "Percent Achieving Outcome",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2
+  },
+  "charts": [
+    {
+      "chartType": "line",
+      "chartId": "chart1",
+      "style": ""
+    }
+  ]
+}
