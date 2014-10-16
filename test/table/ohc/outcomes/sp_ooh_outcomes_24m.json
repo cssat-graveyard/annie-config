@@ -11,11 +11,11 @@
         ],
          "removeFields": [ ]
    },
-    "controls": [
+   "controls": [
         "qry_type_first_unique",
         "discharge_type_outcomes"
-    ],
-    "params": [
+   ],
+   "params": [
         "pitAge",
         "ethnicityCensus",
         "gender",
@@ -32,8 +32,9 @@
         "service_category",
         "budget_category",
         "dependency_cd"
-    ],
-     "dateParams": [ ],
+   ],
+   "dateParams": [ ],
+   "requiredParams": [ ],
    "returnRowHeaders": [
         0,
         1,
