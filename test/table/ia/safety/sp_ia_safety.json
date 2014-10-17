@@ -1,6 +1,7 @@
 {
   "table": "sp_ia_safety",
   "title": "Re-Referrals",
+  "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
     "dateField": "Months Since 1st Investigation/Assessment",
