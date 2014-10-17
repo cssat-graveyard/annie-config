@@ -3,6 +3,7 @@
   "title": "Placement Rate",
   "measurementOrder": 2,
   "transform": {
+    "Function": "rotate",
     "table": "sp_rate_placement",
     "valueFields": [
       "rate_placement"
