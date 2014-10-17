@@ -1,13 +1,13 @@
 {
-  "table": "sp_rate_placement",
-  "title": "Placement Rate",
-  "measurementOrder": 1,
+  "table": "sp_rate_referral",
+  "title": "Rerral Rate",
+  "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
-    "table": "sp_rate_placement",
-    "dateField": "cohort_date",
+    "table": "sp_rate_referral",
+    "dateField": "start_date",
     "valueFields": [
-      "rate_placement"
+      "referral_rate"
     ],
     "removeFields": []
   },
@@ -19,11 +19,10 @@
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
-  "maxChecked": 40,
   "returnRowHeaders": [
     0,
     1,
-    2
+    3
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
@@ -32,13 +31,13 @@
   "headerNames": [
     "&nbsp;",
     "county_cd*Ref_Serv_County",
-    "entry_point*access_type"
+    "entry_point_desc=access_type"
   ],
-  "returnRowStart": 5,
+  "returnRowStart": 6,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "Placement Rate",
+    "x": "Referral Rate",
     "yFormat": "##'%"
   }
 }

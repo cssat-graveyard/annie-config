@@ -1,28 +1,27 @@
 {
-  "table": "sp_rate_placement",
-  "title": "Placement Rate",
-  "measurementOrder": 1,
+  "table": "sp_rate_placement_order",
+  "title": "Rate Placement Sorted",
+  "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
-    "table": "sp_rate_placement",
+    "table": "sp_rate_placement_order",
     "dateField": "cohort_date",
     "valueFields": [
-      "rate_placement"
+      "placement_rate"
     ],
-    "removeFields": []
+    "removeFields": [
+      "nth_order"
+    ]
   },
   "controls": [],
   "params": [
-    "Ref_Serv_County",
-    "access_type"
+    "Ref_Serv_County"
   ],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
-  "maxChecked": 40,
   "returnRowHeaders": [
     0,
-    1,
     2
   ],
   "returnRowDateHeaders": [],
@@ -31,8 +30,7 @@
   ],
   "headerNames": [
     "&nbsp;",
-    "county_cd*Ref_Serv_County",
-    "entry_point*access_type"
+    "county_cd*Ref_Serv_County"
   ],
   "returnRowStart": 5,
   "hideRow": "allEmpty",
