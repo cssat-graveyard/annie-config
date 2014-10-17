@@ -20,6 +20,7 @@
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
+    0,
     1,
     2
   ],
