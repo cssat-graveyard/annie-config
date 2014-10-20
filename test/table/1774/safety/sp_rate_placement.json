@@ -13,21 +13,25 @@
   },
   "controls": [],
   "params": [
+    "dynamicMonthStart",
     "Ref_Serv_County",
     "access_type"
   ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
   "showAllOthers": true,
-  "maxChecked": 200,
   "returnRowHeaders": [
-    0,
     1,
     2
   ],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
+  "returnRowDateHeaders": [
     0
+  ],
+  "returnRowControlHeaders": [
+    1,
+    2
   ],
   "headerNames": [
     "&nbsp;",
@@ -38,9 +42,11 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "Placement Rate"
+    "x": "Placement Rate",
+    "yFormat": "##'%"
   },
   "numberFormat": {
-    "fractionDigits": 0
+    "fractionDigits": 0,
+    "suffix": "%"
   }
 }
