@@ -22,8 +22,8 @@
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
-    2,
-    3
+    3,
+    5
   ],
   "returnRowDateHeaders": [
     0
@@ -31,10 +31,10 @@
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "county_cd*Ref_Serv_County",
-    "entry_point*access_type"
+    "county=Ref_Serv_County",
+    "entry_point_name=access_type"
   ],
-  "returnRowStart": 6,
+  "returnRowStart": 8,
   "hideRow": "allEmpty",
   "numberFormat": {
     "fractionDigits": 0,
@@ -47,6 +47,7 @@
       "style": "",
       "labels": {
         "x": "Placement Rate",
+        "y": "",
         "yFormat": "##'%"
       },
       "addInputClass": "multiAllowed"
