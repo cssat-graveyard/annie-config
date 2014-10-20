@@ -19,6 +19,7 @@
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
+  "maxChecked": 200,
   "returnRowHeaders": [
     0,
     1,
