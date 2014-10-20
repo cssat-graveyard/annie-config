@@ -11,9 +11,7 @@
     ],
     "removeFields": []
   },
-  "controls": [
-    "date_type"
-  ],
+  "controls": [],
   "params": [
     "dynamicMonthStart",
     "Ref_Serv_County",
