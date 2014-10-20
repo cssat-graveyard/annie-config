@@ -19,7 +19,7 @@
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
-  "maxChecked": 40,
+  "maxChecked": 100,
   "returnRowHeaders": [
     0,
     1,
@@ -39,6 +39,9 @@
   "chartType": "line",
   "labels": {
     "x": "Placement Rate",
-    "yFormat": "##'%"
+    "yFormat": "##.00"
+  },
+  "numberFormat": {
+    "decimalSymbol": "0"
   }
 }
