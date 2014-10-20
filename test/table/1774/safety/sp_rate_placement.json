@@ -11,9 +11,7 @@
     ],
     "removeFields": []
   },
-  "controls": [
-    "date_type"
-  ],
+  "controls": [],
   "params": [
     "dynamicMonthStart",
     "Ref_Serv_County",
@@ -39,14 +37,20 @@
   ],
   "returnRowStart": 6,
   "hideRow": "allEmpty",
-  "chartType": "line",
-  "labels": {
-    "x": "Placement Rate",
-    "y": "",
-    "yFormat": "##'%"
-  },
   "numberFormat": {
     "fractionDigits": 0,
     "suffix": "%"
-  }
+  },
+  "charts": [
+    {
+      "chartType": "line",
+      "chartId": "chart1",
+      "style": "",
+      "labels": {
+        "x": "Placement Rate",
+        "yFormat": "##'%"
+      },
+      "addInputClass": "multiAllowed"
+    }
+  ]
 }
