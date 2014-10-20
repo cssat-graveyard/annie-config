@@ -11,7 +11,9 @@
     ],
     "removeFields": []
   },
-  "controls": [],
+  "controls": [
+    "date_type"
+  ],
   "params": [
     "dynamicMonthStart",
     "Ref_Serv_County",
@@ -23,8 +25,8 @@
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
-    1,
-    2
+    2,
+    3
   ],
   "returnRowDateHeaders": [
     0
@@ -35,7 +37,7 @@
     "county_cd*Ref_Serv_County",
     "entry_point*access_type"
   ],
-  "returnRowStart": 5,
+  "returnRowStart": 6,
   "hideRow": "allEmpty",
   "chartType": "line",
   "numberFormat": {
