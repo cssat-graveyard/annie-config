@@ -48,6 +48,7 @@
       "style": "",
       "labels": {
         "x": "Placement Rate",
+        "y": "",
         "yFormat": "##'%"
       },
       "addInputClass": "multiAllowed"
