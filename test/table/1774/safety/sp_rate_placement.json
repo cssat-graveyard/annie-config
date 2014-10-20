@@ -37,8 +37,7 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "Placement Rate",
-    "yFormat": "##.00"
+    "x": "Placement Rate"
   },
   "numberFormat": {
     "fractionDigits": 0
