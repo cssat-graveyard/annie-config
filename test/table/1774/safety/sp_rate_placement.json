@@ -41,6 +41,6 @@
     "yFormat": "##.00"
   },
   "numberFormat": {
-    "decimalSymbol": "System.Object"
+    "fractionDigits": 0
   }
 }
