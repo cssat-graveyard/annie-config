@@ -37,22 +37,14 @@
   ],
   "returnRowStart": 6,
   "hideRow": "allEmpty",
+  "chartType": "line",
+  "labels": {
+    "x": "Placement Rate",
+    "y": "",
+    "yFormat": "##'%"
+  },
   "numberFormat": {
     "fractionDigits": 0,
     "suffix": "%"
-  },
-  "charts": [
-    {
-      "chartType": "line",
-      "chartId": "chart1",
-      "style": "",
-      "maxSets": 200,
-      "labels": {
-        "x": "Placement Rate",
-        "y": "",
-        "yFormat": "##'%"
-      },
-      "addInputClass": "multiAllowed"
-    }
-  ]
+  }
 }
