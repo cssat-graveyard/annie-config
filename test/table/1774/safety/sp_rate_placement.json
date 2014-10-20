@@ -20,6 +20,7 @@
   "requiredParams": [],
   "showAllOthers": true,
   "maxChecked": 200,
+  "maxSets": 200,
   "returnRowHeaders": [
     0,
     1,
