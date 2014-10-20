@@ -4,7 +4,6 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "table": "sp_rate_placement",
     "dateField": "cohort_date",
     "valueFields": [
       "rate_placement"
