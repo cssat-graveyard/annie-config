@@ -46,6 +46,7 @@
       "chartType": "line",
       "chartId": "chart1",
       "style": "",
+      "maxSets": 200,
       "labels": {
         "x": "Placement Rate",
         "y": "",
