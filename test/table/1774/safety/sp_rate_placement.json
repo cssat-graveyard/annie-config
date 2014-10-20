@@ -19,7 +19,6 @@
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
-  "maxChecked": 100,
   "returnRowHeaders": [
     0,
     1,
@@ -42,6 +41,6 @@
     "yFormat": "##.00"
   },
   "numberFormat": {
-    "decimalSymbol": "0"
+    "decimalSymbol": "System.Object"
   }
 }
