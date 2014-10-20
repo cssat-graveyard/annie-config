@@ -11,7 +11,9 @@
     ],
     "removeFields": []
   },
-  "controls": [],
+  "controls": [
+    "date_type"
+  ],
   "params": [
     "dynamicMonthStart",
     "Ref_Serv_County",
@@ -37,6 +39,7 @@
   ],
   "returnRowStart": 6,
   "hideRow": "allEmpty",
+  "maxSets": 200,
   "chartType": "line",
   "labels": {
     "x": "Placement Rate",
