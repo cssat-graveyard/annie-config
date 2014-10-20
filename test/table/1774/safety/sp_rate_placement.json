@@ -39,7 +39,6 @@
   ],
   "returnRowStart": 6,
   "hideRow": "allEmpty",
-  "maxSets": 200,
   "chartType": "line",
   "labels": {
     "x": "Placement Rate",
