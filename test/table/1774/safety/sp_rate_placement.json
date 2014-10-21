@@ -43,12 +43,7 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "Time",
-    "y": "Placement Rate Per 1,000 Referrals",
-    "yFormat": "##'%"
-  },
-  "numberFormat": {
-    "fractionDigits": 2,
-    "suffix": "%"
+    "x": "",
+    "y": ""
   }
 }
