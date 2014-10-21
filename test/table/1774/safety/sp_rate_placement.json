@@ -24,13 +24,16 @@
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
+    1,
     3,
     5
   ],
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [
+    1
+  ],
   "headerNames": [
     "&nbsp;",
     "county=Ref_Serv_County",
