@@ -8,7 +8,8 @@
     "valueFields": [
       "rate_placement"
     ],
-    "removeFields": []
+    "removeFields": [],
+    "table": "sp_rate_placement"
   },
   "controls": [],
   "params": [
