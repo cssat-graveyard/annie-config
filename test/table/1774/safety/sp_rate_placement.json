@@ -4,7 +4,7 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Date",
+    "dateField": "cohort_date",
     "valueFields": [
       "Placement Rate"
     ],
