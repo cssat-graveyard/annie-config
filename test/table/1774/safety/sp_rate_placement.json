@@ -4,11 +4,12 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "cohort_date",
+    "dateField": "Cohort Date",
     "valueFields": [
-      "rate_placement"
+      "Placement Rate"
     ],
-    "removeFields": []
+    "removeFields": [],
+    "table": "sp_rate_placement"
   },
   "controls": [],
   "params": [
@@ -22,6 +23,7 @@
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
+    1,
     3,
     5
   ],
@@ -36,21 +38,13 @@
   ],
   "returnRowStart": 8,
   "hideRow": "allEmpty",
-  "numberFormat": {
-    "fractionDigits": 0,
-    "suffix": "%"
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": ""
   },
-  "charts": [
-    {
-      "chartType": "line",
-      "chartId": "chart1",
-      "style": "",
-      "labels": {
-        "x": "Placement Rate",
-        "y": "",
-        "yFormat": "##'%"
-      },
-      "addInputClass": "multiAllowed"
-    }
-  ]
+  "numberFormat": {
+      "fractionDigits": 0,
+      "suffix": "%"
+  }
 }
