@@ -6,10 +6,9 @@
     "Function": "daterow",
     "dateField": "cohort_date",
     "valueFields": [
-      "Placement Rate"
+      "rate_placement"
     ],
-    "removeFields": [],
-    "table": "sp_rate_placement"
+    "removeFields": []
   },
   "controls": [],
   "params": [
@@ -37,13 +36,21 @@
   ],
   "returnRowStart": 8,
   "hideRow": "allEmpty",
-  "chartType": "line",
-  "labels": {
-    "x": "",
-    "y": ""
-  },
   "numberFormat": {
-      "fractionDigits": 0,
-      "suffix": "%"
-  }
+    "fractionDigits": 0,
+    "suffix": "%"
+  },
+  "charts": [
+    {
+      "chartType": "line",
+      "chartId": "chart1",
+      "style": "",
+      "labels": {
+        "x": "Placement Rate",
+        "y": "",
+        "yFormat": "##'%"
+      },
+      "addInputClass": "multiAllowed"
+    }
+  ]
 }
