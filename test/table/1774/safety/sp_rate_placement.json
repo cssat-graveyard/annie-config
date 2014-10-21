@@ -37,21 +37,14 @@
   ],
   "returnRowStart": 8,
   "hideRow": "allEmpty",
-  "numberFormat": {
-    "fractionDigits": 0,
-    "suffix": "%"
+  "chartType": "line",
+  "labels": {
+    "x": "Months Since 1st Investigation/Assessment",
+    "y": "",
+    "yFormat": "##'%"
   },
-  "charts": [
-    {
-      "chartType": "line",
-      "chartId": "chart1",
-      "style": "",
-      "labels": {
-        "x": "Placement Rate",
-        "y": "",
-        "yFormat": "##'%"
-      },
-      "addInputClass": "multiAllowed"
-    }
-  ]
+  "numberFormat": {
+    "fractionDigits": 2,
+  "suffix": "%"
+  }
 }
