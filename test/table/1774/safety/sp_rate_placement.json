@@ -23,6 +23,7 @@
     "dynamicMonthStart"
   ],
   "showAllOthers": true,
+  "mutexAllOther": false,
   "returnRowHeaders": [
     0,
     3,
