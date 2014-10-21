@@ -4,9 +4,9 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "Date",
+    "dateField": "Cohort Period",
     "valueFields": [
-      "rate_placement"
+      "Placement Rate"
     ],
     "removeFields": []
   },
