@@ -32,9 +32,7 @@
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowControlHeaders": [
-    1
-  ],
+  "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
     "county=Ref_Serv_County",
