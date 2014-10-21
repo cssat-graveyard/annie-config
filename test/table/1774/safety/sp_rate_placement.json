@@ -11,6 +11,7 @@
     "removeFields": []
   },
   "controls": [
+    "qry_type_exits",
     "date_type_cohort"
   ],
   "params": [
@@ -26,19 +27,23 @@
   "mutexAllOther": false,
   "returnRowHeaders": [
     0,
-    3,
-    5
+    1,
+    4,
+    6
   ],
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [
+    1
+  ],
   "headerNames": [
     "&nbsp;",
+    "qry_type*qry_type_exits",
     "county=Ref_Serv_County",
     "entry_point_name=access_type"
   ],
-  "returnRowStart": 8,
+  "returnRowStart": 9,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
