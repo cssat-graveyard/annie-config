@@ -16,8 +16,8 @@
   "controls": [],
   "params": [
     "dynamicMonthStart",
-    "county_cd",
-    "entry_point"
+    "Ref_Serv_County",
+    "allegation"
   ],
   "dateParams": [],
   "requiredParams": [
@@ -36,8 +36,8 @@
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "*county_cd",
-    "*entry_point"
+    "county_cd*Ref_Serv_County",
+    "entry_point*allegation"
   ],
   "returnRowStart": 5,
   "hideRow": "allEmpty",
