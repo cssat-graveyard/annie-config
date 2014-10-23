@@ -13,9 +13,7 @@
       "cnt_referrals_u18"
     ]
   },
-  "controls": [
-    "date_type_cohort"
-  ],
+  "controls": [],
   "params": [
     "dynamicMonthStart",
     "Ref_Serv_County",
@@ -29,8 +27,8 @@
   "mutexAllOther": false,
   "returnRowHeaders": [
     0,
-    3,
-    5
+    2,
+    4
   ],
   "returnRowDateHeaders": [
     0
@@ -43,7 +41,7 @@
     "county=Ref_Serv_County",
     "entry_point_name=access_type"
   ],
-  "returnRowStart": 8,
+  "returnRowStart": 7,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
