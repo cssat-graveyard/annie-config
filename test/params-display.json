@@ -599,6 +599,18 @@
 			"help": "Currently you can filter for six primary entry points in the child welfare system, i.e., first point of contact with Children’s Administration. Currently, the Data Portal returns data for:<strong></strong></p>1) <a href='http://poctest.spiders.net/data-portal/glossary#letter_c' target='_blank'><span style='text-decoration: underline;'>Child Protective Services</span></a> (CPS), which provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect;<strong></strong></p>2) <a href='http://poctest.spiders.net/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Reconciliation Services</span></a> (FRS), a voluntary program serving runaway adolescents and youth in conflict with their families;<strong></strong></p>3) <a href='http://poctest.spiders.net/data-portal/glossary#letter_c' target='_blank'><span style='text-decoration: underline;'>Child and Family Welfare Services</span></a> (CFWS), which provides both permanency planning and court-ordered services to children and families to mitigate the risk of abuse or neglect so that children are able to safely return to their home of origin;<strong></strong></p>4) <a href='http://www.dshs.wa.gov/CA/pubs/mnl_pnpg/chapter2.asp'target='_blank'><span style='text-decoration: underline;'>Risk Only</span></a> a referral made when information collected gives reasonable cause to believe that risk or safety factors exist that place the child at imminent risk of serious harm;<strong></strong></p>5) <a href='http://www.dshs.wa.gov/pdf/ca/ARS_FY04.pdf'target='_blank'><span style='text-decoration: underline;'>Alternative Response System</span></a> (ARS), a voluntary program for low-to-moderate risk families who were referred to CPS; and<strong></strong></p>6) <a href='http://poctest.spiders.net/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Assessment Response</span></a> (FAR), a new alternative pathway for accepted reports of low-to-moderate risk of child maltreatment."
 		}
 	},
+	"entry_point": {
+		"table": "ref_filter_access_type",
+		"display": {
+			"legend": "Entry Point",
+			"column": "advancedLeft",
+			"visible": false,
+			"type": "param",
+			"disabled": [7],
+			"multi": true,
+			"help": "Currently you can filter for six primary entry points in the child welfare system, i.e., first point of contact with Children’s Administration. Currently, the Data Portal returns data for:<strong></strong></p>1) <a href='http://poctest.spiders.net/data-portal/glossary#letter_c' target='_blank'><span style='text-decoration: underline;'>Child Protective Services</span></a> (CPS), which provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect;<strong></strong></p>2) <a href='http://poctest.spiders.net/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Reconciliation Services</span></a> (FRS), a voluntary program serving runaway adolescents and youth in conflict with their families;<strong></strong></p>3) <a href='http://poctest.spiders.net/data-portal/glossary#letter_c' target='_blank'><span style='text-decoration: underline;'>Child and Family Welfare Services</span></a> (CFWS), which provides both permanency planning and court-ordered services to children and families to mitigate the risk of abuse or neglect so that children are able to safely return to their home of origin;<strong></strong></p>4) <a href='http://www.dshs.wa.gov/CA/pubs/mnl_pnpg/chapter2.asp'target='_blank'><span style='text-decoration: underline;'>Risk Only</span></a> a referral made when information collected gives reasonable cause to believe that risk or safety factors exist that place the child at imminent risk of serious harm;<strong></strong></p>5) <a href='http://www.dshs.wa.gov/pdf/ca/ARS_FY04.pdf'target='_blank'><span style='text-decoration: underline;'>Alternative Response System</span></a> (ARS), a voluntary program for low-to-moderate risk families who were referred to CPS; and<strong></strong></p>6) <a href='http://poctest.spiders.net/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Assessment Response</span></a> (FAR), a new alternative pathway for accepted reports of low-to-moderate risk of child maltreatment."
+		}
+	},
 	"allegation": {
 		"table": "ref_filter_allegation",
 		"display": {
@@ -699,18 +711,18 @@
 			"help": "Some placement prevention services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
 		}
 	},
-	"service_category": {
-		"table": "ref_service_cd_subctgry_poc",
-		"orderBy": "ordering",
-		"display": {
-			"legend": "Service Category",
-			"column": "advancedRight",
-			"visible": false,
-			"type": "param",
-			"multi": true,
-			"help": "More about <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> and  <a href='/data-portal/glossary#letter_a' target='_blank'><span style='text-decoration: underline;'>Adoption Support</span></a> can be found in the Glossary."
-		}
-	},	
+    "service_category": {
+        "table": "ref_service_cd_subctgry_poc",
+        "orderBy": "ordering",
+        "display": {
+            "legend": "Service Category",
+            "column": "advancedRight",
+            "visible": false,
+            "type": "param",
+            "multi": true,
+            "help": "More about <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> and  <a href='/data-portal/glossary#letter_a' target='_blank'><span style='text-decoration: underline;'>Adoption Support</span></a> can be found in the Glossary."
+        }
+    },	
 	"pp_service_category": {
 		"table": "ref_service_cd_subctgry_poc",
 		"removeKeys": [14, 12, 6, 16, 5, 4,10, 13, 9],
@@ -1073,15 +1085,25 @@
 			"type": "param",
 			"help": "The location of the child when s/he received a federal discharge (reunification, adoption, guardianship) or was emancipated (turned 18 years old)."
 		}	
-	},	
-		"Ref_Serv_County": {
+	},
+    "Ref_Serv_County": {
+        "table": "ref_lookup_county",
+        "display": {
+            "legend": "Referral County",
+            "column": "advancedRight",
+            "visible": false,
+            "type": "param",
+            "help": "This is the county where the referral was investigated/assessed. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+        }
+    },
+    "county_cd": {
 		"table": "ref_lookup_county",
 		"display": {
-			"legend": "Referral County",
-			"column": "advancedRight",
+			"legend": "County",
+			"column": "fieldsRight",
 			"visible": false,
 			"type": "param",
-			"help": "This is the county where the referral was investigated/assessed. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+			"help": "This is the county."
 		}	
 	},	
 	"ServiceCnty": {

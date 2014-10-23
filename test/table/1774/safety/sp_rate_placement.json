@@ -36,8 +36,8 @@
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "county_cd*Ref_Serv_County",
-    "entry_point*access_type"
+    "*county_cd",
+    "*entry_point"
   ],
   "returnRowStart": 5,
   "hideRow": "allEmpty",
