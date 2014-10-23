@@ -13,13 +13,12 @@
       "cnt_referrals_u18"
     ]
   },
-  "controls": [
-    "order"
-  ],
+  "controls": [],
   "params": [
     "dynamicMonthStart",
     "Ref_Serv_County",
-    "access_type"
+    "access_type",
+    "order"
   ],
   "dateParams": [],
   "requiredParams": [
