@@ -27,8 +27,8 @@
   "mutexAllOther": false,
   "returnRowHeaders": [
     0,
-    1,
-    2
+    2,
+    4
   ],
   "returnRowDateHeaders": [
     0
@@ -36,10 +36,10 @@
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "county_cd*Ref_Serv_County",
-    "entry_point*access_type"
+    "county=Ref_Serv_County",
+    "entry_point_name=access_type"
   ],
-  "returnRowStart": 5,
+  "returnRowStart": 7,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
