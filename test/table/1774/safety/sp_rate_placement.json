@@ -4,32 +4,28 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Date",
+    "dateField": "Date",
     "valueFields": [
-      "Placement Rate"
+      "rate_placement"
     ],
-    "removeFields": [
-      "cnt_households_w_plcm",
-      "cnt_referrals_u18"
-    ]
+    "removeFields": []
   },
-  "controls": [],
+  "controls": [
+    "date_type"
+  ],
   "params": [
     "dynamicMonthStart",
     "Ref_Serv_County",
-    "access_type",
-    "order"
+    "access_type"
   ],
   "dateParams": [],
   "requiredParams": [
     "dynamicMonthStart"
   ],
   "showAllOthers": true,
-  "mutexAllOther": false,
   "returnRowHeaders": [
-    0,
-    1,
-    2
+    3,
+    5
   ],
   "returnRowDateHeaders": [
     0
@@ -37,14 +33,19 @@
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "county_cd*Ref_Serv_County",
-    "entry_point*access_type"
+    "county=Ref_Serv_County",
+    "entry_point_name=access_type"
   ],
-  "returnRowStart": 5,
+  "returnRowStart": 8,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "",
-    "y": ""
+    "x": "Time",
+    "y": "Placement Rate Per 1,000 Referrals",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
   }
 }
