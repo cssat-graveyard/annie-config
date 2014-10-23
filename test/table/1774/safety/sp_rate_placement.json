@@ -13,7 +13,9 @@
       "cnt_referrals_u18"
     ]
   },
-  "controls": [],
+  "controls": [
+    "order"
+  ],
   "params": [
     "dynamicMonthStart",
     "Ref_Serv_County",
