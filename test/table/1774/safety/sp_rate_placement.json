@@ -16,8 +16,8 @@
   "controls": [],
   "params": [
     "dynamicMonthStart",
-    "Ref_Serv_County",
-    "access_type"
+    "county_cd",
+    "entry_point"
   ],
   "dateParams": [],
   "requiredParams": [
