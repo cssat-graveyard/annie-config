@@ -1110,7 +1110,7 @@
 			"legend": "Order",
 			"column": "fieldsLeft",
 			"type": "param",
-			"selected": 1,
+			"selected": "1",
             "multi": false
 		}
 	}
