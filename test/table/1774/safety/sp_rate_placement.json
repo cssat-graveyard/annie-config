@@ -1,15 +1,18 @@
 {
-  "table": "sp_rate_placement",
-  "title": "Placement Rate",
-  "measurementOrder": 1,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Cohort Period",
-    "valueFields": [
-      "Placement Rate"
-    ],
-    "removeFields": []
-  },
+    "table": "sp_rate_placement",
+    "title": "Placement Rate",
+    "measurementOrder": 1,
+    "transform": {
+        "Function": "daterow",
+        "dateField": "Cohort Period",
+        "valueFields": [
+            "Placement Rate"
+        ],
+        "removeFields": [
+            "cnt_households_w_plcm",
+            "cnt_referrals_u18"
+        ]
+    },
   "controls": [
     "qry_type_exits",
     "date_type_cohort"
