@@ -1,16 +1,16 @@
 {
-  "table": "sp_rate_placement",
-  "title": "Placement Rate",
-  "measurementOrder": 1,
+  "table": "sp_rate_referral",
+  "title": "Referral Rate",
+  "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Date",
+    "dateField": "Date",
     "valueFields": [
-      "Placement Rate"
+      "Referral Rate"
     ],
     "removeFields": [
-      "cnt_households_w_plcm",
-      "cnt_referrals_u18"
+      "cnt_referrals",
+      "tot_pop"
     ]
   },
   "controls": [],
