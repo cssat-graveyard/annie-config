@@ -46,7 +46,7 @@
     "county=Ref_Serv_County",
     "entry_point_name=access_type"
   ],
-  "returnRowStart": 9,
+  "returnRowStart": 7,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
