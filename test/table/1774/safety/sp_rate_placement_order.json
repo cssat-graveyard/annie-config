@@ -13,12 +13,11 @@
       "cnt_si_referrals"
     ]
   },
-  "controls": [
-    "order"
-  ],
+  "controls": [],
   "params": [
     "dynamicMonthStart",
-    "Ref_Serv_County"
+    "Ref_Serv_County",
+    "order"
   ],
   "dateParams": [],
   "requiredParams": [

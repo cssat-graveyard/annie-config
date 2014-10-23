@@ -1109,7 +1109,7 @@
 		"display": {
 			"legend": "Order",
 			"column": "fieldsLeft",
-			"type": "filter",
+			"type": "param",
 			"selected": "1",
             "multi": false
 		}
