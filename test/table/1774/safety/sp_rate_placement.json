@@ -1,20 +1,19 @@
 {
-    "table": "sp_rate_placement",
-    "title": "Placement Rate",
-    "measurementOrder": 1,
-    "transform": {
-        "Function": "daterow",
-        "dateField": "Cohort Period",
-        "valueFields": [
-            "Placement Rate"
-        ],
-        "removeFields": [
-            "cnt_households_w_plcm",
-            "cnt_referrals_u18"
-        ]
-    },
+  "table": "sp_rate_placement",
+  "title": "Placement Rate",
+  "measurementOrder": 1,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Cohort Period",
+    "valueFields": [
+      "Placement Rate"
+    ],
+    "removeFields": [
+      "cnt_households_w_plcm",
+      "cnt_referrals_u18"
+    ]
+  },
   "controls": [
-    "qry_type_exits",
     "date_type_cohort"
   ],
   "params": [
@@ -30,9 +29,8 @@
   "mutexAllOther": false,
   "returnRowHeaders": [
     0,
-    1,
-    4,
-    6
+    3,
+    5
   ],
   "returnRowDateHeaders": [
     0
@@ -42,12 +40,10 @@
   ],
   "headerNames": [
     "&nbsp;",
-    "qry_type*qry_type_exits",
     "county=Ref_Serv_County",
     "entry_point_name=access_type"
   ],
-    "returnRowStart": 7,
-    "columnClusterSize": 3,
+  "returnRowStart": 8,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
