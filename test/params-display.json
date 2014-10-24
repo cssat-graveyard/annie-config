@@ -1108,5 +1108,6 @@
             "visible": false,
             "type": "param",
             "help": "This is the order in which the entry occurred."
+		}
 	}
 }
