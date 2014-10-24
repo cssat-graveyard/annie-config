@@ -1102,12 +1102,16 @@
 	},
 	"order": {
         "table": "ref_filter_order",
+		"addKeyValues": {
+			"0": "All"
+		},
         "display": {
             "legend": "Order",
             "column": "advancedRight",
             "visible": false,
             "type": "param",
             "selected": [1],
+			"disabled": [0],
             "multi": true,
             "help": "This is the order in which the entry occurred."
 		}
