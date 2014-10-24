@@ -1107,7 +1107,7 @@
             "column": "advancedRight",
             "visible": false,
             "type": "param",
-            "selected": 1,
+            "selected": [1],
             "multi": true,
             "help": "This is the order in which the entry occurred."
 		}
