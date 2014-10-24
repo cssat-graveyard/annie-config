@@ -10,7 +10,7 @@
     ],
     "removeFields": [
       "cnt_referrals",
-      "cnt_order_cnt_households"
+      "prior_order_cnt_households"
     ]
   },
   "controls": [],
