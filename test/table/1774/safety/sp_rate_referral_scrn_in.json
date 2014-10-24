@@ -4,7 +4,7 @@
   "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
-    "dateField": "Date",
+    "dateField": "Cohort Date",
     "valueFields": [
       "Referral Rate"
     ],
