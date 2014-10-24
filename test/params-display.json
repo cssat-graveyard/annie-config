@@ -1101,17 +1101,12 @@
 		}
 	},
 	"order": {
-		"values": {
-			"1": "1st Order",
-			"2": "2nd Order",
-			"3": "3rd Order"
-		},
-		"display": {
-			"legend": "Order",
-			"column": "fieldsLeft",
-			"type": "param",
-			"selected": "1",
-            "multi": false
-		}
+        "table": "ref_filter_order",
+        "display": {
+            "legend": "Order",
+            "column": "advancedRight",
+            "visible": false,
+            "type": "param",
+            "help": "This is the order in which the entry occurred."
 	}
 }
