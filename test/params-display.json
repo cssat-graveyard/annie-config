@@ -1107,12 +1107,13 @@
 		},
         "display": {
             "legend": "Order",
-            "column": "advancedRight",
+            "column": "advancedLeft",
             "visible": false,
             "type": "param",
             "selected": [1],
 			"disabled": [0],
             "multi": true,
+			"zeroLast": true,
             "help": "This is the order in which the entry occurred."
 		}
 	}
