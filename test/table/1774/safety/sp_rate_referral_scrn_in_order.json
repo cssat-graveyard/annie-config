@@ -1,6 +1,6 @@
 {
   "table": "sp_rate_referrals_scrn_in_order",
-  "title": "Screened-In Referrals Rate Order",
+  "title": "Screened-In Referral Rate Order",
   "measurementOrder": 6,
   "transform": {
     "Function": "daterow",
