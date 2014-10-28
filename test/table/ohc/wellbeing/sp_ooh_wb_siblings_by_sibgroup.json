@@ -48,6 +48,7 @@
       29,
       31,
       33,
+	  34,
 	  35,
 	  36
 	],
@@ -74,7 +75,7 @@
 	  "Finding=finding",
 	  "Service Type=service_category",
 	  "Budget=budget_category",
-	  "Placement Type=kincare",
+	  "*kincare",
 	  "measure_nbr*sib_plc_measure"
 	],
 	"returnRowStart": 37,
