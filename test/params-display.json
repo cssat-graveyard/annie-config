@@ -1103,9 +1103,6 @@
 	},
 	"order": {
         "table": "ref_filter_order",
-		"addKeyValues": {
-			"0": "All"
-		},
         "display": {
             "legend": "Order",
             "column": "advancedLeft",
