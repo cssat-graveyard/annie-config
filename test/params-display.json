@@ -1108,7 +1108,7 @@
             "column": "advancedLeft",
             "visible": false,
             "type": "param",
-            "selected": [1],
+            "selected": 1,
             "multi": false,
 			"zeroLast": true,
             "help": "This is the order in which the entry occurred."
