@@ -1105,6 +1105,7 @@
         "table": "ref_filter_order",
         "display": {
             "legend": "Order",
+            "alias": "nth_order",
             "column": "advancedLeft",
             "visible": false,
             "type": "filter",
