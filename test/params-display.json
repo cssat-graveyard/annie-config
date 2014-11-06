@@ -1107,7 +1107,7 @@
             "legend": "Order",
             "column": "advancedLeft",
             "visible": false,
-            "type": "filter",
+            "type": "param",
             "selected": 1,
             "help": "This is the order in which the entry occurred."
 		}
