@@ -1109,7 +1109,6 @@
             "visible": false,
             "type": "param",
             "selected": 1,
-			"zeroLast": false,
             "help": "This is the order in which the entry occurred."
 		}
 	}
