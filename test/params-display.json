@@ -591,7 +591,6 @@
 		"table": "ref_filter_access_type",
 		"display": {
 			"legend": "Entry Point",
-			"alias": "entry_point",
 			"column": "advancedLeft",
 			"visible": false,
 			"type": "param",
