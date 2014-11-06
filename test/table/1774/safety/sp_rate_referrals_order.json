@@ -13,11 +13,12 @@
       "prior_order_cnt_households"
     ]
   },
-  "controls": [],
+  "controls": [
+    "order"
+  ],
   "params": [
     "dynamicMonthStart",
-    "Ref_Serv_County",
-    "order"
+    "Ref_Serv_County"
   ],
   "dateParams": [],
   "requiredParams": [
