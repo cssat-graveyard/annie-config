@@ -27,8 +27,8 @@
   "mutexAllOther": false,
   "returnRowHeaders": [
     0,
-    1,
-    2
+    2,
+    4
   ],
   "returnRowDateHeaders": [
     0
@@ -36,8 +36,8 @@
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "nth_order*order",
-    "county_cd*Ref_Serv_County"
+    "Order=order",
+    "County=Ref_Serv_County"
   ],
   "returnRowStart": 5,
   "hideRow": "allEmpty",
