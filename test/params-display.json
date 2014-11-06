@@ -1102,14 +1102,17 @@
 		}
 	},
 	"order": {
-        "table": "ref_filter_order",
+		"values": {
+			"1": "1st Order",
+			"2": "2nd Order",
+			"3": "3rd Order"
+		},
         "display": {
             "legend": "Order",
-            "alias": "nth_order",
             "column": "advancedLeft",
             "visible": false,
             "type": "filter",
-            "selected": 1,
+            "selected": "1",
             "zeroLast": false,
             "help": "This is the order in which the entry occurred."
 		}
