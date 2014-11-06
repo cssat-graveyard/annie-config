@@ -36,7 +36,7 @@
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "county_cd*Ref_Serv_County",
+	"County=Ref_Serv_County",
 	"Access type desc=access_type"
   ],
   "returnRowStart": 5,
