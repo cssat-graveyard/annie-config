@@ -1,6 +1,6 @@
 {
 	"table": "sp_ooh_pit_rates",
-	"title": "Rate of Out-of-Home Care per 1,000 Children on the 1st Day of the Year",
+	"title": "Rate of Out-of-Home Care per 1,000 Children on the 1st Day of the Year or Quarter",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
