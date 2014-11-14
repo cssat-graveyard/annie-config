@@ -304,10 +304,16 @@
 		}
 	},
 	"plcSetng": {
-		"table": "ref_lookup_plcsetngtype"
+		"table": "ref_lookup_plcsetngtype",
+		"display": {
+			
+		}
 	},
 	"unsafeExit": {
-		"table": "ref_lookup_unsafe_exit"
+		"table": "ref_lookup_unsafe_exit",
+		"display": {
+			
+		}
 	},
 	"qry_type": {
 		"table": "ref_lookup_qry_type",
