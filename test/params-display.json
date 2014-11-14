@@ -1111,17 +1111,17 @@
 			"disabled": [0],
             "help": "This is the order in which the entry occurred."
 		},
-  "disability": {
-    "table": "ref_lookup_disability",
-    "display": {
-      "legend": "Disability",
-      "column": "fieldsLeft",
-      "type": "filter",
-      "multi": false,
-      "zeroLast": true,
-      "disabled": [],
-      "visible": true
-    }
-  }
+	"disability": {
+		"table": "ref_lookup_disability",
+		"display": {
+			"legend": "Disability",
+			"column": "fieldsLeft",
+			"type": "filter",
+			"multi": false,
+			"zeroLast": true,
+			"disabled": [],
+			"visible": true
+		}
+	}
 	}
 }
