@@ -30,7 +30,9 @@
     5
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [
+    2
+  ],
   "headerNames": [
     "&nbsp;",
     "Cohort Period*cohort_year",
@@ -41,12 +43,6 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "Grade Level",
-    "y": "",
-    "yFormat": "##'%"
-  },
-  "numberFormat": {
-    "fractionDigits": 2,
-	"suffix": "%"
+    "y": "Grade Level"
   }
 }
