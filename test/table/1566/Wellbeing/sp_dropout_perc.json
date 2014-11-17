@@ -25,9 +25,9 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
+    1,
     2,
-    4,
-    5
+    4
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [],
