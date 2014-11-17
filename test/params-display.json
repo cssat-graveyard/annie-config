@@ -1169,7 +1169,7 @@
       "column": "fieldsRight",
       "type": "param",
       "zeroLast": true,
-      "selected": 1,
+      "selected": 3,
       "disabled": [
           0
       ]
