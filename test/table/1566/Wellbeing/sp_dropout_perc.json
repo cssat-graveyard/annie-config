@@ -14,8 +14,7 @@
     ]
   },
   "controls": [
-    "disability",
-    "cohort_year"
+    "disability"
   ],
   "params": [
     "student_type"
@@ -25,17 +24,15 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    2,
     3,
     5
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
-    2
+    5
   ],
   "headerNames": [
     "&nbsp;",
-    "Cohort Period*cohort_year",
     "Student Type=student_type",
     "fl_disability=disability"
   ],
@@ -43,6 +40,6 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "y": "Grade Level"
+    "x": "Grade Level"
   }
 }
