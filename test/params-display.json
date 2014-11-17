@@ -486,12 +486,9 @@
       "legend": "Count Type",
       "column": "advancedRight",
       "type": "filter",
-      "multi": false,
+      "multi": true,
       "zeroLast": false,
       "selected": 0,
-      "disabled": [
-        1
-      ],
       "visible": false,
       "help": "Cohort data for counts of children entering high school are aggregated into ‘first’, ‘unique’, and ‘all’ children dropping out."
     }
