@@ -1,0 +1,48 @@
+{
+  "table": "sp_dropout_perc",
+  "title": "Foster Child High School Dropout Percent",
+  "measurementOrder": 1,
+  "transform": {
+    "valueFields": [
+      "drop_out_percent"
+    ],
+    "removeFields": [
+      "i0",
+      "i1"
+    ]
+  },
+  "controls": [
+    "disability"
+  ],
+  "params": [
+    "cohort_year",
+    "student_type"
+  ],
+  "dateParams": [
+    "cohort_year"
+  ],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    1,
+    3,
+    4
+  ],
+  "returnRowDateHeaders": [
+    1
+  ],
+  "returnRowControlHeaders": [
+    4
+  ],
+  "headerNames": [
+    "cohort_year=cohort_year",
+    "Student Type=student_type",
+    "fl_disability=disability"
+  ],
+  "returnRowStart": 8,
+  "hideRow": "allEmpty",
+  "chartType": "line",
+  "labels": {
+    "y": "Grade Level"
+  }
+}

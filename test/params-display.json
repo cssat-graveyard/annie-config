@@ -1157,8 +1157,20 @@
       "type": "filter",
       "multi": false,
       "zeroLast": true,
+      "selected": 1,
       "disabled": [],
       "visible": true
+    }
+  },
+  "student_type": {
+    "table": "ref_lookup_student_type",
+    "display": {
+      "legend": "Student Type",
+      "column": "fieldsRight",
+      "type": "param",
+      "zeroLast": true,
+      "selected": 0,
+      "disabled": []
     }
   }
 }
