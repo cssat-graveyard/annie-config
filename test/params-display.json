@@ -1169,8 +1169,10 @@
       "column": "fieldsRight",
       "type": "param",
       "zeroLast": true,
-      "selected": 0,
-      "disabled": []
+      "selected": 1,
+      "disabled": [
+          0
+      ]
     }
   }
 }
