@@ -490,6 +490,7 @@
       "zeroLast": false,
       "selected": 0,
       "visible": false,
+      "resultUnavailable": "disable",
       "help": "Cohort data for counts of children entering high school are aggregated into ‘first’, ‘unique’, and ‘all’ children dropping out."
     }
   },
