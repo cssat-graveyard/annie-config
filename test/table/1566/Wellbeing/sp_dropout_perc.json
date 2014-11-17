@@ -12,15 +12,13 @@
     ]
   },
   "controls": [
-    "disability"
-  ],
-  "params": [
-    "cohort_year",
-    "student_type"
-  ],
-  "dateParams": [
+    "disability",
     "cohort_year"
   ],
+  "params": [
+    "student_type"
+  ],
+  "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
@@ -28,14 +26,13 @@
     3,
     4
   ],
-  "returnRowDateHeaders": [
-    1
-  ],
+  "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
+    1,
     4
   ],
   "headerNames": [
-    "cohort_year=cohort_year",
+    "Cohort Period*cohort_year",
     "Student Type=student_type",
     "fl_disability=disability"
   ],
