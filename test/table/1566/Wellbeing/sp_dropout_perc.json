@@ -14,10 +14,10 @@
     ]
   },
   "controls": [
-    "disability",
+    "qry_type_dropout",
     "cohort_year_dropout",
-    "qry_type_dropout"
-  ],
+    "disability"
+ ],
   "params": [
     "student_type"
   ],
