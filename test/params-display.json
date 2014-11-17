@@ -479,9 +479,8 @@
   },
   "qry_type_dropout": {
     "values": {
-      "0": "Unique Entries into High School",
-      "1": "First Entries into High School",
-      "2": "All Entries into High School"
+      "0": "All Entries into High School",
+      "1": "First Entries into High School"
     },
     "display": {
       "legend": "Count Type",
@@ -489,9 +488,8 @@
       "type": "filter",
       "multi": false,
       "zeroLast": false,
-      "selected": 2,
+      "selected": 0,
       "disabled": [
-        0,
         1
       ],
       "visible": false,
