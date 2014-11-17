@@ -4,9 +4,9 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "cohort_year",
+    "dateField": "cd_grade",
     "valueFields": [
-      "drop_out_percent"
+      "Drop Out Percent"
     ],
     "removeFields": [
       "i0",
@@ -24,21 +24,22 @@
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
-    1,
+    0,
+    2,
     3,
-    4
+    5
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
-    1,
-    4
+    2
   ],
   "headerNames": [
+    "&nbsp;",
     "cohort_year*cohort_year",
     "Student Type=student_type",
     "fl_disability=disability"
   ],
-  "returnRowStart": 8,
+  "returnRowStart": 9,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
