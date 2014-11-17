@@ -35,7 +35,7 @@
   ],
   "headerNames": [
     "&nbsp;",
-    "cohort_year*cohort_year",
+    "Cohort Period*cohort_year",
     "Student Type=student_type",
     "fl_disability=disability"
   ],
