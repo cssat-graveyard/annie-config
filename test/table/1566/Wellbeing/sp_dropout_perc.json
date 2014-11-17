@@ -34,7 +34,7 @@
   "headerNames": [
     "&nbsp;",
     "Student Type=student_type",
-    "fl_disability=disability"
+    "Disability=disability"
   ],
   "returnRowStart": 9,
   "hideRow": "allEmpty",
