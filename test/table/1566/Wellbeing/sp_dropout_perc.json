@@ -39,7 +39,7 @@
     "Student Type=student_type",
     "Disability=disability"
   ],
-  "returnRowStart": 9,
+  "returnRowStart": 8,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
