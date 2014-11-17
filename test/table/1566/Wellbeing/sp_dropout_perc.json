@@ -25,13 +25,13 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
+    1,
     2,
-    3,
-    5
+    4
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
-    2
+    1
   ],
   "headerNames": [
     "&nbsp;",
@@ -39,7 +39,7 @@
     "Student Type=student_type",
     "Disability=disability"
   ],
-  "returnRowStart": 7,
+  "returnRowStart": 6,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
