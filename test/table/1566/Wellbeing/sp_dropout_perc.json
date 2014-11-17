@@ -36,7 +36,7 @@
   "headerNames": [
     "&nbsp;",
     "Cohort Period*cohort_year_dropout",
-    "qry_type_first_unique_ia_safety*qry_type_dropout",
+    "qry_type_dropout*qry_type_first_unique_ia_safety",
     "Student Type=student_type",
     "Disability=disability"
   ],
