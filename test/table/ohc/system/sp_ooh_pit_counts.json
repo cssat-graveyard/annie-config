@@ -2,6 +2,7 @@
   "table": "sp_ooh_pit_counts",
   "Base": "sp_ooh_pit_rates",
   "title": "Count of Children in Out-of-Home Care on the 1st Day of the Year or Quarter",
+  "dropdown": "Count of Children in Out-of-Home Care",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
