@@ -3,6 +3,8 @@
   "title": "Foster Child High School Dropout Percent",
   "measurementOrder": 1,
   "transform": {
+    "Function": "daterow",
+    "dateField": "cohort_year",
     "valueFields": [
       "drop_out_percent"
     ],
