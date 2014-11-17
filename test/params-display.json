@@ -485,11 +485,10 @@
     },
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "advancedRight",
       "type": "filter",
       "multi": false,
       "zeroLast": false,
-      "sort": "qryTypeCompare",
       "selected": 2,
       "disabled": [
         0,
