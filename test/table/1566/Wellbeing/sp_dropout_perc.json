@@ -4,7 +4,7 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "cd_grade",
+    "dateField": "Grade Level",
     "valueFields": [
       "Drop Out Percent"
     ],
@@ -25,13 +25,13 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    2,
+    1,
     3,
     5
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
-    2
+    1
   ],
   "headerNames": [
     "&nbsp;",
@@ -39,7 +39,7 @@
     "Student Type=student_type",
     "Disability=disability"
   ],
-  "returnRowStart": 7,
+  "returnRowStart": 6,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
