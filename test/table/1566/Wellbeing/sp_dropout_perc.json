@@ -2,17 +2,6 @@
   "table": "sp_dropout_perc",
   "title": "Foster Child High School Dropout Percent",
   "measurementOrder": 1,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Grade Level",
-    "valueFields": [
-      "Drop Out Percent"
-    ],
-    "removeFields": [
-      "i0",
-      "i1"
-    ]
-  },
   "controls": [
     "qry_type_dropout",
     "cohort_year_dropout",
