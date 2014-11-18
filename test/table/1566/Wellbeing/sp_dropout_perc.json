@@ -6,6 +6,8 @@
     "Function": "daterow",
     "dateField": "Grade Level",
     "valueFields": [
+      "i0",
+      "i1",
       "Drop Out Percent"
     ]
   },
@@ -39,8 +41,9 @@
     "fl_disability*disability"
   ],
   "returnRowStart": 7,
+  "columnClusterSize": 3,
   "hideRow": "allEmpty",
-  "chartType": "line",
+  "chartType": "area",
   "labels": {
     "x": "Grade Level",
     "y": "",
