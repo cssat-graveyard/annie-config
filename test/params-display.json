@@ -232,7 +232,7 @@
       "zeroLast": false,
       "sort": "raceEthnicityCompare",
       "selected": 0,
-      "help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state or county.  Note that each head of household (for the Investigations & Assessment and Placement Prevention Services) or child (for the Out-of-Home Care measures) has a race AND an ethnicity."
+      "help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state or county.  Note that each head of household (for the Investigations & Assessment and Placement Prevention Services measures) or child (for the Out-of-Home Care measures) has a race AND an ethnicity."
     }
   },
   "exitType": {
