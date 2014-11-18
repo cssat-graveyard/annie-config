@@ -7,10 +7,6 @@
     "dateField": "Grade Level",
     "valueFields": [
       "Drop Out Percent"
-    ],
-    "removeFields": [
-      "i0",
-      "i1"
     ]
   },
   "controls": [
