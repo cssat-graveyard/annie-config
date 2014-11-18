@@ -9,7 +9,8 @@
       "i0",
       "i1",
       "Drop Out Percent"
-    ]
+    ],
+    "removeFields": []
   },
   "controls": [
     "qry_type_dropout",
@@ -43,7 +44,7 @@
   "returnRowStart": 7,
   "columnClusterSize": 3,
   "hideRow": "allEmpty",
-  "chartType": "area",
+  "chartType": "column",
   "labels": {
     "x": "Grade Level",
     "y": "",
