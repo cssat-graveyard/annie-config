@@ -9,13 +9,14 @@
       "Drop Out Percent"
     ],
     "removeFields": [
+      "qry_type_dropout",
       "i0",
       "i1"
     ]
   },
   "controls": [
-    "qry_type_dropout",
     "cohort_year_dropout",
+    "qry_type_dropout",
     "disability"
  ],
   "params": [
@@ -27,20 +28,18 @@
   "returnRowHeaders": [
     0,
     1,
-    2,
-    4,
-    6
+    3,
+    5
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
     "Cohort Period*cohort_year_dropout",
-    "qry_type_dropout*qry_type_dropout",
     "Student Type=student_type",
     "Disability=disability"
   ],
-  "returnRowStart": 7,
+  "returnRowStart": 6,
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
