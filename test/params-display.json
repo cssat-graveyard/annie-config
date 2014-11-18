@@ -251,10 +251,6 @@
       "type": "param"
     }
   },
-  "nbrEvent": {
-    "table": "ref_lookup_nbr_event_grouping",
-    "display": {}
-  },
   "officeGroup": {
     "_comment": "State level location",
     "table": "ref_lookup_cd_office_county_grp",
@@ -561,39 +557,6 @@
       "selected": 2,
       "alias": "date_type",
       "help": "This references the count or rate on the first day of the quarter(s) or year(s) selected."
-    }
-  },
-  "nbrSiblings": {
-    "values": [
-      "All Others",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "display": {
-      "legend": "Number of Siblings",
-      "column": "advancedLeft",
-      "type": "param",
-      "visible": false
-    }
-  },
-  "custody": {
-    "values": [
-      "Non-DCFS and DCFS",
-      "DCFS"
-    ],
-    "display": {
-      "legend": "Custody",
-      "column": "advancedLeft",
-      "type": "param",
-      "visible": false
     }
   },
   "removalReason": {
