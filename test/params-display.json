@@ -473,23 +473,6 @@
       "help": "Data for counts/rate of investigations/assessments are aggregated into ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘First Investigation/Assessment’ is the first ever referral that was screened in for investigation/assessment. ‘Unique Investigations/Assessments’ references the first investigation/assessment within a given time period. ‘All Investigations/Assessments’ includes all referrals that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
-  "qry_type_dropout": {
-    "values": {
-      "0": "All Entries into High School",
-      "1": "First Entries into High School"
-    },
-    "display": {
-      "legend": "Count Type",
-      "column": "advancedRight",
-      "type": "filter",
-      "multi": true,
-      "zeroLast": false,
-      "selected": 0,
-      "visible": false,
-      "resultUnavailable": "disable",
-      "help": "Cohort data for counts of children entering high school are aggregated into ‘first’, ‘unique’, and ‘all’ children dropping out."
-    }
-  },
   "service_type": {
     "table": "ref_lookup_service_type",
     "display": {
