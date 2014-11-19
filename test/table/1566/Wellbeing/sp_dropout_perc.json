@@ -6,11 +6,12 @@
     "Function": "daterow",
     "dateField": "Grade Level",
     "valueFields": [
-      "i0",
-      "i1",
       "Drop Out Percent"
     ],
-    "removeFields": []
+    "removeFields": [
+      "i0",
+      "i1"
+    ]
   },
   "controls": [
     "qry_type_dropout",
@@ -41,8 +42,7 @@
     "Student Type=student_type",
     "fl_disability*disability"
   ],
-  "returnRowStart": 7,
-  "columnClusterSize": 3,
+  "returnRowStart": 6,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
