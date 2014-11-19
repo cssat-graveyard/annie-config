@@ -14,7 +14,6 @@
     ]
   },
   "controls": [
-    "qry_type_dropout",
     "cohort_year_dropout",
     "disability"
  ],
@@ -27,22 +26,20 @@
   "returnRowHeaders": [
     0,
     1,
-    2,
-    4,
-    5
+    3,
+    4
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
-    5
+    4
   ],
   "headerNames": [
     "&nbsp;",
     "Cohort Period*cohort_year_dropout",
-    "qry_type_dropout*qry_type_dropout",
     "Student Type=student_type",
     "fl_disability*disability"
   ],
-  "returnRowStart": 6,
+  "returnRowStart": 5,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
