@@ -47,6 +47,7 @@
   "chartType": "column",
   "labels": {
     "x": "",
-    "y": ""
+    "y": "",
+    "yFormat": "##.00"
   }
 }
