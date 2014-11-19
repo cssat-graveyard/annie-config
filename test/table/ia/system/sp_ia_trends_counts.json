@@ -1,6 +1,5 @@
 {
   "title": "Count of Investigations & Assessments",
-  "Base": "sp_ia_trends_rates",
   "measurementOrder": 1,
   "table": "sp_ia_trends_counts",
   "transform": {

@@ -1,6 +1,5 @@
 {
   "table": "sp_ia_trends_rates",
-  "Base": "sp_ia_trends_rates",
   "title": "Rate of Investigations & Assessments (per 1,000)",
   "dropdown": "Rate of Investigations & Assessments",
   "measurementOrder": 2,
