@@ -1174,7 +1174,8 @@
       "selected": 3,
       "disabled": [
           0
-      ]
+      ],
+      "visible": true
     }
   }
 }

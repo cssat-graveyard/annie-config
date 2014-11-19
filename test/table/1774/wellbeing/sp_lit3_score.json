@@ -44,7 +44,7 @@
   ],
   "returnRowStart": 4,
   "hideRow": "allEmpty",
-  "chartType": "line",
+  "chartType": "column",
   "labels": {
     "x": "",
     "y": ""
