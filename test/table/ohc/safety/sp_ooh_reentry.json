@@ -1,6 +1,7 @@
 {
   "table": "sp_ooh_reentry",
-  "title": "Re-Entry into Out-of-Home Care",
+  "title": "Percent Re-Entering into Out-of-Home Care",
+  "dropdown": "Re-Enty into Out-of-Home Care",
   "transform": {
     "Function": "daterow",
 	"dateField": "Months Since Exiting Out-of-Home Care",
