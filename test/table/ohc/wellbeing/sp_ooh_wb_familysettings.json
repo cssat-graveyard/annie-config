@@ -1,6 +1,8 @@
 {
   "table": "sp_ooh_wb_familysettings",
   "title": "Percent of Placements in Family Settings on the 1st Day of the Year",
+  "dropdown": "Percent of Placements in Family Settings",
+  Out-of-Home Care Entries 
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",

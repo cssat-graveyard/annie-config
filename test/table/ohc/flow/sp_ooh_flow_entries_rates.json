@@ -1,6 +1,7 @@
 {
   "table": "sp_ooh_flow_entries_rates",
   "title": "Rate of Out-of-Home Care Entries per 1,000 Children",
+  "dropdown": "Rate of Out-of-Home Care Entries",
   "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
