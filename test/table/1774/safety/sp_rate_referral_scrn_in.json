@@ -1,6 +1,7 @@
 {
   "table": "sp_rate_referral_scrn_in",
   "title": "Screened-In Referral Rate",
+  "dropdown": "Screened-In Referral Rate per 1,000 Households with a Referral",
   "measurementOrder": 4,
   "transform": {
     "Function": "daterow",
