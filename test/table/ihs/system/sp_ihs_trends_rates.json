@@ -80,7 +80,7 @@
         "chartId": "chart1",
         "style": "",
         "baseOptions": {
-          "width": 615,
+          "width": 765,
           "height": 215,
           "chartArea": {
             "left": 75,
@@ -103,7 +103,7 @@
         "chartId": "chart2",
         "style": "",
         "baseOptions": {
-          "width": 615,
+          "width": 765,
           "height": 215,
           "chartArea": {
             "left": 75,
