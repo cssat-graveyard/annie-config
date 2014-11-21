@@ -41,7 +41,7 @@
   ],
   "returnRowStart": 5,
   "hideRow": "allEmpty",
-  "chartType": "column",
+  "chartType": "steppedArea",
   "labels": {
     "x": "Grade Level",
     "y": "",

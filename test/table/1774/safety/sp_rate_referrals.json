@@ -42,7 +42,7 @@
   ],
   "returnRowStart": 5,
   "hideRow": "allEmpty",
-  "chartType": "line",
+  "chartType": "scatterChart",
   "labels": {
     "x": "",
     "y": ""
