@@ -69,7 +69,10 @@
 		"chartType": "area",
 		"chartId": "chart1",
 		"style": "",
-		"hideColumns": []
+        "labels": {
+          "x": "",
+          "y": ""
+        }
       }
     ],
     "Opened-Investigations-_A-Assessments": [
@@ -77,6 +80,10 @@
 		"chartType": "area",
 		"chartId": "chart1",
 		"style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
 		"hideColumns": [1],
 		"addInputClass": "multiAllowed"
       }
@@ -86,6 +93,10 @@
 		"chartType": "area",
 		"chartId": "chart1",
 		"style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
 		"hideColumns": [0],
 	    "addInputClass": "multiAllowed"
       }
@@ -95,9 +106,5 @@
     {
       "fractionDigits": 2
     }
-  ],
-  "labels": {
-    "x": "",
-    "y": ""
-  }
+  ]
 }
