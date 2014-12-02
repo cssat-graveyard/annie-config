@@ -30,7 +30,6 @@
   ],
   "returnRowHeaders": [
     1,
-    2,
     4,
     6,
   8,
@@ -43,7 +42,7 @@
     0
   ],
   "returnRowControlHeaders": [
-    1,2
+    1
   ],
   "headerNames": [
     "&nbsp;",
