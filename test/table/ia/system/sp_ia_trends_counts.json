@@ -77,7 +77,11 @@
       {
         "chartType": "area",
         "chartId": "chart1",
-        "style": ""
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
       }
     ],
     "Opened-Investigations-_A-Assessments": [
@@ -85,6 +89,10 @@
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
         "hideColumns": [
           1
         ],
@@ -96,6 +104,10 @@
         "chartType": "area",
         "chartId": "chart1",
         "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
         "hideColumns": [
           0
         ],
