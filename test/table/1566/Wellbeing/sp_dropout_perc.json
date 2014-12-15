@@ -8,15 +8,12 @@
     "valueFields": [
       "Drop Out Percent"
     ],
-    "removeFields": [
-      "i0",
-      "i1"
-    ]
+    "removeFields": []
   },
   "controls": [
     "cohort_year_dropout",
     "disability"
- ],
+  ],
   "params": [
     "student_type"
   ],
@@ -49,6 +46,6 @@
   },
   "numberFormat": {
     "fractionDigits": 2,
-	"suffix": "%"
+    "suffix": "%"
   }
 }
