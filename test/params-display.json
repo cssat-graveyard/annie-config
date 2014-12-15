@@ -908,6 +908,7 @@
   },
   "cohort_year_dropout": {
     "values": {
+      "2006": 2006,
       "2007": 2007,
       "2008": 2008,
       "2009": 2009,
@@ -1143,7 +1144,6 @@
       "multi": false,
       "zeroLast": true,
       "selected": 1,
-      "disabled": [],
       "visible": true
     }
   },
@@ -1156,7 +1156,7 @@
       "zeroLast": true,
       "selected": 3,
       "disabled": [
-          0
+        0
       ],
       "visible": true
     }
