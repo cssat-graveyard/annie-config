@@ -1141,7 +1141,7 @@
       "legend": "Disability",
       "column": "fieldsLeft",
       "type": "filter",
-      "multi": false,
+      "multi": true,
       "zeroLast": true,
       "selected": 1,
       "visible": true
