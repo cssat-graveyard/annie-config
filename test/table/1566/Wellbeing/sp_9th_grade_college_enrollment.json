@@ -1,0 +1,47 @@
+{
+  "table": "sp_9th_grade_college_enrollment",
+  "title": "9th Grade College Enrollment",
+  "measurementOrder": 3,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Cohort Period",
+    "valueFields": [
+      "Post-Secondary Enrollment"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "disability"
+  ],
+  "params": [
+    "student_type"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    2,
+    3
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    3
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "Student Type=student_type",
+    "fl_disability*disability"
+  ],
+  "returnRowStart": 4,
+  "hideRow": "allEmpty",
+  "chartType": "column",
+  "labels": {
+    "x": "Year",
+    "y": "Percent",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2
+  }
+}
