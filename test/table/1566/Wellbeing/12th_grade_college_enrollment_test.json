@@ -3,6 +3,7 @@
   "title": "12 th grade test",
   "measurementOrder": 4,
   "transform": {
+    "Function": "rotate",
     "valueFields": [
       "Post-Secondary Enrollment"
     ],
