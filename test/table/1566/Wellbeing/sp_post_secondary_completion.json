@@ -11,7 +11,9 @@
     "removeFields": []
   },
   "controls": [],
-  "params": [],
+  "params": [
+    "student_type"
+  ],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
@@ -20,18 +22,16 @@
     2
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
-    0
-  ],
+  "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "Student Type*"
+    "Student Type=student_type"
   ],
   "returnRowStart": 3,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
-    "x": "Student Type",
+    "x": "Date",
     "y": "Percent",
     "yFormat": "##'%"
   },
