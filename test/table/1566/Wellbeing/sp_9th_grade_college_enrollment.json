@@ -11,11 +11,10 @@
     "removeFields": []
   },
   "controls": [
-    "disability"
-  ],
-  "params": [
+    "disability",
     "student_type"
   ],
+  "params": [],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
@@ -26,6 +25,7 @@
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
+    2,
     3
   ],
   "headerNames": [
