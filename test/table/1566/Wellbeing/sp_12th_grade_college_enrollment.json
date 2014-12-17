@@ -37,7 +37,7 @@
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
-    "x": "Year",
+    "x": "Student Type",
     "y": "Percent",
     "yFormat": "##'%"
   },
