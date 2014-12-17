@@ -4,13 +4,15 @@
   "measurementOrder": 4,
   "transform": {
     "Function": "daterow",
-    "dateField": "Student Type",
+    "dateField": "cd_student_type",
     "valueFields": [
       "Post-Secondary Completion"
     ],
     "removeFields": []
   },
-  "controls": [],
+  "controls": [
+    "cohort_year"
+  ],
   "params": [],
   "dateParams": [],
   "requiredParams": [],
@@ -21,11 +23,11 @@
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
-    0
+    1
   ],
   "headerNames": [
     "&nbsp;",
-    "Cohort Period*"
+    "Cohort Period*cohort_year"
   ],
   "returnRowStart": 3,
   "hideRow": "allEmpty",
