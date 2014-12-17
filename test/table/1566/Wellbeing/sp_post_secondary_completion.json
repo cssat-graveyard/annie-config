@@ -1,0 +1,42 @@
+{
+  "table": "sp_post_secondary_completion",
+  "title": "College Completion",
+  "measurementOrder": 4,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Student Type",
+    "valueFields": [
+      "Post-Secondary Completion"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    0
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "Cohort Period*"
+  ],
+  "returnRowStart": 3,
+  "hideRow": "allEmpty",
+  "chartType": "column",
+  "labels": {
+    "x": "Student Type",
+    "y": "Percent",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
+  }
+}
