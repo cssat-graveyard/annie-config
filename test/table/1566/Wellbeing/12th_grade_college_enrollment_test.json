@@ -3,32 +3,27 @@
   "title": "12 th grade test",
   "measurementOrder": 4,
   "transform": {
-    "Function": "rotate",
     "valueFields": [
       "Post-Secondary Enrollment"
     ],
     "removeFields": []
   },
-  "controls": [
-    "disability"
-  ],
+  "controls": [],
   "params": [
     "student_type"
   ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+    "student_type"
+  ],
   "showAllOthers": true,
   "returnRowHeaders": [
-    2,
-    3
+    2
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
-    3
-  ],
+  "returnRowControlHeaders": [],
   "headerNames": [
-    "Student Type=student_type",
-    "fl_disability=disability"
+    "Student Type=student_type"
   ],
   "returnRowStart": 4,
   "hideRow": "anyEmpty",
