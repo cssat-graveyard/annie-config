@@ -1,7 +1,7 @@
 {
   "table": "sp_12th_grade_college_enrollment",
   "title": "12th Grade Cohort College Enrollment",
-  "measurementOrder": 2,
+  "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
     "dateField": "cd_student_type",
@@ -27,7 +27,7 @@
   "returnRowControlHeaders": [
     1,
     2,
-	3
+    3
   ],
   "headerNames": [
     "&nbsp;",
