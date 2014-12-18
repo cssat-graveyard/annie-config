@@ -253,14 +253,9 @@
   },
   "officeGroup": {
     "_comment": "State level location",
-    "table": "ref_lookup_cd_office_county_grp",
     "addKeyValues": {
       "0": "All"
     },
-    "removeKeys": [
-      28
-    ],
-    "orderBy": "tx_office_county_grp",
     "display": {
       "legend": "Service County",
       "column": "advancedRight",
@@ -908,14 +903,14 @@
   },
   "cohort_year_dropout": {
     "values": {
-      "2006": 2006,
-      "2007": 2007,
-      "2008": 2008,
-      "2009": 2009,
-      "2010": 2010,
-      "2011": 2011,
-      "2012": 2012,
-      "2013": 2013
+      "2006": "2006",
+      "2007": "2006/2007 school year",
+      "2008": "2008",
+      "2009": "2009",
+      "2010": "2010",
+      "2011": "2011",
+      "2012": "2012",
+      "2013": "2013"
     },
     "display": {
       "legend": "High School Entry Cohort Year",
@@ -923,7 +918,7 @@
       "type": "filter",
       "multi": true,
       "zeroLast": false,
-      "selected": "2007",
+      "selected": 2007,
       "alias": "Cohort Period",
       "resultUnavailable": "hide",
       "help": "This filter allows you to follow children that entered high school from 2007 to the most recent available data."
@@ -1106,12 +1101,6 @@
   "ServiceCnty": {
     "_comment": "Missing / Other",
     "table": "ref_lookup_county",
-    "addKeyValues": {
-      "0": "All"
-    },
-    "removeKeys": [
-      -99
-    ],
     "display": {
       "legend": "Service County",
       "column": "advancedRight",
