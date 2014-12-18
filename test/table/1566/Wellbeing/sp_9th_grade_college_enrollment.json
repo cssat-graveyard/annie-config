@@ -13,27 +13,21 @@
   "controls": [
     "disability"
   ],
-  "params": [
-    "student_type"
-  ],
+  "params": [],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    2,
-    3
+    2
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
-    3
-  ],
+  "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "Student Type=student_type",
     "fl_disability*disability"
   ],
-  "returnRowStart": 4,
+  "returnRowStart": 3,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
