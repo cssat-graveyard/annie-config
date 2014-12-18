@@ -925,7 +925,7 @@
       "zeroLast": false,
       "selected": "2007",
       "alias": "Cohort Period",
-      "resultUnavailable": "disable",
+      "resultUnavailable": "hide",
       "help": "This filter allows you to follow children that entered high school from 2007 to the most recent available data."
     }
   },
