@@ -1,6 +1,6 @@
 {
   "table": "sp_post_secondary_completion",
-  "title": "College Completion",
+  "title": "Post-Secondary Completion",
   "measurementOrder": 4,
   "transform": {
     "Function": "daterow",
