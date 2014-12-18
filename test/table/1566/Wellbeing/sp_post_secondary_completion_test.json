@@ -1,0 +1,35 @@
+{
+  "table": "sp_post_secondary_completion",
+  "title": "Post-Secondary Completion Test",
+  "measurementOrder": 5,
+  "transform": {
+    "Function": "daterow",
+    "valueFields": [
+      "Post-Secondary Completion"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "cohort_year"
+  ],
+  "params": [],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    1
+  ],
+  "headerNames": [
+    "Cohort Period=cohort_year"
+  ],
+  "returnRowStart": 3,
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
+  }
+}

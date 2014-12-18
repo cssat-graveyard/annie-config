@@ -1,8 +1,10 @@
 {
-  "table": "sp_12th_grade_college_enrollment",
-  "title": "12th Grade Cohort College Enrollment Test",
+  "table": "sp_9th_grade_college_enrollment",
+  "title": "9th Grade Cohort College Enrollment Test",
   "measurementOrder": 4,
   "transform": {
+    "Function": "daterow",
+    "dateField": "cd_student_type",
     "valueFields": [
       "Post-Secondary Enrollment"
     ],
@@ -18,8 +20,7 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    1,
-    2
+    1
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
@@ -27,15 +28,14 @@
     2
   ],
   "headerNames": [
-    "cd_student_type*",
+    "&nbsp;",
     "Cohort Period=cohort_year",
     "fl_disability=disability"
   ],
   "returnRowStart": 3,
-  "chartType": "column",
-  "labels": {
-    "x": "Student Type",
-    "y": "Enrolled in Post-Secondary Education",
-    "yFormat": "##'%"
+  "hideRow": "anyEmpty",
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
   }
 }
