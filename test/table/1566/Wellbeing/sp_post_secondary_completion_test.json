@@ -4,6 +4,7 @@
   "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
+    "dateField": "cd_student_type",
     "valueFields": [
       "Post-Secondary Completion"
     ],
@@ -25,9 +26,10 @@
     1
   ],
   "headerNames": [
+    "&nbsp;",
     "Cohort Period=cohort_year"
   ],
-  "returnRowStart": 3,
+  "returnRowStart": 2,
   "numberFormat": {
     "fractionDigits": 2,
     "suffix": "%"
