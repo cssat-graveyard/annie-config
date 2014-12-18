@@ -11,7 +11,7 @@
     "removeFields": []
   },
   "controls": [
-    "cohort_year",
+    "cohort_year_dropout",
     "disability"
   ],
   "params": [],
@@ -30,7 +30,7 @@
   ],
   "headerNames": [
     "&nbsp;",
-    "Cohort Period=cohort_year",
+    "Cohort Period=cohort_year_dropout",
     "fl_disability=disability"
   ],
   "returnRowStart": 3,
