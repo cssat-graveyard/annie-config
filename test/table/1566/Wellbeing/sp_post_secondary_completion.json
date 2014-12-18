@@ -1,38 +1,39 @@
 {
   "table": "sp_post_secondary_completion",
   "title": "Post-Secondary Completion",
-  "measurementOrder": 4,
+  "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Period",
+    "dateField": "cd_student_type",
     "valueFields": [
       "Post-Secondary Completion"
     ],
     "removeFields": []
   },
-  "controls": [],
-  "params": [
-    "student_type"
+  "controls": [
+    "cohort_year"
   ],
+  "params": [],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    2
+    1
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [
+    1
+  ],
   "headerNames": [
     "&nbsp;",
-    "Student Type=student_type"
+    "Cohort Period=cohort_year"
   ],
-  "returnRowStart": 3,
-  "hideRow": "allEmpty",
+  "returnRowStart": 2,
   "chartType": "column",
   "labels": {
-    "x": "Date",
-    "y": "Completed Post-Secondary Education",
+    "x": "",
+    "y": "",
     "yFormat": "##'%"
   },
   "numberFormat": {
