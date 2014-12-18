@@ -32,8 +32,8 @@
   "returnRowStart": 2,
   "chartType": "column",
   "labels": {
-    "x": "",
-    "y": "",
+    "x": "Student Type",
+    "y": "Completed Post-Secondary Education",
     "yFormat": "##'%"
   },
   "numberFormat": {
