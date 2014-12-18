@@ -35,6 +35,12 @@
   ],
   "returnRowStart": 3,
   "hideRow": "anyEmpty",
+  "chartType": "column",
+  "labels": {
+    "x": "Student Type",
+    "y": "Enrolled in Post-Secondary Education",
+    "yFormat": "##'%"
+  },
   "numberFormat": {
     "fractionDigits": 2,
     "suffix": "%"
