@@ -1,6 +1,6 @@
 {
   "table": "sp_9th_grade_college_enrollment",
-  "title": "9th Grade College Enrollment",
+  "title": "9th Grade Cohort College Enrollment",
   "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
