@@ -30,6 +30,7 @@
     "Cohort Period=cohort_year"
   ],
   "returnRowStart": 2,
+  "hideRow": "anyEmpty",
   "chartType": "column",
   "labels": {
     "x": "Student Type",
