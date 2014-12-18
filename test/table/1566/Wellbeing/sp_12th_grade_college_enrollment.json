@@ -38,7 +38,7 @@
   "chartType": "column",
   "labels": {
     "x": "Student Type",
-    "y": "Percent",
+    "y": "Enrolled in Post-Secondary Education",
     "yFormat": "##'%"
   },
   "numberFormat": {

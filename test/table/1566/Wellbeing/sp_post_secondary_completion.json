@@ -32,7 +32,7 @@
   "chartType": "column",
   "labels": {
     "x": "Date",
-    "y": "Percent",
+    "y": "Completed Post-Secondary Education",
     "yFormat": "##'%"
   },
   "numberFormat": {
