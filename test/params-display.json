@@ -1133,7 +1133,8 @@
       "multi": true,
       "zeroLast": true,
       "selected": 1,
-      "visible": true
+      "visible": true,
+	  "help": "Lorem Ipsum."
     }
   },
   "student_type": {
@@ -1147,7 +1148,8 @@
       "disabled": [
         0
       ],
-      "visible": true
+      "visible": true,
+	  "help": "Lorem Ipsum."
     }
   }
 }
