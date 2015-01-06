@@ -1,11 +1,7 @@
 {
   "table": "sp_12th_grade_college_enrollment_pvt",
   "title": "12th Grade Cohort College Enrollment",
-  "measurementOrder": 3,
-  "transform": {
-    "valueFields": [],
-    "removeFields": []
-  },
+  "measurementOrder": 5,
   "controls": [
     "cohort_year",
     "disability"
@@ -28,6 +24,8 @@
     "fl_disability*disability"
   ],
   "hideRow": "allEmpty",
+  "columnClusterSize": 3,
+  "returnRowStart": 2,
   "chartType": "column",
   "labels": {
     "x": "Student Type",
