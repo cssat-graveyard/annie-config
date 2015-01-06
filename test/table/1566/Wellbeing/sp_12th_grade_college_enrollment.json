@@ -28,6 +28,8 @@
     "fl_disability*disability"
   ],
   "hideRow": "allEmpty",
+  "columnClusterSize": 3,
+  "returnRowStart": 2,
   "chartType": "column",
   "labels": {
     "x": "Student Type",
