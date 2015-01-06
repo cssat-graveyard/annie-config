@@ -1,13 +1,9 @@
 {
-  "table": "sp_12th_grade_college_enrollment_pvt",
-  "title": "12th Grade Cohort College Enrollment",
-  "measurementOrder": 3,
-  "transform": {
-    "valueFields": [],
-    "removeFields": []
-  },
+  "table": "sp_9th_grade_college_enrollment_pvt",
+  "title": "9th Grade Cohort College Enrollment",
+  "measurementOrder": 6,
   "controls": [
-    "cohort_year",
+    "cohort_year_dropout",
     "disability"
   ],
   "params": [],
@@ -16,7 +12,7 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    1
+    1,
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
@@ -24,18 +20,21 @@
     1
   ],
   "headerNames": [
-    "Cohort Period=cohort_year",
-    "fl_disability*disability"
+    "&nbsp;",
+    "Cohort Period=cohort_year_dropout",
+    "fl_disability=disability"
   ],
   "hideRow": "allEmpty",
+  "columnClusterSize": 3,
+  "returnRowStart": 2,
   "chartType": "column",
   "labels": {
-    "x": "Student Type",
+    "x": "Year",
     "y": "Enrolled in Post-Secondary Education",
     "yFormat": "##'%"
   },
   "numberFormat": {
     "fractionDigits": 2,
-    "suffix": "%"
+	"suffix": "%"
   }
 }
