@@ -23,7 +23,7 @@
   ],
   "hideRow": "anyEmpty",
   "chartType": "column",
-   "columnClusterSize": 3,
+  "columnClusterSize": 3,
   "returnRowStart": 2,
   "labels": {
     "x": "Student Type",
