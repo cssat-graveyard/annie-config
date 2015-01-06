@@ -16,9 +16,13 @@
   "returnRowControlHeaders": [
     -1
   ],
-  "headerNames": [],
+  "headerNames": [
+	"Cohort Period=cohort_year_dropout"
+ ],
   "hideRow": "anyEmpty",
   "chartType": "column",
+  "columnClusterSize": 3,
+  "returnRowStart": 2,
   "labels": {
     "x": "",
     "y": ""
