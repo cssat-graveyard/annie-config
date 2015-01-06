@@ -1,7 +1,7 @@
 {
   "table": "sp_9th_grade_college_enrollment_pvt",
   "title": "9th Grade Cohort College Enrollment",
-  "measurementOrder": 6,
+  "measurementOrder": 2,
   "controls": [
     "cohort_year_dropout",
     "disability"
@@ -12,7 +12,7 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    1,
+    1
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
@@ -20,7 +20,6 @@
     1
   ],
   "headerNames": [
-    "&nbsp;",
     "Cohort Period=cohort_year_dropout",
     "fl_disability=disability"
   ],
