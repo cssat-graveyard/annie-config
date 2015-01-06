@@ -3,8 +3,6 @@
   "title": "12th Grade Cohort College Enrollment",
   "measurementOrder": 3,
   "transform": {
-    "Function": "daterow",
-    "dateField": "cd_student_type",
     "valueFields": [
       "Post-Secondary Enrollment"
     ],
@@ -29,7 +27,7 @@
     2
   ],
   "headerNames": [
-    "&nbsp;",
+    "cd_student_type",
     "Cohort Period*cohort_year_dropout",
     "fl_disability*disability"
   ],
