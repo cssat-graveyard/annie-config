@@ -21,9 +21,10 @@
   "headerNames": [
     "Cohort Period=cohort_year_dropout"
   ],
-  "returnRowStart": 2,
   "hideRow": "anyEmpty",
   "chartType": "column",
+   "columnClusterSize": 3,
+  "returnRowStart": 2,
   "labels": {
     "x": "Student Type",
     "y": "Completed Post-Secondary Education",
