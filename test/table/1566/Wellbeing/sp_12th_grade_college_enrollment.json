@@ -1,15 +1,13 @@
 {
-  "table": "sp_12th_grade_college_enrollment",
+  "table": "sp_12th_grade_college_enrollment_pvt",
   "title": "12th Grade Cohort College Enrollment",
   "measurementOrder": 3,
   "transform": {
-    "valueFields": [
-      "Post-Secondary Enrollment"
-    ],
+    "valueFields": [],
     "removeFields": []
   },
   "controls": [
-    "cohort_year_dropout",
+    "cohort_year",
     "disability"
   ],
   "params": [],
@@ -18,20 +16,17 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    1,
-    2
+    1
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
-    1,
-    2
+    0,
+    1
   ],
   "headerNames": [
-    "cd_student_type",
-    "Cohort Period*cohort_year_dropout",
+    "Cohort Period=cohort_year",
     "fl_disability*disability"
   ],
-  "returnRowStart": 3,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
