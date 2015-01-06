@@ -1,15 +1,7 @@
 {
-  "table": "sp_post_secondary_completion",
+  "table": "sp_post_secondary_completion_pvt",
   "title": "Post-Secondary Completion",
   "measurementOrder": 4,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "cd_student_type",
-    "valueFields": [
-      "Post-Secondary Completion"
-    ],
-    "removeFields": []
-  },
   "controls": [
     "cohort_year_dropout"
   ],
@@ -26,7 +18,6 @@
     1
   ],
   "headerNames": [
-    "&nbsp;",
     "Cohort Period=cohort_year_dropout"
   ],
   "returnRowStart": 2,
