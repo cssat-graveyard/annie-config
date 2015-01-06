@@ -3,7 +3,7 @@
   "title": "12th Grade Cohort College Enrollment",
   "measurementOrder": 5,
   "controls": [
-    "cohort_year",
+    "cohort_year_dropout",
     "disability"
   ],
   "params": [],
@@ -20,7 +20,7 @@
     1
   ],
   "headerNames": [
-    "Cohort Period=cohort_year",
+    "Cohort Period=cohort_year_dropout",
     "fl_disability*disability"
   ],
   "hideRow": "allEmpty",
