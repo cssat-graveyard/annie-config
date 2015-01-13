@@ -1154,5 +1154,16 @@
       "visible": true,
       "help": "Lorem Ipsum."
     }
+  },
+  "Region": {
+    "table": "ref_lookup_region",
+    "display": {
+      "legend": "Region",
+      "column": "fieldsLeft",
+      "type": "param",
+      "multi": true,
+      "selected": 0,
+      "visible": true
+    }
   }
 }

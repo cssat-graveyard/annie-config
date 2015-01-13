@@ -1,0 +1,75 @@
+{
+  "table": "sp_rate_placement_ts",
+  "dropdown": "Time Series Placement Rate",
+  "measurementOrder": 7,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Cohort Date",
+    "valueFields": [
+      "Placement Rate",
+      "Trend"
+    ],
+    "removeFields": [
+      "cnt_households_w_plcm",
+      "cnt_referrals_u18"
+    ]
+  },
+  "controls": [],
+  "params": [
+    "dynamicMonthStart",
+    "Region",
+    "access_type"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    2,
+    4
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region",
+    "Access type desc=access_type"
+  ],
+  "returnRowStart": 5,
+  "hideRow": "allEmpty",
+  "columnClusterSize": 2,
+  "multicharts": {
+    "scatter": [
+      {
+        "chartType": "scatterChart",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1
+        ]
+      }
+    ],
+    "Line": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ]
+  }
+}
