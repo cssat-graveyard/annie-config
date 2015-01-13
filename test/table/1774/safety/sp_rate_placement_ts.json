@@ -43,30 +43,32 @@
   "returnRowStart": 5,
   "hideRow": "allEmpty",
   "columnClusterSize": 2,
-  "charts": [
-    {
-      "chartType": "scatterChart",
-      "chartId": "chart1",
-      "style": "",
-      "labels": {
-        "x": "",
-        "y": ""
+  "multicharts": {
+    "Chart": [
+      {
+        "chartType": "scatterChart",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1
+        ]
       },
-      "hideColumns": [
-        1
-      ]
-    },
-    {
-      "chartType": "line",
-      "chartId": "chart2",
-      "style": "",
-      "labels": {
-        "x": "",
-        "y": ""
-      },
-      "hideColumns": [
-        0
-      ]
-    }
-  ]
+      {
+        "chartType": "line",
+        "chartId": "chart2",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ]
+  }
 }
