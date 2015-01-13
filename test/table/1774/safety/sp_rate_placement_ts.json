@@ -77,7 +77,22 @@
         "labels": {
           "x": "",
           "y": ""
-        }
+        },
+        "hideColumns": [
+          0
+        ]
+      },
+      {
+        "chartType": "scatterChart",
+        "chartId": "chart2",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1
+        ]
       }
     ]
   }
