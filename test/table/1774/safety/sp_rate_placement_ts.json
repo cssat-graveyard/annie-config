@@ -47,7 +47,7 @@
     "Chart": [
       {
         "chartType": "scatterChart",
-        "chartId": "chart1",
+        "chartId": "Scatter",
         "style": "",
         "labels": {
           "x": "",
@@ -56,18 +56,28 @@
         "hideColumns": [
           1
         ]
-      },
+      }
+    ],
+    "line": [
       {
         "chartType": "line",
-        "chartId": "chart2",
+        "chartId": "chart1",
         "style": "",
         "labels": {
           "x": "",
           "y": ""
-        },
-        "hideColumns": [
-          0
-        ]
+        }
+      }
+    ],
+    "both": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
       }
     ]
   }
