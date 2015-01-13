@@ -76,7 +76,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "",
+          "yMax": 120.0
         },
         "hideColumns": [
           0
@@ -88,7 +89,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "",
+          "yMax": 120.0
         },
         "hideColumns": [
           1
