@@ -1,5 +1,6 @@
 {
   "table": "sp_rate_placement_ts",
+  "title": "Time Series Placement Rate",
   "dropdown": "Time Series Placement Rate",
   "measurementOrder": 7,
   "transform": {
@@ -42,34 +43,30 @@
   "returnRowStart": 5,
   "hideRow": "allEmpty",
   "columnClusterSize": 2,
-  "multicharts": {
-    "scatter": [
-      {
-        "chartType": "scatterChart",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1
-        ]
-      }
-    ],
-    "Line": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
-        ]
-      }
-    ]
-  }
+  "charts": [
+    {
+      "chartType": "scatterChart",
+      "chartId": "chart1",
+      "style": "",
+      "labels": {
+        "x": "",
+        "y": ""
+      },
+      "hideColumns": [
+        1
+      ]
+    },
+    {
+      "chartType": "line",
+      "chartId": "chart2",
+      "style": "",
+      "labels": {
+        "x": "",
+        "y": ""
+      },
+      "hideColumns": [
+        0
+      ]
+    }
+  ]
 }
