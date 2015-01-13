@@ -84,7 +84,7 @@
       },
       {
         "chartType": "scatterChart",
-        "chartId": "chart1",
+        "chartId": "chart2",
         "style": "",
         "labels": {
           "x": "",
