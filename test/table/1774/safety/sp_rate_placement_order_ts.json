@@ -42,5 +42,33 @@
   ],
   "returnRowStart": 5,
   "hideRow": "allEmpty",
-  "columnClusterSize": 2
+  "columnClusterSize": 2,
+  "multicharts": {
+    "Scatter and Trend": [
+      {
+        "chartType": "scatterChart",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1
+        ]
+      },
+      {
+        "chartType": "line",
+        "chartId": "chart2",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ]
+  }
 }
