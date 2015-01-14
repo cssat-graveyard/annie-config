@@ -49,7 +49,6 @@
      "returnRowStart":5,
      "hideRow":"allEmpty",
      "columnClusterSize":2,
-     "chartType":"combo",
      "trendCol":1,
      "chartId":"chart1",
      "style":"",
@@ -60,6 +59,7 @@
      "multicharts":{  
         "Overview":[  
            {  
+              "chartType":"combo",
               "hideColumns":[  
                  
               ]
@@ -67,6 +67,7 @@
         ],
         "Chart":[  
            {  
+              "chartType":"scatterChart",
               "hideColumns":[  
                  1
               ]
@@ -74,6 +75,7 @@
         ],
         "Trend":[  
            {  
+              "chartType":"line",
               "hideColumns":[  
                  0
               ]
