@@ -1,99 +1,83 @@
 {
-  "table": "sp_rate_placement_ts",
-  "title": "Time Series Placement Rate",
-  "dropdown": "Time Series Placement Rate",
-  "measurementOrder": 7,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Cohort Date",
-    "valueFields": [
-      "Placement Rate",
-      "Trend"
-    ],
-    "removeFields": [
-      "cnt_households_w_plcm",
-      "cnt_referrals_u18"
-    ]
-  },
-  "controls": [],
-  "params": [
-    "dynamicMonthStart",
-    "Region",
-    "access_type"
-  ],
-  "dateParams": [],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
-  "showAllOthers": true,
-  "returnRowHeaders": [
-    0,
-    2,
-    4
-  ],
-  "returnRowDateHeaders": [
-    0
-  ],
-  "returnRowControlHeaders": [],
-  "headerNames": [
-    "&nbsp;",
-    "Region=Region",
-    "Access type desc=access_type"
-  ],
-  "returnRowStart": 5,
-  "hideRow": "allEmpty",
-  "columnClusterSize": 2,
-  "multicharts": {
-    "Chart": [
-      {
-        "chartType": "scatterChart",
-        "chartId": "Scatter",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1
+     "table":"sp_rate_placement_ts",
+     "title":"Time Series Placement Rate",
+     "dropdown":"Time Series Placement Rate",
+     "measurementOrder":7,
+     "transform":{  
+        "Function":"daterow",
+        "dateField":"Cohort Date",
+        "valueFields":[  
+           "Placement Rate",
+           "Trend"
+        ],
+        "removeFields":[  
+           "cnt_households_w_plcm",
+           "cnt_referrals_u18"
         ]
-      }
-    ],
-    "line": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        }
-      }
-    ],
-    "both": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
+     },
+     "controls":[  
+
+     ],
+     "params":[  
+        "dynamicMonthStart",
+        "Region",
+        "access_type"
+     ],
+     "dateParams":[  
+
+     ],
+     "requiredParams":[  
+        "dynamicMonthStart"
+     ],
+     "showAllOthers":true,
+     "returnRowHeaders":[  
+        0,
+        2,
+        4
+     ],
+     "returnRowDateHeaders":[  
+        0
+     ],
+     "returnRowControlHeaders":[  
+
+     ],
+     "headerNames":[  
+        "&nbsp;",
+        "Region=Region",
+        "Access type desc=access_type"
+     ],
+     "returnRowStart":5,
+     "hideRow":"allEmpty",
+     "columnClusterSize":2,
+     "chartType":"combo",
+     "trendCol":1,
+     "chartId":"chart1",
+     "style":"",
+     "labels":{  
+        "x":"",
+        "y":""
+     },
+     "multicharts":{  
+        "Overview":[  
+           {  
+              "hideColumns":[  
+                 
+              ]
+           }
+        ],
+        "Chart":[  
+           {  
+              "hideColumns":[  
+                 1
+              ]
+           }
+        ],
+        "Trend":[  
+           {  
+              "hideColumns":[  
+                 0
+              ]
+           }
         ]
-      },
-      {
-        "chartType": "scatterChart",
-        "chartId": "chart2",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1
-        ]
-      }
-    ]
-  }
+     }
 }
