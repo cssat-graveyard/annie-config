@@ -1,7 +1,6 @@
 {
   "table": "sp_rate_placement_order_ts",
   "title": "Time Series Placement Rate Order",
-  "dropdown": "Time Series Placement Rate Order",
   "measurementOrder": 8,
   "transform": {
     "Function": "daterow",
@@ -15,7 +14,9 @@
       "cnt_si_referrals"
     ]
   },
-  "controls": [],
+  "controls": [
+  
+  ],
   "params": [
     "dynamicMonthStart",
     "Region",
@@ -34,41 +35,46 @@
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [
+  
+  ],
   "headerNames": [
     "&nbsp;",
-    "Order=order",
-    "Region=Region"
+    "Region=Region",
+	"Order=order"
   ],
   "returnRowStart": 5,
   "hideRow": "allEmpty",
   "columnClusterSize": 2,
-  "multicharts": {
-    "Scatter and Trend": [
-      {
-        "chartType": "scatterChart",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1
+  "chartType":"combo",
+  "trendCol":1,
+  "chartId":"chart1",
+  "style":"",
+  "labels":{  
+      "x":"",
+      "y":""
+     },
+     "multicharts":{  
+        "Overview":[  
+           {  
+              "hideColumns":[  
+                 
+              ]
+           }
+        ],
+        "Chart":[  
+           {  
+              "hideColumns":[  
+                 1
+              ]
+           }
+        ],
+        "Trend":[  
+           {  
+              "hideColumns":[  
+                 0
+              ]
+           }
         ]
-      },
-      {
-        "chartType": "line",
-        "chartId": "chart2",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
-        ]
-      }
-    ]
-  }
+     }
 }
