@@ -41,6 +41,11 @@
   ],
   "returnRowStart": 5,
   "columnClusterSize": 2,
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    }
+  ],
   "multicharts": {
     "Seasonality and Trends": [
       {
