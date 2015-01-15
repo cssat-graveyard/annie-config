@@ -10,7 +10,9 @@
       "Trend",
       "Seasonal"
     ],
-    "removeFields": []
+    "removeFields": [
+	"Referral Rate"
+	]
   },
   "controls": [],
   "params": [
