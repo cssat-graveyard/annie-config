@@ -96,7 +96,7 @@
         ]
       }
     ],
-    "Trend": [
+    "Long-Term Trend": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -111,7 +111,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Seasonality": [
+    "Periodic Seasonality": [
       {
         "chartType": "line",
         "chartId": "chart1",
