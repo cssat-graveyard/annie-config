@@ -107,7 +107,8 @@
         },
         "hideColumns": [
           1
-        ]
+        ],
+        "addInputClass": "multiAllowed"
       }
     ],
     "Periodic Seasonality": [
@@ -121,7 +122,8 @@
         },
         "hideColumns": [
           0
-        ]
+        ],
+        "addInputClass": "multiAllowed"
       }
     ]
   }
