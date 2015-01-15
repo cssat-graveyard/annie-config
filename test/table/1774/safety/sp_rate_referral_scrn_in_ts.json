@@ -50,7 +50,7 @@
     }
   ],
   "multicharts": {
-    "Trend and Seasonality": [
+    "Overview": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -70,7 +70,7 @@
           "y": ""
         },
         "hideColumns": [
-          1
+          0
         ]
       },
       {
@@ -92,11 +92,11 @@
           "y": ""
         },
         "hideColumns": [
-          0
+          1
         ]
       }
     ],
-    "Overall Trend": [
+    "Trend": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -111,7 +111,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-    "Periodic Seasonality": [
+    "Seasonality": [
       {
         "chartType": "line",
         "chartId": "chart1",
