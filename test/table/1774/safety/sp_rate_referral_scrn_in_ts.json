@@ -50,7 +50,7 @@
     }
   ],
   "multicharts": {
-    "Overview": [
+    "Trend and Seasonality": [
       {
         "chartType": "line",
         "chartId": "chart1",
