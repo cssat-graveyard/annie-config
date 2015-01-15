@@ -11,8 +11,8 @@
       "Seasonal"
     ],
     "removeFields": [
-	"Referral Rate"
-	]
+      "Referral Rate"
+    ]
   },
   "controls": [],
   "params": [
@@ -39,7 +39,7 @@
     "Region=Region",
     "Access type desc=access_type"
   ],
-  "returnRowStart": 6,
+  "returnRowStart": 5,
   "columnClusterSize": 2,
   "multicharts": {
     "Seasonality and Trends": [
