@@ -12,7 +12,7 @@
     "removeFields": [
       "cnt_households",
       "cnt_si_referrals",
-	  "seasonal"
+	  "Seasonal"
     ]
   },
   "controls": [
