@@ -20,6 +20,10 @@
     "Region",
     "access_type"
   ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
@@ -46,7 +50,7 @@
     }
   ],
   "multicharts": {
-    "Seasonality and Trends": [
+    "Overview": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -89,6 +93,34 @@
         },
         "hideColumns": [
           1
+        ]
+      }
+    ],
+    "Trend": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1
+        ]
+      }
+    ],
+    "Seasonality": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          0
         ]
       }
     ]
