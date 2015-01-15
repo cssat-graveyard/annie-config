@@ -20,10 +20,6 @@
     "Region",
     "access_type"
   ],
-  "dateParams": [],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
