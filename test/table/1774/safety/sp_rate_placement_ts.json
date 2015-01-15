@@ -12,7 +12,8 @@
         ],
         "removeFields":[  
            "cnt_households_w_plcm",
-           "cnt_referrals_u18"
+           "cnt_referrals_u18",
+		   "seasonal"
         ]
      },
      "controls":[  

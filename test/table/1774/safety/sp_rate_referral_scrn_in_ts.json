@@ -1,0 +1,30 @@
+{
+  "table": "sp_rate_referral_scrn_in_ts",
+  "title": "Times Series Screened-In Referral Rate per 1,000 Households with a Referral",
+  "dropdown": "Times Series Screened-In Referral Rate",
+  "measurementOrder": 9,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Date",
+    "valueFields": [
+      "Trend"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;"
+  ],
+  "returnRowStart": 6
+}
