@@ -50,7 +50,7 @@
     }
   ],
   "multicharts": {
-    "Trend and Seasonality": [
+    "Overview": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -111,11 +111,7 @@
         "addInputClass": "multiAllowed"
       }
     ],
-<<<<<<< HEAD
-    "Periodic Seasonality": [
-=======
     "Seasonality": [
->>>>>>> parent of 9eca809... changed labels for ts json file
       {
         "chartType": "line",
         "chartId": "chart1",
