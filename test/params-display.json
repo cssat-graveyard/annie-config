@@ -1157,6 +1157,7 @@
   },
   "Region": {
     "table": "ref_lookup_region",
+    "valueColumn": 3,
     "display": {
       "legend": "Region",
       "column": "fieldsLeft",
