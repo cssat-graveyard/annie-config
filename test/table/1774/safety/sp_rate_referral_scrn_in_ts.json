@@ -44,6 +44,9 @@
   "numberFormat": [
     {
       "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
     }
   ],
   "multicharts": {
@@ -52,6 +55,16 @@
         "chartType": "line",
         "chartId": "chart1",
         "style": "",
+        "baseOptions": {
+          "width": 765,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "90%"
+          }
+        },
         "labels": {
           "x": "",
           "y": ""
@@ -64,6 +77,16 @@
         "chartType": "line",
         "chartId": "chart2",
         "style": "",
+        "baseOptions": {
+          "width": 765,
+          "height": 215,
+          "chartArea": {
+            "left": 75,
+            "top": 10,
+            "width": "85%",
+            "height": "75%"
+          }
+        },
         "labels": {
           "x": "",
           "y": ""
