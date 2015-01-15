@@ -64,7 +64,7 @@
         ],
         "Chart":[  
            {  
-		   "chartType":"scatterPlot",
+		   "chartType":"scatterChart",
 		   "chartId":"chart1",
 			"style":"",
 			"labels":{  
