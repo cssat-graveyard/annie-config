@@ -7,24 +7,64 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Trend"
+      "Trend",
+      "Seasonal"
     ],
     "removeFields": []
   },
   "controls": [],
-  "params": [],
+  "params": [
+    "dynamicMonthStart",
+    "Region",
+    "access_type"
+  ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
   "showAllOthers": true,
   "returnRowHeaders": [
-    0
+    0,
+    2,
+    4
   ],
   "returnRowDateHeaders": [
     0
   ],
   "returnRowControlHeaders": [],
   "headerNames": [
-    "&nbsp;"
+    "&nbsp;",
+    "Region=Region",
+    "Access type desc=access_type"
   ],
-  "returnRowStart": 6
+  "returnRowStart": 6,
+  "columnClusterSize": 2,
+  "multicharts": {
+    "Seasonality and Trends": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          0
+        ]
+      },
+      {
+        "chartType": "line",
+        "chartId": "chart2",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1
+        ]
+      }
+    ]
+  }
 }
