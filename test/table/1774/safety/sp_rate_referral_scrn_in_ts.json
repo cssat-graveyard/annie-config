@@ -95,34 +95,6 @@
           0
         ]
       }
-    ],
-    "Overall Trend": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1
-        ]
-      }
-    ],
-    "Periodic Seasonality ": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
-        ]
-      }
     ]
   }
 }
