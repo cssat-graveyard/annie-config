@@ -47,16 +47,16 @@
   "returnRowStart": 5,
   "hideRow": "allEmpty",
   "columnClusterSize": 2,
-  "chartId":"chart1",
-  "style":"",
-  "labels":{  
-      "x":"",
-      "y":""
-     },
      "multicharts":{  
         "Overview":[  
            {  
 		   "chartType":"combo",
+		    "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x":"",
+				"y":""
+				},
               "hideColumns":[  
                  
               ]
@@ -65,6 +65,12 @@
         "Chart":[  
            {  
 		   "chartType":"scatterPlot",
+		   "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x":"",
+				"y":""
+				},
               "hideColumns":[  
                  1
               ]
@@ -73,6 +79,12 @@
         "Trend":[  
            {  
 		   "chartType":"area",
+		   "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x":"",
+				"y":""
+				},
               "hideColumns":[  
                  0
               ]
