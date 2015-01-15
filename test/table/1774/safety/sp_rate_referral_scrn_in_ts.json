@@ -70,7 +70,7 @@
           "y": ""
         },
         "hideColumns": [
-          0
+          1
         ]
       },
       {
@@ -92,11 +92,11 @@
           "y": ""
         },
         "hideColumns": [
-          1
+          0
         ]
       }
     ],
-    "Trend": [
+    "Overall Trend": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -110,7 +110,7 @@
         ]
       }
     ],
-    "Seasonality": [
+    "Periodic Seasonality ": [
       {
         "chartType": "line",
         "chartId": "chart1",
