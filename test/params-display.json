@@ -563,6 +563,9 @@
   },
   "access_type": {
     "table": "ref_filter_access_type",
+    "removeKeys": [
+      7
+    ],
     "display": {
       "legend": "Entry Point",
       "column": "advancedLeft",
