@@ -1119,18 +1119,12 @@
   },
   "order": {
     "table": "ref_filter_order",
-    "removeKeys": [
-      0
-    ],
     "display": {
       "legend": "Order",
       "column": "advancedLeft",
       "type": "param",
       "multi": true,
       "selected": 1,
-      "disabled": [
-        0
-      ],
       "visible": true,
       "help": "This is the order in which the entry occurred."
     }
