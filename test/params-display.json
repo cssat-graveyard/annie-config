@@ -1116,6 +1116,9 @@
   },
   "order": {
     "table": "ref_filter_order",
+    "removeKeys": [
+      0
+    ],
     "display": {
       "legend": "Order",
       "column": "advancedLeft",
@@ -1136,13 +1139,16 @@
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
-      "selected": 1,
+      "selected": 0,
       "visible": true,
       "help": "Lorem Ipsum."
     }
   },
   "student_type": {
     "table": "ref_lookup_student_type",
+    "removeKeys": [
+      0
+    ],
     "display": {
       "legend": "Student Type",
       "column": "fieldsRight",
