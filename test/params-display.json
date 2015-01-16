@@ -568,10 +568,11 @@
       "column": "advancedLeft",
       "type": "param",
       "multi": true,
+      "zeroLast": true,
       "disabled": [
         7
       ],
-      "visible": false,
+      "visible": true,
       "help": "Currently you can filter for six primary entry points in the child welfare system, i.e., first point of contact with Children’s Administration. Currently, the Data Portal returns data for:<strong></strong></p>1) <a href='http://poctest.spiders.net/data-portal/glossary#letter_c' target='_blank'><span style='text-decoration: underline;'>Child Protective Services</span></a> (CPS), which provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect;<strong></strong></p>2) <a href='http://poctest.spiders.net/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Reconciliation Services</span></a> (FRS), a voluntary program serving runaway adolescents and youth in conflict with their families;<strong></strong></p>3) <a href='http://poctest.spiders.net/data-portal/glossary#letter_c' target='_blank'><span style='text-decoration: underline;'>Child and Family Welfare Services</span></a> (CFWS), which provides both permanency planning and court-ordered services to children and families to mitigate the risk of abuse or neglect so that children are able to safely return to their home of origin;<strong></strong></p>4) <a href='http://www.dshs.wa.gov/CA/pubs/mnl_pnpg/chapter2.asp'target='_blank'><span style='text-decoration: underline;'>Risk Only</span></a> a referral made when information collected gives reasonable cause to believe that risk or safety factors exist that place the child at imminent risk of serious harm;<strong></strong></p>5) <a href='http://www.dshs.wa.gov/pdf/ca/ARS_FY04.pdf'target='_blank'><span style='text-decoration: underline;'>Alternative Response System</span></a> (ARS), a voluntary program for low-to-moderate risk families who were referred to CPS; and<strong></strong></p>6) <a href='http://poctest.spiders.net/data-portal/glossary#letter_f' target='_blank'><span style='text-decoration: underline;'>Family Assessment Response</span></a> (FAR), a new alternative pathway for accepted reports of low-to-moderate risk of child maltreatment."
     }
   },
@@ -1119,11 +1120,13 @@
       "legend": "Order",
       "column": "advancedLeft",
       "type": "param",
+      "multi": true,
+      "zeroLast": true,
       "selected": 1,
       "disabled": [
         0
       ],
-      "visible": false,
+      "visible": true,
       "help": "This is the order in which the entry occurred."
     }
   },
@@ -1163,6 +1166,7 @@
       "column": "fieldsLeft",
       "type": "param",
       "multi": true,
+      "zeroLast": true,
       "selected": 0,
       "visible": true
     }
