@@ -1121,7 +1121,6 @@
       "column": "advancedLeft",
       "type": "param",
       "multi": true,
-      "zeroLast": true,
       "selected": 1,
       "disabled": [
         0
@@ -1137,7 +1136,6 @@
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
-      "zeroLast": true,
       "selected": 1,
       "visible": true,
       "help": "Lorem Ipsum."
@@ -1149,7 +1147,6 @@
       "legend": "Student Type",
       "column": "fieldsRight",
       "type": "param",
-      "zeroLast": true,
       "selected": 3,
       "disabled": [
         0
@@ -1166,7 +1163,6 @@
       "column": "fieldsLeft",
       "type": "param",
       "multi": true,
-      "zeroLast": true,
       "selected": 0,
       "visible": true
     }
