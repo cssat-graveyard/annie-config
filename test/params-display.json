@@ -1146,9 +1146,6 @@
   },
   "student_type": {
     "table": "ref_lookup_student_type",
-    "removeKeys": [
-      0
-    ],
     "display": {
       "legend": "Student Type",
       "column": "fieldsRight",
