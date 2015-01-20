@@ -1,6 +1,6 @@
 {
   "table": "sp_rate_care_day_maltreatment_limits",
-  "title": "Substantiated Cases of Maltreat in Care",
+  "title": "Substantiated Cases of Maltreatment in Care",
   "dropdown": "Maltreatment",
   "measurementOrder": 9,
   "transform": {
@@ -11,13 +11,9 @@
       "lcl",
       "ucl"
     ],
-    "removeFields": [
-	
-	]
+    "removeFields": []
   },
-  "controls": [
-  
-  ],
+  "controls": [],
   "params": [
     "Region"
   ],
@@ -35,17 +31,6 @@
   "returnRowStart": 3,
   "columnClusterSize": 3,
   "multicharts": {
-    "With-Limits": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        }
-      }
-    ],
     "Rate": [
       {
         "chartType": "line",
@@ -59,6 +44,17 @@
           1,
           2
         ]
+      }
+    ],
+    "Rate with Limits": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
       }
     ]
   }
