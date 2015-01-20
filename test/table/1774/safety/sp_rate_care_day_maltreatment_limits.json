@@ -26,7 +26,9 @@
     0,
     2
   ],
-  "returnRowDateHeaders": [],
+  "returnRowDateHeaders": [
+	0
+   ],
   "returnRowControlHeaders": [],
   "headerNames": [
     "Fiscal year=dynamicMonthStart",
