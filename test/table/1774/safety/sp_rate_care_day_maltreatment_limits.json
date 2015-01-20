@@ -19,7 +19,7 @@
   
   ],
   "params": [
-    "Region=Region"
+    "Region"
   ],
   "dateParams": [],
   "requiredParams": [],
@@ -35,7 +35,7 @@
   "returnRowStart": 3,
   "columnClusterSize": 3,
   "multicharts": {
-    "With Limits": [
+    "With-Limits": [
       {
         "chartType": "line",
         "chartId": "chart1",
