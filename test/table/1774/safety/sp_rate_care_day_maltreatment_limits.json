@@ -46,7 +46,7 @@
         ]
       }
     ],
-    "Rate with Limits": [
+    "Rate-with-Limits": [
       {
         "chartType": "line",
         "chartId": "chart1",
