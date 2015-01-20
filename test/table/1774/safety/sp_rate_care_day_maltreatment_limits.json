@@ -5,7 +5,6 @@
   "measurementOrder": 9,
   "transform": {
     "Function": "daterow",
-    "dateField": "Fiscal year",
     "valueFields": [
       "Incident Rate",
       "lcl",
@@ -20,18 +19,17 @@
   ],
   "dateParams": [],
   "requiredParams": [
-	"dynamicMonthStart"
-	],
+    "dynamicMonthStart"
+  ],
   "showAllOthers": true,
   "returnRowHeaders": [
+    0,
     2
   ],
-  "returnRowDateHeaders": [
-    0
-  ],
+  "returnRowDateHeaders": [],
   "returnRowControlHeaders": [],
   "headerNames": [
-    "&nbsp;",
+    "Fiscal year=dynamicMonthStart",
     "Region=Region"
   ],
   "returnRowStart": 3,
