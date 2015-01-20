@@ -15,7 +15,8 @@
   },
   "controls": [],
   "params": [
-    "Region"
+    "Region",
+    "dynamicMonthStart"
   ],
   "dateParams": [],
   "requiredParams": [],
