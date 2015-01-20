@@ -1,7 +1,7 @@
 {
   "table": "sp_lit3_score",
   "title": "Literacy Test Scores",
-  "measurementOrder": 1,
+  "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
     "dateField": "Cohort Period",
