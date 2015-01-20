@@ -19,7 +19,8 @@
     "dynamicMonthStart"
   ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+	"dynamicMonthStart"],
   "returnRowHeaders": [
     2
   ],
