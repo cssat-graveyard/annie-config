@@ -1153,6 +1153,7 @@
       "legend": "Student Type",
       "column": "fieldsRight",
       "type": "param",
+      "multi": true,
       "selected": 3,
       "disabled": [
         0
