@@ -1,0 +1,64 @@
+{
+  "table": "sp_rate_care_day_maltreatment_limits",
+  "title": "Substantiated Cases of Maltreat in Care",
+  "dropdown": "Maltreatment",
+  "measurementOrder": 9,
+  "transform": {
+    "valueFields": [
+      "Incident Rate",
+      "lcl",
+      "ucl"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "cohort_year"
+  ],
+  "params": [
+    "Region"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "returnRowHeaders": [
+    0,
+    2
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    0
+  ],
+  "headerNames": [
+    "Fiscal year=cohort_year",
+    "Region=Region"
+  ],
+  "returnRowStart": 3,
+  "columnClusterSize": 3,
+  "multicharts": {
+    "With Limits": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
+      }
+    ],
+    "Rate": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      }
+    ]
+  }
+}
