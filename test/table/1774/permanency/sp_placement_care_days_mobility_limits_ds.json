@@ -2,7 +2,7 @@
   "table": "sp_placement_care_days_mobility_limits_ds",
   "title": "Placement Moves within the Child Welfare System",
   "dropdown": "All Placement Moves",
-  "measurementOrder": 1,
+  "measurementOrder": 10,
   "transform": {
     "Function": "daterow",
     "dateField": "Fiscal Year",
@@ -50,7 +50,7 @@
         ]
       }
     ],
-    "Rate-with-Limits": [
+    "Rate with Limits": [
       {
         "chartType": "line",
         "chartId": "chart1",
