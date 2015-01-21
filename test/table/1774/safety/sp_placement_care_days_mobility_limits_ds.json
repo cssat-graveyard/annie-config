@@ -1,0 +1,65 @@
+{
+  "table": "sp_placement_care_days_mobility_limits_ds",
+  "title": "Placement Moves within the Child Welfare System",
+  "dropdown": "All Placement Moves",
+  "measurementOrder": 10,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Fiscal Year",
+    "valueFields": [
+      "Movement Rate",
+      "lcl",
+      "ucl"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [
+    "Region",
+    "years_in_care"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    2,
+    4
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region",
+    "Years in Care=years_in_care"
+  ],
+  "returnRowStart": 5,
+  "columnClusterSize": 3,
+  "multicharts": {
+    "Rate": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      }
+    ],
+    "Rate with Limits": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
+      }
+    ]
+  }
+}
