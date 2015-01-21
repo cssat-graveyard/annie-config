@@ -1164,7 +1164,7 @@
     "valueColumn": 3,
     "display": {
       "legend": "Region",
-      "column": "fieldsLeft",
+      "column": "fieldsRight",
       "type": "param",
       "multi": true,
       "selected": 0,
