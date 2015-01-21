@@ -17,11 +17,11 @@
   "params": [
     "Region",
     "years_in_care",
-    "dynamicYearStart"
+    "dynamicMonthStart"
   ],
   "dateParams": [],
   "requiredParams": [
-    "dynamicYearStart"
+    "dynamicMonthStart"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
