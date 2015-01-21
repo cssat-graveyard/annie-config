@@ -20,6 +20,7 @@
   ],
   "dateParams": [],
   "requiredParams": [],
+  "showAllOthers": true,
   "returnRowHeaders": [
     2,
     4
@@ -49,7 +50,7 @@
         ]
       }
     ],
-    "Rate with Limits": [
+    "Rate-with-Limits": [
       {
         "chartType": "line",
         "chartId": "chart1",
