@@ -1182,5 +1182,13 @@
       "selected": 0,
       "visible": true
     }
+  },
+  "dynamicYearStart": {
+    "display": {
+      "legend": "Date Range",
+      "column": "fieldsLeft",
+      "type": "dynamicDateRange",
+      "monthStep": 12
+    }
   }
 }

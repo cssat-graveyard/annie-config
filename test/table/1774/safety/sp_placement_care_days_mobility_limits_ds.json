@@ -16,10 +16,13 @@
   "controls": [],
   "params": [
     "Region",
-    "years_in_care"
+    "years_in_care",
+    "dynamicYearStart"
   ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+    "dynamicYearStart"
+  ],
   "showAllOthers": true,
   "returnRowHeaders": [
     2,
