@@ -4,8 +4,6 @@
   "dropdown": "Maltreatment",
   "measurementOrder": 9,
   "transform": {
-    "Function": "daterow",
-    "dateField": "Fiscal year",
     "valueFields": [
       "Incident Rate",
       "lcl",
@@ -24,12 +22,13 @@
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
+    0,
     2
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [],
   "headerNames": [
-    "&nbsp;",
+    "Fiscal year=state_fiscal_year",
     "Region=Region"
   ],
   "returnRowStart": 3,
