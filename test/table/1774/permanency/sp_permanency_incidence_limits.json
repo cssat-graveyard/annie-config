@@ -37,7 +37,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "",
+          "yFormat": "##'%"
         },
         "hideColumns": [
           1,
@@ -52,7 +53,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "",
+          "yFormat": "##'%"
         }
       }
     ]
