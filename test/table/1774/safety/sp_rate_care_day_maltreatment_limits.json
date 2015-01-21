@@ -15,10 +15,13 @@
   },
   "controls": [],
   "params": [
-    "Region"
+    "Region",
+    "dynamicMonthStart"
   ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
   "showAllOthers": true,
   "returnRowHeaders": [
     2
