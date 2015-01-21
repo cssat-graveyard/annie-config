@@ -1,0 +1,56 @@
+{
+  "table": "sp_permanency_incidence_limits",
+  "title": "Cummaltive Incidence of Permanency at One Year",
+  "dropdown": "Permanency at One Year",
+  "measurementOrder": 3,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Fiscal year",
+    "valueFields": [
+      "Permanency Incidence",
+      "lcl",
+      "ucl"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [],
+  "dateParams": [],
+  "requiredParams": [],
+  "returnRowHeaders": [],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;"
+  ],
+  "returnRowStart": 1,
+  "columnClusterSize": 3,
+  "multicharts": {
+    "Rate": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      }
+    ],
+    "Rate-with-Limits": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
+      }
+    ]
+  }
+}
