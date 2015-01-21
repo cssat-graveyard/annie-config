@@ -1174,9 +1174,11 @@
   "years_in_care": {
     "table": "ref_lookup_years_in_care",
     "display": {
-      "column": "fieldsLeft",
+      "legend": "Years in Care",
+      "column": "fieldsRight",
       "type": "param",
       "multi": true,
+      "sort": true,
       "selected": 0,
       "visible": true
     }
