@@ -3,14 +3,6 @@
   "title": "Substantiated Cases of Maltreatment in Care",
   "dropdown": "Maltreatment",
   "measurementOrder": 9,
-  "transform": {
-    "valueFields": [
-      "Incident Rate",
-      "lcl",
-      "ucl"
-    ],
-    "removeFields": []
-  },
   "controls": [],
   "params": [
     "Region",
