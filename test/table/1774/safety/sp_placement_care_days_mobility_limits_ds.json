@@ -23,14 +23,14 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     2,
-    3
+    4
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
     "Region=Region",
-    "years_in_care=years_in_care"
+    "Years in Care=years_in_care"
   ],
   "returnRowStart": 5,
   "columnClusterSize": 3,
