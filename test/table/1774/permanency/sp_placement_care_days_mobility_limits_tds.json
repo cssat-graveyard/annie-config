@@ -1,11 +1,11 @@
 {
-  "table": "sp_placement_care_days_mobility_limits_ds",
-  "title": "Placement Moves within the Child Welfare System",
-  "dropdown": "All Placement Moves",
-  "measurementOrder": 1,
+  "table": "sp_placement_care_days_mobility_limits_tds",
+  "title": "Placement Moves by Type within the Child Welfare System",
+  "dropdown": "Placement Moves by Type",
+  "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
-    "dateField": "Fiscal Year",
+    "dateField": "Fiscal year",
     "valueFields": [
       "Movement Rate",
       "lcl",
@@ -16,23 +16,26 @@
   "controls": [],
   "params": [
     "Region",
-    "years_in_care"
+    "years_in_care",
+    "movement_category"
   ],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
     2,
-    4
+    4,
+    5
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
     "Region=Region",
-    "Years in Care=years_in_care"
+    "Years in Care=years_in_care",
+    "cd_movement=movement_category"
   ],
-  "returnRowStart": 5,
+  "returnRowStart": 6,
   "columnClusterSize": 3,
   "multicharts": {
     "Rate": [
@@ -53,7 +56,7 @@
     "Rate-With-Limit": [
       {
         "chartType": "line",
-        "chartId": "chart2",
+        "chartId": "chart1",
         "style": "",
         "labels": {
           "x": "",
