@@ -1193,6 +1193,7 @@
       "column": "fieldsRight",
       "type": "param",
       "multi": true,
+      "sort": true,
       "selected": 0,
       "visible": true
     }
