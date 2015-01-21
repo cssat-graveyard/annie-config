@@ -35,7 +35,22 @@
   "returnRowStart": 5,
   "columnClusterSize": 3,
   "multicharts": {
-    "Rate with Limits": [
+    "Rate": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      }
+    ],
+    "Rate-with-Limits": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -47,4 +62,5 @@
       }
     ]
   }
+}
 }
