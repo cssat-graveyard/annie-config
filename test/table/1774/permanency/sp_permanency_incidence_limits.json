@@ -25,6 +25,10 @@
   ],
   "returnRowStart": 1,
   "columnClusterSize": 3,
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
+  },
   "multicharts": {
     "Rate": [
       {
