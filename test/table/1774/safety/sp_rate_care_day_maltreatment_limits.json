@@ -15,10 +15,13 @@
   },
   "controls": [],
   "params": [
-    "Region"
+    "Region",
+    "state_fiscal_year"
   ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+    "state_fiscal_year"
+  ],
   "showAllOthers": true,
   "returnRowHeaders": [
     2
