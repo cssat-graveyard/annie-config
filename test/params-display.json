@@ -1170,5 +1170,13 @@
       "selected": 0,
       "visible": true
     }
+  },
+  "years_in_care": {
+    "table": "ref_lookup_years_in_care",
+    "display": {
+      "multi": true,
+      "selected": 0,
+      "visible": true
+    }
   }
 }
