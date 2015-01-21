@@ -1191,7 +1191,7 @@
     "display": {
       "legend": "Movement Type",
       "column": "fieldsRight",
-      "type": "param",
+      "type": "filter",
       "multi": true,
       "sort": true,
       "selected": 0,
