@@ -48,7 +48,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "",
+          "yFormat": "##.00"
         },
         "hideColumns": [
           1,
