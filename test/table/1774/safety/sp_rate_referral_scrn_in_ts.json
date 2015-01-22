@@ -7,8 +7,8 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Trend",
-	  "Referral Rate"
+	  "Referral Rate",
+	  "Trend"
     ],
     "removeFields": [
       "Seasonal"
