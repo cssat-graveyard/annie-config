@@ -16,16 +16,22 @@
   "controls": [],
   "params": [
     "Region",
-    "years_in_care"
+    "years_in_care",
+    "dynamicMonthStart"
   ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
   "showAllOthers": true,
   "returnRowHeaders": [
+    0,
     2,
     4
   ],
-  "returnRowDateHeaders": [],
+  "returnRowDateHeaders": [
+    0
+  ],
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
