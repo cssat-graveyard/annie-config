@@ -1197,5 +1197,20 @@
       "selected": 0,
       "visible": true
     }
+  },
+  "otr_age_in_care": {
+    "values": {
+      "0": 13,
+      "1": 14,
+      "2": 15,
+      "3": 16,
+      "4": 17
+    },
+    "display": {
+      "column": "fieldsRight",
+      "type": "filter",
+      "multi": true,
+      "sort": true
+    }
   }
 }

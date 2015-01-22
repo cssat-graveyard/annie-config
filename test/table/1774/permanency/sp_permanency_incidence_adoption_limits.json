@@ -30,7 +30,7 @@
     "suffix": "%"
   },
   "multicharts": {
-    "Rate": [
+    "Percent": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -46,7 +46,7 @@
         ]
       }
     ],
-    "Rate-with-Limits": [
+    "Percent-with-Limits": [
       {
         "chartType": "line",
         "chartId": "chart1",
