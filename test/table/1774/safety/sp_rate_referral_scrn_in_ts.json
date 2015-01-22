@@ -8,10 +8,10 @@
     "dateField": "Date",
     "valueFields": [
       "Trend",
-      "Seasonal"
+	  "Referral Rate"
     ],
     "removeFields": [
-      "Referral Rate"
+      "Seasonal"
     ]
   },
   "controls": [],
