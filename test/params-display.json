@@ -1200,19 +1200,19 @@
   },
   "otr_age_in_care": {
     "values": {
-      "0": 13,
-      "1": 14,
-      "2": 15,
-      "3": 16,
-      "4": 17
+      "0": "13",
+      "1": "14",
+      "2": "15",
+      "3": "16",
+      "4": "17"
     },
     "display": {
-      "legend": "Agein Fiscal Year",
+      "legend": "Age n Fiscal Year",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "sort": true,
-      "selected": "0",
+      "selected": 0,
       "visible": true
     }
   }
