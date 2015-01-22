@@ -28,10 +28,13 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     -1,
+    0,
     2,
     4
   ],
-  "returnRowDateHeaders": [],
+  "returnRowDateHeaders": [
+    0
+  ],
   "returnRowControlHeaders": [
     5
   ],
