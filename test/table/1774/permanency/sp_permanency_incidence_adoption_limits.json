@@ -14,11 +14,19 @@
     "removeFields": []
   },
   "controls": [],
-  "params": [],
+  "params": [
+    "dynamicMonthStart"
+  ],
   "dateParams": [],
-  "requiredParams": [],
-  "returnRowHeaders": [],
-  "returnRowDateHeaders": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "returnRowHeaders": [
+    0
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;"
