@@ -1199,20 +1199,14 @@
     }
   },
   "otr_age_in_care": {
-    "values": {
-      "0": "13",
-      "1": "14",
-      "2": "15",
-      "3": "16",
-      "4": "17"
-    },
+    "table": "ref_lookup_otr_age",
     "display": {
-      "legend": "Age in Fiscal Year",
+      "legend": "Age In Fiscal Year",
       "column": "fieldsRight",
-      "type": "filter",
+      "type": "param",
       "multi": true,
       "sort": true,
-      "selected": 0,
+      "selected": 2,
       "visible": true
     }
   }

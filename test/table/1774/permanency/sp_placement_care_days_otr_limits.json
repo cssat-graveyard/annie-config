@@ -13,21 +13,19 @@
     ],
     "removeFields": []
   },
-  "controls": [
-    "otr_age_in_care"
-  ],
+  "controls": [],
   "params": [
-    "Region"
+    "Region",
+    "otr_age_in_care"
   ],
   "dateParams": [],
   "requiredParams": [],
   "returnRowHeaders": [
-    2
-  ],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
+    2,
     3
   ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
     "Region=Region",
