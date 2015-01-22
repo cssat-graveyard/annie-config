@@ -1,13 +1,13 @@
 {
-  "table": "sp_placement_care_days_otr_limits",
-  "title": "Days Spent on On the Run",
-  "dropdown": "On the Run",
-  "measurementOrder": 3,
+  "table": "sp_placement_care_days_mobility_limits_ds",
+  "title": "Placement Moves within the Child Welfare System",
+  "dropdown": "All Placement Moves",
+  "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
     "dateField": "Fiscal year",
     "valueFields": [
-      "OTR Rate",
+      "Movement Rate",
       "lcl",
       "ucl"
     ],
@@ -17,7 +17,7 @@
   "params": [
     "dynamicMonthStart",
     "Region",
-    "otr_age_in_care"
+    "years_in_care"
   ],
   "dateParams": [],
   "requiredParams": [
@@ -36,12 +36,12 @@
   "headerNames": [
     "&nbsp;",
     "Region=Region",
-    "Age=otr_age_in_care"
+    "Years in Care=years_in_care"
   ],
   "returnRowStart": 5,
   "columnClusterSize": 3,
   "multicharts": {
-    "Percent": [
+    "Rate": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -49,7 +49,7 @@
         "labels": {
           "x": "",
           "y": "",
-          "yFormat": "##'%"
+          "yFormat": "##.00"
         },
         "hideColumns": [
           1,
@@ -57,10 +57,10 @@
         ]
       }
     ],
-    "Percent-with-Limits": [
+    "Rate-With-Limit": [
       {
         "chartType": "line",
-        "chartId": "chart1",
+        "chartId": "chart2",
         "style": "",
         "labels": {
           "x": "",
