@@ -67,7 +67,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "",
+          "yFormat": "#,##0"
         },
         "hideColumns": [
           1,
@@ -82,7 +83,8 @@
         "style": "",
         "labels": {
           "x": "",
-          "y": ""
+          "y": "",
+          "yFormat": "#,##0"
         }
       }
     ]
