@@ -40,6 +40,15 @@
   ],
   "returnRowStart": 5,
   "columnClusterSize": 3,
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    },
+    {}
+  ],
   "multicharts": {
     "Rate": [
       {
