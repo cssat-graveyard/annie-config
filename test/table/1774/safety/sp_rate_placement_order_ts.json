@@ -47,6 +47,14 @@
   "returnRowStart": 5,
   "hideRow": "allEmpty",
   "columnClusterSize": 2,
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    }
+	],
      "multicharts":{  
         "Overview":[  
            {  
@@ -68,8 +76,9 @@
 		   "chartId":"chart1",
 			"style":"",
 			"labels":{  
-				"x":"",
-				"y":""
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
 				},
               "hideColumns":[  
                  1
@@ -82,8 +91,9 @@
 		   "chartId":"chart1",
 			"style":"",
 			"labels":{  
-				"x":"",
-				"y":""
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
 				},
               "hideColumns":[  
                  0
