@@ -17,9 +17,9 @@
     "movement_category"
   ],
   "params": [
+    "dynamicMonthStart",
     "Region",
-    "years_in_care",
-    "dynamicMonthStart"
+    "years_in_care"
   ],
   "dateParams": [],
   "requiredParams": [
