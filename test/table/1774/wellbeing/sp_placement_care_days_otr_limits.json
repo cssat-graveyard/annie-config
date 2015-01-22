@@ -16,7 +16,7 @@
   "controls": [],
   "params": [
     "dynamicMonthStart",
-    "removalCounty",
+    "Region",
     "otr_age_in_care"
   ],
   "dateParams": [],
@@ -34,7 +34,7 @@
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "Region=removalCounty",
+    "Region=Region",
     "Age=otr_age_in_care"
   ],
   "returnRowStart": 5,
