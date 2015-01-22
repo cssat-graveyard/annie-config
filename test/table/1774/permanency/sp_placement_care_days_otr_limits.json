@@ -53,8 +53,13 @@
     ],
     "Percent-with-Limits": [
       {
+        "chartType": "line",
         "chartId": "chart1",
-        "style": ""
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
       }
     ]
   }
