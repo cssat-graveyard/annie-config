@@ -1207,6 +1207,7 @@
       "4": 17
     },
     "display": {
+      "legend": "Agein Fiscal Year",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
