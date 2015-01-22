@@ -14,13 +14,17 @@
       "Seasonal"
     ]
   },
-  "controls": [],
+  "controls": [
+  
+  ],
   "params": [
     "dynamicMonthStart",
     "Region",
     "access_type"
   ],
-  "dateParams": [],
+  "dateParams": [
+  
+  ],
   "requiredParams": [
     "dynamicMonthStart"
   ],
@@ -33,13 +37,16 @@
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [
+
+  ],
   "headerNames": [
     "&nbsp;",
     "Region=Region",
     "Access type desc=access_type"
   ],
   "returnRowStart": 5,
+  "hideRow":"allEmpty",
   "columnClusterSize": 2,
   "numberFormat": [
     {
