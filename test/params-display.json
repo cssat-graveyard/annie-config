@@ -1205,7 +1205,6 @@
       "column": "fieldsRight",
       "type": "param",
       "multi": true,
-      "sort": true,
       "selected": 2,
       "visible": true
     }
