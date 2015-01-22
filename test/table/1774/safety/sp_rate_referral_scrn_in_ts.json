@@ -8,13 +8,15 @@
     "dateField": "Date",
     "valueFields": [
       "Trend",
-      "Seasonal"
+      "Referral Rate"
     ],
     "removeFields": [
-      "Referral Rate"
+      "Seasonal"
     ]
   },
-  "controls": [],
+  "controls": [
+  
+  ],
   "params": [
     "dynamicMonthStart",
     "Region",
@@ -49,82 +51,39 @@
       "fractionDigits": 0
     }
   ],
-  "multicharts": {
-    "Overview": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "baseOptions": {
-          "width": 765,
-          "height": 215,
-          "chartArea": {
-            "left": 75,
-            "top": 10,
-            "width": "85%",
-            "height": "90%"
-          }
-        },
-        "labels": {
+       "trendCol":1,
+     "chartId":"chart1",
+     "style":"",
+     "labels":{  
           "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1
-        ]
-      },
-      {
-        "chartType": "line",
-        "chartId": "chart2",
-        "style": "",
-        "baseOptions": {
-          "width": 765,
-          "height": 215,
-          "chartArea": {
-            "left": 75,
-            "top": 10,
-            "width": "85%",
-            "height": "75%"
-          }
-        },
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
-        ]
-      }
-    ],
-    "Overall-Trend": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1
+          "y": "",
+          "yFormat": "#,##0"
+     },
+     "multicharts":{  
+        "Trend":[  
+           {  
+              "chartType":"line",
+              "hideColumns":[  
+                 0
+              ]
+           }
+		"Overview":[  
+           {  
+              "chartType":"combo",
+              "hideColumns":[  
+                 
+              ]
+           }
         ],
-        "addInputClass": "multiAllowed"
-      }
-    ],
-    "Periodic-Seasonality": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          0
+        "Scatter":[  
+           {  
+              "chartType":"scatterChart",
+              "hideColumns":[  
+                 1
+              ]
+           }
         ],
-        "addInputClass": "multiAllowed"
-      }
-    ]
-  }
+        
+        ]
+   
 }
