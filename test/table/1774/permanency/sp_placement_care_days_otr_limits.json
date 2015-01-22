@@ -15,9 +15,9 @@
   },
   "controls": [],
   "params": [
+    "dynamicMonthStart",
     "Region",
-    "otr_age_in_care",
-    "dynamicMonthStart"
+    "otr_age_in_care"
   ],
   "dateParams": [],
   "requiredParams": [
