@@ -23,6 +23,7 @@
   "requiredParams": [
     "dynamicMonthStart"
   ],
+  "showAllOthers": true,
   "returnRowHeaders": [
     0,
     2,
