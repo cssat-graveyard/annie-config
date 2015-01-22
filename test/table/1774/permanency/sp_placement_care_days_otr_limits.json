@@ -23,14 +23,14 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     2,
-    4
+    3
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
     "Region=Region",
-    "Age*otr_age_in_care"
+    "cd_otr_age*otr_age_in_care"
   ],
   "returnRowStart": 5,
   "columnClusterSize": 3,
