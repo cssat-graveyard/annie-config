@@ -47,7 +47,12 @@
     {
       "fractionDigits": 0
     },
-    {}
+    {
+      "fractionDigits": 0
+    },
+	{
+      "fractionDigits": 0
+    }
   ],
   "multicharts": {
     "Rate": [
