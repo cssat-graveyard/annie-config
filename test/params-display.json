@@ -1210,7 +1210,8 @@
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
-      "sort": true
+      "sort": true,
+      "selected": "4"
     }
   }
 }
