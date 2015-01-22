@@ -30,7 +30,7 @@
   "headerNames": [
     "&nbsp;",
     "Region=Region",
-    "age_in_fy=otr_age_in_care"
+    "age_in_fy"
   ],
   "returnRowStart": 4,
   "columnClusterSize": 3,
