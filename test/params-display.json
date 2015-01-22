@@ -1207,7 +1207,7 @@
       "4": "17"
     },
     "display": {
-      "legend": "Age n Fiscal Year",
+      "legend": "Age in Fiscal Year",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
