@@ -1,0 +1,71 @@
+{
+  "table": "sp_placement_care_days_otr_limits",
+  "title": "Days Spent on On the Run",
+  "dropdown": "On the Run",
+  "measurementOrder": 3,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Fiscal year",
+    "valueFields": [
+      "OTR Rate",
+      "lcl",
+      "ucl"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [
+    "dynamicMonthStart",
+    "removalCounty",
+    "otr_age_in_care"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "returnRowHeaders": [
+    0,
+    2,
+    4
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=removalCounty",
+    "Age=otr_age_in_care"
+  ],
+  "returnRowStart": 5,
+  "columnClusterSize": 3,
+  "multicharts": {
+    "Percent": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": "",
+          "yFormat": "##'%"
+        },
+        "hideColumns": [
+          1,
+          2
+        ]
+      }
+    ],
+    "Percent-with-Limits": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
+      }
+    ]
+  }
+}
