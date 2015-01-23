@@ -29,9 +29,6 @@
 	"columnClusterSize": 3,
 	"numberFormat": [{
 		"fractionDigits": 2
-	},
-	{
-		"fractionDigits": 2
 	}],
 	"multicharts": {
 		"Rate": [{
