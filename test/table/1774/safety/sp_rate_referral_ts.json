@@ -1,0 +1,105 @@
+{
+  "table": "sp_rate_referral_ts",
+  "title": "Time Series Rate Referral",
+  "dropdown": "Time Series Rate Referral",
+  "measurementOrder": 10,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Date",
+    "valueFields": [
+      "Referral Rate",
+      "Trend"
+    ],
+    "removeFields": [
+	
+	]
+  },
+  "controls": [
+  
+  ],
+  "params": [
+    "dynamicMonthStart",
+    "Region",
+    "access_type"
+  ],
+  "dateParams": [
+  
+  ],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "showAllOthers":true,
+  "returnRowHeaders": [
+	0,
+    2,
+    4
+  ],
+  "returnRowDateHeaders": [
+	0
+  ],
+  "returnRowControlHeaders": [
+  
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region",
+    "Access type desc=access_type"
+  ],
+  "returnRowStart": 5,
+  "hideRow": "allEmpty",
+  "columnClusterSize": 2,
+  "numberFormat": [
+    {
+      "fractionDigits": 0
+    },
+    {
+      "fractionDigits": 0
+    }
+	],
+     "multicharts":{  
+        "Trend":[  
+           {  
+		   "chartType":"area",
+		   "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+				},
+              "hideColumns":[  
+                 0
+              ]
+           }
+		],
+		 "Overview":[  
+           {  
+		   "chartType":"combo",
+		    "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x":"",
+				"y":""
+				},
+              "hideColumns":[  
+                 
+              ]
+           }
+        ],
+        "Chart":[  
+           {  
+		   "chartType":"scatterChart",
+		   "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+				},
+              "hideColumns":[  
+                 1
+              ]
+           }
+        
+        ]
+  
