@@ -2,7 +2,7 @@
      "table":"sp_rate_referral_ts",
      "title":"Time Series Rate Referral",
      "dropdown":"Time Series Rate Referral",
-     "measurementOrder":7,
+     "measurementOrder":10,
      "transform":{  
         "Function":"daterow",
         "dateField":"Cohort Date",
