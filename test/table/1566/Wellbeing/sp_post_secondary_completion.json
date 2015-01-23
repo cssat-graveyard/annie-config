@@ -27,7 +27,8 @@
   "returnRowStart": 1,
   "labels": {
     "x": "",
-    "y": ""
+    "y": "",
+	"yFormat": "##'%"
   },
   "numberFormat": {
     "fractionDigits": 2,
