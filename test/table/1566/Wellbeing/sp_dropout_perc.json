@@ -1,7 +1,7 @@
 {
   "table": "sp_dropout_perc",
   "title": "Foster Child High School Dropout Percent",
-  "measurementOrder": 1,
+  "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
     "dateField": "Grade Level",

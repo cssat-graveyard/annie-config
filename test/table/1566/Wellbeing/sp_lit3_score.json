@@ -1,0 +1,53 @@
+{
+  "table": "sp_lit3_score",
+  "title": "Literacy Test Scores",
+  "measurementOrder": 2,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Cohort Period",
+    "valueFields": [
+      "Mean Test Score"
+    ],
+    "removeFields": [
+      "i0",
+      "i1"
+    ]
+  },
+  "controls": [
+    "disability"
+  ],
+  "params": [
+    "dynamicMonthStart",
+    "student_type"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "showAllOthers": true,
+  "mutexAllOthers": false,
+  "returnRowHeaders": [
+    0,
+    2,
+    3
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [
+    3
+  ],
+  "headerNames": [
+    "&nbsp;",
+	"Student Type=student_type",
+	"fl_disability*disability"
+  ],
+  "returnRowStart": 4,
+  "hideRow": "allEmpty",
+  "chartType": "column",
+  "labels": {
+    "x": "",
+    "y": "",
+    "yFormat": "##.00"
+  }
+}
