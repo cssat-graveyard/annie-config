@@ -573,7 +573,6 @@
       "multi": true,
       "zeroLast": true,
       "disabled": [
-        5,
         2,
         3,
         6,
