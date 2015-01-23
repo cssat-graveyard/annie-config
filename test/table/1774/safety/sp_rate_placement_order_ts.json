@@ -23,7 +23,9 @@
     "Region",
     "order"
   ],
-  "dateParams": [],
+  "dateParams": [
+  
+  ],
   "requiredParams": [
     "dynamicMonthStart"
   ],
@@ -56,7 +58,22 @@
     }
 	],
      "multicharts":{  
-        "Overview":[  
+        "Trend":[  
+           {  
+		   "chartType":"area",
+		   "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+				},
+              "hideColumns":[  
+                 0
+              ]
+           }
+		],
+		 "Overview":[  
            {  
 		   "chartType":"combo",
 		    "chartId":"chart1",
@@ -84,21 +101,7 @@
                  1
               ]
            }
-        ],
-        "Trend":[  
-           {  
-		   "chartType":"area",
-		   "chartId":"chart1",
-			"style":"",
-			"labels":{  
-				"x": "",
-				"y": "",
-				"yFormat": "#,##0"
-				},
-              "hideColumns":[  
-                 0
-              ]
-           }
+        
         ]
      }
 }
