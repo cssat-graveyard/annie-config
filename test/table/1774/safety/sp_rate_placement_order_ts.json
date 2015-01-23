@@ -30,10 +30,10 @@
 	"hideRow": "allEmpty",
 	"columnClusterSize": 2,
 	"numberFormat": [{
-		"fractionDigits": 0
+		"fractionDigits": 2
 	},
 	{
-		"fractionDigits": 0
+		"fractionDigits": 2
 	}],
 	"multicharts": {
 		"Trend-Line": [{
