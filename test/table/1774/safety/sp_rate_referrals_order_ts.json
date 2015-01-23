@@ -5,6 +5,7 @@
   "measurementOrder":6,
   "transform": {
     "Function": "daterow",
+	"dateField": "Date",
     "valueFields": [
       "Placement Rate",
       "Trend"
