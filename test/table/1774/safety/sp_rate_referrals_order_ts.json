@@ -1,11 +1,11 @@
 {
-  "table": "sp_rate_referrals_scrn_in_order_ts",
-  "title": "Time Series Rate Referrals Screened-In",
-  "dropdown": "Time Series Rate Referrals Screened-In",
-  "measurementOrder": 5,
+  "table": "sp_rate_referrals_order_ts",
+  "title":"Time Series Rate Referrals Order",
+  "dropdown":"Time Series Rate Referrals Order",
+  "measurementOrder":6,
   "transform": {
     "Function": "daterow",
-    "dateField": "Date",
+	"dateField": "Date",
     "valueFields": [
       "Placement Rate",
       "Trend"
@@ -26,8 +26,9 @@
   
   ],
   "requiredParams": [
-    "dynamicMonthStart"
+	"dynamicMonthStart"
   ],
+  "showAllOthers":true,
   "returnRowHeaders": [
 	0,
     2,
@@ -44,17 +45,6 @@
     "Region=Region",
     "Order=order"
   ],
-  "returnRowStart": 5,
-  "hideRow": "allEmpty",
-  "columnClusterSize": 2,
-  "numberFormat": [
-    {
-      "fractionDigits": 0
-    },
-    {
-      "fractionDigits": 0
-    }
-	],
      "multicharts":{  
         "Trend":[  
            {  
@@ -101,5 +91,5 @@
            }
         
         ]
-     }
+    }
 }
