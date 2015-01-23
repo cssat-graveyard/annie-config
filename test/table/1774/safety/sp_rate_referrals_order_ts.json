@@ -25,7 +25,7 @@
   
   ],
   "requiredParams": [
-  "dynamicMonthStart"
+	"dynamicMonthStart"
   ],
   "showAllOthers":true,
   "returnRowHeaders": [
@@ -34,7 +34,7 @@
     4
   ],
   "returnRowDateHeaders": [
-  
+	0
   ],
   "returnRowControlHeaders": [
   
