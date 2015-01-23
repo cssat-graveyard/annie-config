@@ -24,10 +24,10 @@
 	"returnRowStart": 3,
 	"columnClusterSize": 3,
 	"numberFormat": [{
-		"fractionDigits": 0
+		"fractionDigits": 2
 	},
 	{
-		"fractionDigits": 0
+		"fractionDigits": 2
 	}],
 	"multicharts": {
 		"Rate": [{
