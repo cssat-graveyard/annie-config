@@ -29,7 +29,7 @@
 	"returnRowStart": 6,
 	"columnClusterSize": 3,
 	"numberFormat": [{
-		"fractionDigits": 0
+		"fractionDigits": 2
 	}],
 	"multicharts": {
 		"Rate": [{
