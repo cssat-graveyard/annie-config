@@ -1120,7 +1120,7 @@
         0
       ],
       "visible": true,
-      "help": "This is the order in which the entry occurred."
+      "help": "This is the order of a referral, a screened-in referral, or an out-of-home placement. See Measure Help for details about this filter."
     }
   },
   "ServiceCnty": {
