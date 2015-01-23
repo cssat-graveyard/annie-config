@@ -1,18 +1,19 @@
 {
-  "table": "sp_rate_referral_ts",
-  "title": "Time Series Rate Referral",
-  "dropdown": "Time Series Rate Referral",
-  "measurementOrder": 10,
+  "table": "sp_rate_placement_order_ts",
+  "title": "Time Series Placement Rate Order",
+  "measurementOrder": 8,
   "transform": {
     "Function": "daterow",
-    "dateField": "Date",
+    "dateField": "Cohort Date",
     "valueFields": [
-      "Referral Rate",
+      "Placement Rate",
       "Trend"
     ],
     "removeFields": [
-	
-	]
+      "cnt_households",
+      "cnt_si_referrals",
+	  "Seasonal"
+    ]
   },
   "controls": [
   
@@ -20,7 +21,7 @@
   "params": [
     "dynamicMonthStart",
     "Region",
-    "access_type"
+    "order"
   ],
   "dateParams": [
   
@@ -28,13 +29,14 @@
   "requiredParams": [
     "dynamicMonthStart"
   ],
+  "showAllOthers": true,
   "returnRowHeaders": [
-	0,
+    0,
     2,
     4
   ],
   "returnRowDateHeaders": [
-	0
+    0
   ],
   "returnRowControlHeaders": [
   
@@ -42,39 +44,44 @@
   "headerNames": [
     "&nbsp;",
     "Region=Region",
-    "Access type desc=access_type"
+	"Order=order"
   ],
-     "returnRowStart":5,
-     "hideRow":"allEmpty",
-     "columnClusterSize":2,
-	  "numberFormat": [
+  "returnRowStart": 5,
+  "hideRow": "allEmpty",
+  "columnClusterSize": 2,
+  "numberFormat": [
     {
       "fractionDigits": 0
     },
     {
       "fractionDigits": 0
     }
-  ],
-     "trendCol":1,
-     "chartId":"chart1",
-     "style":"",
-     "labels":{  
-          "x": "",
-          "y": "",
-          "yFormat": "#,##0"
-     },
+	],
      "multicharts":{  
         "Trend":[  
            {  
-              "chartType":"line",
+		   "chartType":"area",
+		   "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+				},
               "hideColumns":[  
                  0
               ]
            }
 		],
-		"Overview":[  
+		 "Overview":[  
            {  
-              "chartType":"combo",
+		   "chartType":"combo",
+		    "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x":"",
+				"y":""
+				},
               "hideColumns":[  
                  
               ]
@@ -82,12 +89,19 @@
         ],
         "Chart":[  
            {  
-              "chartType":"scatterChart",
+		   "chartType":"scatterChart",
+		   "chartId":"chart1",
+			"style":"",
+			"labels":{  
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+				},
               "hideColumns":[  
                  1
               ]
            }
+        
         ]
-
      }
 }
