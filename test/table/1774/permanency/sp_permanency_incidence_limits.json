@@ -1,68 +1,52 @@
 {
-  "table": "sp_permanency_incidence_limits",
-  "title": "Cummaltive Incidence of Permanency at One Year",
-  "dropdown": "Permanency at One Year",
-  "measurementOrder": 3,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Fiscal year",
-    "valueFields": [
-      "Permanency Incidence",
-      "lcl",
-      "ucl"
-    ],
-    "removeFields": []
-  },
-  "controls": [],
-  "params": [
-    "dynamicMonthStart"
-  ],
-  "dateParams": [],
-  "requiredParams": [],
-  "returnRowHeaders": [
-    0
-  ],
-  "returnRowDateHeaders": [
-    0
-  ],
-  "returnRowControlHeaders": [],
-  "headerNames": [
-    "&nbsp;"
-  ],
-  "returnRowStart": 1,
-  "columnClusterSize": 3,
-  "numberFormat": {
-    "fractionDigits": 2,
-    "suffix": "%"
-  },
-  "multicharts": {
-    "Percent": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "##'%"
-        },
-        "hideColumns": [
-          1,
-          2
-        ]
-      }
-    ],
-    "Percent-with-Limits": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "##'%"
-        }
-      }
-    ]
-  }
+	"table": "sp_permanency_incidence_limits",
+	"title": "Cummaltive Incidence of Permanency at One Year",
+	"dropdown": "Permanency at One Year",
+	"measurementOrder": 3,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Fiscal year",
+		"valueFields": ["Permanency Incidence",
+		"lcl",
+		"ucl"],
+		"removeFields": []
+	},
+	"controls": [],
+	"params": [],
+	"dateParams": [],
+	"requiredParams": [],
+	"returnRowHeaders": [0],
+	"returnRowDateHeaders": [0],
+	"returnRowControlHeaders": [],
+	"headerNames": ["&nbsp;"],
+	"returnRowStart": 1,
+	"columnClusterSize": 3,
+	"numberFormat": {
+		"fractionDigits": 2,
+		"suffix": "%"
+	},
+	"multicharts": {
+		"Percent": [{
+			"chartType": "line",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "",
+				"yFormat": "##'%"
+			},
+			"hideColumns": [1,
+			2]
+		}],
+		"Percent-with-Limits": [{
+			"chartType": "line",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "",
+				"yFormat": "##'%"
+			}
+		}]
+	}
 }
