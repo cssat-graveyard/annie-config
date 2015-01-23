@@ -1171,7 +1171,8 @@
       "type": "param",
       "multi": true,
       "selected": 0,
-      "visible": true
+      "visible": true,
+	  "help": "Children's Administration is divided into <a href='https://www.dshs.wa.gov/sites/default/files/CA/fos/documents/WaMapCounties2.jpg'target='_blank'><span style='text-decoration: underline;'>three Regions</span></a>. Region 1 is subdivided into East and West; Regions 2 and 3 are subdivided into North and South."
     }
   },
   "years_in_care": {
