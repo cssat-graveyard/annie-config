@@ -27,6 +27,7 @@
     "dynamicMonthStart"
   ],
   "returnRowHeaders": [
+	0,
     2,
     4
   ],
