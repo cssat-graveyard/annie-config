@@ -568,11 +568,15 @@
     ],
     "display": {
       "legend": "Entry Point",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "param",
       "multi": true,
       "zeroLast": true,
       "disabled": [
+        5,
+        2,
+        3,
+        6,
         7
       ],
       "visible": true,
