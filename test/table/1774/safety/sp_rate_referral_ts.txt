@@ -7,13 +7,11 @@
         "Function":"daterow",
         "dateField":"Cohort Date",
         "valueFields":[  
-           "Placement Rate",
+           "Referral Rate",
            "Trend"
         ],
         "removeFields":[  
-           "cnt_households_w_plcm",
-           "cnt_referrals_u18",
-		   "Seasonal"
+
         ]
      },
      "controls":[  
