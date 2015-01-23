@@ -2,10 +2,6 @@
   "table": "sp_post_secondary_completion_pvt",
   "title": "Post-Secondary Completion",
   "measurementOrder": 4,
-  "transform": {
-    "valueFields": [],
-    "removeFields": []
-  },
   "controls": [
     "cohort_year_dropout"
   ],
@@ -15,22 +11,23 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    1
+	1
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
     0,
-    1
+	1
   ],
   "headerNames": [
-    "Cohort Period=cohort_year_dropout"
-  ],
+	"Cohort Period=cohort_year_dropout"
+ ],
   "hideRow": "anyEmpty",
   "chartType": "column",
+  "columnClusterSize": 3,
+  "returnRowStart": 1,
   "labels": {
     "x": "",
-    "y": "",
-    "yFormat": "##'%"
+    "y": ""
   },
   "numberFormat": {
     "fractionDigits": 2,
