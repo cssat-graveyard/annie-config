@@ -65,7 +65,7 @@
           "yFormat": "#,##0"
      },
      "multicharts":{  
-        "Trend":[  
+        "Trend Line":[  
            {  
               "chartType":"line",
               "hideColumns":[  
@@ -73,7 +73,7 @@
               ]
            }
         ],
-		"Overview":[  
+		"Trend Line with Scatterplot":[  
            {  
               "chartType":"combo",
               "hideColumns":[  
@@ -81,7 +81,7 @@
               ]
            }
         ],
-        "Chart":[  
+        "Scatterplot":[  
            {  
               "chartType":"scatterChart",
               "hideColumns":[  
