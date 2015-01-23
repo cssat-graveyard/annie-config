@@ -13,16 +13,15 @@
       "i1"
     ]
   },
+    "controls": [],
   "params": [
     "dynamicMonthStart",
+	"disability",
     "student_type"
   ],
   "dateParams": [],
   "requiredParams": [
     "dynamicMonthStart"
-  ],
-    "controls": [
-    "disability"
   ],
   "showAllOthers": true,
   "mutexAllOthers": false,
