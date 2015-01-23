@@ -2,7 +2,7 @@
 	"table": "sp_rate_placement_ts",
 	"title": "Time Series Placement Rate",
 	"dropdown": "Time Series Placement Rate",
-	"measurementOrder": 7,
+	"measurementOrder": 3,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Cohort Date",

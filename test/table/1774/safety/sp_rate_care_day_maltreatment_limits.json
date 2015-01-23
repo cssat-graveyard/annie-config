@@ -2,7 +2,7 @@
 	"table": "sp_rate_care_day_maltreatment_limits",
 	"title": "Substantiated Cases of Maltreatment in Care",
 	"dropdown": "Maltreatment",
-	"measurementOrder": 9,
+	"measurementOrder": 7,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Fiscal year",
