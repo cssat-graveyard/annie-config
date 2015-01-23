@@ -1,6 +1,7 @@
 {
 	"table": "sp_rate_placement_order_ts",
 	"title": "Time Series Placement Rate Order",
+	"dropdown": "Time Series Placement Rate Order",
 	"measurementOrder": 4,
 	"transform": {
 		"Function": "daterow",
