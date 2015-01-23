@@ -77,7 +77,7 @@
            {  
               "chartType":"scatterChart",
               "hideColumns":[  
-                 1
+                 0
               ]
            }
         ],
@@ -85,7 +85,7 @@
            {  
               "chartType":"line",
               "hideColumns":[  
-                 0
+                 1
               ]
            }
         ]
