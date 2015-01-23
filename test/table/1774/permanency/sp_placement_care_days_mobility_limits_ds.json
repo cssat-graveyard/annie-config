@@ -12,11 +12,10 @@
 		"removeFields": []
 	},
 	"controls": [],
-	"params": ["dynamicMonthStart",
-	"Region",
+	"params": ["Region",
 	"years_in_care"],
 	"dateParams": [],
-	"requiredParams": ["dynamicMonthStart"],
+	"requiredParams": [],
 	"showAllOthers": true,
 	"returnRowHeaders": [0,
 	2,
