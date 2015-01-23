@@ -1,106 +1,71 @@
 {
-  "table": "sp_rate_referrals_scrn_in_order_ts",
-  "title": "Time Series Rate Referrals Screened-In",
-  "dropdown": "Time Series Rate Referrals Screened-In",
-  "measurementOrder": 5,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Date",
-    "valueFields": [
-      "Placement Rate",
-      "Trend"
-    ],
-    "removeFields": [
-      "Seasonal"
-    ]
-  },
-  "controls": [
-  
-  ],
-  "params": [
-    "dynamicMonthStart",
-    "Region",
-    "order"
-  ],
-  "dateParams": [
-  
-  ],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
-  "showAllOthers":true,
-  "returnRowHeaders": [
-	0,
-    2,
-    4
-  ],
-  "returnRowDateHeaders": [
-	0
-  ],
-  "returnRowControlHeaders": [
-  
-  ],
-  "headerNames": [
-	"&nbsp;",
-    "Region=Region",
-    "Order=order"
-  ],
-  "returnRowStart": 5,
-  "hideRow": "allEmpty",
-  "columnClusterSize": 2,
-  "numberFormat": [
-    {
-      "fractionDigits": 0
-    },
-    {
-      "fractionDigits": 0
-    }
-	],
-     "multicharts":{  
-        "Trend":[  
-           {  
-		   "chartType":"area",
-		   "chartId":"chart1",
-			"style":"",
-			"labels":{  
+	"table": "sp_rate_referrals_scrn_in_order_ts",
+	"title": "Time Series Rate Referrals Screened-In",
+	"dropdown": "Time Series Rate Referrals Screened-In",
+	"measurementOrder": 5,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Date",
+		"valueFields": ["Placement Rate",
+		"Trend"],
+		"removeFields": ["Seasonal"]
+	},
+	"controls": [],
+	"params": ["dynamicMonthStart",
+	"Region",
+	"order"],
+	"dateParams": [],
+	"requiredParams": ["dynamicMonthStart"],
+	"showAllOthers": true,
+	"returnRowHeaders": [0,
+	2,
+	4],
+	"returnRowDateHeaders": [0],
+	"returnRowControlHeaders": [],
+	"headerNames": ["&nbsp;",
+	"Region=Region",
+	"Order=order"],
+	"returnRowStart": 5,
+	"hideRow": "allEmpty",
+	"columnClusterSize": 2,
+	"numberFormat": [{
+		"fractionDigits": 0
+	},
+	{
+		"fractionDigits": 0
+	}],
+	"multicharts": {
+		"Trend-Line": [{
+			"chartType": "area",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
 				"x": "",
 				"y": "",
 				"yFormat": "#,##0"
-				},
-              "hideColumns":[  
-                 0
-              ]
-           }
-		],
-		 "Overview":[  
-           {  
-		   "chartType":"combo",
-		    "chartId":"chart1",
-			"style":"",
-			"labels":{  
-				"x":"",
-				"y":""
-				},
-              "hideColumns":[  
-                 
-              ]
-           }
-        ],
-        "Chart":[  
-           {  
-		   "chartType":"scatterChart",
-		   "chartId":"chart1",
-			"style":"",
-			"labels":{  
+			},
+			"hideColumns": [0]
+		}],
+		"Trend-Line-with-Scatterplot": [{
+			"chartType": "combo",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": ""
+			},
+			"hideColumns": []
+		}],
+		"Scatterplot": [{
+			"chartType": "scatterChart",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
 				"x": "",
 				"y": "",
 				"yFormat": "#,##0"
-				},
-              "hideColumns":[  
-                 1
-              ]
-           }
-        
-        ]
-     }
+			},
+			"hideColumns": [1]
+		}]
+	}
 }
