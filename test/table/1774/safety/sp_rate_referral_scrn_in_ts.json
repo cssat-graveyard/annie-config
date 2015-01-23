@@ -65,7 +65,15 @@
           "yFormat": "#,##0"
      },
      "multicharts":{  
-        "Overview":[  
+        "Trend":[  
+           {  
+              "chartType":"line",
+              "hideColumns":[  
+                 1
+              ]
+           }
+        ],
+		"Overview":[  
            {  
               "chartType":"combo",
               "hideColumns":[  
@@ -78,14 +86,6 @@
               "chartType":"scatterChart",
               "hideColumns":[  
                  0
-              ]
-           }
-        ],
-        "Trend":[  
-           {  
-              "chartType":"line",
-              "hideColumns":[  
-                 1
               ]
            }
         ]
