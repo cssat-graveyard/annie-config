@@ -1,87 +1,67 @@
 {
-  "table": "sp_placement_care_days_mobility_limits_ds",
-  "title": "Placement Moves within the Child Welfare System",
-  "dropdown": "All Placement Moves",
-  "measurementOrder": 1,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Fiscal year",
-    "valueFields": [
-      "Movement Rate",
-      "lcl",
-      "ucl"
-    ],
-    "removeFields": []
-  },
-  "controls": [],
-  "params": [
-    "dynamicMonthStart",
-    "Region",
-    "years_in_care"
-  ],
-  "dateParams": [],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
-  "showAllOthers": true,
-  "returnRowHeaders": [
-    0,
-    2,
-    4
-  ],
-  "returnRowDateHeaders": [
-    0
-  ],
-  "returnRowControlHeaders": [],
-  "headerNames": [
-    "&nbsp;",
-    "Region=Region",
-    "Years in Care=years_in_care"
-  ],
-  "returnRowStart": 5,
-  "columnClusterSize": 3,
-  "numberFormat": [
-    {
-      "fractionDigits": 0
-    },
-    {
-      "fractionDigits": 0
-    },
-    {
-      "fractionDigits": 0
-    },
+	"table": "sp_placement_care_days_mobility_limits_ds",
+	"title": "Placement Moves within the Child Welfare System",
+	"dropdown": "All Placement Moves",
+	"measurementOrder": 1,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Fiscal year",
+		"valueFields": ["Movement Rate",
+		"lcl",
+		"ucl"],
+		"removeFields": []
+	},
+	"controls": [],
+	"params": ["dynamicMonthStart",
+	"Region",
+	"years_in_care"],
+	"dateParams": [],
+	"requiredParams": ["dynamicMonthStart"],
+	"showAllOthers": true,
+	"returnRowHeaders": [0,
+	2,
+	4],
+	"returnRowDateHeaders": [0],
+	"returnRowControlHeaders": [],
+	"headerNames": ["&nbsp;",
+	"Region=Region",
+	"Years in Care=years_in_care"],
+	"returnRowStart": 5,
+	"columnClusterSize": 3,
+	"numberFormat": [{
+		"fractionDigits": 2
+	},
 	{
-      "fractionDigits": 0
-    }
-  ],
-  "multicharts": {
-    "Rate": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "#,##0"
-        },
-        "hideColumns": [
-          1,
-          2
-        ]
-      }
-    ],
-    "Rate-With-Limit": [
-      {
-        "chartType": "line",
-        "chartId": "chart2",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "#,##0"
-        }
-      }
-    ]
-  }
+		"fractionDigits": 2
+	},
+	{
+		"fractionDigits": 2
+	},
+	{
+		"fractionDigits": 2
+	}],
+	"multicharts": {
+		"Rate": [{
+			"chartType": "line",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+			},
+			"hideColumns": [1,
+			2]
+		}],
+		"Rate-With-Limit": [{
+			"chartType": "line",
+			"chartId": "chart2",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+			}
+		}]
+	}
 }
