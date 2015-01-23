@@ -39,7 +39,7 @@
 			"labels": {
 				"x": "",
 				"y": "",
-				"yFormat": "#,##0.0"
+				"yFormat": "#,##0.00"
 			},
 			"hideColumns": [0]
 		}],
@@ -60,7 +60,7 @@
 			"labels": {
 				"x": "",
 				"y": "",
-				"yFormat": "#,##0.0"
+				"yFormat": "#,##0.00"
 			},
 			"hideColumns": [1]
 		}]
