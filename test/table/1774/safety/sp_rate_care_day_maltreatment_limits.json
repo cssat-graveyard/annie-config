@@ -1,72 +1,56 @@
 {
-  "table": "sp_rate_care_day_maltreatment_limits",
-  "title": "Substantiated Cases of Maltreatment in Care",
-  "dropdown": "Maltreatment",
-  "measurementOrder": 9,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Fiscal year",
-    "valueFields": [
-      "Incident Rate",
-      "lcl",
-      "ucl"
-    ],
-    "removeFields": []
-  },
-  "controls": [],
-  "params": [
-    "Region"
-  ],
-  "dateParams": [],
-  "requiredParams": [],
-  "showAllOthers": true,
-  "returnRowHeaders": [
-    2
-  ],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [],
-  "headerNames": [
-    "&nbsp;",
-    "Region=Region"
-  ],
-  "returnRowStart": 3,
-  "columnClusterSize": 3,
-  "numberFormat": [
-    {
-      "fractionDigits": 0
-    },
-    {
-      "fractionDigits": 0
-    }
-  ],
-  "multicharts": {
-    "Rate": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "#,##0"
-        },
-        "hideColumns": [
-          1,
-          2
-        ]
-      }
-    ],
-    "Rate-with-Limits": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "#,##0"
-        }
-      }
-    ]
-  }
+	"table": "sp_rate_care_day_maltreatment_limits",
+	"title": "Substantiated Cases of Maltreatment in Care",
+	"dropdown": "Maltreatment",
+	"measurementOrder": 9,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Fiscal year",
+		"valueFields": ["Incident Rate",
+		"lcl",
+		"ucl"],
+		"removeFields": []
+	},
+	"controls": [],
+	"params": ["Region"],
+	"dateParams": [],
+	"requiredParams": [],
+	"showAllOthers": true,
+	"returnRowHeaders": [2],
+	"returnRowDateHeaders": [],
+	"returnRowControlHeaders": [],
+	"headerNames": ["&nbsp;",
+	"Region=Region"],
+	"returnRowStart": 3,
+	"columnClusterSize": 3,
+	"numberFormat": [{
+		"fractionDigits": 0
+	},
+	{
+		"fractionDigits": 0
+	}],
+	"multicharts": {
+		"Rate": [{
+			"chartType": "line",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+			},
+			"hideColumns": [1,
+			2]
+		}],
+		"Rate-with-Limits": [{
+			"chartType": "line",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "",
+				"yFormat": "#,##0"
+			}
+		}]
+	}
 }
