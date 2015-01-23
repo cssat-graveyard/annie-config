@@ -1,7 +1,7 @@
 {
 	"table": "sp_rate_referrals_scrn_in_order_ts",
-	"title": "Time Series Rate Referrals Screened-In",
-	"dropdown": "Time Series Rate Referrals Screened-In",
+	"title": "Time Series Screened-In Referral Rate Order",
+	"dropdown": "Time Series Screened-In Referral Rate Order",
 	"measurementOrder": 6,
 	"transform": {
 		"Function": "daterow",
