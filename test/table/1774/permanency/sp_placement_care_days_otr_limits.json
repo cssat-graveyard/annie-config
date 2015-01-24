@@ -1,73 +1,54 @@
 {
-  "table": "sp_placement_care_days_otr_limits",
-  "title": "Days Spent on On the Run",
-  "dropdown": "On the Run",
-  "measurementOrder": 5,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Fiscal year",
-    "valueFields": [
-      "Days OTR",
-      "lcl",
-      "ucl"
-    ],
-    "removeFields": []
-  },
-  "controls": [],
-  "params": [
-    "dynamicMonthStart",
-    "Region",
-    "otr_age_in_care"
-  ],
-  "dateParams": [],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
-  "showAllOthers": true,
-  "returnRowHeaders": [
-    0,
-    2,
-    4
-  ],
-  "returnRowDateHeaders": [
-    0
-  ],
-  "returnRowControlHeaders": [],
-  "headerNames": [
-    "&nbsp;",
-    "Region=Region",
-    "Age=otr_age_in_care"
-  ],
-  "returnRowStart": 5,
-  "columnClusterSize": 3,
-  "multicharts": {
-    "Percentage": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "##'%"
-        },
-        "hideColumns": [
-          1,
-          2
-        ]
-      }
-    ],
-    "Percetange-with-Limits": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "##'%"
-        }
-      }
-    ]
-  }
+	"table": "sp_placement_care_days_otr_limits",
+	"title": "Days Spent on On the Run",
+	"dropdown": "On the Run",
+	"measurementOrder": 5,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Fiscal year",
+		"valueFields": ["Days OTR",
+		"lcl",
+		"ucl"],
+		"removeFields": []
+	},
+	"controls": [],
+	"params": ["Region",
+	"otr_age_in_care"],
+	"dateParams": [],
+	"requiredParams": [],
+	"showAllOthers": true,
+	"returnRowHeaders": [0,
+	2,
+	4],
+	"returnRowDateHeaders": [0],
+	"returnRowControlHeaders": [],
+	"headerNames": ["&nbsp;",
+	"Region=Region",
+	"Age=otr_age_in_care"],
+	"returnRowStart": 5,
+	"columnClusterSize": 3,
+	"multicharts": {
+		"Percentage": [{
+			"chartType": "line",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "",
+				"yFormat": "##'%"
+			},
+			"hideColumns": [1,
+			2]
+		}],
+		"Percetange-with-Limits": [{
+			"chartType": "line",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "",
+				"yFormat": "##'%"
+			}
+		}]
+	}
 }
