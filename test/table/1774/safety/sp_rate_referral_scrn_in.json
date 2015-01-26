@@ -1,0 +1,50 @@
+{
+  "table": "sp_rate_referral_scrn_in",
+  "title": "Screened-In Referral Rate per 1,000 Households with a Referral",
+  "dropdown": "Screened-In Referral Rate",
+  "measurementOrder": 4,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Date",
+    "valueFields": [
+      "Referral Rate"
+    ],
+    "removeFields": [
+      "cnt_referrals",
+      "tot_pop"
+    ]
+  },
+  "controls": [],
+  "params": [
+    "dynamicMonthStart",
+    "Ref_Serv_County",
+    "access_type"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "showAllOthers": true,
+  "mutexAllOthers": false,
+  "returnRowHeaders": [
+    0,
+    2,
+    4
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+	"County=Ref_Serv_County",
+	"Access type desc=access_type"
+  ],
+  "returnRowStart": 5,
+  "hideRow": "allEmpty",
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": ""
+  }
+}

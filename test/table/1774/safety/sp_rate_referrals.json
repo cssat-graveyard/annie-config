@@ -1,0 +1,50 @@
+{
+  "table": "sp_rate_referral",
+  "title": "Referral Rate per 1,000 Households",
+  "dropdown": "Referral Rate",
+  "measurementOrder": 1,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Date",
+    "valueFields": [
+      "Referral Rate"
+    ],
+    "removeFields": [
+      "cnt_referrals",
+      "tot_pop"
+    ]
+  },
+  "controls": [],
+  "params": [
+    "dynamicMonthStart",
+    "Ref_Serv_County",
+    "access_type"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "showAllOthers": true,
+  "mutexAllOthers": false,
+  "returnRowHeaders": [
+    0,
+    2,
+    4
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+	"County=Ref_Serv_County",
+	"Access type desc=access_type"
+  ],
+  "returnRowStart": 5,
+  "hideRow": "allEmpty",
+  "chartType": "scatterChart",
+  "labels": {
+    "x": "",
+    "y": ""
+  }
+}
