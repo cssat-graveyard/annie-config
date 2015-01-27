@@ -576,7 +576,6 @@
       "type": "param",
       "multi": true,
       "zeroLast": true,
-      "sort": false,
       "disabled": [
         3,
         2,
