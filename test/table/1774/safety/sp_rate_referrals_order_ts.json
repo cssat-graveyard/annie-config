@@ -1,7 +1,6 @@
 {
 	"table": "sp_rate_referrals_order_ts",
-	"title": "Rate of Referral by Order of Referral per 1,000 Households 
-	(with seasonal trends smoothed)",
+	"title": "Rate of Referral by Order of Referral per 1,000 Households (with seasonal variation smoothed)",
 	"dropdown": "Referral Rates by Order of Referral Order",
 	"measurementOrder": 2,
 	"transform": {
