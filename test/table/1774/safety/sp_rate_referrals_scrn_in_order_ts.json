@@ -1,6 +1,6 @@
 {
 	"table": "sp_rate_referrals_scrn_in_order_ts",
-	"title": "Rate of Screened-In Referral by Order of Referral (per 1,000 Households with a Referral)",
+	"title": "Rate of Screened-In Referrals by Order of Screened-In Referral",
 	"dropdown": "Rate of Screened-In Referrals by Order of Screened-In Referral",
 	"measurementOrder": 6,
 	"transform": {
@@ -49,7 +49,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": ""
+				"y": "RAte per 1,000 Households with a Referral"
 			},
 			"hideColumns": []
 		}],

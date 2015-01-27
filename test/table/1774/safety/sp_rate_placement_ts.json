@@ -1,6 +1,6 @@
 {
 	"table": "sp_rate_placement_ts",
-	"title": "Rate of Placements (per 1,000 Households with a Screened-In Referral)",
+	"title": "Rate of Placements",
 	"dropdown": "Rate of Placements",
 	"measurementOrder": 3,
 	"transform": {
@@ -38,7 +38,7 @@
 	"style": "",
 	"labels": {
 		"x": "",
-		"y": "",
+		"y": "Rate per 1,000 Households with a Screened-In Referral",
 		"yFormat": "#,##0"
 	},
 	"multicharts": {

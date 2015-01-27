@@ -1,6 +1,6 @@
 {
 	"table": "sp_rate_referrals_order_ts",
-	"title": "Rate of Referrals by Order of Referral (per 1,000 Households)",
+	"title": "Rate of Referrals by Order of Referral",
 	"dropdown": "Rate of Referrals by Order of Referral",
 	"measurementOrder": 2,
 	"transform": {
@@ -38,7 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "",
+				"y": "Rate per 1,000 Households",
 				"yFormat": "#,##0.0"
 			},
 			"hideColumns": [0]
