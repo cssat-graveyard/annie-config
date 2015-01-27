@@ -576,9 +576,10 @@
       "type": "param",
       "multi": true,
       "zeroLast": true,
+      "sort": true,
       "disabled": [
-        2,
         3,
+        2,
         6,
         7
       ],
