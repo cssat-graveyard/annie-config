@@ -8,7 +8,7 @@
 		"dateField": "Date",
 		"valueFields": ["Referral Rate",
 		"Trend"],
-		"removeFields": []
+	    "removeFields": ["Seasonal"]
 	},
 	"controls": [],
 	"params": ["dynamicMonthStart",
