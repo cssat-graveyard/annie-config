@@ -7,7 +7,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "selected": "Overview",
-      "visible": false,
+      "visible": True,
       "help": {
         "default": "This filter allows you to select the count or rate of opened and closed investigations/assessments by quarter or year (cohort data).",
         "sp_ihs_trends_counts": "This filter allows you to select: 1) the count or rate of placement prevention service cases on the first day of the quarter or year (point-in-time data) or 2) the count or rate of opened and closed placement prevention cases by quarter or year (cohort data). The ‘overview’ selection shows the point-in-time data in the top bar graph and the cohort data in the bottom line graph.",
