@@ -38,7 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "",
+				"y": "Rate per 1,000 Households with a Referral",
 				"yFormat": "#,##0"
 			},
 			"hideColumns": [0]
@@ -49,7 +49,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Referral"
+				"y": "Rate per 1,000 Households with a Referral",
 			},
 			"hideColumns": []
 		}],
@@ -59,7 +59,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "",
+				"y": "Rate per 1,000 Households with a Referral",
 				"yFormat": "#,##0"
 			},
 			"hideColumns": [1]
