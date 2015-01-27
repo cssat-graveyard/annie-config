@@ -2,7 +2,7 @@
 	"table": "sp_rate_referrals_scrn_in_order_ts",
 	"title": "Rate of Screened-In Referrals by Order of Screened-In Referral",
 	"dropdown": "Rate of Screened-In Referrals by Order of Screened-In Referral",
-	"measurementOrder": 6,
+	"measurementOrder": 4,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Date",

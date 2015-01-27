@@ -2,7 +2,7 @@
 	"table": "sp_rate_placement_ts",
 	"title": "Rate of Placements",
 	"dropdown": "Rate of Placements",
-	"measurementOrder": 3,
+	"measurementOrder": 5,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Cohort Date",
