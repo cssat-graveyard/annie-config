@@ -1,7 +1,8 @@
 {
 	"table": "sp_rate_referrals_order_ts",
-	"title": "Time Series Rate Referrals Order",
-	"dropdown": "Time Series Rate Referrals Order",
+	"title": "Rate of Referral by Order of Referral per 1,000 Households 
+	(with seasonal trends smoothed)",
+	"dropdown": "Referral Rates by Order of Referral Order",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
