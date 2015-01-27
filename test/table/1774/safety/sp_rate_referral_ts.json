@@ -1,14 +1,14 @@
 {
 	"table": "sp_rate_referral_ts",
-	"title": "Rate of Referrals",
-	"dropdown": "Rate of Referral",
+	"title": "Rate of Referrals per 1,000 Households",
+	"dropdown": "Rate of Referrals",
 	"measurementOrder": 1,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Date",
 		"valueFields": ["Referral Rate",
 		"Trend"],
-		"removeFields": ["Seasonal"]
+		"removeFields": []
 	},
 	"controls": [],
 	"params": ["dynamicMonthStart",
@@ -38,7 +38,8 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": "",
+				"yFormat": "#,##0.00"
 			},
 			"hideColumns": [0]
 		}],
@@ -48,7 +49,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": ""
 			},
 			"hideColumns": []
 		}],
@@ -58,7 +59,8 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": "",
+				"yFormat": "#,##0.00"
 			},
 			"hideColumns": [1]
 		}]
