@@ -1,7 +1,7 @@
 {
 	"table": "sp_rate_referral_scrn_in_ts",
-	"title": "Time Series Screened-In Referral Rate per 1,000 Households with a Referral",
-	"dropdown": "Time Series Screened-In Referral Rate",
+	"title": "Rate of Screened-In Referrals per 1,000 Households with a Referral",
+	"dropdown": "Rate of Screened-In Referrals",
 	"measurementOrder": 5,
 	"transform": {
 		"Function": "daterow",
