@@ -1,7 +1,7 @@
 {
 	"table": "sp_rate_care_day_maltreatment_limits",
-	"title": "Substantiated Cases of Maltreatment in Care",
-	"dropdown": "Maltreatment",
+	"title": "Rate of Substantiated Cases of Maltreatment",
+	"dropdown": "Rate of Substantiated Cases of Maltreatment",
 	"measurementOrder": 7,
 	"transform": {
 		"Function": "daterow",
@@ -33,7 +33,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "",
+				"y": "Rate per 1,000 Care-Days",
 				"yFormat": "#,##0"
 			},
 			"hideColumns": [1,
@@ -45,7 +45,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "",
+				"y": "Rate per 1,000 Care-Days",
 				"yFormat": "#,##0"
 			}
 		}]
