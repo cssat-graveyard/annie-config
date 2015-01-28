@@ -1142,7 +1142,7 @@
     "table": "ref_lookup_disability",
     "display": {
       "legend": "Disability",
-      "column": "fieldsLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "selected": 0,
