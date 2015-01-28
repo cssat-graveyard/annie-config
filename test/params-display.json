@@ -578,8 +578,6 @@
       "multi": true,
       "zeroLast": true,
       "disabled": [
-        3,
-        2,
         6,
         7
       ],
