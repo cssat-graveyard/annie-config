@@ -1,7 +1,7 @@
 {
   "table": "sp_placement_care_days_mobility_limits_ds",
-  "title": "Placement Moves within the Child Welfare System",
-  "dropdown": "All Placement Moves",
+  "title": "Rate of Placement Moves",
+  "dropdown": "Rate of Placement Moves",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
@@ -40,7 +40,7 @@
   "chartType": "line",
   "labels": {
     "x": "",
-    "y": ""
+    "y": "RAte per 100,000 Care-Days"
   },
   "numberFormat": {
     "fractionDigits": 2
