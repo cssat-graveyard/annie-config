@@ -1191,9 +1191,9 @@
   },
   "movement_category": {
     "values": {
-      "0": "Movement to Kin",
-      "1": "Movement to Foster",
-      "2": "Movement to Group"
+      "0": "Movement to Kin Care",
+      "1": "Movement to Foster Care",
+      "2": "Movement to Group Care"
     },
     "display": {
       "legend": "Movement Type",
