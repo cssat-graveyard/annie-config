@@ -1119,9 +1119,6 @@
       "type": "param",
       "multi": true,
       "selected": 1,
-      "disabled": [
-        0
-      ],
       "visible": true,
       "help": "This is the order of a referral, a screened-in referral, or an out-of-home placement. See Measure Help for details about this filter."
     }
@@ -1203,8 +1200,8 @@
       "multi": true,
       "sort": true,
       "selected": 0,
-      "visible": true, 
-	  "help": "This measure allows for a calculation of movement between the three most common types of placement: foster care, kin care, and group care. (On January 1, 2013, 87% of the children in out-of-home care were in one of these three types of placement)."
+      "visible": true,
+      "help": "This measure allows for a calculation of movement between the three most common types of placement: foster care, kin care, and group care. (On January 1, 2013, 87% of the children in out-of-home care were in one of these three types of placement)."
     }
   },
   "otr_age_in_care": {
