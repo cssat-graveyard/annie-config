@@ -1,0 +1,45 @@
+{
+  "table": "sp_rate_care_day_maltreatment_limits",
+  "title": "Rate of Substantiated Cases of Maltreatment",
+  "dropdown": "Rate of Substantiated Cases of Maltreatment",
+  "measurementOrder": 7,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Fiscal year",
+    "valueFields": [
+      "Incident Rate"
+    ],
+    "removeFields": [
+      "lcl",
+      "ucl"
+    ]
+  },
+  "controls": [],
+  "params": [
+    "Region"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    2
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region"
+  ],
+  "returnRowStart": 3,
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": "Rate per 100,000 Care-Days"
+  },
+  "numberFormat": {
+    "fractionDigits": 2
+  }
+}
