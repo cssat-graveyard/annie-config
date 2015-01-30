@@ -1,0 +1,56 @@
+{
+	"table": "sp_rate_referral_scrn_in_ts",
+	"title": "Rate of Screened-In Referrals",
+	"dropdown": "Rate of Screened-In Referrals",
+	"measurementOrder": 2,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Date",
+		"valueFields": ["Scatterplot",
+		"Trend Line"],
+		"removeFields": ["Seasonal"]
+	},
+	"controls": [],
+	"params": ["dynamicMonthStart",
+	"Region",
+	"access_type"],
+	"dateParams": [],
+	"requiredParams": ["dynamicMonthStart"],
+	"showAllOthers": true,
+	"returnRowHeaders": [0,
+	2,
+	4],
+	"returnRowDateHeaders": [0],
+	"returnRowControlHeaders": [],
+	"headerNames": ["&nbsp;",
+	"Region=Region",
+	"Access type desc=access_type"],
+	"returnRowStart": 5,
+	"hideRow": "allEmpty",
+	"columnClusterSize": 2,
+	"numberFormat": [{
+		"fractionDigits": 2
+	}],
+	"trendCol": 1,
+	"chartId": "chart1",
+	"style": "",
+	"labels": {
+		"x": "",
+		"y": "Rate per 1,000 Households with a Referral",
+		"yFormat": "#,##0"
+	},
+	"multicharts": {
+		"Trend-Line": [{
+			"chartType": "line",
+			"hideColumns": [0]
+		}],
+		"Trend-Line-with-Scatterplot": [{
+			"chartType": "combo",
+			"hideColumns": []
+		}],
+		"Scatterplot": [{
+			"chartType": "scatterChart",
+			"hideColumns": [1]
+		}]
+	}
+}
