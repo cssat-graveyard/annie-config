@@ -7,7 +7,7 @@
 		"Function": "daterow",
 		"dateField": "Date",
 		"valueFields": ["Placement Rate",
-		"Trend Line"],
+		"Trend"],
 		"removeFields": ["Seasonal"]
 	},
 	"controls": [],
