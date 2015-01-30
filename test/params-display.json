@@ -1192,18 +1192,19 @@
   },
   "movement_category": {
     "values": {
-      "0": "Movement to Kin Care",
-      "1": "Movement to Foster Care",
-      "2": "Movement to Group Care"
+      "0": "Placement Move to Kin Care",
+      "1": "Placement Move to Foster Care",
+      "2": "Placement Move to Group Care"
     },
     "display": {
-      "legend": "Movement Type",
+      "legend": "Placement Move",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "sort": true,
       "selected": 0,
-      "visible": true
+      "visible": true, 
+	  "help": "This measure allows for a calculation of movement between the three most common types of placement: foster care, kin care, and group care. (On January 1, 2013, 87% of the children in out-of-home care were in one of these three types of placement)."
     }
   },
   "otr_age_in_care": {
