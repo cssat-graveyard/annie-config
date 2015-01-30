@@ -1,7 +1,7 @@
 {
 	"table": "sp_rate_placement_order_ts",
-	"title": "Rate of Placements by Order of Placement",
-	"dropdown": "Rate of Placements by Order of Placement",
+	"title": "Rate and Order of Placements",
+	"dropdown": "Rate and Order of Placements",
 	"measurementOrder": 6,
 	"transform": {
 		"Function": "daterow",
