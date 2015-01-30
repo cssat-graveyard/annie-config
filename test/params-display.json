@@ -1186,7 +1186,8 @@
       "type": "param",
       "multi": true,
       "sort": true,
-      "visible": true
+      "visible": true,
+      "help": "This filter calucates the number of years in out-of-home care per episode. Children can have multiple episodes. Each episode ends with a Federal discharge date and can include multiple placements"
     }
   },
   "movement_category": {

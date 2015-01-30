@@ -6,8 +6,8 @@
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Date",
-		"valueFields": ["Placement Rate",
-		"Trend"],
+		"valueFields": ["Scatterplot",
+		"Trend Line"],
 		"removeFields": ["Seasonal"]
 	},
 	"controls": [],
@@ -38,7 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate-per-1,000-Households-with-a-Referral",
+				"y": "Rate per 1,000 Households with a Referral",
 				"yFormat": "#,##0"
 			},
 			"hideColumns": [0]

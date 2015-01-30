@@ -6,8 +6,8 @@
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Date",
-		"valueFields": ["Placement Rate",
-		"Trend"],
+		"valueFields": ["Scatterplot",
+		"Trend Line"],
 		"removeFields": ["Seasonal"]
 	},
 	"controls": [],
