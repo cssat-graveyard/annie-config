@@ -1108,7 +1108,7 @@
       "column": "advancedRight",
       "type": "param",
       "visible": false,
-      "help": "This is the county where the referral was investigated/assessed. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+      "help": "This filter calculates the number of years in out-of-home care per episode. Children can have multiple episodes. Each episode ends with a Federal discharge date and can include multiple placements."
     }
   },
   "order": {
