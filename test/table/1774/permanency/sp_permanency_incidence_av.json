@@ -1,0 +1,37 @@
+{
+  "table": "sp_permanency_incidence_av",
+  "title": "Permanency at One Year",
+  "dropdown": "Permanency at One Year",
+  "measurementOrder": 3,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Fiscal year",
+    "valueFields": [
+      "Permanency Incidence"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [
+    "Region"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    2
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region"
+  ],
+  "returnRowStart": 3,
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": "",
+    "yFormat": "##'%"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "table": "sp_placement_care_days_otr_limits",
+  "title": "Number of Days 'On the Run'",
+  "dropdown": "Number of Days 'On the Run'",
+  "measurementOrder": 5,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Fiscal year",
+    "valueFields": [
+      "Days OTR"
+    ],
+    "removeFields": [
+      "lcl",
+      "ucl"
+    ]
+  },
+  "controls": [],
+  "params": [
+    "Region",
+    "otr_age_in_care"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    2,
+    4
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region",
+    "Age=otr_age_in_care"
+  ],
+  "returnRowStart": 5,
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": ""
+  }
+}
