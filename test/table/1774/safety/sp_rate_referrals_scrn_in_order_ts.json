@@ -1,16 +1,14 @@
 {
-	"table": "sp_rate_placement_order_ts",
-	"title": "Rate and Order of Placements",
-	"dropdown": "Rate and Order of Placements",
-	"measurementOrder": 6,
+	"table": "sp_rate_referrals_scrn_in_order_ts",
+	"title": "Rate and Order of Screened-In Referrals",
+	"dropdown": "Rate and Order of Screened-In Referrals",
+	"measurementOrder": 5,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Cohort Date",
-		"valueFields": ["Scatterplot",
-		"Trend Line"],
-		"removeFields": ["cnt_households",
-		"cnt_si_referrals",
-		"Seasonal"]
+		"dateField": "Date",
+		"valueFields": ["Placement Rate",
+		"Trend"],
+		"removeFields": ["Seasonal"]
 	},
 	"controls": [],
 	"params": ["dynamicMonthStart",
@@ -40,7 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral",
+				"y": "Rate per 1,000 Households with a Referral",
 				"yFormat": "#,##0"
 			},
 			"hideColumns": [0]
@@ -51,7 +49,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral"
+				"y": "Rate per 1,000 Households with a Referral"			
 			},
 			"hideColumns": []
 		}],
@@ -61,7 +59,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral",
+				"y": "Rate per 1,000 Households with a Referral",
 				"yFormat": "#,##0"
 			},
 			"hideColumns": [1]
