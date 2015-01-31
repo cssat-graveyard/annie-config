@@ -28,8 +28,8 @@
   "returnRowStart": 2,
   "chartType": "column",
   "labels": {
-    "x": "Year",
-    "y": "Enrolled in Post-Secondary Education",
+    "x": "",
+    "y": "",
     "yFormat": "##'%"
   },
   "numberFormat": {
