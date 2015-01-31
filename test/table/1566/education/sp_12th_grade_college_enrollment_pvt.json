@@ -1,6 +1,6 @@
 {
   "table": "sp_12th_grade_college_enrollment_pvt",
-  "title": "Percent of 12th Grade Cohort College Enrollment",
+  "title": "Percent Enrolled in College: 12th Grade Cohort",
   "measurementOrder": 4,
   "controls": [
     "cohort_year_dropout",

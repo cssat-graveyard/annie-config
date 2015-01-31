@@ -1,6 +1,6 @@
 {
   "table": "sp_9th_grade_college_enrollment_pvt",
-  "title": "Percent of 9th Grade Cohort College Enrollment",
+  "title": "Percent Enrolled in College: 9th Grade Cohort",
   "measurementOrder": 3,
   "controls": [
     "cohort_year_dropout",
