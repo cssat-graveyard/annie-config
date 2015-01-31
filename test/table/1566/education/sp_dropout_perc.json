@@ -1,6 +1,6 @@
 {
   "table": "sp_dropout_perc",
-  "title": "Percent of High School Dropouts",
+  "title": "Percent Not Completing High School",
   "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
