@@ -1,0 +1,41 @@
+{
+  "table": "sp_adult_readiness",
+  "title": "Adult Tranistion Planning",
+  "dropdown": "Adult tranistion Planning",
+  "measurementOrder": 1,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "cohort_fy",
+    "valueFields": [
+      "prp_kids_with_plans"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [
+    "Region"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    2
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region"
+  ],
+  "returnRowStart": 3,
+  "chartType": "column",
+  "labels": {
+    "x": "",
+    "y": "",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 0,
+    "suffix": "%"
+  }
+}
