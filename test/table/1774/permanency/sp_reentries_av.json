@@ -1,0 +1,41 @@
+{
+  "table": "sp_reentries_av",
+  "title": "Re-Entry with in One Year",
+  "dropdown": "Re-Entry with in One Year",
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Fiscal Year",
+    "valueFields": [
+      "Percent Reentered"
+    ],
+    "removeFields": [
+      "old_region_cd"
+    ]
+  },
+  "controls": [],
+  "params": [
+    "Region"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    1
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region"
+  ],
+  "returnRowStart": 2,
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": "",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "decimalSymbol": "0"
+  }
+}
