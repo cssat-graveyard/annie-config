@@ -1,0 +1,33 @@
+{
+  "table": "sp_sibling_placement",
+  "measurementOrder": 2,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "state_fiscal_yyyy",
+    "valueFields": [
+      "Sibling Placements"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;"
+  ],
+  "returnRowStart": 1,
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": ""
+  },
+  "numberFormat": {
+    "fractionDigits": 0,
+    "suffix": "%"
+  }
+}
