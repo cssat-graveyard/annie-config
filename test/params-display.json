@@ -1147,7 +1147,7 @@
       "multi": true,
       "selected": 0,
       "visible": true,
-      "help": "The definition of a disability is combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities). For more information about disabilities, see this document from the State Superintendent of Public Instruction."
+      "help": "The definition of a disability is combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities). For more information about disabilities, see this document from the <a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a>.</p></div>"
     }
   },
   "student_type": {
@@ -1164,7 +1164,7 @@
         0
       ],
       "visible": true,
-      "help": "This filter classifies children/students into three categories: 1) those not receiving a free or reduced-price lunch and not in out-of-home care; 2) those receiving a free or reduced-price lunch and not in out-of-home care; and 3) those receiving free or reduced-price and in out-of-home care. For more information about school lunch programs, see National School Lunch Program. "
+      "help": "<div><p><span style=\"text-decoration: underline;\">Student Type</span>: This filter classifies children/students into three categories: 1) those <span style=\"text-decoration: underline;\">not</span> receiving a free or reduced-price lunch and <span style=\"text-decoration: underline;\">not</span> in out-of-home care; 2) those receiving a free or reduced-price lunch and <span style=\"text-decoration: underline;\">not</span> in out-of-home care; and 3) those receiving free or reduced-price and in out-of-home care. For more information about school lunch programs, see <a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a>.</p><p><span style=\"text-decoration: underline;\">"
     }
   },
   "Region": {
