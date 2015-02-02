@@ -1147,7 +1147,7 @@
       "multi": true,
       "selected": 0,
       "visible": true,
-      "help": "The definition of a disability is combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities). For more information about disabilities, see this document from the <a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a>.</p></div>"
+      "help": "The definition of a disability is combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities. For more information about disabilities, see this document from the <span style=\"text-decoration: underline;\"><a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a></span>."
     }
   },
   "student_type": {
@@ -1164,7 +1164,7 @@
         0
       ],
       "visible": true,
-      "help": "<div><p><span style=\"text-decoration: underline;\">Student Type</span>: This filter classifies children/students into three categories: 1) those <span style=\"text-decoration: underline;\">not</span> receiving a free or reduced-price lunch and <span style=\"text-decoration: underline;\">not</span> in out-of-home care; 2) those receiving a free or reduced-price lunch and <span style=\"text-decoration: underline;\">not</span> in out-of-home care; and 3) those receiving free or reduced-price and in out-of-home care. For more information about school lunch programs, see <a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a>.</p><p><span style=\"text-decoration: underline;\">"
+      "help": "This filter classifies children/students into three categories: 1) not in out-of-home care and not receiving a free or reduced-price lunch; 2) those in out-of-home care but receiving a free or reduced-price lunch; and 3) those in out-of-home care and receiving free or reduced-price lunch. For more information about school lunch programs, see <span style=\"text-decoration: underline;\"><a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a></span>."
     }
   },
   "Region": {
