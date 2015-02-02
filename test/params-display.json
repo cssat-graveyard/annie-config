@@ -1147,22 +1147,24 @@
       "multi": true,
       "selected": 0,
       "visible": true,
-      "help": "Lorem Ipsum."
+      "help": "The definition of a disability is combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities). For more information about disabilities, see this document from the State Superintendent of Public Instruction."
     }
   },
   "student_type": {
     "table": "ref_lookup_student_type",
+    "removeKeys": [
+      0
+    ],
     "display": {
       "legend": "Student Type",
       "column": "fieldsRight",
       "type": "param",
-      "multi": true,
-      "selected": 3,
+      "multi": false,
       "disabled": [
         0
       ],
       "visible": true,
-      "help": "Lorem Ipsum."
+      "help": "This filter classifies children/students into three categories: 1) those not receiving a free or reduced-price lunch and not in out-of-home care; 2) those receiving a free or reduced-price lunch and not in out-of-home care; and 3) those receiving free or reduced-price and in out-of-home care. For more information about school lunch programs, see National School Lunch Program. "
     }
   },
   "Region": {
