@@ -5,9 +5,9 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "cohort_fy",
+    "dateField": "Cohort Fiscal Year",
     "valueFields": [
-      "prp_kids_with_plans"
+      "Proportion of Youth with Plans"
     ],
     "removeFields": []
   },

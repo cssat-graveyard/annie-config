@@ -5,7 +5,7 @@
   "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
-    "dateField": "state_fiscal_yyyy",
+    "dateField": "Cohort Fical Year",
     "valueFields": [
       "Sibling Placements"
     ],
@@ -26,7 +26,8 @@
   "chartType": "line",
   "labels": {
     "x": "",
-    "y": ""
+    "y": "",
+    "yFormat": "##'%"
   },
   "numberFormat": {
     "fractionDigits": 0,
