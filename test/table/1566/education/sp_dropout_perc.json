@@ -6,7 +6,7 @@
     "Function": "daterow",
     "dateField": "Grade Level",
     "valueFields": [
-      "Drop Out Percent"
+      "Percent"
     ],
     "removeFields": []
   },
