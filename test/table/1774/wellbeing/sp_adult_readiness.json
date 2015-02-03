@@ -1,7 +1,7 @@
 {
   "table": "sp_adult_readiness",
-  "title": "Adult Tranistion Planning",
-  "dropdown": "Adult tranistion Planning",
+  "title": "Adult Transition Planning",
+  "dropdown": "Adult Transition Planning",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
