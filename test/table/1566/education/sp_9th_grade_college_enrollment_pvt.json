@@ -21,7 +21,7 @@
   ],
   "headerNames": [
     "Cohort Period=cohort_year_dropout",
-    "fl_disability=disability"
+    "fl_disability*disability"
   ],
   "hideRow": "allEmpty",
   "columnClusterSize": 3,
