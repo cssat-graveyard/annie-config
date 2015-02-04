@@ -1214,5 +1214,20 @@
       "selected": 2,
       "visible": true
     }
+  },
+  "cohort_year_grade_year": {
+    "values": {
+      "2006": "2006 Entry Year",
+      "2007": "2007 Entry Year",
+      "2008": "2008 Entry Year"
+    },
+    "display": {
+      "legend": "Grade Year",
+      "column": "fieldsLeft",
+      "type": "filter",
+      "multi": true,
+      "selected": 2007,
+      "resultUnavailable": "disable"
+    }
   }
 }

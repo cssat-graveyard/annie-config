@@ -4,7 +4,6 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "3rd Grade Year",
     "valueFields": [
       "Percent Passed"
     ],
@@ -14,33 +13,29 @@
     ]
   },
   "controls": [
-    "disability"
+    "disability",
+    "cohort_year_grade_year"
   ],
   "params": [
-    "dynamicMonthStart",
     "student_type"
   ],
   "dateParams": [],
-  "requiredParams": [
-    "dynamicMonthStart"
-  ],
+  "requiredParams": [],
   "showAllOthers": true,
   "mutexAllOthers": false,
   "returnRowHeaders": [
-    0,
     2,
     3
   ],
-  "returnRowDateHeaders": [
-    0
-  ],
+  "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
+    0,
     3
   ],
   "headerNames": [
-    "&nbsp;",
-	"Student Type=student_type",
-	"fl_disability*disability"
+    "Grade Year=cohort_year_grade_year",
+    "Student Type=student_type",
+    "fl_disability*disability"
   ],
   "returnRowStart": 4,
   "hideRow": "allEmpty",
@@ -52,6 +47,6 @@
   },
   "numberFormat": {
     "fractionDigits": 2,
-	"suffix": "%"
+    "suffix": "%"
   }
 }
