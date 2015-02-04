@@ -3,13 +3,8 @@
   "title": "Percent Not Completing High School",
   "measurementOrder": 5,
   "transform": {
-    "valueFields": [
-      "Drop Out Percent"
-    ],
-    "removeFields": [
-      "tx_student_type",
-      "tx_grade"
-    ]
+    "valueFields": [],
+    "removeFields": []
   },
   "controls": [
     "cohort_year_dropout",
@@ -34,7 +29,6 @@
     "disability=disability",
     "cd_student_type=student_type"
   ],
-  "returnRowStart": 5,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
