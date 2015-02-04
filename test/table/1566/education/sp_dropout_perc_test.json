@@ -22,6 +22,8 @@
 	"Cohort Period*cohort_year_dropout",
 	"Student Type=student_type",
 	"fl_disability*disability"],
+	"columnClusterSize": 3,
+	"returnRowStart": 2,
 	"hideRow": "allEmpty",
 	"chartType": "column",
 	"labels": {
