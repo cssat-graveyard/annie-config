@@ -6,7 +6,10 @@
     "valueFields": [
       "Drop Out Percent"
     ],
-    "removeFields": []
+    "removeFields": [
+      "tx_student_type",
+      "tx_grade"
+    ]
   },
   "controls": [
     "cohort_year_dropout",
@@ -33,7 +36,7 @@
     "disability=disability",
     "cd_student_type=student_type"
   ],
-  "returnRowStart": 5,
+  "returnRowStart": 3,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
