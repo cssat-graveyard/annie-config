@@ -3,7 +3,9 @@
   "title": "Percent Not Completing High School",
   "measurementOrder": 5,
   "transform": {
-    "valueFields": [],
+    "valueFields": [
+      "Drop Out Percent"
+    ],
     "removeFields": []
   },
   "controls": [
@@ -18,7 +20,8 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    1
+    1,
+    2
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
@@ -27,8 +30,10 @@
   ],
   "headerNames": [
     "cohort_year_dropout=cohort_year_dropout",
-    "disability=disability"
+    "disability=disability",
+    "cd_student_type=student_type"
   ],
+  "returnRowStart": 5,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
