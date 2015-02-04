@@ -1,46 +1,32 @@
 {
-  "table": "sp_lit3_perc",
-  "title": "Literacy Percent",
-  "measurementOrder": 1,
-  "transform": {
-    "valueFields": [],
-    "removeFields": []
-  },
-  "controls": [
-    "disability",
-    "cohort_year_grade_year"
-  ],
-  "params": [
-    "student_type"
-  ],
-  "dateParams": [],
-  "requiredParams": [],
-  "showAllOthers": true,
-  "mutexAllOthers": false,
-  "returnRowHeaders": [
-    0,
-    2,
-    3
-  ],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
-    0,
-    3
-  ],
-  "headerNames": [
-    "Grade Year=cohort_year_grade_year",
-    "Student Type=student_type",
-    "fl_disability*disability"
-  ],
-  "hideRow": "allEmpty",
-  "chartType": "column",
-  "labels": {
-    "x": "",
-    "y": "",
-    "yFormat": "##'%"
-  },
-  "numberFormat": {
-    "fractionDigits": 2,
-    "suffix": "%"
-  }
+	"table": "sp_lit3_perc",
+	"title": "Literacy Percent",
+	"measurementOrder": 1,
+	"controls": ["disability",
+	"cohort_year_grade_year"],
+	"params": ["student_type"],
+	"dateParams": [],
+	"requiredParams": [],
+	"showAllOthers": true,
+	"mutexAllOthers": false,
+	"returnRowHeaders": [0,
+	2,
+	3],
+	"returnRowDateHeaders": [],
+	"returnRowControlHeaders": [0,
+	3],
+	"headerNames": ["Grade Year=cohort_year_grade_year",
+	"Student Type=student_type",
+	"fl_disability*disability"],
+	"hideRow": "allEmpty",
+	"chartType": "column",
+	"labels": {
+		"x": "",
+		"y": "",
+		"yFormat": "##'%"
+	},
+	"numberFormat": {
+		"fractionDigits": 2,
+		"suffix": "%"
+	}
 }
