@@ -1226,7 +1226,9 @@
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
+      "zeroLast": false,
       "selected": 2007,
+      "alias": "Grade Year",
       "resultUnavailable": "disable"
     }
   }
