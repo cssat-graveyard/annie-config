@@ -4,7 +4,7 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "Entry Cohort Year",
+    "dateField": "3rd Grade Year",
     "valueFields": [
       "Percent Passed"
     ],
