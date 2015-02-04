@@ -13,27 +13,23 @@
     "disability"
   ],
   "params": [
-    "dynamicMonthStart",
-    "student_type"
+    "student_type",
+    "dynamicMonthStart"
   ],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "mutexAllOthers": false,
   "returnRowHeaders": [
-    0,
     2
   ],
-  "returnRowDateHeaders": [
-    0
-  ],
+  "returnRowDateHeaders": [],
   "returnRowControlHeaders": [],
   "headerNames": [
-    "Grade Year=dynamicMonthStart",
     "Student Type=student_type",
     "fl_disability*disability"
   ],
-  "returnRowStart": 3,
+  "returnRowStart": 6,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
