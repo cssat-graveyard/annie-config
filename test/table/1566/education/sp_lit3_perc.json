@@ -13,8 +13,8 @@
     "disability"
   ],
   "params": [
-    "student_type",
-    "dynamicMonthStart"
+    "dynamicMonthStart",
+    "student_type"
   ],
   "dateParams": [],
   "requiredParams": [],
@@ -24,10 +24,10 @@
     0,
     2
   ],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
+  "returnRowDateHeaders": [
     0
   ],
+  "returnRowControlHeaders": [],
   "headerNames": [
     "Grade Year=dynamicMonthStart",
     "Student Type=student_type",
