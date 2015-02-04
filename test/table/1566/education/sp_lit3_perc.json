@@ -24,6 +24,7 @@
   "showAllOthers": true,
   "mutexAllOthers": false,
   "returnRowHeaders": [
+    0,
     2,
     3
   ],
