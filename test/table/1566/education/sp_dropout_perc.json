@@ -1,0 +1,51 @@
+{
+  "table": "sp_dropout_perc",
+  "title": "Percent Not Completing High School",
+  "measurementOrder": 5,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Grade Level",
+    "valueFields": [
+      "Drop Out Percent"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "cohort_year_dropout",
+    "disability"
+  ],
+  "params": [
+    "student_type"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1,
+    3,
+    4
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    4
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "Cohort Period*cohort_year_dropout",
+    "Student Type=student_type",
+    "fl_disability*disability"
+  ],
+  "returnRowStart": 5,
+  "hideRow": "allEmpty",
+  "chartType": "column",
+  "labels": {
+    "x": "Grade Level",
+    "y": "",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
+  }
+}
