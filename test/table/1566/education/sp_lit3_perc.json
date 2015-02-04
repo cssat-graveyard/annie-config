@@ -3,7 +3,6 @@
   "title": "Literacy Percent",
   "measurementOrder": 1,
   "transform": {
-    "Function": "daterow",
     "valueFields": [
       "Percent Passed"
     ],
