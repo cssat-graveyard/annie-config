@@ -1222,7 +1222,7 @@
       "2008": "2008 Entry Year"
     },
     "display": {
-      "legend": "Grade Year",
+      "legend": "3rd Grade Year",
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
