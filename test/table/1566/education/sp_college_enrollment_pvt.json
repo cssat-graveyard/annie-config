@@ -28,6 +28,8 @@
     "grade_cohort=entrance_grade"
   ],
   "hideRow": "allEmpty",
+  "columnClusterSize": 3,
+  "returnRowStart": 2,
   "chartType": "column",
   "labels": {
     "x": "",
