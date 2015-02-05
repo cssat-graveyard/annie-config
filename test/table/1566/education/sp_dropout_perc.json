@@ -36,7 +36,7 @@
     "Student Type*student_type",
     "fl_disability*disability"
   ],
-  "returnRowStart": 5,
+  "returnRowStart": 0,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
