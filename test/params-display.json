@@ -1215,14 +1215,14 @@
       "visible": true
     }
   },
-  "cohort_year_grade_year": {
+  "third_grade_year": {
     "values": {
-      "2006": "2006 Entry Year",
-      "2007": "2007 Entry Year",
-      "2008": "2008 Entry Year"
+      "2006": "2006 ",
+      "2007": "2007 ",
+      "2008": "2008 "
     },
     "display": {
-      "legend": "3rd Grade Year",
+      "legend": "Third Grade Year",
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
