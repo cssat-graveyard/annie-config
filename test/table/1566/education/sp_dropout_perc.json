@@ -3,6 +3,7 @@
 	"title": "Percent Not Completing High School",
 	"measurementOrder": 4,
 	"transform": {
+	    "Function": "daterow",
 		"dateField": "Grade Level",
 		"valueFields": ["Percent"],
 		"removeFields": []
