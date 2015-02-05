@@ -20,7 +20,7 @@
     1
   ],
   "headerNames": [
-    "Grade Year=cohort_year_grade_year",
+    "Grade Year=third_grade_year",
     "fl_disability*disability"
   ],
   "hideRow": "allEmpty",

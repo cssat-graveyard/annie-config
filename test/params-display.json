@@ -1217,9 +1217,9 @@
   },
   "third_grade_year": {
     "values": {
-      "2006": "F 2006 ",
-      "2007": "F 2007 ",
-      "2008": "F 2008 "
+      "2006": "2006 ",
+      "2007": "2007 ",
+      "2008": "2008 "
     },
     "display": {
       "legend": "Third Grade Year",
@@ -1227,7 +1227,7 @@
       "type": "filter",
       "multi": true,
       "zeroLast": false,
-      "selected": 2007,
+      "selected": 2008,
       "alias": "Grade Year",
       "resultUnavailable": "disable"
     }
