@@ -2,10 +2,6 @@
   "table": "sp_lit3_perc",
   "title": "Literacy Percent",
   "measurementOrder": 1,
-  "transform": {
-    "valueFields": [],
-    "removeFields": []
-  },
   "controls": [
     "cohort_year_grade_year",
     "disability"
@@ -28,10 +24,16 @@
     "fl_disability=disability"
   ],
   "hideRow": "allEmpty",
+  "columnClusterSize": 3,
+  "returnRowStart": 2,
   "chartType": "column",
   "labels": {
     "x": "",
     "y": "",
     "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
   }
 }
