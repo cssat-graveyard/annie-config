@@ -3,7 +3,6 @@
 	"title": "Percent Not Completing High School",
 	"measurementOrder": 4,
 	"transform": {
-		"Function": "daterow",
 		"dateField": "Grade Level",
 		"valueFields": ["Percent"],
 		"removeFields": []
@@ -19,10 +18,7 @@
 	3,
 	4],
 	"returnRowDateHeaders": [],
-	"returnRowControlHeaders": [0,
-	1,
-	3,
-	4],
+	"returnRowControlHeaders": [],
 	"headerNames": ["&nbsp;",
 	"Cohort Period*cohort_year_dropout",
 	"Student Type*student_type",
