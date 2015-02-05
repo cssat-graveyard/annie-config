@@ -3,7 +3,7 @@
   "title": "Literacy Percent",
   "measurementOrder": 1,
   "controls": [
-    "cohort_year_grade_year",
+    "third_grade_year",
     "disability"
   ],
   "params": [],
