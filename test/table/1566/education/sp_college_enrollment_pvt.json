@@ -2,10 +2,6 @@
   "table": "sp_college_enrollment_pvyt",
   "title": "Percent Enrolled in College",
   "measurementOrder": 3,
-  "transform": {
-    "valueFields": [],
-    "removeFields": []
-  },
   "controls": [
     "cohort_year_dropout",
     "disability",
