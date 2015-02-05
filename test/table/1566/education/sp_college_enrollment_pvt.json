@@ -25,7 +25,7 @@
   "headerNames": [
     "Cohort Period*cohort_year_dropout",
     "fl_disability*disability",
-    "grade_cohort=entrance_grade"
+    "grade_cohort*entrance_grade"
   ],
   "hideRow": "allEmpty",
   "columnClusterSize": 3,
