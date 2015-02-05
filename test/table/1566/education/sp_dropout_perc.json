@@ -33,7 +33,7 @@
   "headerNames": [
     "&nbsp;",
     "Cohort Period*cohort_year_dropout",
-    "Student Type=student_type",
+    "Student Type*student_type",
     "fl_disability*disability"
   ],
   "returnRowStart": 5,
