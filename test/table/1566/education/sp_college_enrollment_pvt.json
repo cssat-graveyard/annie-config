@@ -1,5 +1,6 @@
 {
   "table": "sp_college_enrollment_pvt",
+  "title": "Percent Enrolled in College"
   "measurementOrder": 2,
   "controls": [
     "cohort_year_dropout",
