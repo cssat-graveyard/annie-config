@@ -927,7 +927,7 @@
       "visible": true,
       "resultUnavailable": "hide",
       "help": {
-        "default": "This filter allows you to follow studnets who were expected to graduate in 2010 and 2011 (based on the year they started high school).",
+        "default": "This filter allows you to follow students who were expected to graduate in 2010 and 2011 (based on the year they started high school).",
         "sp_12th_grade_college_enrollment_pvt": "xxxxxxxxx.",
         "sp_9th_grade_college_enrollment_pvt": "xxxxxxx.",
         "sp_post_secondary_completion_pvt": "This is a static filter that returns results for students expected to graduate in 2010 (based on the year they started high school)."
