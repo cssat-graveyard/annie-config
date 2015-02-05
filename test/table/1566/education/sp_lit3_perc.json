@@ -1,35 +1,49 @@
+
 {
   "table": "sp_lit3_perc",
   "title": "Literacy Percent",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
+    "dateField": "Entry Cohort Year",
     "valueFields": [
       "Percent Passed"
     ],
-    "removeFields": []
+    "removeFields": [
+      "i0",
+      "i1"
+    ]
   },
   "controls": [
     "disability"
   ],
   "params": [
-    "student_type",
-    "dynamicMonthStart"
+    "dynamicMonthStart",
+    "student_type"
   ],
   "dateParams": [],
-  "requiredParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
   "showAllOthers": true,
   "mutexAllOthers": false,
   "returnRowHeaders": [
-    2
+    0,
+    2,
+    3
   ],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [
+    3
+  ],
   "headerNames": [
-    "Student Type=student_type",
-    "fl_disability*disability"
+    "&nbsp;",
+	"Student Type=student_type",
+	"fl_disability*disability"
   ],
-  "returnRowStart": 6,
+  "returnRowStart": 4,
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
@@ -39,6 +53,6 @@
   },
   "numberFormat": {
     "fractionDigits": 2,
-    "suffix": "%"
+	"suffix": "%"
   }
 }
