@@ -1243,6 +1243,7 @@
       "legend": "Entrance Grade",
       "column": "fieldsRight",
       "type": "filter",
+      "selected": 1,
       "visible": true
     }
   }
