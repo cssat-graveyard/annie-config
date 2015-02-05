@@ -925,7 +925,7 @@
       "zeroLast": false,
       "selected": 2007,
       "visible": true,
-      "resultUnavailable": "disable",
+      "resultUnavailable": "hide",
       "help": {
         "default": "This filter allows you to follow children that entered high school from 2007 to the most recent available data.",
         "sp_12th_grade_college_enrollment_pvt": "This filter allows you to follow children that were seniors in high school in available years.",
