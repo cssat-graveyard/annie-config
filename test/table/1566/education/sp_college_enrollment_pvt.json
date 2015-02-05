@@ -10,7 +10,11 @@
   "params": [],
   "dateParams": [],
   "requiredParams": [],
-  "returnRowHeaders": [],
+  "returnRowHeaders": [
+	0,
+	1,
+	2
+	],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
     0,
