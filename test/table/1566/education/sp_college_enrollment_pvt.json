@@ -1,10 +1,6 @@
 {
   "table": "sp_college_enrollment_pvt",
   "measurementOrder": 2,
-  "transform": {
-    "valueFields": [],
-    "removeFields": []
-  },
   "controls": [
     "cohort_year_dropout",
     "disability"
@@ -31,10 +27,16 @@
     "cd_grade=entrance_grade"
   ],
   "hideRow": "allEmpty",
+  "columnClusterSize": 3,
+  "returnRowStart": 3,
   "chartType": "column",
   "labels": {
     "x": "",
     "y": "",
     "yFormat": "##'%"
+  },
+    "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
   }
 }
