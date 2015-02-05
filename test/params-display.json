@@ -923,7 +923,7 @@
       "type": "filter",
       "multi": true,
       "zeroLast": false,
-      "selected": 2007,
+      "selected": 2009,
       "alias": "Cohort Period",
       "resultUnavailable": "hide",
       "help": {
@@ -1230,7 +1230,7 @@
       "selected": 2008,
       "alias": "Grade Year",
       "resultUnavailable": "disable",
-	  "help": "The literacy percent measure examines the third grade <a href='http://www.k12.wa.us/assessment/StateTesting/MSP.aspx'target='_blank'><span style='text-decoration: underline;'>Measurements of Student Progress</a></span> (MSP) literacy proficiency rates for the third grade year of 2006, 2007, 2008."
-	} 
+      "help": "The literacy percent measure examines the third grade <a href='http://www.k12.wa.us/assessment/StateTesting/MSP.aspx'target='_blank'><span style='text-decoration: underline;'>Measurements of Student Progress</a></span> (MSP) literacy proficiency rates for the third grade year of 2006, 2007, 2008."
+    }
   }
 }
