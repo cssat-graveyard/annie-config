@@ -1,43 +1,40 @@
 {
   "table": "sp_college_enrollment_pvt",
-  "title": "Percent Enrolled in College",
-  "measurementOrder": 3,
+  "measurementOrder": 2,
+  "transform": {
+    "valueFields": [],
+    "removeFields": []
+  },
   "controls": [
     "cohort_year_dropout",
-    "disability",
+    "disability"
+  ],
+  "params": [
     "entrance_grade"
   ],
-  "params": [],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
-	0,
-	1,
-	2
-	],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
     0,
     1,
     2
   ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    0,
+    1
+  ],
   "headerNames": [
     "Cohort Period*cohort_year_dropout",
     "fl_disability*disability",
-    "grade_cohort*entrance_grade"
+    "cd_grade=entrance_grade"
   ],
   "hideRow": "allEmpty",
-  "columnClusterSize": 3,
-  "returnRowStart": 3,
   "chartType": "column",
   "labels": {
     "x": "",
     "y": "",
     "yFormat": "##'%"
-  },
-  "numberFormat": {
-    "fractionDigits": 2,
-    "suffix": "%"
   }
 }
