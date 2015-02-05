@@ -29,7 +29,7 @@
   ],
   "hideRow": "allEmpty",
   "columnClusterSize": 3,
-  "returnRowStart": 3,
+  "returnRowStart": 2,
   "chartType": "column",
   "labels": {
     "x": "",
