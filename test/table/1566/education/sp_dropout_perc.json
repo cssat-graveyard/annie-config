@@ -40,7 +40,7 @@
   "hideRow": "allEmpty",
   "chartType": "column",
   "labels": {
-    "x": "Grade Level",
+    "x": "",
     "y": "",
     "yFormat": "##'%"
   },
