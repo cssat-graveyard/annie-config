@@ -1242,7 +1242,7 @@
     "display": {
       "legend": "Entrance Grade",
       "column": "fieldsRight",
-      "type": "filter",
+      "type": "param",
       "selected": 1,
       "visible": true
     }
