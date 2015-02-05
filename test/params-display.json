@@ -912,30 +912,26 @@
   },
   "cohort_year_dropout": {
     "values": {
-      "2006": "2006/2007 School Year",
-      "2007": "2007/2008 School Year",
-      "2008": "2008/2009 School Year",
-      "2009": "2009/2010 School Year"
+      "2006": "2010",
+      "2007": "2011",
+      "2008": "2012",
+      "2009": "2013"
     },
     "display": {
-      "legend": "High School Entry Cohort Year",
+      "legend": "Expected Graduation Year",
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "selected": 2007,
       "alias": "Cohort Period",
-      "disabled": [
-        2008,
-        2009
-      ],
       "resultUnavailable": "hide",
       "help": {
         "default": "This filter allows you to follow children that entered high school from 2007 to the most recent available data.",
         "sp_12th_grade_college_enrollment_pvt": "This filter allows you to follow children that were seniors in high school in available years.",
         "sp_9th_grade_college_enrollment_pvt": "This filter allows you to follow children that were freshmen  in high school in available years.",
-		"sp_post_secondary_completion_pvt": "This filter indicates that the data returned is for students who grqaduated from high school in 2010."
-	 }
+        "sp_post_secondary_completion_pvt": "This filter indicates that the data returned is for students who grqaduated from high school in 2010."
+      }
     }
   },
   "quarterStart": {
