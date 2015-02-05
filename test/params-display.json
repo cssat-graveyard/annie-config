@@ -933,8 +933,9 @@
       "help": {
         "default": "This filter allows you to follow children that entered high school from 2007 to the most recent available data.",
         "sp_12th_grade_college_enrollment_pvt": "This filter allows you to follow children that were seniors in high school in available years.",
-        "sp_9th_grade_college_enrollment_pvt": "This filter allows you to follow children that were freshmen  in high school in available years."
-      }
+        "sp_9th_grade_college_enrollment_pvt": "This filter allows you to follow children that were freshmen  in high school in available years.",
+		"sp_post_secondary_completion_pvt": "This filter indicates that the data returned is for students who grqaduated from high school in 2010."
+	 }
     }
   },
   "quarterStart": {
