@@ -29,7 +29,7 @@
   ],
   "headerNames": [
     "&nbsp;",
-    "Region=region"
+    "Region*region"
   ],
   "returnRowStart": 2,
   "chartType": "line",
