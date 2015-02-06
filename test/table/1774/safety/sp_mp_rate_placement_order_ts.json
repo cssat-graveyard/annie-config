@@ -10,7 +10,7 @@
 		"Trend"],
 		"removeFields": []
 	},
-	"controls": ["region"
+	"controls": ["region",
 	"order"],
 	"params": ["dynamicMonthStart"],
 	"dateParams": [],
@@ -23,7 +23,7 @@
 	"returnRowControlHeaders": [1,
 	2],
 	"headerNames": ["&nbsp;",
-	"Region*region"
+	"Region*region",
 	"Order*order"],
 	"returnRowStart": 3,
 	"hideRow": "allEmpty",
@@ -38,8 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral"
-				
+				"y": "Rate per 1,000 Households with a Screened-In Referral"		
 			},
 			"hideColumns": [0]
 		}],
@@ -60,7 +59,6 @@
 			"labels": {
 				"x": "",
 				"y": "Rate per 1,000 Households with a Screened-In Referral"
-				
 			},
 			"hideColumns": [1]
 		}]
