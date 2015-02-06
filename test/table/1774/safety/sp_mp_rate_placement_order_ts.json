@@ -38,7 +38,8 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral"		
+				"y": "Rate per 1,000 Households with a Screened-In Referral",
+				"yFormat": "#,##0"
 			},
 			"hideColumns": [0]
 		}],
@@ -58,7 +59,8 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral"
+				"y": "Rate per 1,000 Households with a Screened-In Referral",
+				"yFormat": "#,##0"
 			},
 			"hideColumns": [1]
 		}]
