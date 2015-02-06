@@ -1,43 +1,36 @@
 {
-  "table": "sp_reentries_av",
-  "title": "Re-Entry with in One Year",
-  "dropdown": "Re-Entry with in One Year",
-  "measurementOrder": 5,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Fiscal Year",
-    "valueFields": [
-      "Percent Reentered"
-    ],
-    "removeFields": [
-      "old_region_cd"
-    ]
-  },
-  "controls": [],
-  "params": [
-    "Region"
-  ],
-  "dateParams": [],
-  "requiredParams": [],
-  "showAllOthers": true,
-  "returnRowHeaders": [
-    1
-  ],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [],
-  "headerNames": [
-    "&nbsp;",
-    "Region=Region"
-  ],
-  "returnRowStart": 2,
-  "chartType": "line",
-  "labels": {
-    "x": "",
-    "y": "",
-    "yFormat": "##'%"
-  },
-  "numberFormat": {
-    "fractionDigits": 2,
-    "suffix": "%"
-  }
+	"table": "sp_mp_reentries_av",
+	"title": "Re-Entry with in One Year",
+	"dropdown": "Re-Entry with in One Year",
+	"measurementOrder": 5,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Fiscal Year",
+		"valueFields": ["Percent Reentered"]
+	},
+	"controls": ["region"],
+	"params": [],
+	"dateParams": [],
+	"requiredParams": [],
+	"showAllOthers": true,
+	"returnRowHeaders": [0,
+	  1
+	],
+	"returnRowDateHeaders": [],
+	"returnRowControlHeaders": [0,
+	 1
+	 ],
+	"headerNames": ["&nbsp;",
+	"Region=region"],
+	"returnRowStart": 2,
+	"chartType": "line",
+	"labels": {
+		"x": "",
+		"y": "",
+		"yFormat": "##'%"
+	},
+	"numberFormat": {
+		"fractionDigits": 2,
+		"suffix": "%"
+	}
 }
