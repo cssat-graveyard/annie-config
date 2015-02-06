@@ -1,5 +1,5 @@
 {
-	"table": "sp_post_secondary_completion_pvt",
+	"table": "sp_mp_post_secondary_completion_pvt",
 	"title": "Percent Completing Post-Secondary Education",
 	"measurementOrder": 5,
 	"controls": ["cohort_year_dropout"],
