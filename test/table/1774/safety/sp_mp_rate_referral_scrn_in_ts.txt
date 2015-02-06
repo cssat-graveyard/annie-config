@@ -11,7 +11,7 @@
 		"removeFields": []
 	},
 	"controls": ["region",
-	"access_type"],
+	"access_type_mp"],
 	"params": ["dynamicMonthStart"],
 	"dateParams": [],
 	"requiredParams": ["dynamicMonthStart"],
@@ -24,7 +24,7 @@
 	2],
 	"headerNames": ["&nbsp;",
 	"Region*region",
-	"Access Type*access_type"],
+	"Access Type*access_type_mp"],
 	"returnRowStart": 3,
 	"hideRow": "allEmpty",
 	"columnClusterSize": 2,
@@ -41,15 +41,15 @@
 	},
 	"multicharts": {
 		"Trend-Line": [{
-			"chartType": "line",
+			"chartType": "line"
 			"hideColumns": [0]
 		}],
 		"Trend-Line-with-Scatterplot": [{
-			"chartType": "combo",
+			"chartType": "combo"
 			"hideColumns": []
 		}],
 		"Scatterplot": [{
-			"chartType": "scatterChart",
+			"chartType": "scatterChart"
 			"hideColumns": [1]
 		}]
 	}
