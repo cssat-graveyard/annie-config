@@ -1265,8 +1265,7 @@
       "type": "filter",
       "multi": false,
       "selected": 3,
-      "visible": true,
-      "resultUnavailable": "hide"
+      "visible": true
     }
   }
 }
