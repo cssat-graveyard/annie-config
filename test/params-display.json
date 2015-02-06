@@ -1254,18 +1254,18 @@
   },
   "student_type": {
     "values": {
-      "0": "All",
-      "1": "Not in Out-of-Home Care",
-      "2": "Not in Care: Receiving Free or Reduced-Price Lunch",
-      "3": "In Out-of-Home Care"
+      "0": "Not in Out-of-Home Care",
+      "1": "Not in Care: Receiving Free or Reduced-Price Lunch",
+      "2": "In Out-of-Home Care"
     },
     "display": {
       "legend": "Student Type",
       "column": "fieldsRight",
       "type": "filter",
-      "multi": false,
-      "selected": 3,
-      "visible": true
+      "multi": true,
+      "selected": 2,
+      "visible": true,
+      "resultUnavailable": "show"
     }
   }
 }
