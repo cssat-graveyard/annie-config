@@ -931,8 +931,8 @@
       "visible": true,
       "resultUnavailable": "hide",
       "help": {
-        "cohort_year_dropout": "This filter allows you to follow students who were expected to graduate in 2010 and 2011 (based on the year they started high school).",
-        "sp_college_enrollment_pvt": "This filter tracks two different entrance grades—the 9th and the 12th (see the ENTRANCE GRADE filter). If the ENTRANCE GRADE selected is the 9th grade, then there is only one expected graduation year option—2010. If the ENTRANCE GRADE selected is 12th, then there are three expected graduation year options—2007, 2008, and 2009.",
+        "sp_mp_cohort_year_dropout": "This filter allows you to follow students who were expected to graduate in 2010 and 2011 (based on the year they started high school).",
+        "sp_mp_college_enrollment_pvt": "This filter tracks two different entrance grades—the 9th and the 12th (see the ENTRANCE GRADE filter). If the ENTRANCE GRADE selected is the 9th grade, then there is only one expected graduation year option—2010. If the ENTRANCE GRADE selected is 12th, then there are three expected graduation year options—2007, 2008, and 2009.",
         "default": "This is a static filter that returns results for students expected to graduate in 2010 (based on the year they started high school)."
       }
     }
@@ -1234,7 +1234,7 @@
       "multi": false,
       "selected": 1,
       "visible": true,
-	  "help": "This filter selects for the year the student entered 9th grade (2006) OR the years the student entered 12th grade (2006, 2007, and 2008). Four years are added to the entrance grade for the 9th graders and one year is added to the 12th graders to obtain the EXPECTED GRADUATION YEAR."
+      "help": "This filter selects for the year the student entered 9th grade (2006) OR the years the student entered 12th grade (2006, 2007, and 2008). Four years are added to the entrance grade for the 9th graders and one year is added to the 12th graders to obtain the EXPECTED GRADUATION YEAR."
     }
   },
   "student_type": {
@@ -1250,7 +1250,8 @@
       "multi": true,
       "selected": 2,
       "visible": true,
-      "resultUnavailable": "show"
+      "resultUnavailable": "show",
+      "help": "This filter classifies children/students into three categories: 1) those not in out-of-home care and not receiving a free or reduced-price lunch; 2) those in out-of-home care but receiving a free or reduced-price lunch; and 3) those in out-of-home care and receiving free or reduced-price lunch. For more information about school lunch programs, see <span style=\"text-decoration: underline;\"><a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a></span>."
     }
   },
   "region": {
@@ -1266,9 +1267,10 @@
     "display": {
       "legend": "Region",
       "column": "fieldsLeft",
-      "type": "param",
+      "type": "filter",
       "multi": true,
-      "visible": true
+      "visible": true,
+      "help": "Children's Administration is divided into <a href='https://www.dshs.wa.gov/sites/default/files/CA/fos/documents/WaMapCounties2.jpg'target='_blank'><span style='text-decoration: underline;'>three geographical Regions</span></a>. Region 1 is subdivided into East and West; Regions 2 and 3 are subdivided into North and South.\""
     }
   }
 }
