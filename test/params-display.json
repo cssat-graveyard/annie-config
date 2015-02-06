@@ -931,7 +931,7 @@
       "visible": true,
       "resultUnavailable": "hide",
       "help": {
-        "sp_cohort_year_dropout": "This filter allows you to follow students who were expected to graduate in 2010 and 2011 (based on the year they started high school).",
+        "sp_mp_cohort_year_dropout": "This filter allows you to follow students who were expected to graduate in 2010 and 2011 (based on the year they started high school).",
         "sp_college_enrollment_pvt": "This filter tracks two different entrance grades—the 9th and the 12th (see the ENTRANCE GRADE filter). If the ENTRANCE GRADE selected is the 9th grade, then there is only one expected graduation year option—2010. If the ENTRANCE GRADE selected is 12th, then there are three expected graduation year options—2007, 2008, and 2009.",
         "default": "This is a static filter that returns results for students expected to graduate in 2010 (based on the year they started high school)."
       }
