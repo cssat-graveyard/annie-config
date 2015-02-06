@@ -1,46 +1,34 @@
 {
-  "table": "sp_mp_placement_care_days_otr_limits",
-  "title": "Number of Days 'On the Run'",
-  "dropdown": "Number of Days 'On the Run'",
-  "measurementOrder": 5,
-  "transform": {
-    "Function": "daterow",
-    "dateField": "Fiscal year",
-    "valueFields": [
-      "Days OTR"
-    ],
-    "removeFields": []
-  },
-  "controls": [
-    "region",
-    "otr_age_in_care"
-  ],
-  "params": [],
-  "dateParams": [],
-  "requiredParams": [],
-  "showAllOthers": true,
-  "returnRowHeaders": [
-    0,
-    1,
-    2
-  ],
-  "returnRowDateHeaders": [
-    0
-  ],
-  "returnRowControlHeaders": [
-    0,
-    1,
-    2
-  ],
-  "headerNames": [
-    "&nbsp;",
-    "Region*region",
-    "Age=otr_age_in_care"
-  ],
-  "returnRowStart": 3,
-  "chartType": "line",
-  "labels": {
-    "x": "",
-    "y": ""
-  }
+	"table": "sp_mp_placement_care_days_otr_limits",
+	"title": "Number of Days 'On the Run'",
+	"dropdown": "Number of Days 'On the Run'",
+	"measurementOrder": 5,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Fiscal year",
+		"valueFields": ["Days OTR"],
+		"removeFields": []
+	},
+	"controls": ["region",
+	"otr_age_in_care"],
+	"params": [],
+	"dateParams": [],
+	"requiredParams": [],
+	"showAllOthers": true,
+	"returnRowHeaders": [0,
+	1,
+	2],
+	"returnRowDateHeaders": [0],
+	"returnRowControlHeaders": [0,
+	1,
+	2],
+	"headerNames": ["&nbsp;",
+	"Region*region",
+	"Age*otr_age_in_care"],
+	"returnRowStart": 3,
+	"chartType": "line",
+	"labels": {
+		"x": "",
+		"y": ""
+	}
 }
