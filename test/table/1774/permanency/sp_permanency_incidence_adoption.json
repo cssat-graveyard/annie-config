@@ -1,0 +1,37 @@
+{
+  "table": "sp_permanency_incidence_adoption",
+  "title": "Adoption at One Year",
+  "dropdown": "Adoption at One Year",
+  "measurementOrder": 4,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Fiscal year",
+    "valueFields": [
+      "Permanency Incidence"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [
+    "Region"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    1
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region=Region"
+  ],
+  "returnRowStart": 2,
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": "",
+    "yFormat": "##'%"
+  }
+}
