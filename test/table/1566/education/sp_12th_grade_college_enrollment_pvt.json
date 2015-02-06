@@ -1,0 +1,39 @@
+{
+  "table": "sp_12th_grade_college_enrollment_pvt",
+  "title": "Percent Enrolled in College: 12th Grade Cohort",
+  "measurementOrder": 3,
+  "controls": [
+    "cohort_year_dropout",
+    "disability"
+  ],
+  "params": [],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    0,
+    1
+  ],
+  "headerNames": [
+    "Cohort Period*cohort_year_dropout",
+    "fl_disability*disability"
+  ],
+  "hideRow": "allEmpty",
+  "columnClusterSize": 3,
+  "returnRowStart": 2,
+  "chartType": "column",
+  "labels": {
+    "x": "",
+    "y": "",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
+  }
+}
