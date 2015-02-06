@@ -2,6 +2,7 @@
   "table": "sp_reentries_av",
   "title": "Re-Entry with in One Year",
   "dropdown": "Re-Entry with in One Year",
+  "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
     "dateField": "Fiscal Year",
