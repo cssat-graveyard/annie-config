@@ -1,5 +1,5 @@
 {
-  "table": "sp_sibling_placement",
+  "table": "sp_mp_sibling_placement",
   "title": "Siblings Placed Together",
   "dropdown": "Siblings Placed Together",
   "measurementOrder": 2,
