@@ -23,10 +23,10 @@
     1
   ],
   "headerNames": [
-    "&nbsp;"
+    "&nbsp;",
+    "Region=region"
   ],
   "returnRowStart": 2,
-  "hideRow": "anyEmpty",
   "chartType": "line",
   "labels": {
     "x": "",
