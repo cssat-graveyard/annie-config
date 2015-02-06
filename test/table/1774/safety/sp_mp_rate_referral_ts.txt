@@ -22,7 +22,7 @@
 	2],
 	"headerNames": ["&nbsp;",
 	"Region*region",
-	"Access Typec*access_type"],
+	"Access Type*access_type"],
 	"returnRowStart": 3,
 	"hideRow": "allEmpty",
 	"columnClusterSize": 2,
