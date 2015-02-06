@@ -1248,6 +1248,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
+      "sort": true,
       "selected": 2,
       "visible": true,
       "resultUnavailable": "show",
