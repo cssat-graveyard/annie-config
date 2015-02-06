@@ -1,5 +1,5 @@
 {
-  "table": "sp_adult_readiness",
+  "table": "sp_mp_adult_readiness",
   "title": "Adult Transition Planning",
   "dropdown": "Adult Transition Planning",
   "measurementOrder": 1,
