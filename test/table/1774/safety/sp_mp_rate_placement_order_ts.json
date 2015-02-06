@@ -23,7 +23,7 @@
 	"returnRowControlHeaders": [1,
 	2],
 	"headerNames": ["&nbsp;",
-	"region*Region",
+	"Region*region",
 	"Order*order"],
 	"returnRowStart": 3,
 	"hideRow": "allEmpty",
