@@ -1,5 +1,5 @@
 {
-  "table": "sp_permanency_incidence_av",
+  "table": "sp_mp_permanency_incidence_av",
   "title": "Permanency at One Year",
   "dropdown": "Permanency at One Year",
   "measurementOrder": 3,
@@ -11,21 +11,21 @@
     ],
     "removeFields": []
   },
-  "controls": [],
-  "params": [
-    "Region"
-  ],
+  "controls": ["Region"],
+  "params": [],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
-    2
+    1
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [
+	1
+  ],
   "headerNames": [
     "&nbsp;",
-    "Region=Region"
+    "Region*region"
   ],
   "returnRowStart": 3,
   "chartType": "line",
