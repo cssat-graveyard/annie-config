@@ -12,9 +12,9 @@
     "removeFields": []
   },
   "controls": [
-    "Region",
     "movement_category",
-    "years_in_care"
+    "years_in_care",
+    "region"
   ],
   "params": [],
   "dateParams": [],
@@ -22,17 +22,18 @@
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    1,
     2
   ],
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [
+    1
+  ],
   "headerNames": [
     "&nbsp;",
-    "Region*Region",
-    "Years in Care=years_in_care",
+    "Region*region",
+    "Years in Care*years_in_care",
     "cd_movement*movement_category"
   ],
   "returnRowStart": 4,
