@@ -1,5 +1,5 @@
 {
-  "table": "sp_college_enrollment_pvt",
+  "table": "sp_mp_college_enrollment_pvt",
   "title": "Percent Enrolled in College",
   "measurementOrder": 2,
   "controls": [
