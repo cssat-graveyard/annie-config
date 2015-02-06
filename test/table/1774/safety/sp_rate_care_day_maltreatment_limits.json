@@ -1,5 +1,5 @@
 {
-  "table": "sp_rate_care_day_maltreatment_limits",
+  "table": "sp_mp_rate_care_day_maltreatment_limits",
   "title": "Rate of Substantiated Cases of Maltreatment",
   "dropdown": "Rate of Substantiated Cases of Maltreatment",
   "measurementOrder": 7,
@@ -8,30 +8,26 @@
     "dateField": "Fiscal year",
     "valueFields": [
       "Incident Rate"
-    ],
-    "removeFields": [
-      "lcl",
-      "ucl"
     ]
   },
-  "controls": [],
-  "params": [
-    "Region"
-  ],
+  "controls": ["region"],
+  "params": [],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    2
+    1
   ],
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowControlHeaders": [],
+  "returnRowControlHeaders": [0,
+   1
+   ],
   "headerNames": [
     "&nbsp;",
-    "Region=Region"
+    "Region*region"
   ],
   "returnRowStart": 3,
   "chartType": "line",
