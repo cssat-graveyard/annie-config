@@ -1303,7 +1303,7 @@
     "display": {
       "legend": "Age In Fiscal Year",
       "column": "fieldsRight",
-      "type": "param",
+      "type": "filter",
       "multi": true,
       "sort": true,
       "visible": true
