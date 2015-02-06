@@ -6,7 +6,7 @@
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Fiscal year",
-		"valueFields": ["Movement Rate"],
+		"valueFields": ["Movement Rate"]
 	},
 	"controls": ["region",
 	"years_in_care"],
