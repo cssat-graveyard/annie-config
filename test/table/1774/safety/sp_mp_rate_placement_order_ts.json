@@ -1,0 +1,68 @@
+
+	"table": "sp_mp_rate_placement_order_ts",
+	"title": "Rate of Placements by Order of Placement",
+	"dropdown": "Rate of Placements by Order of Placement",
+	"measurementOrder": 6,
+	"transform": {
+		"Function": "daterow",
+		"dateField": "Cohort Date",
+		"valueFields": ["Placement Rate",
+		"Trend"],
+		"removeFields": []
+	},
+	"controls": ["region",
+	"order"],
+	"params": ["dynamicMonthStart"],
+	"dateParams": [],
+	"requiredParams": ["dynamicMonthStart"],
+	"showAllOthers": true,
+	"returnRowHeaders": [0,
+	1,
+	2],
+	"returnRowDateHeaders": [0],
+	"returnRowControlHeaders": [1,
+	2],
+	"headerNames": ["&nbsp;",
+	"region*Region",
+	"Order*order"],
+	"returnRowStart": 3,
+	"hideRow": "allEmpty",
+	"columnClusterSize": 2,
+	"numberFormat": [{
+		"fractionDigits": 2
+	}],
+	"multicharts": {
+		"Trend-Line": [{
+			"chartType": "area",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "Rate per 1,000 Households with a Screened-In Referral",
+				"yFormat": "#,##0"
+			},
+			"hideColumns": [0]
+		}],
+		"Trend-Line-with-Scatterplot": [{
+			"chartType": "combo",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "Rate per 1,000 Households with a Screened-In Referral"
+			},
+			"hideColumns": []
+		}],
+		"Scatterplot": [{
+			"chartType": "scatterChart",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "Rate per 1,000 Households with a Screened-In Referral",
+				"yFormat": "#,##0"
+			},
+			"hideColumns": [1]
+		}]
+	}
+}
