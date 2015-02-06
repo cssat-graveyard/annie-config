@@ -29,7 +29,7 @@
     "&nbsp;",
     "Region*region"
   ],
-  "returnRowStart": 3,
+  "returnRowStart": 2,
   "chartType": "line",
   "labels": {
     "x": "",
