@@ -8,9 +8,12 @@
     "dateField": "Fiscal year",
     "valueFields": [
       "Incident Rate"
-    ]
+    ],
+    "removeFields": []
   },
-  "controls": ["region"],
+  "controls": [
+    "region"
+  ],
   "params": [],
   "dateParams": [],
   "requiredParams": [],
@@ -22,9 +25,10 @@
   "returnRowDateHeaders": [
     0
   ],
-  "returnRowControlHeaders": [0,
-   1
-   ],
+  "returnRowControlHeaders": [
+    0,
+    1
+  ],
   "headerNames": [
     "&nbsp;",
     "Region*region"
