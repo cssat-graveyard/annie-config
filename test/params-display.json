@@ -1248,7 +1248,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
-      "sort": true,
+      "sort": false,
       "selected": 2,
       "visible": true,
       "resultUnavailable": "show",
@@ -1312,14 +1312,11 @@
   },
   "access_type_mp": {
     "values": {
-      "0": "All",
       "1": "Child Protective Services (CPS)",
-      "2": "Alternative Response System (ARS)",
-      "3": "Family Reconciliation Services (FRS)",
       "4": "Risk Only",
       "5": "Child Family Welfare Services (CFWS)",
       "6": "Family Assessment Response (FAR)",
-      "7": "Division of Licensing Resources (DLR)"
+      "0": "All"
     },
     "display": {
       "legend": "Entry Point",
