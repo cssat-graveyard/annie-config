@@ -1,5 +1,5 @@
 {
-	"table": "sp_mp_rate_referral_ts",
+	"table": "sp_mp_rate_placement_ts",
 	"title": "Rate of Referrals",
 	"dropdown": "Rate of Referrals",
 	"measurementOrder": 8,
@@ -7,15 +7,15 @@
 		"Function": "daterow",
 		"dateField": "Date",
 		"valueFields": ["Referral Rate",
-		"Trend"]
+		"Trend"
 	},
-	"controls": ["region",
+	"controls": ["region"
 	"access_type_mp"],
 	"params": ["dynamicMonthStart"],
 	"dateParams": [],
 	"requiredParams": ["dynamicMonthStart"],
 	"showAllOthers": true,
-	"returnRowHeaders": [0,
+	"returnRowHeaders": [0
 	1,
 	2],
 	"returnRowDateHeaders": [0],
