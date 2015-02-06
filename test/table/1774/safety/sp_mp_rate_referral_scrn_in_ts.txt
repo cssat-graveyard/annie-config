@@ -31,25 +31,35 @@
 	"numberFormat": [{
 		"fractionDigits": 2
 	}],
-	"trendCol": 1,
-	"chartId": "chart1",
-	"style": "",
-	"labels": {
-		"x": "",
-		"y": "Rate per 1,000 Households with a Referral",
-		"yFormat": "#,##0"
-	},
 	"multicharts": {
 		"Trend-Line": [{
-			"chartType": "line",
+			"chartType": "area",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "Rate per 1,000 Households with a Screened-In Referral"
+			},
 			"hideColumns": [0]
 		}],
 		"Trend-Line-with-Scatterplot": [{
 			"chartType": "combo",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "Rate per 1,000 Households with a Screened-In Referral"
+			},
 			"hideColumns": []
 		}],
 		"Scatterplot": [{
 			"chartType": "scatterChart",
+			"chartId": "chart1",
+			"style": "",
+			"labels": {
+				"x": "",
+				"y": "Rate per 1,000 Households with a Screened-In Referral"
+			},
 			"hideColumns": [1]
 		}]
 	}
