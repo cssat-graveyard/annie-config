@@ -27,7 +27,7 @@
     "Region=region"
   ],
   "returnRowStart": 2,
-  "chartType": "line",
+  "chartType": "column",
   "labels": {
     "x": "",
     "y": "",
