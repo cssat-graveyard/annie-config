@@ -1,5 +1,5 @@
 {
-  "table": "sp_permanency_incidence_adoption",
+  "table": "sp_mp_adoption",
   "title": "Adoption at One Year",
   "dropdown": "Adoption at One Year",
   "measurementOrder": 4,
@@ -11,21 +11,21 @@
     ],
     "removeFields": []
   },
-  "controls": [],
-  "params": [
-    "Region"
+  "controls": [
+    "region"
   ],
+  "params": [],
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
-  "returnRowHeaders": [
+  "returnRowHeaders": [],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
     1
   ],
-  "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [],
   "headerNames": [
     "&nbsp;",
-    "Region=Region"
+    "Region=region"
   ],
   "returnRowStart": 2,
   "chartType": "line",
