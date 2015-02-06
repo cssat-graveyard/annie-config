@@ -5,9 +5,10 @@
 	"measurementOrder": 8,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Date",
-		"valueFields": ["Referral Rate",
-		"Trend"]
+		"dateField": "Cohort Date",
+		"valueFields": ["Placement Rate",
+		"Trend"],
+		"removeFields": []
 	},
 	"controls": ["region",
 	"access_type_mp"],
@@ -15,21 +16,19 @@
 	"dateParams": [],
 	"requiredParams": ["dynamicMonthStart"],
 	"showAllOthers": true,
-	"returnRowHeaders": [0,
-	1,
-	2],
+	"returnRowHeaders": [0],
 	"returnRowDateHeaders": [0],
 	"returnRowControlHeaders": [1,
 	2],
 	"headerNames": ["&nbsp;",
 	"Region*region",
-	"Access type desc*access_type_mp"],
+	"cd_access_type*access_type_mp"],
 	"returnRowStart": 3,
 	"hideRow": "allEmpty",
 	"columnClusterSize": 2,
-	"numberFormat": [{
+	"numberFormat": {
 		"fractionDigits": 2
-	}],
+	},
 	"multicharts": {
 		"Trend-Line": [{
 			"chartType": "area",
@@ -42,14 +41,8 @@
 			"hideColumns": [0]
 		}],
 		"Trend-Line-with-Scatterplot": [{
-			"chartType": "combo",
 			"chartId": "chart1",
-			"style": "",
-			"labels": {
-				"x": "",
-				"y": "Rate of Referrals per 1,000 Households"
-			},
-			"hideColumns": []
+			"style": ""
 		}],
 		"Scatterplot": [{
 			"chartType": "scatterChart",
