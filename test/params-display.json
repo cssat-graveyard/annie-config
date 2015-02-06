@@ -1192,7 +1192,7 @@
       "help": "This measure allows for a calculation of movement between the three most common types of placement: foster care, kin care, and group care. (On January 1, 2013, 87% of the children in out-of-home care were in one of these three types of placement)."
     }
   },
-  "otr_age_in_care": {
+  "otr_age_in_care_temp": {
     "table": "ref_lookup_otr_age",
     "display": {
       "legend": "Age In Fiscal Year",
@@ -1290,6 +1290,23 @@
       "selected": 0,
       "visible": true,
       "help": "This filter calculates the number of years in out-of-home care per episode. Children can have multiple episodes. Each episode ends with a Federal discharge date and can include multiple placements."
+    }
+  },
+  "otr_age_in_care": {
+    "values": {
+      "4": "Age 13",
+      "3": "Age 14",
+      "2": "Age 15",
+      "1": "Age 16",
+      "0": "Age 17"
+    },
+    "display": {
+      "legend": "Age In Fiscal Year",
+      "column": "fieldsRight",
+      "type": "param",
+      "multi": true,
+      "sort": true,
+      "visible": true
     }
   }
 }

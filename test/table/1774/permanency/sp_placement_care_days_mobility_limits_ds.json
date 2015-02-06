@@ -34,7 +34,7 @@
   ],
   "headerNames": [
     "&nbsp;",
-    "Region=region",
+    "Region*region",
     "Years in Care*years_in_care"
   ],
   "returnRowStart": 3,
