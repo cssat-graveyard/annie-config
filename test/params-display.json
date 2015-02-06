@@ -1151,22 +1151,7 @@
       "help": "The definition of a disability is combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities. For more information about disabilities, see this document from the <span style=\"text-decoration: underline;\"><a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a></span>."
     }
   },
-  "student_type_temp": {
-    "table": "ref_lookup_student_type",
-    "display": {
-      "legend": "Student Type",
-      "column": "fieldsRight",
-      "type": "param",
-      "multi": false,
-      "selected": 3,
-      "disabled": [
-        0
-      ],
-      "visible": true,
-      "help": "This filter classifies children/students into three categories: 1) those not in out-of-home care and not receiving a free or reduced-price lunch; 2) those in out-of-home care but receiving a free or reduced-price lunch; and 3) those in out-of-home care and receiving free or reduced-price lunch. For more information about school lunch programs, see <span style=\"text-decoration: underline;\"><a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a></span>."
-    }
-  },
-  "Region": {
+  "Region temp": {
     "table": "ref_lookup_region",
     "valueColumn": 3,
     "display": {
@@ -1266,6 +1251,24 @@
       "selected": 2,
       "visible": true,
       "resultUnavailable": "show"
+    }
+  },
+  "region": {
+    "values": {
+      "0": "State",
+      "1": "Region 1 East",
+      "2": "Region 1 West",
+      "3": "Region 2 North",
+      "4": "Region 2 South",
+      "5": "Region 3 North",
+      "6": "Region 3 South"
+    },
+    "display": {
+      "legend": "Region",
+      "column": "fieldsLeft",
+      "type": "param",
+      "multi": true,
+      "visible": true
     }
   }
 }
