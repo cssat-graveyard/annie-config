@@ -932,7 +932,7 @@
       "resultUnavailable": "hide",
       "help": {
         "sp_mp_dropout_perc": "This filter allows you to follow students who were expected to graduate in 2010 and 2011 (from the year they entered  high school).",
-        "sp_mp_college_enrollment_pvt": "This filter tracks two different entry grades—the 9th and the 12th (see the ENTRYE GRADE filter). If the ENTRY GRADE selected is the 9th grade, then there is only one expected graduation year option—2010. If the ENTRY GRADE selected is 12th, then there are three expected graduation year options—2007, 2008, and 2009.",
+        "sp_mp_college_enrollment_pvt": "This filter tracks two different entrance grades—the 9th and the 12th (see the ENTRANCE GRADE filter). If the ENTRANCE GRADE selected is the 9th grade, then there is only one expected graduation year option—2010. If the ENTRANCE GRADE selected is 12th, then there are three expected graduation year options—2007, 2008, and 2009.",
         "default": "This is a static filter that returns results for students expected to graduate in 2010 (based on the year they entered high school)."
       }
     }
@@ -1111,7 +1111,7 @@
       "help": "This is the county where the referral was investigated/assessed. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
     }
   },
-  "order": {
+  "order test": {
     "table": "ref_filter_order",
     "display": {
       "legend": "Order",
@@ -1147,7 +1147,7 @@
       "multi": true,
       "selected": 0,
       "visible": true,
-      "help": "The definition of a disability is a combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities. For more information about disabilities, see this document from the <span style=\"text-decoration: underline;\"><a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a></span>."
+      "help": "The definition of a disability is combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities. For more information about disabilities, see this document from the <span style=\"text-decoration: underline;\"><a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a></span>."
     }
   },
   "Region temp": {
@@ -1228,13 +1228,13 @@
       "1": "12th Grade"
     },
     "display": {
-      "legend": "Entry Grade",
+      "legend": "Entrance Grade",
       "column": "fieldsLeft",
       "type": "param",
       "multi": false,
       "selected": 1,
       "visible": true,
-      "help": "This filter selects for the year students entered 9th grade (2006) OR for the years students entered 12th grade (2006, 2007, and 2008). Four years are added to the entry grade for the 9th graders and one year is added to the 12th graders to obtain the EXPECTED GRADUATION YEAR"
+      "help": "This filter selects for the year the student entered 9th grade (2006) OR the years the student entered 12th grade (2006, 2007, and 2008). Four years are added to the entrance grade for the 9th graders and one year is added to the 12th graders to obtain the EXPECTED GRADUATION YEAR."
     }
   },
   "student_type": {
@@ -1248,6 +1248,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
+      "sort": true,
       "selected": 2,
       "visible": true,
       "resultUnavailable": "show",
@@ -1311,14 +1312,11 @@
   },
   "access_type_mp": {
     "values": {
-      "0": "All",
       "1": "Child Protective Services (CPS)",
-      "2": "Alternative Response System (ARS)",
-      "3": "Family Reconciliation Services (FRS)",
       "4": "Risk Only",
       "5": "Child Family Welfare Services (CFWS)",
       "6": "Family Assessment Response (FAR)",
-      "7": "Division of Licensing Resources (DLR)"
+      "0": "All"
     },
     "display": {
       "legend": "Entry Point",
@@ -1327,6 +1325,9 @@
       "multi": true,
       "zeroLast": true,
       "selected": 0,
+      "disabled": [
+        6
+      ],
       "visible": true,
       "help": "You can filter for five primary entry points in the child welfare system, i.e., first point of contact with Children’s Administration. Currently, the Data Portal returns data for:<strong></strong>1) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_c\" target=\"_blank\"><span style=\"text-decoration: underline;\">Child Protective Services</span></a> (CPS), which provides 24 hour, seven days a week intake, screening, and investigative services for reports/referrals of alleged child abuse and neglect; <strong></strong>2) <a href=\"http://www.dshs.wa.gov/pdf/ca/ARS_FY04.pdf\" target=\"_blank\"><span style=\"text-decoration: underline;\">Alternative Response System</span></a> (ARS), a voluntary program for low-to-moderate risk families who were referred to CPS; 3) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_f\" target=\"_blank\"><span style=\"text-decoration: underline;\">Family Reconciliation Services</span></a> (FRS), a voluntary program serving runaway adolescents and youth in conflict with their families; <strong></strong>4) <a href=\"http://www.dshs.wa.gov/CA/pubs/mnl_pnpg/chapter2.asp\" target=\"_blank\"><span style=\"text-decoration: underline;\">Risk Only</span></a> a referral made when information collected gives reasonable cause to believe that risk or safety factors exist that place the child at imminent risk of serious harm;<strong></strong> and 5) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_c\" target=\"_blank\"><span style=\"text-decoration: underline;\">Child and Family Welfare Services</span></a> (CFWS), which provides both permanency planning and court-ordered services to children and families to mitigate the risk of abuse or neglect so that children are able to safely return to their home of origin. <br /> <strong></strong> <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_f\" target=\"_blank\"><span style=\"text-decoration: underline;\">Family Assessment Response</span></a> (FAR), a new alternative pathway for accepted reports of low-to-moderate risk of child maltreatment, is grayed out because the number of cases that enter through this programs is still small.</p>"
     }
