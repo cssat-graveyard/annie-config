@@ -1,7 +1,7 @@
 {
   "table": "sp_mp_college_enrollment_pvt",
   "title": "Percent Enrolled in College",
-  "measurementOrder": 2,
+  "measurementOrder": 3,
   "controls": [
     "cohort_year_dropout",
     "disability"
