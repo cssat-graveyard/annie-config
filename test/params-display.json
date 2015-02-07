@@ -1228,7 +1228,7 @@
       "1": "12th Grade"
     },
     "display": {
-      "legend": "Entrance Grade",
+      "legend": "Entry Grade",
       "column": "fieldsLeft",
       "type": "param",
       "multi": false,
