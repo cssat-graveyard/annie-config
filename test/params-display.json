@@ -1241,7 +1241,7 @@
     "values": {
       "0": "Not in Out-of-Home Care",
       "1": "Not in Care: Receiving Free or Reduced-Price Lunch",
-      "3": "Out-of-Home Care"
+      "2": "Out-of-Home Care"
     },
     "display": {
       "legend": "Student Type",
@@ -1249,7 +1249,7 @@
       "type": "filter",
       "multi": true,
       "sort": true,
-      "selected": 3,
+      "selected": 2,
       "visible": true,
       "resultUnavailable": "show",
       "help": "The student type references the time a student entered/graduated 9th/12th grade, depending of the years selected. This filter classifies students into three categories: 1) those NOT in out-of-home care AND NOT receiving a free or reduced-price lunch; 2) those NOT in out-of-home care BUT receiving a free or reduced-price lunch; and 3) those in out-of-home care AND receiving free or reduced-price lunch. For more information about school lunch programs, see <span style=\"text-decoration: underline;\"><a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a></span>."

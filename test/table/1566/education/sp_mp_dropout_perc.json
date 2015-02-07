@@ -20,16 +20,18 @@
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
+    0,
     1,
     2,
     3
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
+    0,
     1,
     2,
     3
-  ],
+ ],
   "headerNames": [
     "&nbsp;",
     "Student Type*student_type",
