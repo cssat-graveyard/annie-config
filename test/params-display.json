@@ -931,9 +931,9 @@
       "visible": true,
       "resultUnavailable": "hide",
       "help": {
-        "sp_mp_dropout_perc": "This filter allows you to follow students who were expected to graduate in 2010 and 2011 (from the year they entered  high school).",
-        "sp_mp_college_enrollment_pvt": "This filter tracks two different entrance grades—the 9th and the 12th (see the ENTRANCE GRADE filter). If the ENTRANCE GRADE selected is the 9th grade, then there is only one expected graduation year option—2010. If the ENTRANCE GRADE selected is 12th, then there are three expected graduation year options—2007, 2008, and 2009.",
-        "default": "This is a static filter that returns results for students expected to graduate in 2010 (based on the year they entered high school)."
+        "sp_mp_dropout_perc": "This filter indicated that students have been followed from the year they entered high school (2006 and 2007) to their expected graduation year, 2010 and 2011, respectively.",
+        "sp_mp_college_enrollment_pvt": "This filter tracks two different entry grades—the 9th and the 12th (see the ENTRY GRADE filter). If the ENTRY GRADE selected is the 9th grade, then there is only one expected graduation year option—2010. If the ENTRY GRADE selected is 12th, then there are three expected graduation year options—2007, 2008, and 2009.",
+        "default": "This is a static filter that returns results for students expected to graduate in 2010 (based on the year they started high school, 2006)."
       }
     }
   },
@@ -1147,7 +1147,7 @@
       "multi": true,
       "selected": 0,
       "visible": true,
-      "help": "The definition of a disability is combination of Federal and State criteria. In the broadest sense, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities. For more information about disabilities, see this document from the <span style=\"text-decoration: underline;\"><a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a></span>."
+      "help": "A disability is defined here in the broadest sense. That is, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities. For more information about disabilities, see this document from the <span style=\"text-decoration: underline;\"><a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a></span>."
     }
   },
   "Region temp": {
@@ -1252,7 +1252,7 @@
       "selected": 2,
       "visible": true,
       "resultUnavailable": "show",
-      "help": "This filter classifies children/students into three categories: 1) those not in out-of-home care and not receiving a free or reduced-price lunch; 2) those in out-of-home care but receiving a free or reduced-price lunch; and 3) those in out-of-home care and receiving free or reduced-price lunch. For more information about school lunch programs, see <span style=\"text-decoration: underline;\"><a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a></span>."
+      "help": "The student type references the time a student entered/graduated 9th/12th grade, depending of the years selected. This filter classifies students into three categories: 1) those NOT  in out-of-home care AND NOT receiving a free or reduced-price lunch; 2) those NOT in out-of-home care BUT receiving a free or reduced-price lunch; and 3) those in out-of-home care AND receiving free or reduced-price lunch. For more information about school lunch programs, see <span style=\"text-decoration: underline;\"><a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a></span>."
     }
   },
   "region": {
