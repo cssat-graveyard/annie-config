@@ -1334,19 +1334,15 @@
   },
   "order": {
     "values": {
-      "0": "All",
-      "1": "1st Order",
-      "2": "2nd Order",
-      "3": "3rd Order"
+      "0": "1st Order",
+      "1": "2nd Order",
+      "2": "3rd Order"
     },
     "display": {
       "legend": "Order",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
-      "disabled": [
-        0
-      ],
       "visible": true,
       "help": "This is the order of a referral, a screened-in referral, or an out-of-home placement. See Measure Help for details about this filter."
     }
