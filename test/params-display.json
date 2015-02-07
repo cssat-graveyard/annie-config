@@ -1239,8 +1239,8 @@
   },
   "student_type": {
     "values": {
-      "1": "Not in Out-of-Home Care",
-      "2": "Not in Care: Receiving Free or Reduced-Price Lunch",
+      "0": "Not in Out-of-Home Care",
+      "1": "Not in Care: Receiving Free or Reduced-Price Lunch",
       "3": "Out-of-Home Care"
     },
     "display": {
