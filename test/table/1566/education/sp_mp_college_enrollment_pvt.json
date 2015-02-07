@@ -20,12 +20,13 @@
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
     0,
-    1
+    1,
+	2
   ],
   "headerNames": [
     "Cohort Period*cohort_year_dropout",
     "fl_disability*disability",
-    "cd_grade=entry_grade"
+    "cd_grade*entry_grade"
   ],
   "hideRow": "allEmpty",
   "columnClusterSize": 3,
