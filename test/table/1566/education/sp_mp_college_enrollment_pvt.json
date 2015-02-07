@@ -13,15 +13,15 @@
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
+    0,
     1,
-    2,
-    3
+    2
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
+    0,
     1,
-    2,
-	3
+	2
   ],
   "headerNames": [
     "Cohort Period*cohort_year_dropout",
