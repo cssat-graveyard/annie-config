@@ -1219,7 +1219,7 @@
       "selected": 2008,
       "visible": true,
       "resultUnavailable": "disable",
-      "help": "The literacy percent measure examines the third grade <a href='http://www.k12.wa.us/assessment/StateTesting/MSP.aspx'target='_blank'><span style='text-decoration: underline;'>Measurements of Student Progress</a></span> (MSP) literacy proficiency rates for the third grade year of 2006, 2007, 2008."
+      "help": "This filter references the year (2006, 2007, and 2008) that students in 3rd grade took the <a href='http://www.k12.wa.us/assessment/StateTesting/MSP.aspx'target='_blank'><span style='text-decoration: underline;'>Measurements of Student Progress</a></span> (MSP) literacy proficiency test. "
     }
   },
   "entrance_grade": {
