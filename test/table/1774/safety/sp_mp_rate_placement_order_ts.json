@@ -10,13 +10,13 @@
 		"Trend"],
 		"removeFields": []
 	},
-	"controls": ["region",
+	"controls": ["region"
 	"order"],
 	"params": ["dynamicMonthStart"],
 	"dateParams": [],
 	"requiredParams": ["dynamicMonthStart"],
 	"showAllOthers": true,
-	"returnRowHeaders": [0,
+	"returnRowHeaders": [0
 	1,
 	2],
 	"returnRowDateHeaders": [0],
