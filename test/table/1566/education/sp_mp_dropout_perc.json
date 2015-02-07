@@ -22,12 +22,13 @@
   "returnRowHeaders": [
     0,
     1,
-    2,
-    3
+    2
   ],
   "returnRowDateHeaders": [],
   "returnRowControlHeaders": [
-    1
+    0,
+    1,
+    2
   ],
   "headerNames": [
     "&nbsp;",
