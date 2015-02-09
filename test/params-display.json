@@ -1343,6 +1343,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
+      "zeroLast": false,
       "selected": 0,
       "visible": true,
       "help": "This is the order of a referral, a screened-in referral, or an out-of-home placement. See Measure Help for details about this filter."
