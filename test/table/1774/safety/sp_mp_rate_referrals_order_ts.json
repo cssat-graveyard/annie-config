@@ -38,7 +38,8 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households
+				"y": "Rate per 1,000 Households",
+				"yFormat": "#,##0"
 			},
 			"hideColumns": [0]
 		}],
@@ -48,7 +49,8 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": "Rate per 1,000 Households",
+				"yFormat": "#,##0"
 			},
 			"hideColumns": []
 		}],
@@ -58,7 +60,8 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households
+				"y": "Rate per 1,000 Households",
+				"yFormat": "#,##0"
 			},
 			"hideColumns": [1]
 		}]
