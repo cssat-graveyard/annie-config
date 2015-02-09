@@ -1,11 +1,11 @@
 {
-	"table": "sp_mp_rate_placement_order_ts",
-	"title": "Rate of Placements by Order of Placement",
-	"dropdown": "Rate of Placements by Order of Placement",
-	"measurementOrder": 7,
+	"table": "sp_mp_rate_referrals_order_ts",
+	"title": "Rate and Order of Referrals",
+	"dropdown": "Rate and Order Referrals",
+	"measurementOrder": 4,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Cohort Date",
+		"dateField": "Date",
 		"valueFields": ["Placement Rate",
 		"Trend"],
 		"removeFields": []
@@ -38,8 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral",
-				"yFormat": "#,##0"
+				"y": "Rate per 1,000 Households
 			},
 			"hideColumns": [0]
 		}],
@@ -49,7 +48,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral"
+				"y": "Rate per 1,000 Households"
 			},
 			"hideColumns": []
 		}],
@@ -59,8 +58,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Screened-In Referral",
-				"yFormat": "#,##0"
+				"y": "Rate per 1,000 Households
 			},
 			"hideColumns": [1]
 		}]

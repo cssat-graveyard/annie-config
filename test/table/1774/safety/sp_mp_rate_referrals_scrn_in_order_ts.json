@@ -1,7 +1,7 @@
 {
 	"table": "sp_mp_rate_referrals_scrn_in_order_ts",
-	"title": "Rate and Order of Screened-In Referrals Test",
-	"dropdown": "Rate and Order of Screened-In Referrals Test",
+	"title": "Rate and Order of Screened-In Referrals",
+	"dropdown": "Rate and Order of Screened-In Referrals",
 	"measurementOrder": 5,
 	"transform": {
 		"Function": "daterow",
