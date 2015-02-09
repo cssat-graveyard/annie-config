@@ -1249,7 +1249,7 @@
       "type": "filter",
       "multi": true,
       "sort": true,
-      "selected": 2,
+      "selected": 0,
       "visible": true,
 	  "zeroLast": true,
       "resultUnavailable": "show",
