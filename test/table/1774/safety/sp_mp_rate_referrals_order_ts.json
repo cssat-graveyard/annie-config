@@ -4,7 +4,7 @@
 	"dropdown": "Rate and Order Referrals",
 	"measurementOrder": 4,
 	"transform": {
-		"Function": "daterow"
+		"Function": "daterow",
 		"valueFields": ["Placement Rate",
 		"Trend"],
 		"removeFields": []
