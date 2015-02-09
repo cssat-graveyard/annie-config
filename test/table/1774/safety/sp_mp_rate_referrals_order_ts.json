@@ -4,7 +4,7 @@
 	"dropdown": "Rate and Order Referrals",
 	"measurementOrder": 4,
 	"transform": {
-		"Function": "daterow",
+		"Function": "daterow"
 		"valueFields": ["Placement Rate",
 		"Trend"],
 		"removeFields": []
@@ -13,7 +13,7 @@
 	"order"],
 	"params": ["dynamicMonthStart"],
 	"dateParams": [],
-	"requiredParams": ["dynamicMonthStart"],
+	"requiredParams": ["dynamicMonthStart"]
 	"returnRowHeaders": [0,
 	1,
 	2],
@@ -21,8 +21,8 @@
 	"returnRowControlHeaders": [1,
 	2],
 	"headerNames": ["&nbsp;",
-	"old_region_cd*region",
-	"cd_order*order"],
+	"Region*region",
+	"Order*order"],
 	"returnRowStart": 3,
 	"hideRow": "allEmpty",
 	"columnClusterSize": 2,
@@ -36,7 +36,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": "Rate per 1,000 Households
 			},
 			"hideColumns": [0]
 		}],
@@ -56,7 +56,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": "Rate per 1,000 Households
 			},
 			"hideColumns": [1]
 		}]
