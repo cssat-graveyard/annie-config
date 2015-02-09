@@ -1,0 +1,35 @@
+{
+  "table": "sp_mp_rate_referrals_order_ts",
+  "transform": {
+    "Function": "daterow",
+    "valueFields": [
+      "Placement Rate",
+      "Trend"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "region",
+    "order"
+  ],
+  "params": [
+    "dynamicMonthStart"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "returnRowHeaders": [],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    1,
+    2
+  ],
+  "headerNames": [
+    "&nbsp;",
+    "old_region_cd*region",
+    "cd_order*order"
+  ],
+  "returnRowStart": 3,
+  "columnClusterSize": 2
+}
