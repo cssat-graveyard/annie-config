@@ -15,14 +15,12 @@
   "dateParams": [],
   "requiredParams": [],
   "showAllOthers": true,
-  "returnRowHeaders": [
-    1,
-    2
+  "returnRowHeaders": [0,
+    1
   ],
   "returnRowDateHeaders": [],
-  "returnRowControlHeaders": [
-    1,
-    2
+  "returnRowControlHeaders": [0,
+    1
   ],
   "headerNames": [
     "fl_disability*disability",
