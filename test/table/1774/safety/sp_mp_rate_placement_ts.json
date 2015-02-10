@@ -24,7 +24,7 @@
 	2],
 	"headerNames": ["&nbsp;",
 	"Region*region",
-	"cd_access_type*access_type_mp"],
+	"cd_access_type=access_type_mp"],
 	"returnRowStart": 3,
 	"hideRow": "allEmpty",
 	"columnClusterSize": 2,
