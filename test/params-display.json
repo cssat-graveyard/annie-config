@@ -910,7 +910,7 @@
       "help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 to the most recent available data. Data on the percent of children who have re-entered out-of-home care are available in three month increments for up to 48 months following the selected cohort year. If the selected year is fewer than 48 months ago, the line graph and the data will be truncated."
     }
   },
-  "cohort_year_graduation": {
+  "cohort_year_dropout": {
     "values": {
       "2002": "2006",
       "2003": "2007",
@@ -932,7 +932,7 @@
       "resultUnavailable": "hide",
       "help": {
         "sp_mp_dropout_perc": "This filter indicated that students have been followed from the year they entered high school (2006 and 2007) to their expected graduation year, 2010 and 2011, respectively.",
-        "sp_mp_college_enrollment_pvt": "This filter tracks two different entry grades—the 9th and the 12th (see the ENTRY GRADE filter). If the ENTRY GRADE selected is the 9th grade, then there is only one expected graduation year option—2010. If the ENTRY GRADE selected is 12th, then there are three expected graduation year options—2007, 2008, and 2009.",
+        "sp_mp_college_enrollment_pvt": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  ",
         "default": "This is a static filter that returns results for students expected to graduate in 2010 (based on the year they started high school, 2006)."
       }
     }
@@ -1258,7 +1258,7 @@
   },
   "region": {
     "values": {
-      "0": "State",
+      "0": "Washington State",
       "1": "Region 1 East",
       "2": "Region 1 West",
       "3": "Region 2 North",
@@ -1281,7 +1281,7 @@
       "0": "One Year",
       "1": "Two Years",
       "2": "Three Years",
-      "3": "Four Plus Years"
+      "4": "Four Plus Years"
     },
     "display": {
       "legend": "Years in Care",
