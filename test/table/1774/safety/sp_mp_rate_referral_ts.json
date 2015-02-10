@@ -6,8 +6,8 @@
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Date",
-		"valueFields": ["Rate of Referral",
-		"Trend Line Values"],
+		"valueFields": ["Referral Rate",
+		"Trend"],
 		"removeFields": []
 	},
 	"controls": ["region",

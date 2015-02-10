@@ -7,8 +7,8 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Referral Rate",
-      "Trend"
+      "Rate of Screened-In Referrals",
+      "Trend Line Values"
     ],
     "removeFields": []
   },
