@@ -2,10 +2,6 @@
   "table": "sp_mp_college_enrollment_pvt",
   "title": "Percent Enrolled in College",
   "measurementOrder": 3,
-  "transform": {
-    "valueFields": [],
-    "removeFields": []
-  },
   "controls": [
     "disability",
     "cohort_year_graduation"
@@ -24,7 +20,7 @@
     1
   ],
   "headerNames": [
-    "Cohort Period=cohort_year_graduation",
+    "Cohort Period*cohort_year_graduation",
     "fl_disability*disability"
   ],
   "hideRow": "allEmpty",
