@@ -20,7 +20,7 @@
 	3],
 	"headerNames": ["&nbsp;",
 	"Student Type*student_type",
-	"Cohort Period*cohort_year_graduation",
+	"Cohort Period=cohort_year_graduation",
 	"fl_disability*disability"],
 	"returnRowStart": 4,
 	"hideRow": "allEmpty",
