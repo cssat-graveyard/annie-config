@@ -3,7 +3,7 @@
   "title": "Percent Enrolled in College",
   "measurementOrder": 3,
   "controls": [
-    "cohort_year_dropout",
+    "cohort_year_graduation",
     "disability"
   ],
   "params": [
@@ -24,7 +24,7 @@
 	2
   ],
   "headerNames": [
-    "Cohort Period*cohort_year_dropout",
+    "Cohort Period*cohort_year_graduation",
     "fl_disability*disability",
     "cd_grade*entry_grade"
   ],
