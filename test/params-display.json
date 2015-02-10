@@ -910,7 +910,7 @@
       "help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 to the most recent available data. Data on the percent of children who have re-entered out-of-home care are available in three month increments for up to 48 months following the selected cohort year. If the selected year is fewer than 48 months ago, the line graph and the data will be truncated."
     }
   },
-  "cohort_year_graduation": {
+  "cohort_year_dropout": {
     "values": {
       "2002": "2006",
       "2003": "2007",
