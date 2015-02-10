@@ -6,8 +6,8 @@
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Cohort Date",
-		"valueFields": ["Placement Rate",
-		"Trend"],
+		"valueFields": ["Scatterplot Values",
+		"Trend Line Values"],
 		"removeFields": []
 	},
 	"controls": ["region",
