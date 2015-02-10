@@ -13,7 +13,7 @@
 	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [0,
 	1],
-	"headerNames": ["Cohort Period*cohort_year_graduation",
+	"headerNames": ["Cohort Period=cohort_year_graduation",
 	"fl_disability*disability"],
 	"hideRow": "allEmpty",
 	"chartType": "column",
