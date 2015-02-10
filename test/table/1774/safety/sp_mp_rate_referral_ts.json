@@ -7,7 +7,7 @@
 		"Function": "daterow",
 		"dateField": "Date",
 		"valueFields": ["Rate of Referral",
-		"Trend"],
+		"Trend Line Values"],
 		"removeFields": []
 	},
 	"controls": ["region",
