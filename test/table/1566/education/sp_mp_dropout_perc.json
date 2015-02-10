@@ -12,7 +12,7 @@
   },
   "controls": [
     "student_type",
-    "cohort_year_dropout",
+    "cohort_year_graduation",
     "disability"
   ],
   "params": [],
@@ -33,7 +33,7 @@
   "headerNames": [
     "&nbsp;",
     "Student Type*student_type",
-    "Cohort Period*cohort_year_dropout",
+    "Cohort Period*cohort_year_graduation",
     "fl_disability*disability"
   ],
   "returnRowStart": 4,
