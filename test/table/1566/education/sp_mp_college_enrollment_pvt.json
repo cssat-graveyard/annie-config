@@ -1,29 +1,41 @@
 {
-	"table": "sp_mp_college_enrollment_pvt",
-	"title": "Percent Enrolled in College",
-	"measurementOrder": 3,
-	"controls": ["disability",
-	"cohort_year_graduation"],
-	"params": [],
-	"dateParams": [],
-	"requiredParams": [],
-	"showAllOthers": true,
-	"returnRowHeaders": [0,
-	1],
-	"returnRowDateHeaders": [],
-	"returnRowControlHeaders": [0,
-	1],
-	"headerNames": ["Cohort Period=cohort_year_graduation",
-	"fl_disability*disability"],
-	"hideRow": "allEmpty",
-	"chartType": "column",
-	"labels": {
-		"x": "",
-		"y": "",
-		"yFormat": "##'%"
-	},
-	"numberFormat": {
-		"fractionDigits": 2,
-		"suffix": "%"
-	}
+  "table": "sp_mp_college_enrollment_pvt",
+  "title": "Percent Enrolled in College",
+  "measurementOrder": 3,
+  "transform": {
+    "valueFields": [],
+    "removeFields": []
+  },
+  "controls": [
+    "disability",
+    "cohort_year_graduation"
+  ],
+  "params": [],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    0,
+    1
+  ],
+  "headerNames": [
+    "Cohort Period=cohort_year_graduation",
+    "fl_disability*disability"
+  ],
+  "hideRow": "allEmpty",
+  "chartType": "column",
+  "labels": {
+    "x": "",
+    "y": "",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
+  }
 }
