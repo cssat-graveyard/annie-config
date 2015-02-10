@@ -7,7 +7,7 @@
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Rate of Screened-In Referrals",
+      "Scatterplot Values",
       "Trend Line Values"
     ],
     "removeFields": []
