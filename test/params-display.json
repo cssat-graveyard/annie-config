@@ -1281,7 +1281,7 @@
       "0": "One Year",
       "1": "Two Years",
       "2": "Three Years",
-      "4": "Four Plus Years"
+      "3": "Four Plus Years"
     },
     "display": {
       "legend": "Years in Care",
