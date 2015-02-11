@@ -36,7 +36,7 @@
     "yFormat": "##'%"
   },
   "numberFormat": {
-    "fractionDigits": 0,
+    "fractionDigits": 2,
     "suffix": "%"
   }
 }
