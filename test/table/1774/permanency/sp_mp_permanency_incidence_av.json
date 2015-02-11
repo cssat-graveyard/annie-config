@@ -33,5 +33,9 @@
     "x": "",
     "y": "",
     "yFormat": "##'%"
+    },
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
   }
 }
