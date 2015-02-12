@@ -60,7 +60,7 @@
         "labels": {
           "x": "",
           "y": "",
-          "yFormat": "##'%"
+          "yFormat": "####'%"
         },
         "hideColumns": [
           0
