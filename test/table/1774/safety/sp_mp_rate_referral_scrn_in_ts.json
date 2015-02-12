@@ -1,7 +1,7 @@
 {
 	"table": "sp_mp_rate_referral_scrn_in_ts",
 	"title": "Rate of Screened-In Referrals",
-	"dropdown": "Rate of Screened-In Referrals",
+	"dropdown": "Rate of Screened-In Referrals per 1,000 Households with a Referral",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
@@ -38,7 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Referral"
+				"y": ""
 			},
 			"hideColumns": [0]
 		}],
@@ -48,7 +48,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households with a Referral"
+				"y": ""
 			},
 			"hideColumns": []
 		}],
