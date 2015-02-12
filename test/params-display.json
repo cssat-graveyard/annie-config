@@ -931,9 +931,9 @@
       "visible": true,
       "resultUnavailable": "hide",
       "help": {
-        "sp_mp_dropout_perc": "This filter indicated that students have been followed from the year they entered high school (2006 and 2007) to their expected graduation year, 2010 and 2011, respectively.",
+        "sp_mp_dropout_perc": "This filter indicates that students have been followed from the year they entered high school (2006 and 2007) to their expected graduation year, 2010 and 2011, respectively.",
         "sp_mp_college_enrollment_pvt": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  ",
-        "default": "This is a static filter that returns results for students expected to graduate in 2010 (based on the year they started high school, 2006)."
+        "default": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class.  "
       }
     }
   },
@@ -1253,7 +1253,7 @@
       "selected": 2,
       "visible": true,
       "resultUnavailable": "show",
-      "help": "The student type references the time a student entered/graduated 9th/12th grade, depending of the years selected. This filter classifies students into three categories: 1) those NOT in out-of-home care AND NOT receiving a free or reduced-price lunch; 2) those NOT in out-of-home care BUT receiving a free or reduced-price lunch; and 3) those in out-of-home care AND receiving free or reduced-price lunch. For more information about school lunch programs, see <span style=\"text-decoration: underline;\"><a href=\"http://www.fns.usda.gov/sites/default/files/NSLPFactSheet.pdf\">National School Lunch Program</a></span>."
+      "help": "This filter classifies students into three categories: 1) those in out-of-home care AND receiving free or reduced-price lunches; 2) those NOT in out-of-home care AND receiving free or reduced-price lunches; and 3) those NOT in out-of-home care AND NOT receiving free or reduced-price lunches. "
     }
   },
   "region": {
