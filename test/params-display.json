@@ -1211,7 +1211,7 @@
       "2008": "2008"
     },
     "display": {
-      "legend": "Third Grade Year",
+      "legend": "Third Grade Entry Year",
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
@@ -1219,7 +1219,7 @@
       "selected": 2008,
       "visible": true,
       "resultUnavailable": "disable",
-      "help": "This filter references the year (2006, 2007, and 2008) that students in 3rd grade took the <a href='http://www.k12.wa.us/assessment/StateTesting/MSP.aspx'target='_blank'><span style='text-decoration: underline;'>Measurements of Student Progress</a></span> (MSP) literacy proficiency test. "
+      "help": "This filter references the school year (2006/07, 2007/08, and 2008/09) that students in the 3rd grade took the <a href='http://www.k12.wa.us/assessment/StateTesting/MSP.aspx'target='_blank'><span style='text-decoration: underline;'>Measurements of Student Progress</a></span> (MSP) literacy proficiency test."
     }
   },
   "entry_grade": {
