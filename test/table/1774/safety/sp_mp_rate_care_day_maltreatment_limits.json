@@ -1,6 +1,6 @@
 {
   "table": "sp_mp_rate_care_day_maltreatment_limits",
-  "title": "Rate of Substantiated Cases of Maltreatment per 100,000 Care-Days",
+  "title": "Rate of Substantiated Cases of Maltreatment",
   "dropdown": "Rate of Substantiated Cases of Maltreatment",
   "measurementOrder": 7,
   "transform": {
@@ -66,14 +66,6 @@
           0
         ]
       }
-    ],
-  "chartType": "line",
-  "labels": {
-    "x": "",
-    "y": ""
-  },
-  "numberFormat": {
-    "fractionDigits": 2
+    ]
   }
-}
 }
