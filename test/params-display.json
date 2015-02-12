@@ -922,7 +922,7 @@
       "2009": "2013"
     },
     "display": {
-      "legend": "Expected Graduation Year",
+      "legend": "Expected High School Graduation Year",
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
