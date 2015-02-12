@@ -1,6 +1,6 @@
 {
   "table": "sp_mp_lit3_perc",
-  "title": "Percent Passing a Literacy Test",
+  "title": "Percent Passing the Literacy Test",
   "measurementOrder": 1,
   "controls": [
     "third_grade_year",

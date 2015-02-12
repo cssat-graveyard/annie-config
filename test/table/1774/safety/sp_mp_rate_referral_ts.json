@@ -1,6 +1,6 @@
 {
 	"table": "sp_mp_rate_referral_ts",
-	"title": "Rate of Referrals",
+	"title": "Rate of Referrals per 1,000 Households",
 	"dropdown": "Rate of Referrals",
 	"measurementOrder": 1,
 	"transform": {
@@ -38,7 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate of Referrals per 1,000 Households"
+				"y": ""
 			},
 			"hideColumns": [0]
 		}],
@@ -48,7 +48,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate of Referrals per 1,000 Households"
+				"y": ""
 			},
 			"hideColumns": []
 		}],
@@ -58,7 +58,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate of Referrals per 1,000 Households"
+				"y": ""
 			},
 			"hideColumns": [1]
 		}]

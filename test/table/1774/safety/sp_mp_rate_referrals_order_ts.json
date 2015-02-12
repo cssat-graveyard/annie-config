@@ -1,7 +1,7 @@
 {
 	"table": "sp_mp_rate_referrals_order_ts",
-	"title": "Rate and Order of Referrals",
-	"dropdown": "Rate and Order Referrals",
+	"title": "Order-Specific Rate of Referrals per 1,000 Households",
+	"dropdown": "Order-Specific Rate of Referrals",
 	"measurementOrder": 4,
 	"transform": {
 		"Function": "daterow",
@@ -38,7 +38,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": ""
 			},
 			"hideColumns": [0]
 		}],
@@ -48,7 +48,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": ""
 			},
 			"hideColumns": []
 		}],
@@ -58,7 +58,7 @@
 			"style": "",
 			"labels": {
 				"x": "",
-				"y": "Rate per 1,000 Households"
+				"y": ""
 			},
 			"hideColumns": [1]
 		}]
