@@ -1,7 +1,7 @@
 {
 	"table": "sp_mp_post_secondary_completion_pvt",
     "dropdown": "Percent Completing Post-Secondary Education",
-	"title": "<p>Percent of Expected High School Graduation Class of 2007<p></p>Completing Post-Secondary Education</p>",
+	"title": "Percent of Expected High School Graduation Class of 2007 Completing Post-Secondary Education",
 	"measurementOrder": 5,
 	"controls": ["cohort_year_graduation"],
 	"params": [],
