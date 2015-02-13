@@ -1,13 +1,14 @@
 {
   "table": "sp_ooh_pit_counts",
-  "title": "Count of Children in Out-of-Home Care on the 1st Day of the Year or Quarter",
+  "title": "Count of Children in Out-of-Home Care",
+  "subtitle": "On the First Day of the Year or Quarter",
   "dropdown": "Count of Children in Out-of-Home Care",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
     "dateField": "Date",
     "valueFields": [
-      "Total in Out-of-Home Care 1st Day"
+      "Total in Out-of-Home Care First Day"
     ],
     "removeFields": [
     ]

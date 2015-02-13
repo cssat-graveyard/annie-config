@@ -1,6 +1,7 @@
 {
 	"table": "sp_ooh_wb_siblings",
-	"title": "Percent of Sibling Placements on the 1st Day of the Year",
+	"title": "Percent of Sibling Placements",
+	"subtitle": "On the First Day of the Year",
 	"dropdown": "Percent of Sibling Placements",
 	"measurementOrder": 2,
 	"transform": {
