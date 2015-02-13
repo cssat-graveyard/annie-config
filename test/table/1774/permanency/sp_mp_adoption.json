@@ -1,7 +1,7 @@
 {
   "table": "sp_mp_adoption",
-  "title": "Adoption at One Year",
-  "dropdown": "Adoption at One Year",
+  "title": "Adoption within One Year",
+  "dropdown": "Adoption within One Year",
   "measurementOrder": 4,
   "transform": {
     "Function": "daterow",
