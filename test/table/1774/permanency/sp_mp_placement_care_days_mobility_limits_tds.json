@@ -1,12 +1,13 @@
 {
 	"table": "sp_mp_placement_care_days_mobility_limits_tds",
-	"title": "Rate of Placement Moves by Type of Out-of-Home Care",
+	"title": "Placement Moves by Type of Out-of-Home Care",
+	"subtitle": "Rate per 100,000 Care-Days",
 	"dropdown": "Rate of Placement Moves by Type of Care",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Fiscal Year",
-		"valueFields": ["Movement Rate"],
+		"valueFields": ["Rate"],
 		"removeFields": []
 	},
 	"controls": ["movement_category",

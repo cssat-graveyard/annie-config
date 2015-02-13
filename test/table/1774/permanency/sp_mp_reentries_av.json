@@ -1,13 +1,13 @@
 {
   "table": "sp_mp_reentries_av",
-  "title": "Re-Entry within One Year",
-  "dropdown": "Re-Entry within One Year",
+  "title": "Percent Re-Entering Out-of-Home Care within One Year",
+  "dropdown": "Percent Re-Entering Care within One Year",
   "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
     "dateField": "Fiscal Year",
     "valueFields": [
-      "Percent Re-Entering"
+      "Percent"
     ],
     "removeFields": []
   },

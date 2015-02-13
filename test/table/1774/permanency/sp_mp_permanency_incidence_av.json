@@ -1,7 +1,7 @@
 {
   "table": "sp_mp_permanency_incidence_av",
-  "title": "Permanency within One Year",
-  "dropdown": "Permanency within One Year",
+  "title": "Percent Achieviing Permanency in One Year",
+  "dropdown": "Percent Achieviing Permanency in One Year",
   "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
