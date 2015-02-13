@@ -1,6 +1,6 @@
 {
 	"table": "sp_mp_rate_placement_order_ts",
-	"title": "Order-Specific Rate of Placements per 1,000 Households with a Screened-In Referral",
+	"title": "Order-Specific Rate of Placements",
 	"subtitle": "Per 1,000 Households with a Screened-In Referral",
 	"dropdown": "Order-Specific Rate of Placements",
 	"measurementOrder": 7,
