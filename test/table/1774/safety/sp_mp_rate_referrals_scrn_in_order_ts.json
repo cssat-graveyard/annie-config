@@ -1,6 +1,7 @@
 {
 	"table": "sp_mp_rate_referrals_scrn_in_order_ts",
 	"title": "Order-Specific Rate of Screened-In Referrals per 1,000 Households with a Referral",
+	"subtitle": "Per 1,000 Households with a Referral",
 	"dropdown": "Order-Specific Rate of Screened-In Referrals",
 	"measurementOrder": 5,
 	"transform": {
