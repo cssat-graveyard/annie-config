@@ -1,6 +1,7 @@
 {
   "table": "sp_ooh_wb_familysettings",
-  "title": "Percent of Placements in Family Settings on the 1st Day of the Year",
+  "title": "Percent of Placements in Family Settings",
+  "subtitle": "On the First Day of the Year or Quarter",
   "dropdown": "Percent of Placements in Family Settings",
   "measurementOrder": 1,
   "transform": {
