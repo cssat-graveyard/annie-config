@@ -5,7 +5,7 @@
   "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Fical Year",
+    "dateField": "Cohort Fiscal Year",
     "valueFields": [
       "Sibling Placements"
     ],
