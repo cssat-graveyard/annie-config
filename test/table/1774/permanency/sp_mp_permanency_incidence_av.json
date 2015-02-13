@@ -5,7 +5,7 @@
   "measurementOrder": 3,
   "transform": {
     "Function": "daterow",
-    "dateField": "Fiscal year",
+    "dateField": "Fiscal Year",
     "valueFields": [
       "Permanency Incidence"
     ],
