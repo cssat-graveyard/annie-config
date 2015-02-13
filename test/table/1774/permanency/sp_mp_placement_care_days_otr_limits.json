@@ -5,8 +5,8 @@
 	"measurementOrder": 6,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Fiscal year",
-		"valueFields": ["Days OTR"],
+		"dateField": "Fiscal Year",
+		"valueFields": ["Days"],
 		"removeFields": []
 	},
 	"controls": ["region",
