@@ -1,7 +1,7 @@
 {
 	"table": "sp_ooh_wb_siblings_pvt",
 	"title": "Percent of Sibling Placements by Group Size on the 1st Day of the Year",
-    "dropdown": "Percent of Sibling Placements by Group Size ",
+    "dropdown": "Percent of Sibling Placements by Group Size",
 	"measurementOrder": 3,
 	"controls": [
 	    "qry_type_first_all",
