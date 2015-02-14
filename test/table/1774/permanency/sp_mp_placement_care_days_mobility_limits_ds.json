@@ -1,7 +1,7 @@
 {
   "table": "sp_mp_placement_care_days_mobility_limits_ds",
-  "title": "Out-of-Home Care Placement Moves",
-   "subtitle": "Rate per 100,000 Care-Days",
+  "title": "Rate of Out-of-Home Care Placement Moves",
+   "subtitle": "Per 100,000 Care-Days",
   "dropdown": "Rate of Placement Moves",
   "measurementOrder": 1,
   "transform": {
