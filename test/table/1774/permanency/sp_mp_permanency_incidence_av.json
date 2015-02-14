@@ -7,7 +7,7 @@
     "Function": "daterow",
     "dateField": "Fiscal Year",
     "valueFields": [
-      "Permanency Incidence"
+      "Percent"
     ],
     "removeFields": []
   },
