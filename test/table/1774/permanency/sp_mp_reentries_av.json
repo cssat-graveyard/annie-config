@@ -1,6 +1,6 @@
 {
   "table": "sp_mp_reentries_av",
-  "title": "Percent Re-Entering Out-of-Home Care within One Year",
+  "title": "Percent of Children Re-Entering Out-of-Home Care within One Year",
   "dropdown": "Percent Re-Entering Care within One Year",
   "measurementOrder": 5,
   "transform": {
