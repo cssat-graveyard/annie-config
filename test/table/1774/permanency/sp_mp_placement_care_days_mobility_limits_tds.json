@@ -34,7 +34,7 @@
 	"chartType": "line",
 	"labels": {
 		"x": "",
-		"y": "Rate-per-100,000-Care-Days"
+		"y": ""
 	},
 	"numberFormat": {
 		"fractionDigits": 2
