@@ -1,8 +1,8 @@
 {
 	"table": "sp_mp_placement_care_days_otr_limits",
-	"title": "Percent On-the-Run",
+	"title": "Percent of Children in Out-of-Home Care On-the-Run",
 	"subtitle": "As a Percent of Children in Out-0f-Home Care Who are the Same Age",
-	"dropdown": "Percent On-the-Run",
+	"dropdown": "Percent of Children On-the-Run",
 	"measurementOrder": 6,
 	"transform": {
 		"Function": "daterow",

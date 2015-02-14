@@ -1,6 +1,6 @@
 {
   "table": "sp_mp_permanency_incidence_av",
-  "title": "Percent Achieving Permanency in One Year",
+  "title": "Percent Achieving Permanency within One Year",
   "dropdown": "Percent Achieving Permanency in One Year",
   "measurementOrder": 3,
   "transform": {
