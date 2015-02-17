@@ -1279,8 +1279,8 @@
   "years_in_care": {
     "values": {
       "0": "1 year or less",
-      "1": "1 to 2 years",
-      "2": "2 to 3 years",
+      "1": "1 - 2 years",
+      "2": "2 - 3 years",
       "3": "3 plus years"
     },
     "display": {
