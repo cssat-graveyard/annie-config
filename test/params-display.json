@@ -1288,7 +1288,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
-      "zeroLast": false,
+      "zeroLast": true,
       "sort": true,
       "selected": 0,
       "visible": true,
