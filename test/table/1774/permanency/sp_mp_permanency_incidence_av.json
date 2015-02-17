@@ -2,7 +2,7 @@
   "table": "sp_mp_permanency_incidence_av",
   "title": "Percent of Children in Out-of-Home Care Achieving Permanency within One Year",
   "dropdown": "Percent Achieving Permanency in One Year",
-  "measurementOrder": 3,
+  "measurementOrder": 4,
   "transform": {
     "Function": "daterow",
     "dateField": "Fiscal Year",
