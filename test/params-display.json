@@ -1280,8 +1280,8 @@
     "values": {
       "0": "Less than 1 year",
       "1": "1 to 2 years",
-      "2": "2 to 3 years",
-      "3": "Greater than 3 years"
+      "3": "Greater than 3 years",
+      "2": "2 to 3 years"
     },
     "display": {
       "legend": "Years in Care",
