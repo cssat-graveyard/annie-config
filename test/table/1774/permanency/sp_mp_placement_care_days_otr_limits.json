@@ -3,7 +3,7 @@
 	"title": "Rate of Children in Out-of-Home Care On-the-Run",
 	"subtitle": "Per 100,000 Care-Days",
 	"dropdown": "Rate of Children On-the-Run",
-	"measurementOrder": 6,
+	"measurementOrder": 3,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Fiscal Year",
