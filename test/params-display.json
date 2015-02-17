@@ -1182,7 +1182,7 @@
       "2": "Placement Move to Group Care"
     },
     "display": {
-      "legend": "Placement Move",
+      "legend": "Placement Move Type",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
@@ -1278,16 +1278,17 @@
   },
   "years_in_care": {
     "values": {
-      "0": "One Year",
-      "1": "Two Years",
-      "2": "Three Years",
-      "3": "Four Plus Years"
+      "0": "Less than 1 year",
+      "1": "1 to 2 years",
+      "2": "2 to 3 years",
+      "3": "Greater than 3 years"
     },
     "display": {
       "legend": "Years in Care",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
+      "zeroLast": false,
       "sort": true,
       "selected": 0,
       "visible": true,
