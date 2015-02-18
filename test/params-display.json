@@ -1358,7 +1358,7 @@
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
-      "zeroLast": false,
+      "zeroLast": true,
       "selected": 0,
       "visible": true,
       "help": "This filter calculates the number of years in out-of-home care per episode. Children can have multiple episodes. Each episode ends with a Federal discharge date and can include multiple placements."
