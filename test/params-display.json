@@ -1276,7 +1276,7 @@
       "help": "Children's Administration is divided into <a href='https://www.dshs.wa.gov/sites/default/files/CA/fos/documents/WaMapCounties2.jpg'target='_blank'><span style='text-decoration: underline;'>three geographical Regions</span></a>. Region 1 is subdivided into East and West; Regions 2 and 3 are subdivided into North and South."
     }
   },
-  "years_in_care": {
+  "years_in_care_test": {
     "values": {
       "0": "1 or less year",
       "1": "1 to 2 years",
@@ -1349,6 +1349,19 @@
       "selected": 0,
       "visible": true,
       "help": "This is the order of a referral, a screened-in referral, or an out-of-home placement. See Measure Help for details about this filter."
+    }
+  },
+  "years_in_care": {
+    "table": "ref_lookup_years_in_care",
+    "display": {
+      "legend": "Years in Care",
+      "column": "fieldsRight",
+      "type": "filter",
+      "multi": true,
+      "sort": true,
+      "selected": 0,
+      "visible": true,
+      "help": "This filter calculates the number of years in out-of-home care per episode. Children can have multiple episodes. Each episode ends with a Federal discharge date and can include multiple placements."
     }
   }
 }
