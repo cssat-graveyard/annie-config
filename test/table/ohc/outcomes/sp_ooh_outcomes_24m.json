@@ -1,7 +1,7 @@
 {
   "table": "sp_ooh_outcomes_24m",
   "title": "Outcomes within 24 Months",
-  "measurementOrder": 4,
+  "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
     "table": "sp_ooh_outcomes_24m",
