@@ -1,7 +1,8 @@
 {
 	"table": "sp_mp_rate_referral_ts",
-	"title": "Rate of Referrals per 1,000 Households",
-	"dropdown": "Rate of Referrals",
+	"title": "Rate of Reports",
+	"subtitle": "Per 1,000 Households",
+	"dropdown": "Rate of Reports",
 	"measurementOrder": 1,
 	"transform": {
 		"Function": "daterow",
