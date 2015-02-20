@@ -1,6 +1,6 @@
 {
   "table": "sp_ooh_flow_entries_counts",
-  "title": "Count of Out-of-Home Care Entries",
+  "title": "Count of Children Entering Out-of-Home Care",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
