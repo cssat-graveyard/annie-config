@@ -37,38 +37,12 @@
   ],
   "returnRowStart": 2,
   "columnClusterSize": 2,
-  "numberFormat": {
-    "fractionDigits": 6
+  "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": ""
   },
-  "multicharts": {
-    "Rate": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": ""
-        },
-        "hideColumns": [
-          1
-        ]
-      }
-    ],
-    "Percent": [
-      {
-        "chartType": "line",
-        "chartId": "chart1",
-        "style": "",
-        "labels": {
-          "x": "",
-          "y": "",
-          "yFormat": "##'%"
-        },
-        "hideColumns": [
-          0
-        ]
-      }
-    ]
+  "numberFormat": {
+    "fractionDigits": 2
   }
 }
