@@ -1,6 +1,6 @@
 {
   "table": "sp_mp_college_enrollment_pvt",
-  "title": "Percent Enrolled in College",
+  "title": "Percent of Students Enrolled in College",
   "measurementOrder": 3,
   "controls": [
     "disability",
