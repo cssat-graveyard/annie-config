@@ -1,6 +1,8 @@
 {
   "table": "sp_ooh_outcomes",
-  "title": "Outcomes",
+  "dropdown": "Percent of Children Achieving Permanency",
+  "title": "Percent of Children Achieving Permanency",
+  "subtitle": "Or Emancipated or Still in Care",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
