@@ -1104,11 +1104,11 @@
   "Ref_Serv_County": {
     "table": "ref_lookup_county",
     "display": {
-      "legend": "Referral County",
+      "legend": "Reporting County",
       "column": "advancedRight",
       "type": "param",
       "visible": false,
-      "help": "This is the county where the referral was investigated/assessed. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+      "help": "This is the county where the report was investigated/assessed. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
     }
   },
   "order test": {
