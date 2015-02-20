@@ -127,7 +127,7 @@
   "discharge_type_outcomes": {
     "table": "ref_lookup_type_of_exit",
     "display": {
-      "legend": "Outcome",
+      "legend": "Outcome/Still in Care",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
@@ -242,9 +242,7 @@
   },
   "exitType": {
     "table": "ref_lookup_type_of_exit",
-    "display": {
-      "legend": "Outcome"
-    }
+    "display": {}
   },
   "gender": {
     "table": "ref_lookup_gender",
