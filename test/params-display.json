@@ -242,7 +242,9 @@
   },
   "exitType": {
     "table": "ref_lookup_type_of_exit",
-    "display": {}
+    "display": {
+      "legend": "Outcome"
+    }
   },
   "gender": {
     "table": "ref_lookup_gender",
@@ -446,7 +448,7 @@
   "qry_type_first_unique_ia_safety": {
     "values": {
       "0": "All Investigations/Assessments",
-      "1": "First Investigation/Assessment"
+      "1": "First Investigations/Assessments"
     },
     "display": {
       "legend": "Count Type",
