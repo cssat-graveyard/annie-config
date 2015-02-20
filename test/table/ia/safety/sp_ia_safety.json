@@ -1,7 +1,7 @@
 {
   "table": "sp_ia_safety",
-  "title": "Percent Re-Reported",
-  "dropdown": "Percent of Households with Children Re-Reported",
+  "title": "Percent of Households with Children Re-Reported",
+  "dropdown": "Percent Re-Reported",
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
