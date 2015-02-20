@@ -8,10 +8,11 @@
     "Function": "daterow",
     "dateField": "Fiscal Year",
     "valueFields": [
-      "Incident Rate",
-      "Percent"
+      "Incident Rate"
     ],
-    "removeFields": []
+    "removeFields": [
+      "Percent"
+    ]
   },
   "controls": [
     "region"
@@ -36,7 +37,6 @@
     "Region*region"
   ],
   "returnRowStart": 2,
-  "columnClusterSize": 2,
   "chartType": "line",
   "labels": {
     "x": "",
