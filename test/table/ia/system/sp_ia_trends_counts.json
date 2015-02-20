@@ -1,6 +1,6 @@
 {
-  "title": "Count of Investigations & Assessments",
-  "dropdown": "Household Count of Investigations & Assessments",
+  "title": "Household Count of Investigations & Assessments",
+  "dropdown": "Count of Investigations & Assessments",
   "measurementOrder": 1,
   "table": "sp_ia_trends_counts",
   "transform": {
