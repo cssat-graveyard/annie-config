@@ -1,6 +1,7 @@
 {
   "table": "sp_ia_trends_rates",
-  "title": "Rate of Investigations & Assessments per 1,000 Households",
+  "title": "Rate of Investigations & Assessments",
+  "subtitle": "Per 1,000 Households",
   "dropdown": "Rate of Investigations & Assessments",
   "measurementOrder": 2,
   "transform": {
