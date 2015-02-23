@@ -1336,12 +1336,12 @@
   },
   "order": {
     "values": {
-      "0": "1st Order",
-      "1": "2nd Order",
-      "2": "3rd Order"
+      "0": "1st Interaction",
+      "1": "2nd Interaction",
+      "2": "3rd Interaction"
     },
     "display": {
-      "legend": "Order",
+      "legend": "Order of Child Welfare Interaction",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
