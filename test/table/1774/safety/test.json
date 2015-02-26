@@ -49,17 +49,7 @@
     "fractionDigits": 2
   },
   "multicharts": {
-    "Scatter": [
-      {
-        "chartType": "scatterChart",
-        "chartId": "chart1",
-        "style": "",
-        "hideColumns": [
-          1
-        ]
-      }
-    ],
-    "Line": [
+    "Trend Line Test": [
       {
         "chartType": "line",
         "chartId": "chart1",
@@ -69,21 +59,20 @@
         ]
       }
     ],
-    "Both": [
+    "Trend Line with Scatterplot": [
+      {
+        "chartType": "combo",
+        "chartId": "chart1",
+        "style": ""
+      }
+    ],
+    "Scatterplot": [
       {
         "chartType": "scatterChart",
         "chartId": "chart1",
         "style": "",
         "hideColumns": [
           1
-        ]
-      },
-      {
-        "chartType": "line",
-        "chartId": "chart2",
-        "style": "",
-        "hideColumns": [
-          0
         ]
       }
     ]
