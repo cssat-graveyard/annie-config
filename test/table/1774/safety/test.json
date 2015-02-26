@@ -1,0 +1,85 @@
+{
+  "table": "sp_mp_rate_referral_ts",
+  "title": "Test Title",
+  "subtitle": "Test Subtitle",
+  "dropdown": "Test Dropdown",
+  "measurementOrder": 8,
+  "transform": {
+    "Function": "daterow",
+    "valueFields": [
+      "Scatterplot Values",
+      "Trend Line Values"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "region",
+    "access_type_mp"
+  ],
+  "params": [
+    "dynamicMonthStart"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1,
+    2
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    0,
+    1,
+    2
+  ],
+  "headerNames": [
+    "Region*region",
+    "Access Type*access_type_mp"
+  ],
+  "returnRowStart": 3,
+  "hideRow": "allEmpty",
+  "columnClusterSize": 2,
+  "multicharts": {
+    "Scatter": [
+      {
+        "chartType": "scatterChart",
+        "chartId": "chart1",
+        "style": "",
+        "hideColumns": [
+          1
+        ]
+      }
+    ],
+    "Line": [
+      {
+        "chartType": "line",
+        "chartId": "chart1",
+        "style": "",
+        "hideColumns": [
+          0
+        ]
+      }
+    ],
+    "Both": [
+      {
+        "chartType": "scatterChart",
+        "chartId": "chart1",
+        "style": "",
+        "hideColumns": [
+          1
+        ]
+      },
+      {
+        "chartType": "line",
+        "chartId": "chart2",
+        "style": "",
+        "hideColumns": [
+          0
+        ]
+      }
+    ]
+  }
+}
