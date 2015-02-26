@@ -1,33 +1,41 @@
 {
-	"table": "sp_mp_lit3_perc",
-	"title": "Test Title",
-	"subtitle": "Test Subtitle",
-	"dropdown": "Test Dropdown",
-	"measurementOrder": 6,
-	"controls": ["cohort_year_graduation",
-	"disability"],
-	"params": [],
-	"dateParams": [],
-	"requiredParams": [],
-	"showAllOthers": true,
-	"returnRowHeaders": [0,
-	1],
-	"returnRowDateHeaders": [],
-	"returnRowControlHeaders": [0,
-	1],
-	"headerNames": ["Grade Year=third_grade_year",
-	"fl_disability*disability"],
-	"returnRowStart": 2,
-	"hideRow": "allEmpty",
-	"columnClusterSize": 3,
-	"chartType": "column",
-	"labels": {
-		"x": "",
-		"y": "",
-		"yFormat": "##'%"
-	},
-	"numberFormat": {
-		"fractionDigits": 2,
-		"suffix": "%"
-	}
+  "table": "sp_mp_lit3_perc",
+  "title": "Test Title",
+  "subtitle": "Test Subtitle",
+  "dropdown": "Test Dropdown",
+  "measurementOrder": 6,
+  "controls": [
+    "third_grade_year",
+    "disability"
+  ],
+  "params": [],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [
+    0,
+    1
+  ],
+  "headerNames": [
+    "Grade Year=third_grade_year",
+    "fl_disability*disability"
+  ],
+  "returnRowStart": 2,
+  "hideRow": "allEmpty",
+  "columnClusterSize": 3,
+  "chartType": "column",
+  "labels": {
+    "x": "",
+    "y": "",
+    "yFormat": "##'%"
+  },
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
+  }
 }
