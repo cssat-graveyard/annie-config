@@ -6,7 +6,7 @@
   "measurementOrder": 4,
   "transform": {
     "Function": "daterow",
-    "dateField": "Fiscal Year",
+    "dateField": "Fiscal Year/Removal Year",
     "valueFields": [
       "Percent"
     ],
