@@ -6,7 +6,7 @@
   "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
-    "dateField": "Fiscal Year/Year Child Legally Free",
+    "dateField": "Fiscal Year",
     "valueFields": [
       "Percent"
     ],
