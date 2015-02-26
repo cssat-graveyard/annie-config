@@ -6,7 +6,7 @@
   "measurementOrder": 6,
   "transform": {
     "Function": "daterow",
-    "dateField": "Fiscal Year",
+    "dateField": "Fiscal Year/Out-of-Home Care Exit Year",
     "valueFields": [
       "Percent"
     ],
