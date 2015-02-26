@@ -36,13 +36,13 @@
 		"fractionDigits": 2
 	},
 	"multicharts": {
-		"Trend Line Test": [{
+		"Trend-Line-Test": [{
 			"chartType": "line",
 			"chartId": "chart1",
 			"style": "",
 			"hideColumns": [0]
 		}],
-		"Trend Line with Scatterplot": [{
+		"Trend-Line-with-Scatterplot": [{
 			"chartType": "combo",
 			"chartId": "chart1",
 			"style": ""
