@@ -31,7 +31,7 @@
 	"columnClusterSize": 2,
 	"labels": {
 		"y":""
-	}
+	},
 	"numberFormat": {
 		"fractionDigits": 2
 	},
