@@ -96,7 +96,7 @@
       "column": "fieldsRight",
       "type": "param",
       "help": {
-        "default": "This filter references the ages of the children in the household at the time the report was investigated/assessed. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups (<6 years and between 6 through 17).",
+        "default": "This filter references the ages of the children in the household at the time the reportwas investigated/assessed. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups (<6 years and between 6 through 17).",
         "sp_ihs_trends_counts": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups (<6 years and between 6 through 17).",
         "sp_ihs_trends_rates": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. There are three Census classifications: households with ALL children less than 6 years of age; households with ALL children ages six through 17; and households with AT LEAST one child in EACH of the two groups: <6 years and between 6 through 17."
       }
@@ -267,7 +267,7 @@
       "type": "param",
       "sort": true,
       "visible": false,
-      "help": "This is the county where the placement prevention services were received. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
+      "help": "This is the county where the reportwas screened-in for investigation. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
     }
   },
   "initSetng": {
@@ -456,7 +456,7 @@
       "zeroLast": false,
       "selected": 0,
       "visible": false,
-      "help": "Cohort data for households with children who are re-reported following a prior report that was screened-in for investigation/assessment are aggregated into counts of ‘first’ and ‘all’ investigations/assessments. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Cohort data for households with children who are re-referred following a prior reportthat was screened-in for investigation/assessment are aggregated into counts of ‘first’ and ‘all’ investigations/assessments. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "qry_type_poc2": {
@@ -470,7 +470,7 @@
       "sort": "qryTypeCompare",
       "selected": 2,
       "visible": false,
-      "help": "Data for counts/rate of investigations/assessments are aggregated into ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘First Investigation/Assessment’ is the first ever report that was screened in for investigation/assessment. ‘Unique Investigations/Assessments’ references the first investigation/assessment within a given time period. ‘All Investigations/Assessments’ includes all reports that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data for counts/rate of investigations/assessments are aggregated into ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘First Investigation/Assessment’ is the first ever reportthat was screened in for investigation/assessment. ‘Unique Investigations/Assessments’ references the first investigation/assessment within a given time period. ‘All Investigations/Assessments’ includes all reports that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "service_type": {
@@ -523,7 +523,7 @@
       "type": "dateType",
       "selected": 2,
       "alias": "date_type",
-      "help": "This references the length of time of the selected cohort (group) by quarter(s) or year(s).",
+      "help": "The cohort (group) can be examined by quarter(s) or year(s).",
       "format": {
         "0": "'MMM yyyy",
         "1": "yyyyQQ",
@@ -563,7 +563,7 @@
       "type": "param",
       "multi": true,
       "visible": false,
-      "help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report (sometimes called a referral). Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. Law Enforcement Officer includes Corrections Personnel.  Adults below the line are mandated to report if they are <a href='http://www.dshs.wa.gov/pdf/publications/22-163.pdf'target='_blank'><span style='text-decoration: underline;'>residing with a child suspected to have been severely abused</span></a>. ‘Other’ reporters include the subject or the victim. ‘All’ includes all reports, mandated or not."
+      "help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report (usually called a referral). Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. Law Enforcement Officer includes Corrections Personnel.  Adults below the line are mandated to report if they are <a href='http://www.dshs.wa.gov/pdf/publications/22-163.pdf'target='_blank'><span style='text-decoration: underline;'>residing with a child suspected to have been severely abused</span></a>. ‘Other’ reporters include the subject or the victim. ‘All’ includes all reports, mandated or not."
     }
   },
   "access_type": {
@@ -656,7 +656,7 @@
       "multi": true,
       "selected": 0,
       "visible": false,
-      "help": "The courts become involved when there is a <a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting.<br></br>In this filter, ‘Immediate Dependency’  means a dependency petition was filed within seven days and approved within 79 days of the start of the out-of-home episode.‘Eventual Dependency’ means the petition was approved more than 86 days (7 days plus 79) after the start of the episode. (Seventy-nine days is the average number of days for a petition to be approved)."
+      "help": "The courts become involved when there is a <a href='/data-portal/glossary#letter_d' target='_blank'><span style='text-decoration: underline;'>dependency</span></a> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting.<br></br>In this filter, ‘Immediate Dependency’  means a dependency petition was filed within seven days and approved within 79 days of the start of the out-of-home episode. ‘Eventual Dependency’ means the petition was approved more than 86 days (7 days plus 79) after the start of the episode. (Seventy-nine days is the average number of days for a petition to be approved)."
     }
   },
   "ihs_services": {
@@ -1331,7 +1331,7 @@
         6
       ],
       "visible": true,
-      "help": "You can filter for three primary entry points in the child welfare system, i.e., first point of contact with Children’s Administration. Currently, the Data Portal returns data for:<strong></strong>1) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_c\" target=\"_blank\"><span style=\"text-decoration: underline;\">Child Protective Services</span></a> (CPS), which provides 24 hour, seven days a week intake, screening, and investigative services for reports of alleged child abuse and neglect; <strong></strong>2) <a href=\"http://www.dshs.wa.gov/CA/pubs/mnl_pnpg/chapter2.asp\" target=\"_blank\"><span style=\"text-decoration: underline;\">Risk Only</span></a>, a report made when information collected gives reasonable cause to believe that risk or safety factors exist that place the child at imminent risk of serious harm;<strong></strong> and 3) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_c\" target=\"_blank\"><span style=\"text-decoration: underline;\">Child and Family Welfare Services</span></a> (CFWS), which provides both permanency planning and court-ordered services to children and families to mitigate the risk of abuse or neglect so that children are able to safely return to their home of origin. <strong></strong> <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_f\" target=\"_blank\"><span style=\"text-decoration: underline;\">Family Assessment Response</span></a> (FAR), a new alternative pathway for accepted reports of low-to-moderate risk of child maltreatment, is grayed out because the number of cases that enter through this programs is still small."
+      "help": "You can filter for three primary entry points in the child welfare system, i.e., first point of contact with Children’s Administration. Currently, the Data Portal returns data for:<strong></strong>1) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_c\" target=\"_blank\"><span style=\"text-decoration: underline;\">Child Protective Services</span></a> (CPS), which provides 24 hour, seven days a week intake, screening, and investigative services for reports of alleged child abuse and neglect; <strong></strong>2) <a href=\"http://www.dshs.wa.gov/CA/pubs/mnl_pnpg/chapter2.asp\" target=\"_blank\"><span style=\"text-decoration: underline;\">Risk Only</span></a>, a referral made when information collected gives reasonable cause to believe that risk or safety factors exist that place the child at imminent risk of serious harm;<strong></strong> and 3) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_c\" target=\"_blank\"><span style=\"text-decoration: underline;\">Child and Family Welfare Services</span></a> (CFWS), which provides both permanency planning and court-ordered services to children and families to mitigate the risk of abuse or neglect so that children are able to safely return to their home of origin. <strong></strong> <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_f\" target=\"_blank\"><span style=\"text-decoration: underline;\">Family Assessment Response</span></a> (FAR), a new alternative pathway for accepted reports of low-to-moderate risk of child maltreatment, is grayed out because the number of cases that enter through this programs is still small."
     }
   },
   "order": {
