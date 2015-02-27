@@ -470,7 +470,7 @@
       "sort": "qryTypeCompare",
       "selected": 2,
       "visible": false,
-      "help": "Data for counts/rate of investigations/assessments are aggregated into ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘First Investigation/Assessment’ is the first ever reportthat was screened in for investigation/assessment. ‘Unique Investigations/Assessments’ references the first investigation/assessment within a given time period. ‘All Investigations/Assessments’ includes all reports that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+      "help": "Data for counts/rate of investigations/assessments are aggregated into ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘First Investigation/Assessment’ is the first ever report that was screened in for investigation/assessment. ‘Unique Investigations/Assessments’ references the first investigation/assessment within a given time period. ‘All Investigations/Assessments’ includes all reports that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
   "service_type": {
@@ -563,7 +563,7 @@
       "type": "param",
       "multi": true,
       "visible": false,
-      "help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report (usually called a referral). Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. Law Enforcement Officer includes Corrections Personnel.  Adults below the line are mandated to report if they are <a href='http://www.dshs.wa.gov/pdf/publications/22-163.pdf'target='_blank'><span style='text-decoration: underline;'>residing with a child suspected to have been severely abused</span></a>. ‘Other’ reporters include the subject or the victim. ‘All’ includes all reports, mandated or not."
+      "help": "In Washington State, anyone who has reasonable cause to believe that a child has suffered abuse or neglect can, in good faith, make a report (sometimes called a referral). Mandated reporters (above the line) are required by law to report concerns to the local Children’s Administration office or to law enforcement. Law Enforcement Officer includes Corrections Personnel.  Adults below the line are mandated to report if they are <a href='http://www.dshs.wa.gov/pdf/publications/22-163.pdf'target='_blank'><span style='text-decoration: underline;'>residing with a child suspected to have been severely abused</span></a>. ‘Other’ reporters include the subject or the victim. ‘All’ includes all reports, mandated or not."
     }
   },
   "access_type": {
