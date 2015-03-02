@@ -52,7 +52,6 @@
 		"Opened-and-Closed-Investigations-_A-Assessments": [{
 			"chartType": "line",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": ""
@@ -61,7 +60,6 @@
 		"Opened-Investigations-_A-Assessments": [{
 			"chartType": "line",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": ""
@@ -71,7 +69,6 @@
 		"Closed-Investigations-_A-Assessments": [{
 			"chartType": "line",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": ""
