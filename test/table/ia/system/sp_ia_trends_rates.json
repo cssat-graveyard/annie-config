@@ -67,7 +67,7 @@
   "multicharts": {
     "Opened-and-Closed-Investigations-_A-Assessments": [
       {
-		"chartType": "area",
+		"chartType": "line",
 		"chartId": "chart1",
 		"style": "",
         "labels": {
@@ -78,7 +78,7 @@
     ],
     "Opened-Investigations-_A-Assessments": [
       {
-		"chartType": "area",
+		"chartType": "line",
 		"chartId": "chart1",
 		"style": "",
         "labels": {
@@ -91,7 +91,7 @@
     ],
     "Closed-Investigations-_A-Assessments": [
       {
-		"chartType": "area",
+		"chartType": "line",
 		"chartId": "chart1",
 		"style": "",
         "labels": {
