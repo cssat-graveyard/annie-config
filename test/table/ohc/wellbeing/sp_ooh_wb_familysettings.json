@@ -91,7 +91,7 @@
   ],
   "returnRowStart": 34,
   "columnClusterSize": 4,
-  "chartType": "area",
+  "chartType": "line",
   "chartId": "chart1",
   "style": "",
   "labels": {
