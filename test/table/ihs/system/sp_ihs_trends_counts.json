@@ -63,7 +63,6 @@
 		"Overview": [{
 			"chartType": "column",
 			"chartId": "chart1",
-			"style": "",
 			"baseOptions": {
 				"width": 765,
 				"height": 215,
@@ -84,7 +83,6 @@
 		{
 			"chartType": "line",
 			"chartId": "chart2",
-			"style": "",
 			"baseOptions": {
 				"width": 765,
 				"height": 215,
@@ -104,7 +102,6 @@
 		"All-Placement-Prevention-Service-Cases-_p1st-Day-Qrtr_sYr_P": [{
 			"chartType": "column",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": ""
@@ -115,7 +112,6 @@
 		"Opened-and-Closed-Placement-Prevention-Service-Cases": [{
 			"chartType": "line",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": ""
@@ -125,7 +121,6 @@
 		"Opened-Placement-Prevention-Service-Cases": [{
 			"chartType": "line",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": ""
@@ -136,7 +131,6 @@
 		"Closed-Placement-Prevention-Service-Cases": [{
 			"chartType": "line",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": ""
