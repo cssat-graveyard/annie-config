@@ -36,7 +36,6 @@
 		"Trend-Line": [{
 			"chartType": "line",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": "",
@@ -47,7 +46,6 @@
 		"Trend-Line-with-Scatterplot": [{
 			"chartType": "combo",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": ""
@@ -57,7 +55,6 @@
 		"Scatterplot": [{
 			"chartType": "scatterChart",
 			"chartId": "chart1",
-			"style": "",
 			"labels": {
 				"x": "",
 				"y": "",
