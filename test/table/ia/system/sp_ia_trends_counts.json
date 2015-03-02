@@ -87,7 +87,7 @@
     ],
     "Opened-Investigations-_A-Assessments": [
       {
-        "chartType": "line",
+        "chartType": "area",
         "chartId": "chart1",
         "style": "",
         "labels": {
