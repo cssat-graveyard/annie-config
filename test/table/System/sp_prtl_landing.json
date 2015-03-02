@@ -51,7 +51,7 @@
       ]
     },
     {
-      "chartType": "area",
+      "chartType": "line",
       "chartId": "chart2",
       "style": "",
       "baseOptions": {
