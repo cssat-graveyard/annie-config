@@ -2,7 +2,7 @@
 	"table": "sp_mp_post_secondary_completion_pvt",
 	"title": "Percent Completing Post-Secondary Education",
 	"subtitle": "Among Expected High School Graduation Class of 2007",
-	"measurementOrder": 5,
+	"measurementOrder": 4,
 	"controls": ["cohort_year_graduation"],
 	"params": [],
 	"dateParams": [],
