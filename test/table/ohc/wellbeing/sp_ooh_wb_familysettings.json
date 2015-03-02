@@ -76,7 +76,6 @@
 	"columnClusterSize": 4,
 	"chartType": "line",
 	"chartId": "chart1",
-	"style": "",
 	"labels": {
 		"x": "",
 		"y": "",
