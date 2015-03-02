@@ -133,8 +133,7 @@
         "hideColumns": [
           1,
           2
-        ],
-        "addInputClass": "multiAllowed"
+        ]
       }
     ],
     "Opened-and-Closed-Placement-Prevention-Service-Cases": [
@@ -163,8 +162,7 @@
         "hideColumns": [
           0,
           2
-        ],
-        "addInputClass": "multiAllowed"
+        ]
       }
     ],
     "Closed-Placement-Prevention-Service-Cases": [
@@ -179,8 +177,7 @@
         "hideColumns": [
           0,
           1
-        ],
-        "addInputClass": "multiAllowed"
+        ]
       }
     ]
   },
