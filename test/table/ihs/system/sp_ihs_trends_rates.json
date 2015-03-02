@@ -73,7 +73,6 @@
   "returnRowStart": 23,
   "columnClusterSize": 3,
   "showAllOthers": true,
-  "mutexAllOthers": false,
   "multicharts": {
     "Overview": [
       {
