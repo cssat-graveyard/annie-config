@@ -6,6 +6,7 @@
   "measurementOrder": 7,
   "transform": {
     "Function": "daterow",
+    "dateField": "Date",
     "valueFields": [
       "Scatterplot Values",
       "Trend Line Values"
@@ -25,9 +26,7 @@
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
-    0,
-    1,
-    2
+    0
   ],
   "returnRowDateHeaders": [
     0
@@ -36,7 +35,11 @@
     1,
     2
   ],
-  "headerNames": [],
+  "headerNames": [
+    "&nbsp;",
+    "Region*region",
+    "Access Type*access_type_mp"
+  ],
   "returnRowStart": 3,
   "hideRow": "allEmpty",
   "columnClusterSize": 2,
@@ -46,7 +49,7 @@
   "multicharts": {
     "Trend-Line-Test": [
       {
-        "chartType": "area",
+        "chartType": "line",
         "chartId": "chart1",
         "style": "",
         "labels": {
