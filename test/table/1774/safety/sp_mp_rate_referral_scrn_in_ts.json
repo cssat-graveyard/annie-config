@@ -34,7 +34,7 @@
 	},
 	"multicharts": {
 		"Trend-Line": [{
-			"chartType": "area",
+			"chartType": "line",
 			"chartId": "chart1",
 			"style": "",
 			"labels": {
