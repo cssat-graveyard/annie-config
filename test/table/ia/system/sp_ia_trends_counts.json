@@ -43,7 +43,6 @@
 	"returnRowStart": 17,
 	"columnClusterSize": 2,
 	"showAllOthers": true,
-	"mutexAllOthers": false,
 	"dateParams": [],
 	"hideRow": "allEmpty",
 	"numberFormat": [{
@@ -51,7 +50,7 @@
 	}],
 	"multicharts": {
 		"Opened-and-Closed-Investigations-_A-Assessments": [{
-			"chartType": "area",
+			"chartType": "line",
 			"chartId": "chart1",
 			"style": "",
 			"labels": {
@@ -60,7 +59,7 @@
 			}
 		}],
 		"Opened-Investigations-_A-Assessments": [{
-			"chartType": "area",
+			"chartType": "line",
 			"chartId": "chart1",
 			"style": "",
 			"labels": {
@@ -70,7 +69,7 @@
 			"hideColumns": [1]
 		}],
 		"Closed-Investigations-_A-Assessments": [{
-			"chartType": "area",
+			"chartType": "line",
 			"chartId": "chart1",
 			"style": "",
 			"labels": {
