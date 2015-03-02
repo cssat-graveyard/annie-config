@@ -99,7 +99,7 @@
         ]
       },
       {
-        "chartType": "area",
+        "chartType": "line",
         "chartId": "chart2",
         "style": "",
         "baseOptions": {
@@ -138,7 +138,7 @@
     ],
     "Opened-and-Closed-Placement-Prevention-Service-Cases": [
       {
-        "chartType": "area",
+        "chartType": "line",
         "chartId": "chart1",
         "style": "",
         "labels": {
@@ -152,7 +152,7 @@
     ],
     "Opened-Placement-Prevention-Service-Cases": [
       {
-        "chartType": "area",
+        "chartType": "line",
         "chartId": "chart1",
         "style": "",
         "labels": {
@@ -167,7 +167,7 @@
     ],
     "Closed-Placement-Prevention-Service-Cases": [
       {
-        "chartType": "area",
+        "chartType": "line",
         "chartId": "chart1",
         "style": "",
         "labels": {
