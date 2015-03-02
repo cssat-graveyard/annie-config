@@ -85,8 +85,7 @@
           "x": "",
           "y": ""
         },
-		"hideColumns": [1],
-		"addInputClass": "multiAllowed"
+		"hideColumns": [1]
       }
     ],
     "Closed-Investigations-_A-Assessments": [
@@ -98,8 +97,7 @@
           "x": "",
           "y": ""
         },
-		"hideColumns": [0],
-	    "addInputClass": "multiAllowed"
+		"hideColumns": [0]
       }
     ]
   },
