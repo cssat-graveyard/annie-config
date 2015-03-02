@@ -111,8 +111,7 @@
 				"y": ""
 			},
 			"hideColumns": [1,
-			2],
-			"addInputClass": "multiAllowed"
+			2]
 		}],
 		"Opened-and-Closed-Placement-Prevention-Service-Cases": [{
 			"chartType": "area",
@@ -133,8 +132,7 @@
 				"y": ""
 			},
 			"hideColumns": [0,
-			2],
-			"addInputClass": "multiAllowed"
+			2]
 		}],
 		"Closed-Placement-Prevention-Service-Cases": [{
 			"chartType": "area",
@@ -145,8 +143,7 @@
 				"y": ""
 			},
 			"hideColumns": [0,
-			1],
-			"addInputClass": "multiAllowed"
+			1]
 		}]
 	}
 }
