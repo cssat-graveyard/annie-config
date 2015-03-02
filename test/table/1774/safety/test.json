@@ -1,0 +1,86 @@
+{
+  "table": "sp_mp_rate_referral_ts",
+  "title": "Test Title",
+  "subtitle": "Test Subtitle",
+  "dropdown": "Test Dropdown",
+  "measurementOrder": 7,
+  "transform": {
+    "Function": "daterow",
+    "valueFields": [
+      "Scatterplot Values",
+      "Trend Line Values"
+    ],
+    "removeFields": []
+  },
+  "controls": [
+    "access_type_mp",
+    "region"
+  ],
+  "params": [
+    "dynamicMonthStart"
+  ],
+  "dateParams": [],
+  "requiredParams": [
+    "dynamicMonthStart"
+  ],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    1,
+    2
+  ],
+  "returnRowDateHeaders": [
+    0
+  ],
+  "returnRowControlHeaders": [
+    1,
+    2
+  ],
+  "headerNames": [],
+  "returnRowStart": 3,
+  "hideRow": "allEmpty",
+  "columnClusterSize": 2,
+  "numberFormat": {
+    "fractionDigits": 2
+  },
+  "multicharts": {
+    "Trend-Line-Test": [
+      {
+        "chartType": "area",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          0
+        ]
+      }
+    ],
+    "Trend-Line-with-Scatter-Plot-Test": [
+      {
+        "chartType": "combo",
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        }
+      }
+    ],
+    "Scatterplot-Test": [
+      {
+        "chartId": "chart1",
+        "style": "",
+        "labels": {
+          "x": "",
+          "y": ""
+        },
+        "hideColumns": [
+          1
+        ]
+      }
+    ]
+  }
+}
