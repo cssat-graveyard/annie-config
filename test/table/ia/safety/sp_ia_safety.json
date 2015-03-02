@@ -8,7 +8,7 @@
     "Function": "daterow",
     "dateField": "Months Since 1st Investigation/Assessment",
     "valueFields": [
-      "Among first reports, percent that are re-reported"
+      "Percent"
     ],
     "removeFields": [],
 	"table": "sp_ia_safety"
