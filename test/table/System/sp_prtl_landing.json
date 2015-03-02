@@ -29,7 +29,6 @@
     {
       "chartType": "column",
       "chartId": "chart1",
-      "style": "",
       "baseOptions": {
         "width": 615,
         "height": 215,
@@ -53,7 +52,6 @@
     {
       "chartType": "line",
       "chartId": "chart2",
-      "style": "",
       "baseOptions": {
         "width": 615,
         "height": 215,
