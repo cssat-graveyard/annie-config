@@ -1336,19 +1336,19 @@
   },
   "order": {
     "values": {
-      "0": "1st Interaction",
-      "1": "2nd Interaction",
-      "2": "3rd Interaction"
+      "0": "1st ",
+      "1": "2nd ",
+      "2": "3rd "
     },
     "display": {
-      "legend": "Order of Child Welfare Interaction",
+      "legend": "Order",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "selected": 0,
       "visible": true,
-      "help": "This is the order of a referral, a screened-in referral, or an out-of-home placement. See Measure Help for details about this filter."
+      "help": "This is the order (1st, 2nd,or 3rd) of a report, a screened-in report, or an out-of-home placement. See Measure Help for details about this filter."
     }
   },
   "years_in_care": {
