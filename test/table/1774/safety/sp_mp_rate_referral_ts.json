@@ -1,7 +1,7 @@
 {
 	"table": "sp_mp_rate_referral_ts",
 	"title": "Rate of Reports",
-	"subtitle": "Per 1,000 Households",
+	"subtitle": "Per 1,000 Households with Children in Washington State",
 	"dropdown": "Reports",
 	"measurementOrder": 1,
 	"transform": {
