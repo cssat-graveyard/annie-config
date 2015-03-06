@@ -1,8 +1,8 @@
 {
 	"table": "sp_mp_rate_referrals_scrn_in_order_ts",
-	"title": "Rate of Screened-In Report by Order of Child Welfare Interaction",
+	"title": "Rate of Screened-In Report by Prior Screened-In Reports",
 	"subtitle": "Per 1,000 Households with a Report",
-	"dropdown": "Rate of Screened-In Reports by Order of CW Interaction",
+	"dropdown": "Screened-In Reports by Prior Screened-In Reports",
 	"measurementOrder": 5,
 	"transform": {
 		"Function": "daterow",

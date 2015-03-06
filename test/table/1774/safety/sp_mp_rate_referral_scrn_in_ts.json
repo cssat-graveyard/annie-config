@@ -2,7 +2,7 @@
 	"table": "sp_mp_rate_referral_scrn_in_ts",
 	"title": "Rate of Screened-In Reports",
 	"subtitle": "Per 1,000 Households with a Report",
-	"dropdown": "Rate of Screened-In Reports",
+	"dropdown": "Screened-In Reports",
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",

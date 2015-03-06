@@ -2,7 +2,7 @@
 	"table": "sp_mp_rate_placement_ts",
 	"title": "Rate of Placements",
 	"subtitle": "Per 1,000 Households with a Screened-In Report",
-	"dropdown": "Rate of Placements",
+	"dropdown": "Placements",
 	"measurementOrder": 3,
 	"transform": {
 		"Function": "daterow",
