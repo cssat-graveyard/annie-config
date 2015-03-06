@@ -1,7 +1,7 @@
 {
   "table": "sp_mp_adult_readiness",
-  "title": "Percent of Transition Planning Meetings Held",
-  "dropdown": "Percent of Transition Planning Meetings",
+  "title": "Percent of Adult-Transition Planning Meetings Held",
+  "dropdown": "Adult-Transition Planning",
   "subtitle": "Among Youth >17.5 Years Olds",
   "measurementOrder": 1,
   "transform": {

@@ -2,7 +2,7 @@
   "table": "sp_mp_permanency_incidence_av",
   "title": "Percent of Children Achieving Permanency",
   "subtitle": "Within One Year of Out-of-Home Placement",
-  "dropdown": "Percent Achieving Permanency in One Year",
+  "dropdown": "Permanency Within One Year",
   "measurementOrder": 4,
   "transform": {
     "Function": "daterow",

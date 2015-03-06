@@ -2,7 +2,7 @@
   "table": "sp_mp_adoption",
   "title": "Percent of Children Adopted",
   "subtitle": "Within One Year of Becoming Legally Free",
-  "dropdown": "Percent Adopted within One Year",
+  "dropdown": "Adoption Within One Year",
   "measurementOrder": 5,
   "transform": {
     "Function": "daterow",
