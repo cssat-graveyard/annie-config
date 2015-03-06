@@ -1,6 +1,7 @@
 {
   "table": "sp_mp_lit3_perc",
   "title": "Percent of Students Passing the Literacy Test",
+  "dropdown": "Third Grade Literacy",
   "subtitle": "Among Students in the Third Grade",
   "measurementOrder": 1,
   "controls": [

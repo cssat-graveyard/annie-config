@@ -1,6 +1,8 @@
 {
   "table": "sp_mp_college_enrollment_pvt",
   "title": "Percent of Students Enrolled in College",
+  "subtitle": "Within One Year of High School Graduation",
+  "dropdown": "College Enrollment",
   "measurementOrder": 3,
   "controls": [
     "disability",

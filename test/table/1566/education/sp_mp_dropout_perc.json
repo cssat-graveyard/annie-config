@@ -1,6 +1,8 @@
 {
   "table": "sp_mp_dropout_perc",
   "title": "Percent of Students Not Completing High School",
+  "subtitle": "By Expected High School Completion Year",
+  "dropdown": "High School Completion",
   "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
