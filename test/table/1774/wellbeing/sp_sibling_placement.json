@@ -1,7 +1,7 @@
 {
   "table": "sp_mp_sibling_placement",
   "title": "Percent of Siblings Placed Together",
-  "dropdown": "Percent of Siblings Placed Together",
+  "dropdown": "Siblings Placed Together",
   "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
