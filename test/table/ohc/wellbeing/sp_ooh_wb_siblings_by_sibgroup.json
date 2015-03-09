@@ -84,7 +84,7 @@
   "chartType": "column",
   "labels": {
     "x": "Sibling Group Size",
-    "y": "Siblings Placed Together",
+    "y": "",
 	"yFormat": "##'%"
   }
 }
