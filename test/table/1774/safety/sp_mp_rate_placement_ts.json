@@ -6,7 +6,7 @@
 	"measurementOrder": 3,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Cohort Date",
+		"dateField": "Date",
 		"valueFields": ["Scatterplot Values",
 		"Trend Line Values"],
 		"removeFields": []
