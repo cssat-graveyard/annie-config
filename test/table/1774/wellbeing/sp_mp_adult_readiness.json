@@ -6,9 +6,9 @@
   "measurementOrder": 1,
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Fiscal Year",
+    "dateField": "Fiscal Year",
     "valueFields": [
-      "Proportion of Youth with Plans"
+      "Percent"
     ],
     "removeFields": []
   },

@@ -5,9 +5,9 @@
   "measurementOrder": 2,
   "transform": {
     "Function": "daterow",
-    "dateField": "Cohort Fiscal Year",
+    "dateField": "Fiscal Year",
     "valueFields": [
-      "Sibling Placements"
+      "Percent"
     ],
     "removeFields": []
   },
