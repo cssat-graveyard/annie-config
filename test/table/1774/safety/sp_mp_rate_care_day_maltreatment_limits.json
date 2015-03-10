@@ -8,7 +8,7 @@
     "Function": "daterow",
     "dateField": "Fiscal Year",
     "valueFields": [
-      "Incident Rate"
+      "Rate"
     ],
     "removeFields": [
       "Percent"
