@@ -1380,7 +1380,6 @@
       "multi": true,
       "zeroLast": false,
       "selected": 2007,
-      "visible": true,
       "resultUnavailable": "hide",
       "help": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class.  "
     }
