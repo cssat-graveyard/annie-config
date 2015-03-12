@@ -1377,11 +1377,12 @@
       "legend": "High School Graduation Year",
       "column": "fieldsLeft",
       "type": "filter",
+      "multi": true,
+      "zeroLast": false,
       "selected": 2007,
+      "visible": true,
       "resultUnavailable": "hide",
-      "help": {
-        "sp_mp_post_secondary_completion_pvt": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class.  "
-      }
+      "help": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class.  "
     }
   }
 }
