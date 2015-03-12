@@ -4,7 +4,7 @@
 	"dropdown": "College Completion",
 	"subtitle": "Within One Year of High School Graduation",
 	"measurementOrder": 4,
-	"controls": ["cohort_year_graduation"],
+	"controls": ["cohort_year_grad_college"],
 	"params": [],
 	"dateParams": [],
 	"requiredParams": [],
