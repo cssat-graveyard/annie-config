@@ -14,7 +14,7 @@
 	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [0,
 	1],
-	"headerNames": ["Cohort Period=cohort_year_graduation"],
+	"headerNames": ["Cohort Period=cohort_grad_college"],
 	"hideRow": "anyEmpty",
 	"chartType": "column",
 	"columnClusterSize": 3,
