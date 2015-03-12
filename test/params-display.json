@@ -932,8 +932,7 @@
       "resultUnavailable": "hide",
       "help": {
         "sp_mp_dropout_perc": "This filter indicates that students have been followed from the year they entered high school (2006 and 2007) to their expected graduation year, 2010 and 2011, respectively.",
-        "sp_mp_college_enrollment_pvt": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  ",
-        "default": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class.  "
+        "sp_mp_college_enrollment_pvt": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  "
       }
     }
   },
@@ -1362,6 +1361,27 @@
       "selected": 0,
       "visible": true,
       "help": "This filter calculates the number of years in out-of-home care per episode. Children can have multiple episodes. Each episode ends with a Federal discharge date and can include multiple placements."
+    }
+  },
+  "cohort_year_grad_college": {
+    "values": {
+      "2005": "2009",
+      "2006": "2010",
+      "2007": "2011",
+      "2008": "2012",
+      "2009": "2013",
+      "2010": "2014",
+      "2011": "2015"
+    },
+    "display": {
+      "legend": "High School Graduation Year",
+      "column": "fieldsLeft",
+      "type": "filter",
+      "selected": 2007,
+      "resultUnavailable": "hide",
+      "help": {
+        "sp_mp_post_secondary_completion_pvt": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class.  "
+      }
     }
   }
 }
