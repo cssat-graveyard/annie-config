@@ -908,9 +908,9 @@
       "selected": "2010",
       "resultUnavailable": "disable",
       "help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 to the most recent available data. Data on the percent of children who have re-entered out-of-home care are available in three month increments for up to 48 months following the selected cohort year. If the selected year is fewer than 48 months ago, the line graph and the data will be truncated."
-	}
+    }
   },
-  "cohort_year_grad_college": {
+    "cohort_year_grad_college": {
     "values": {
       "2002": "2006",
       "2003": "2007",
@@ -931,7 +931,7 @@
       "visible": true,
       "resultUnavailable": "hide",
       "help": {
-	  "sp_mp_post_secondary_completion_pvt": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class."	 
+        "default": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class. " 
 	  }
     }
   },
@@ -957,9 +957,8 @@
       "resultUnavailable": "hide",
       "help": {
         "sp_mp_dropout_perc": "This filter indicates that students have been followed from the year they entered high school (2006 and 2007) to their expected graduation year, 2010 and 2011, respectively.",
-        "sp_mp_college_enrollment_pvt": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  ",
-        "default": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class.  "
-		}
+        "sp_mp_college_enrollment_pvt": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  "
+      }
     }
   },
   "quarterStart": {
