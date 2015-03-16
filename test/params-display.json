@@ -694,7 +694,7 @@
       "type": "param",
       "multi": true,
       "visible": false,
-      "help": "Note that services are not available for 2010. More about <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> and  <a href='/data-portal/glossary#letter_a' target='_blank'><span style='text-decoration: underline;'>Adoption Support</span></a> can be found in the Glossary."
+      "help": "Note that data for these services is not available until 2010. More about <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> and  <a href='/data-portal/glossary#letter_a' target='_blank'><span style='text-decoration: underline;'>Adoption Support</span></a> can be found in the Glossary."
     }
   },
   "pp_service_category": {
@@ -717,7 +717,7 @@
       "type": "param",
       "multi": true,
       "visible": false,
-      "help": "The individual services below are CA-paid services; with the exception of Behavioral Rehabilitation Services, these services are generally for families with children in the home. Note that the 'all' includes services paid by CA as well as services not paid by CA. Also note that data for these services is not available for 2009. More about <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> can be found in the Glossary."
+      "help": "The individual services below are CA-paid services; with the exception of Behavioral Rehabilitation Services, these services are generally for families with children in the home. Note that the 'all' includes services paid by CA as well as services not paid by CA. Also note that data for these services is not available until 2010. More about <a href='/data-portal/glossary#letter_b' target='_blank'><span style='text-decoration: underline;'>Behavioral Rehabilitation Services</span></a> can be found in the Glossary."
     }
   },
   "budget_category": {
