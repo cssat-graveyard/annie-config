@@ -6,7 +6,7 @@
 	"measurementOrder": 2,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Date",
+		"dateField": "Month/Year of Screened-In Report",
 		"valueFields": ["Scatterplot Values",
 		"Trend Line Values"],
 		"removeFields": []

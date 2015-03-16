@@ -6,7 +6,7 @@
 	"measurementOrder": 1,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Date",
+		"dateField": "Month/Year of Report",
 		"valueFields": ["Scatterplot Values",
 		"Trend Line Values"],
 		"removeFields": []
