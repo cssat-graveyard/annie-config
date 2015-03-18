@@ -1,7 +1,7 @@
 {
 	"table": "sp_mp_rate_placement_order_ts",
 	"title": "Rate of Placements by Prior Placements",
-	"subtitle": "Per 1,000 Households with 1, 2, or 3 Prior Placements",
+	"subtitle": "Per 1,000 Households with 1, 2, or 3 Placements",
 	"dropdown": "Placements by Prior Placements",
 	"measurementOrder": 7,
 	"transform": {
