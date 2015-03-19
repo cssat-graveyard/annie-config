@@ -1334,19 +1334,19 @@
   },
   "order": {
     "values": {
-      "0": "1st ",
-      "1": "2nd ",
-      "2": "3rd "
+      "0": "None",
+      "1": "One",
+      "2": "Two"
     },
     "display": {
-      "legend": "Order",
+      "legend": "Prior Number of Reprots, Screened-In Reports, or Placements",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "selected": 0,
       "visible": true,
-      "help": "This is the order (1st, 2nd,or 3rd) of a report, a screened-in report, or an out-of-home placement. See Measure Help for details about this filter."
+      "help": "This is the prio order (None, One, Two) of a report, a screened-in report, or an out-of-home placement. See Measure Help for details about this filter."
     }
   },
   "years_in_care": {
