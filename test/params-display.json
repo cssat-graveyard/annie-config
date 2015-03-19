@@ -1339,14 +1339,14 @@
       "2": "Two"
     },
     "display": {
-      "legend": "Prior Number of Reprots, Screened-In Reports, or Placements",
+      "legend": "Prior Number",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "selected": 0,
       "visible": true,
-      "help": "This is the prio order (None, One, Two) of a report, a screened-in report, or an out-of-home placement. See Measure Help for details about this filter."
+      "help": "This is the prior number (None, One, Two) of a report, a screened-in report, or an out-of-home placement. See Measure Help for details about this filter."
     }
   },
   "years_in_care": {
