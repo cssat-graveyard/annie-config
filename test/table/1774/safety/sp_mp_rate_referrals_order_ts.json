@@ -1,7 +1,7 @@
 {
 	"table": "sp_mp_rate_referrals_order_ts",
 	"title": "Rate of Reports by Prior Reports",
-	"subtitle": "Per 1,000 Households with 1, 2, or 3 Reports",
+	"subtitle": "Per 1,000 Households with Zero, One, or Two Prior Reports",
 	"dropdown": "Reports by Prior Reports",
 	"measurementOrder": 4,
 	"transform": {
