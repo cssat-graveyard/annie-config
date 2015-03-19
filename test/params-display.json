@@ -1334,7 +1334,7 @@
   },
   "order": {
     "values": {
-      "0": "None",
+      "0": "Zero",
       "1": "One",
       "2": "Two"
     },
@@ -1346,7 +1346,7 @@
       "zeroLast": false,
       "selected": 0,
       "visible": true,
-      "help": "This is the prior number (None, One, Two) of a report, a screened-in report, or an out-of-home placement. See Measure Help for details about this filter."
+      "help": "This is the prior number (Zero, One, or Two) of report(s), screened-in report(s), or out-of-home placement(s). See Measure Help for details about this filter."
     }
   },
   "years_in_care": {
