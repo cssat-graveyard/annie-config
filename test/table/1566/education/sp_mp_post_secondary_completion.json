@@ -1,6 +1,6 @@
 {
 	"table": "sp_mp_post_secondary_completion_pvt",
-	"title": "Percent Completing Post-Secondary Education",
+	"title": "Percent of Students Completing Post-Secondary Education",
 	"dropdown": "College Completion",
 	"subtitle": "Within One Year of High School Graduation",
 	"measurementOrder": 4,
