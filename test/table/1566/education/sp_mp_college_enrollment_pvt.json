@@ -6,7 +6,7 @@
   "measurementOrder": 3,
   "controls": [
     "disability",
-    "cohort_year_graduation"
+    "HS_grad_yr"
   ],
   "params": [],
   "dateParams": [],
@@ -22,7 +22,7 @@
     1
   ],
   "headerNames": [
-    "Cohort Period=cohort_year_graduation",
+    "Cohort Period=HS_grad_yr",
     "fl_disability*disability"
   ],
   "returnRowStart": 2,
