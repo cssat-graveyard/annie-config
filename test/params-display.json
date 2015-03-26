@@ -929,10 +929,7 @@
       "selected": 2007,
       "visible": true,
       "resultUnavailable": "hide",
-      "help": {
-        "sp_mp_dropout_perc": "This filter indicates that students have been followed from the year they entered high school (2006 and 2007) to their expected graduation year, 2010 and 2011, respectively.",
-        "sp_mp_college_enrollment_pvt": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  "
-      }
+      "help": "This filter indicates that students have been followed from the year they entered high school (2006 and 2007) through their expected graduation year (2010 and 2011) and for an additional year."
     }
   },
   "quarterStart": {
@@ -1158,7 +1155,7 @@
       "multi": true,
       "selected": 0,
       "visible": true,
-      "help": "Children's Administration is geographically divided into <a href='https://www.dshs.wa.gov/sites/default/files/CA/fos/documents/WaMapCounties2.jpg'target='_blank'><span style='text-decoration: underline;'>three Regions</span></a>. Region 1 is subdivided into East and West; Regions 2 and 3 are subdivided into North and South."
+      "help": "Children's Administration is geographically divided into <a href='https://www.dshs.wa.gov/sites/default/files/CA/fos/documents/WaMapCounties2.jpg'target='_blank'><span style='text-decoration: underline;'>three Regions</span></a>. Region 1, 2, and 3 are each subdivided are North and South."
     }
   },
   "years_in_care_old": {
@@ -1346,7 +1343,7 @@
       "zeroLast": false,
       "selected": 0,
       "visible": true,
-      "help": "This is the prior number (Zero, One, or Two) of report(s), screened-in report(s), or out-of-home placement(s). See Measure Help for details about this filter."
+      "help": "This is the number of prior report(s), screened-in report(s), or out-of-home placement(s). "
     }
   },
   "years_in_care": {
