@@ -1299,12 +1299,13 @@
       "0": "Age 17"
     },
     "display": {
-      "legend": "Age In Fiscal Year",
+      "legend": "Age",
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "sort": true,
-      "visible": true
+      "visible": true,
+      "help": "This is the child's age in the State Fiscal Year."
     }
   },
   "access_type_mp": {
