@@ -29,9 +29,9 @@
 	"returnRowStart": 3,
 	"hideRow": "allEmpty",
 	"columnClusterSize": 2,
-	"numberFormat": {
+	"numberFormat": [{
 		"fractionDigits": 2
-	}
+	}],
 	"multicharts": {
 		"Trend-Line": [{
 			"chartType": "line",
@@ -43,7 +43,8 @@
 			},
 			"hideColumns": [0]
 		}],
-		"Trend-Line-with-Scatterplot": [
+		"Trend-Line-with-Scatterplot": [{
+			"chartType": "combo",
 			"chartId": "chart1",
 			"labels": {
 				"x": "",
@@ -63,3 +64,6 @@
 		}]
 	}
 }
+
+
+
