@@ -7,8 +7,8 @@
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Month/Year of Screened-In Report",
-		"valueFields": ["Scatterplot Values",
-		"Trend Line Values"],
+        "Scatterplot (Actual Values)",
+        "Trend Line (Seasonal Variation)"
 		"removeFields": []
 	},
 	"controls": ["region",
