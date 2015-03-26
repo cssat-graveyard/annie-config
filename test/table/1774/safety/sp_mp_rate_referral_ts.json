@@ -7,8 +7,10 @@
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Month/Year of Report",
-        "Scatterplot (Actual Values)",
-        "Trend Line (Seasonal Variation)",
+    "valueFields": [
+      "Scatterplot (Actual Values)",
+      "Trend Line (Seasonal Variation)",
+    ],
 		"removeFields": []
 	},
 	"controls": ["region",
