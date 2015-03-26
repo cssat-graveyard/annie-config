@@ -9,7 +9,7 @@
 		"dateField": "Month/Year of Ordered Report",
     "valueFields": [
       "Scatterplot (Actual Values)",
-      "Trend Line (Seasonal Adjustment)"
+      "Trend Line (Seasonally Adjusted)"
     ],
 		"removeFields": []
 	},
