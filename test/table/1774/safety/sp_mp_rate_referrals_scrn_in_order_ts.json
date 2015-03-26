@@ -71,7 +71,8 @@
         "labels": {
           "x": "",
           "y": ""
-        }
+        },
+		"hideColumns": []
       }
     ],
     "Scatterplot": [
