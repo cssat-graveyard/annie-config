@@ -1,16 +1,14 @@
 {
 	"table": "sp_mp_rate_placement_order_ts",
 	"title": "Rate of Placements by Prior Placements",
-	"subtitle": "Per 1,000 Households with Zero, One, or Two Prior Placements",
+	"subtitle": "Per 1,000 Households with Zero, One, or Two Prior Placements"
 	"dropdown": "Placements by Prior Placements",
 	"measurementOrder": 7,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Month/Year of Ordered Placement",
-    "valueFields": [
-      "Scatterplot (Actual Values)",
-      "Trend Line (Seasonal Variation)"
-    ],
+		"valueFields": ["Scatterplot (Actual Values)",
+		"Trend Line (Seasonal Variation)"],
 		"removeFields": []
 	},
 	"controls": ["region",
@@ -32,7 +30,7 @@
 	"hideRow": "allEmpty",
 	"columnClusterSize": 2,
 	"numberFormat": [{
-		"fractionDigits": 2
+		"fractionDigits": 
 	}],
 	"multicharts": {
 		"Trend-Line": [{
@@ -47,7 +45,7 @@
 		}],
 		"Trend-Line-with-Scatterplot": [{
 			"chartType": "combo",
-			"chartId": "chart1",
+			"chartId": "chart1"
 			"labels": {
 				"x": "",
 				"y": ""
