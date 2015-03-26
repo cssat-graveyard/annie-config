@@ -1190,7 +1190,7 @@
   "otr_age_in_care_temp": {
     "table": "ref_lookup_otr_age",
     "display": {
-      "legend": "Age In Fiscal Year",
+      "legend": "Age",
       "column": "fieldsRight",
       "type": "param",
       "multi": true,
