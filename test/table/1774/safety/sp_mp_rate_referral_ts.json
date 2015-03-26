@@ -8,7 +8,7 @@
 		"Function": "daterow",
 		"dateField": "Month/Year of Report",
         "Scatterplot (Actual Values)",
-        "Trend Line (Seasonal Variation)"
+        "Trend Line (Seasonal Variation)",
 		"removeFields": []
 	},
 	"controls": ["region",
