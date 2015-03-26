@@ -1304,6 +1304,7 @@
       "type": "filter",
       "multi": true,
       "sort": true,
+      "selected": 2,
       "visible": true,
       "help": "This is the child's age in the State Fiscal Year."
     }
@@ -1371,7 +1372,7 @@
       "2011": "2015"
     },
     "display": {
-      "legend": "High School Graduation Year",
+      "legend": "College Graduation Year",
       "column": "fieldsLeft",
       "type": "filter",
       "multi": true,
@@ -1379,6 +1380,28 @@
       "selected": 2007,
       "resultUnavailable": "hide",
       "help": "This is a static filter that returns college completion results for all high school seniors in the 2006/07 graduation class.  "
+    }
+  },
+  "HS_grad_yr": {
+    "values": {
+      "2006": "2007",
+      "2007": "2008",
+      "2008": "2009",
+      "2009": "2010",
+      "2010": "2011",
+      "2011": "2012"
+    },
+    "display": {
+      "legend": "High School Graduation Year",
+      "column": "fieldsLeft",
+      "type": "filter",
+      "selected": 2008,
+      "disabled": [
+        2009,
+        2010,
+        2011
+      ],
+      "help": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  "
     }
   }
 }

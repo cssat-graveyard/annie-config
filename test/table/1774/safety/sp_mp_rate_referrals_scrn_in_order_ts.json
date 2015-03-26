@@ -8,7 +8,7 @@
 		"Function": "daterow",
 		"dateField": "Month/Year of Ordered Screened-In Report",
 		"valueFields": ["Scatterplot (Actual Values)",
-		"Trend Line (Seasonal Variation)"],
+		"Trend Line (Seasonal Adjustment)"],
 		"removeFields": []
 	},
 	"controls": ["region",

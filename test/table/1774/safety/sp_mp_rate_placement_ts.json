@@ -9,7 +9,7 @@
 		"dateField": "Month/Year of Placement",
     "valueFields": [
       "Scatterplot (Actual Values)",
-      "Trend Line (Seasonal Variation)"
+      "Trend Line (Seasonal Adjustment)"
     ],
 		"removeFields": []
 	},
