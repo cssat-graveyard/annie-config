@@ -22,7 +22,7 @@
     1
   ],
   "headerNames": [
-    "Cohort Period=HS_grad_yr",
+    "Cohort Period*HS_grad_yr",
     "fl_disability*disability"
   ],
   "returnRowStart": 2,
