@@ -1254,8 +1254,8 @@
   "region": {
     "values": {
       "0": "Washington State",
-      "1": "Region 1 East",
-      "2": "Region 1 West",
+      "1": "Region 1 North",
+      "2": "Region 1 South",
       "3": "Region 2 North",
       "4": "Region 2 South",
       "5": "Region 3 North",
