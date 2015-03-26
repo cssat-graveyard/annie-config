@@ -45,7 +45,7 @@
 		}],
 		"Trend-Line-with-Scatterplot": [{
 			"chartType": "combo",
-			"chartId": "chart1"
+			"chartId": "chart1",
 			"labels": {
 				"x": "",
 				"y": ""
