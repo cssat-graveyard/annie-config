@@ -14,12 +14,12 @@
   },
   "controls": [],
   "params": [
-    "dynamicMonthStart"
+    "dynamicDateRange"
   ],
   
   "dateParams": [],
   "requiredParams": [
-    "dynamicMonthStart"
+    "dynamicDateRange"
   ],
   "requiredParams": [],
   "showAllOthers": true,
