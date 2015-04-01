@@ -120,7 +120,7 @@
         4
       ],
       "alias": "cd_discharge_type",
-      "visible": false,
+      "visible": true,
       "help": "You can select re-entry into out-of-home care from <a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, adoption, or <a href='/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>. The default includes all three outcomes."
     }
   },
@@ -1008,7 +1008,7 @@
       "type": "dynamicDateRange",
       "monthStep": 1,
       "monthLimit": 0,
-      "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
+      "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range for viewing the Graph. The Table will always display the (default) complete date range. "
     }
   },
   "quarterRangeStart": {
