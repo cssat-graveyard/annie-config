@@ -138,7 +138,7 @@
         4
       ],
       "alias": "cd_discharge_type",
-      "visible": false,
+      "visible": true,
       "resultUnavailable": "disable",
       "help": "You can select one of three permanency outcomes (<a href='/data-portal/glossary#letter_r' target='_blank'><span style='text-decoration: underline;'>reunification</span></a>, <a href='/data-portal/glossary#letter_g' target='_blank'><span style='text-decoration: underline;'>guardianship</span></a>, or adoption), as well as <a href='/data-portal/glossary#letter_e' target='_blank'><span style='text-decoration: underline;'>emancipation</span></a>, other exit (e.g., transfer to another authority), or still in out-of-home care. The default outcome/exit type includes reunification, adoption, and guardianship."
     }
@@ -242,7 +242,9 @@
   },
   "exitType": {
     "table": "ref_lookup_type_of_exit",
-    "display": {}
+    "display": {
+      "visible": true
+    }
   },
   "gender": {
     "table": "ref_lookup_gender",
@@ -581,7 +583,6 @@
         6,
         7
       ],
-      "visible": true,
       "help": "You can filter for five primary entry points in the child welfare system, i.e., first point of contact with Children’s Administration. Currently, the Data Portal returns data for: <strong></strong>1) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_c\" target=\"_blank\"><span style=\"text-decoration: underline;\">Child Protective Services</span></a> (CPS), which provides 24 hour, seven days a week intake, screening, and investigative services for reports of alleged child abuse and neglect; <strong></strong>2) <a href=\"http://www.dshs.wa.gov/pdf/ca/ARS_FY04.pdf\" target=\"_blank\"><span style=\"text-decoration: underline;\">Alternative Response System</span></a> (ARS), a voluntary program for low-to-moderate risk families who were referred to CPS; 3) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_f\" target=\"_blank\"><span style=\"text-decoration: underline;\">Family Reconciliation Services</span></a> (FRS), a voluntary program serving runaway adolescents and youth in conflict with their families; <strong></strong>4) <a href=\"http://www.dshs.wa.gov/CA/pubs/mnl_pnpg/chapter2.asp\" target=\"_blank\"><span style=\"text-decoration: underline;\">Risk Only</span></a>, a referral made when information collected gives reasonable cause to believe that risk or safety factors exist that place the child at imminent risk of serious harm;<strong></strong> and 5) <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_c\" target=\"_blank\"><span style=\"text-decoration: underline;\">Child and Family Welfare Services</span></a> (CFWS), which provides both permanency planning and court-ordered services to children and families to mitigate the risk of abuse or neglect so that children are able to safely return to their home of origin. <br /> <strong></strong> <a href=\"http://poctest.spiders.net/data-portal/glossary#letter_f\" target=\"_blank\"><span style=\"text-decoration: underline;\">Family Assessment Response</span></a> (FAR), a new alternative pathway for accepted reports of low-to-moderate risk of child maltreatment, is grayed out because the number of cases that enter through this programs is still small.</p>"
     }
   },
