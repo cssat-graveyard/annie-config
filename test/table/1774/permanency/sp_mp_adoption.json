@@ -20,7 +20,7 @@
 	"returnRowControlHeaders": [1],
 	"headerNames": ["&nbsp;",
 	"Region*region"],
-	"returnRowStart": 2,
+	"returnRowStart": 3,
 	"chartType": "line",
 	"labels": {
 		"x": "",
