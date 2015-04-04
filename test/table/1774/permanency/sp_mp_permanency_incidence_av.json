@@ -15,7 +15,7 @@
 	"dateParams": [],
 	"requiredParams": [],
 	"showAllOthers": true,
-	"returnRowHeaders": [0, 1],
+	"returnRowHeaders": [1],
 	"returnRowDateHeaders": [],
 	"returnRowControlHeaders": [1],
 	"headerNames": ["&nbsp;",
