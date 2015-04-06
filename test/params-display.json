@@ -289,15 +289,6 @@
       }
     }
   },
-  "lastSetng": {
-    "table": "ref_lookup_placement",
-    "display": {
-      "legend": "Last Placement Setting",
-      "column": "advancedLeft",
-      "type": "param",
-      "visible": false
-    }
-  },
   "longSetng": {
     "table": "ref_lookup_placement",
     "display": {
