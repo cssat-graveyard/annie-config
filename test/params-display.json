@@ -452,7 +452,7 @@
     },
     "display": {
       "legend": "Count Type",
-      "column": "advancedRight",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
