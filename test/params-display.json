@@ -452,12 +452,12 @@
     },
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "selected": 0,
-      "visible": false,
+      "visible": true,
       "help": "Cohort data for households with children who are re-referred following a prior reportthat was screened-in for investigation/assessment are aggregated into counts of ‘first’ and ‘all’ investigations/assessments. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
