@@ -341,7 +341,7 @@
     "table": "ref_lookup_qry_type",
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
