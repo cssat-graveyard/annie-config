@@ -327,13 +327,13 @@
     "table": "ref_lookup_qry_type",
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
       "selected": 0,
-      "visible": false,
+      "visible": true,
       "help": "Cohort data for household with children who are placed in out-of-home care after receiving placement prevention services are aggregated into ‘first’ and ‘all’ placement prevention cases. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
@@ -471,6 +471,7 @@
       "zeroLast": false,
       "sort": "qryTypeCompare",
       "selected": 2,
+      "visible": false,
       "help": "Data for counts/rate of investigations/assessments are aggregated into ‘first,’ ‘unique,’ and ‘all’ investigations/assessments per household. ‘First Investigation/Assessment’ is the first ever reportthat was screened-in for investigation/assessment. ‘Unique Investigations/Assessments’ references the first investigation/assessment within a given time period. ‘All Investigations/Assessments’ includes all reports that were screened-in for investigation/assessment during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
