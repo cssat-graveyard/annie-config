@@ -1047,7 +1047,7 @@
     "table": "ref_lookup_qry_type_poc3",
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
