@@ -1140,18 +1140,6 @@
       "help": "This measure allows for a calculation of movement between the three most common types of placement: foster care, kin care, and group care."
     }
   },
-  "otr_age_in_care_temp": {
-    "table": "ref_lookup_otr_age",
-    "display": {
-      "legend": "Age",
-      "column": "fieldsRight",
-      "type": "param",
-      "multi": true,
-      "sort": true,
-      "selected": 2,
-      "visible": true
-    }
-  },
   "third_grade_year": {
     "values": {
       "2006": "2006",
