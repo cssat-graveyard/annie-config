@@ -11,9 +11,9 @@
 		"removeFields": []
 	},
 	"controls": ["region"],
-	"params": [],
+	"params": ["dynamicMonthStart"],
 	"dateParams": [],
-	"requiredParams": [],
+	"requiredParams": ["dynamicMonthStart"],
 	"showAllOthers": true,
 	"returnRowHeaders": [1],
 	"returnRowDateHeaders": [],
