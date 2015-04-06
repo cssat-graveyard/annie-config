@@ -465,7 +465,7 @@
     "table": "ref_lookup_qry_type_poc2",
     "display": {
       "legend": "Count Type",
-      "column": "fieldsLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
