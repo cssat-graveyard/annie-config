@@ -1123,19 +1123,6 @@
       "help": "A disability is defined here in the broadest sense. That is, a disability is any condition that interferes with a child’s ability to learn; therefore, a disability can be a learning disability, a physical disability, or a combination of disabilities. For more information about disabilities, see this document from the <span style=\"text-decoration: underline;\"><a href=\"http://www.k12.wa.us/specialed/pubdocs/sld_guide.pdf\">State Superintendent of Public Instruction</a></span>."
     }
   },
-  "Region temp": {
-    "table": "ref_lookup_region",
-    "valueColumn": 3,
-    "display": {
-      "legend": "Region",
-      "column": "fieldsLeft",
-      "type": "param",
-      "multi": true,
-      "selected": 0,
-      "visible": true,
-      "help": "Children's Administration is geographically divided into <a href='https://www.dshs.wa.gov/sites/default/files/CA/fos/documents/WaMapCounties2.jpg'target='_blank'><span style='text-decoration: underline;'>three Regions</span></a>. Region 1, 2, and 3 are each subdivided are North and South."
-    }
-  },
   "years_in_care_old": {
     "table": "ref_lookup_years_in_care",
     "display": {
