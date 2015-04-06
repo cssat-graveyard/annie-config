@@ -8,10 +8,10 @@
 		"Function": "daterow",
 		"dateField": "Fiscal Year",
 		"valueFields": ["Rate"],
-		"removeFields": ["Percent"]
+		"removeFields": []
 	},
 	"controls": ["region"],
-	"params": [],
+	"params": ["dynamicMonthStart"],
 	"dateParams": [],
 	"requiredParams": ["dynamicMonthStart"],
 	"showAllOthers": true,
