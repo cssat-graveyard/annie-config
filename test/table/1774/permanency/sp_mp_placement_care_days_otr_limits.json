@@ -32,4 +32,7 @@
 		"x": "",
 		"y": ""
 	}
+	"numberFormat": {
+		"fractionDigits": 2
+	}
 }
