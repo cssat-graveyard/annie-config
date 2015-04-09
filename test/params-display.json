@@ -354,13 +354,13 @@
     },
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
       "selected": 2,
-      "visible": false,
+      "visible": true,
       "help": "Cohort data for counts of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children exiting out-of-home care. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
@@ -368,12 +368,12 @@
     "table": "vw_qry_type_poc1ab_first_all",
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "selected": 2,
-      "visible": false,
+      "visible": true,
       "help": "Data for counts/rates of children in out-of-home care are aggregated into ‘first’ and ‘all’ stays in out-of-home care.  ‘First Stays in Out-of-Home Care’ refers to the first ever stay/episode in out-of-home care; ‘All Stays in Out-of-Home’ includes all stays/episodes during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
