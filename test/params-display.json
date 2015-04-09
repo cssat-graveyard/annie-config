@@ -336,13 +336,13 @@
     },
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "sort": "qryTypeCompare",
       "selected": 2,
-      "visible": false,
+      "visible": true,
       "help": "Cohort data for counts and rates of children in out-of-home care are aggregated into ‘first’, ‘unique’, and ‘all’ children entering out-of-home care. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
@@ -381,7 +381,7 @@
     "table": "vw_qry_type_poc1ab_unique_first",
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
@@ -397,12 +397,12 @@
     },
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "selected": 0,
-      "visible": false,
+      "visible": true,
       "help": "Cohort data for children who re-enter out-of-home care are aggregated into ‘first’ and ‘unique’ exits from out-of-home care. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
@@ -413,12 +413,12 @@
     },
     "display": {
       "legend": "Count Type",
-      "column": "advancedLeft",
+      "column": "fieldsRight",
       "type": "filter",
       "multi": true,
       "zeroLast": false,
       "selected": 0,
-      "visible": false,
+      "visible": true,
       "help": "Cohort data for children who enter out-of-home care are aggregated into ‘first’ and ‘unique’ entries into out-of-home care. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
