@@ -229,12 +229,6 @@
       "help": "Race and ethnicity categories are based on U.S. Census classifications. Races are above the line, ethnicities are below the line. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state or county.  Note that each head of household (for the Investigations & Assessment and Placement Prevention Services measures) or child (for the Out-of-Home Care measures) has a race AND an ethnicity."
     }
   },
-  "exitType": {
-    "table": "ref_lookup_type_of_exit",
-    "display": {
-      "visible": true
-    }
-  },
   "gender": {
     "table": "ref_lookup_gender",
     "valueColumn": 2,
@@ -245,20 +239,6 @@
       "legend": "Gender",
       "column": "fieldsRight",
       "type": "param"
-    }
-  },
-  "officeGroup": {
-    "_comment": "State level location",
-    "addKeyValues": {
-      "0": "All"
-    },
-    "display": {
-      "legend": "Service County",
-      "column": "advancedRight",
-      "type": "param",
-      "sort": true,
-      "visible": false,
-      "help": "This is the county where the reportwas screened-in for investigation. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
     }
   },
   "initSetng": {
@@ -294,14 +274,6 @@
         "sp_ooh_outcomes": "This filter provides counts of cohorts or groups of children who exited out-of-home care in a selected quarter or year by longest placement type. For example, if you select ‘foster care’ and 2010 as the entry (into out-of-home care) cohort year, the data returned will include the percent of the selected outcome(s) for all the children in out-of-home care in 2010 whose longest placement setting was foster care. See <a href='/data-portal/glossary#letter_p' target='_blank'><span style='text-decoration: underline;'>placement settings</span></a> in the Glossary for more information."
       }
     }
-  },
-  "plcSetng": {
-    "table": "ref_lookup_plcsetngtype",
-    "display": {}
-  },
-  "unsafeExit": {
-    "table": "ref_lookup_unsafe_exit",
-    "display": {}
   },
   "qry_type": {
     "table": "ref_lookup_qry_type",
@@ -448,15 +420,6 @@
       "column": "advancedRight",
       "type": "filter",
       "selected": 0,
-      "visible": false
-    }
-  },
-  "siblingGroup": {
-    "table": "ref_lookup_sibling_groups",
-    "display": {
-      "legend": "Sibling Group Size",
-      "column": "advancedLeft",
-      "type": "param",
       "visible": false
     }
   },
@@ -778,32 +741,6 @@
       "help": "The entry cohort is that group of children who entered out-of-home care in the selected year(s). ‘Entry Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If a year that was less than 48 ago is selected, the line graph and the data will be truncated."
     }
   },
-  "cohort_year_int": {
-    "values": [
-      2000,
-      2001,
-      2002,
-      2003,
-      2004,
-      2005,
-      2006,
-      2007,
-      2008,
-      2009,
-      2010,
-      2011,
-      2012
-    ],
-    "display": {
-      "legend": "Entry Cohort Year",
-      "column": "fieldsLeft",
-      "type": "filter",
-      "multi": true,
-      "zeroLast": false,
-      "selected": 2009,
-      "help": "The cohort entry year TODO"
-    }
-  },
   "cohort_year_ia_safety": {
     "values": {
       "2006": 2006,
@@ -953,16 +890,6 @@
       "column": "fieldsLeft",
       "type": "cohort",
       "help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
-    }
-  },
-  "monthStart": {
-    "date": true,
-    "display": {
-      "legend": "Date Range",
-      "column": "fieldsLeft",
-      "type": "dateRange",
-      "monthStep": 1,
-      "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range; the default is the full date range."
     }
   },
   "dynamicMonthStart": {
