@@ -338,6 +338,19 @@
       "help": "Data for counts/rates of children in out-of-home care are aggregated into ‘first’ and ‘all’ stays in out-of-home care.  ‘First Stays in Out-of-Home Care’ refers to the first ever stay/episode in out-of-home care; ‘All Stays in Out-of-Home’ includes all stays/episodes during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
+  "qry_type_first_unique": {
+    "table": "vw_qry_type_poc1ab_unique_first",
+    "display": {
+      "legend": "Count Type",
+      "column": "fieldsRight",
+      "type": "filter",
+      "multi": true,
+      "zeroLast": false,
+      "selected": 0,
+      "visible": true,
+      "help": "Cohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-reports or re-entries and first or initial re-reports or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
+    }
+  },
   "qry_type_first_unique_ooh_reentry": {
     "values": {
       "0": "Unique Exits from Out-of-Home Care",
@@ -408,6 +421,15 @@
       "type": "filter",
       "selected": 0,
       "visible": false
+    }
+  },
+  "measurement_type": {
+    "table": "ref_lookup_measurement_type",
+    "display": {
+      "legend": "Measurement",
+      "column": "fieldsRight",
+      "type": "filter",
+      "selected": 0
     }
   },
   "date_type": {
@@ -654,6 +676,15 @@
       "help": "The three Department of Social and Health Services (DSHS) budget categories are the major placement prevention service budget categories. DSHS codes are provided for people familiar with Children’s Administration budget categories."
     }
   },
+  "quarterPIT": {
+    "date": true,
+    "display": {
+      "legend": "Measurement Year",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "start"
+    }
+  },
   "yearPIT": {
     "values": {
       "2000": 2000,
@@ -814,6 +845,15 @@
       "help": "This filter follows the cohort of households which received their (first) investigation/assessment within the cohort year(s) selected. Data on the percent of children re-referred are returned for up to 48 months following the selected cohort year."
     }
   },
+  "quarterEnd": {
+    "date": true,
+    "display": {
+      "legend": "Quarter",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "end"
+    }
+  },
   "quarterEntry": {
     "date": true,
     "display": {
@@ -833,6 +873,25 @@
       "quarterDate": "start"
     }
   },
+  "quarterExit": {
+    "date": true,
+    "display": {
+      "legend": "Exit Cohort Quarter",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "quarterDate": "start",
+      "help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
+    }
+  },
+  "quarterService": {
+    "date": true,
+    "display": {
+      "legend": "Service Cohort Quarter",
+      "column": "fieldsLeft",
+      "type": "cohort",
+      "help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
+    }
+  },
   "dynamicMonthStart": {
     "date": true,
     "display": {
@@ -842,6 +901,38 @@
       "monthStep": 1,
       "monthLimit": 0,
       "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range for viewing the Graph. The Table will always display the (default) complete date range. "
+    }
+  },
+  "quarterRangeStart": {
+    "date": true,
+    "display": {
+      "legend": "Quarters",
+      "column": "fieldsLeft",
+      "type": "dateRange",
+      "monthStep": 3,
+      "monthLimit": 60
+    }
+  },
+  "monthSelector": {
+    "date": true,
+    "display": {
+      "legend": "Dates",
+      "column": "fieldsLeft",
+      "type": "dateSelect"
+    }
+  },
+  "month": {
+    "values": {
+      "3": 3,
+      "6": 6,
+      "12": 12,
+      "24": 24,
+      "36": 36
+    },
+    "display": {
+      "legend": "Months",
+      "column": "fieldsLeft",
+      "type": "param"
     }
   },
   "qry_type_poc3": {
@@ -965,6 +1056,21 @@
       "visible": true,
       "resultUnavailable": "disable",
       "help": "This filter references the school year (2006/07, 2007/08, and 2008/09) that students in the 3rd grade took the <a href='http://www.k12.wa.us/assessment/StateTesting/MSP.aspx'target='_blank'><span style='text-decoration: underline;'>Measurements of Student Progress</a></span> (MSP) literacy proficiency test."
+    }
+  },
+  "entry_grade": {
+    "values": {
+      "0": "9th Grade",
+      "1": "12th Grade"
+    },
+    "display": {
+      "legend": "Entry Grade",
+      "column": "fieldsLeft",
+      "type": "param",
+      "multi": false,
+      "selected": 1,
+      "visible": true,
+      "help": "This filter selects for the year the student entered 9th grade (2006) OR the years the student entered 12th grade (2006, 2007, and 2008). Four years are added to the entrance grade for the 9th graders and one year is added to the 12th graders to obtain the EXPECTED GRADUATION YEAR."
     }
   },
   "student_type": {
