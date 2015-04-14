@@ -844,16 +844,6 @@
       "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range for viewing the Graph. The Table will always display the (default) complete date range. "
     }
   },
-  "quarterRangeStart": {
-    "date": true,
-    "display": {
-      "legend": "Quarters",
-      "column": "fieldsLeft",
-      "type": "dateRange",
-      "monthStep": 3,
-      "monthLimit": 60
-    }
-  },
   "monthSelector": {
     "date": true,
     "display": {
