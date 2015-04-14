@@ -844,28 +844,6 @@
       "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range for viewing the Graph. The Table will always display the (default) complete date range. "
     }
   },
-  "monthSelector": {
-    "date": true,
-    "display": {
-      "legend": "Dates",
-      "column": "fieldsLeft",
-      "type": "dateSelect"
-    }
-  },
-  "month": {
-    "values": {
-      "3": 3,
-      "6": 6,
-      "12": 12,
-      "24": 24,
-      "36": 36
-    },
-    "display": {
-      "legend": "Months",
-      "column": "fieldsLeft",
-      "type": "param"
-    }
-  },
   "qry_type_poc3": {
     "table": "ref_lookup_qry_type_poc3",
     "display": {
@@ -987,21 +965,6 @@
       "visible": true,
       "resultUnavailable": "disable",
       "help": "This filter references the school year (2006/07, 2007/08, and 2008/09) that students in the 3rd grade took the <a href='http://www.k12.wa.us/assessment/StateTesting/MSP.aspx'target='_blank'><span style='text-decoration: underline;'>Measurements of Student Progress</a></span> (MSP) literacy proficiency test."
-    }
-  },
-  "entry_grade": {
-    "values": {
-      "0": "9th Grade",
-      "1": "12th Grade"
-    },
-    "display": {
-      "legend": "Entry Grade",
-      "column": "fieldsLeft",
-      "type": "param",
-      "multi": false,
-      "selected": 1,
-      "visible": true,
-      "help": "This filter selects for the year the student entered 9th grade (2006) OR the years the student entered 12th grade (2006, 2007, and 2008). Four years are added to the entrance grade for the 9th graders and one year is added to the 12th graders to obtain the EXPECTED GRADUATION YEAR."
     }
   },
   "student_type": {
