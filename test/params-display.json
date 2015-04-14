@@ -338,19 +338,6 @@
       "help": "Data for counts/rates of children in out-of-home care are aggregated into ‘first’ and ‘all’ stays in out-of-home care.  ‘First Stays in Out-of-Home Care’ refers to the first ever stay/episode in out-of-home care; ‘All Stays in Out-of-Home’ includes all stays/episodes during the selected quarter or year. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
     }
   },
-  "qry_type_first_unique": {
-    "table": "vw_qry_type_poc1ab_unique_first",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "multi": true,
-      "zeroLast": false,
-      "selected": 0,
-      "visible": true,
-      "help": "Cohort data for children who are re-referred after the first investigation or who re-enter out-of-home care are aggregated into counts of unduplicated or unique re-reports or re-entries and first or initial re-reports or re-entries within the selected time interval. See <a href='/publications/interpreting_type_of_count_filter' target='_blank'><span style='text-decoration: underline;'>Interpreting Type of Count</span></a>."
-    }
-  },
   "qry_type_first_unique_ooh_reentry": {
     "values": {
       "0": "Unique Exits from Out-of-Home Care",
