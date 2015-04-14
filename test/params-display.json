@@ -804,35 +804,6 @@
       "help": "This filter indicates that students have been followed from the year they entered high school (2006 and 2007) through their expected graduation year (2010 and 2011) and for an additional year."
     }
   },
-  "quarterStart": {
-    "date": true,
-    "display": {
-      "legend": "Investigation Cohort Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start",
-      "help": "This filter follows the cohort of households which received their (first) investigation/assessment within the cohort year(s) selected. Data on the percent of children re-referred are returned for up to 48 months following the selected cohort year."
-    }
-  },
-  "quarterEntry": {
-    "date": true,
-    "display": {
-      "legend": "Entry Cohort Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start",
-      "help": "Not used?"
-    }
-  },
-  "quarterCompellingReasonEntry": {
-    "date": true,
-    "display": {
-      "legend": "\"Compelling Reason\" Cohort",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start"
-    }
-  },
   "dynamicMonthStart": {
     "date": true,
     "display": {
