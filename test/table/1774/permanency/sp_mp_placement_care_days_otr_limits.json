@@ -1,13 +1,13 @@
 {
 	"table": "sp_mp_placement_care_days_otr_limits",
 	"title": "Rate of Children in Out-of-Home Care On-the-Run",
-	"subtitle": "Per 100,000 Care-Days",
+	"subtitle": "",
 	"dropdown": "Children On-the-Run",
 	"measurementOrder": 3,
 	"transform": {
 		"Function": "daterow",
 		"dateField": "Fiscal Year/Year in Out-of-Home Care",
-		"valueFields": ["Rate"],
+		"valueFields": ["Percent"],
 		"removeFields": []
 	},
 	"controls": ["region",
