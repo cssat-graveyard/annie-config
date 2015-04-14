@@ -21,15 +21,6 @@
       }
     }
   },
-  "age": {
-    "table": "ref_lookup_age",
-    "display": {
-      "legend": "Age at Time of Placement",
-      "column": "fieldsRight",
-      "type": "param",
-      "help": "Age references the child’s age at the time of placement in out-of-home care."
-    }
-  },
   "age_exit_safety": {
     "table": "ref_lookup_age_cdc_census_mix",
     "display": {
@@ -449,15 +440,6 @@
       "selected": 2,
       "alias": "date_type",
       "help": "This references the count or rate on the first day of the quarter(s) or year(s) selected."
-    }
-  },
-  "removalReason": {
-    "values": [
-      "All"
-    ],
-    "display": {
-      "legend": "Removal Reason",
-      "type": "param"
     }
   },
   "reporter_type": {
