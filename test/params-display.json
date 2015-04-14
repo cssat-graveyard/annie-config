@@ -410,15 +410,6 @@
       "visible": false
     }
   },
-  "measurement_type": {
-    "table": "ref_lookup_measurement_type",
-    "display": {
-      "legend": "Measurement",
-      "column": "fieldsRight",
-      "type": "filter",
-      "selected": 0
-    }
-  },
   "date_type": {
     "table": "ref_lookup_date_type",
     "display": {
