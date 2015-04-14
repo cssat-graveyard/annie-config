@@ -833,25 +833,6 @@
       "quarterDate": "start"
     }
   },
-  "quarterExit": {
-    "date": true,
-    "display": {
-      "legend": "Exit Cohort Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "quarterDate": "start",
-      "help": "The exit cohort is that group of children who exited out-of-home care in the selected year(s). ‘Exit Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
-    }
-  },
-  "quarterService": {
-    "date": true,
-    "display": {
-      "legend": "Service Cohort Quarter",
-      "column": "fieldsLeft",
-      "type": "cohort",
-      "help": "This filter follows the cohort of households which received in-home services in the selected cohort year(s). Data on the percent of children placed in out-of-homecare are returned for up to 48 months following the selected cohort year."
-    }
-  },
   "dynamicMonthStart": {
     "date": true,
     "display": {
