@@ -972,8 +972,9 @@
       "column": "fieldsRight",
       "type": "filter",
       "multi": true,
+      "zeroLast": false,
       "sort": true,
-      "selected": 2,
+      "selected": 0,
       "visible": true,
       "help": "This is the child's age in the State Fiscal Year."
     }
