@@ -477,7 +477,7 @@
   "allegation": {
     "table": "ref_filter_allegation",
     "display": {
-      "legend": "Allegation",
+      "legend": "Many allegations",
       "column": "advancedLeft",
       "type": "param",
       "multi": true,
