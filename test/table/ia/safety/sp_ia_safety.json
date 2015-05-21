@@ -5,7 +5,7 @@
 	"measurementOrder": 1,
 	"transform": {
 		"Function": "daterow",
-		"dateField": "Months Since 1st Investigation/Assessment",
+		"dateField": "Months Since Screened-In Investigation/Assessment",
 		"valueFields": ["Percent"],
 		"removeFields": [],
 		"table": "sp_ia_safety"
@@ -48,7 +48,7 @@
 	"hideRow": "allEmpty",
 	"chartType": "line",
 	"labels": {
-		"x": "Months Since 1st Investigation/Assessment",
+		"x": "Months Since Screened-In Investigation/Assessment",
 		"y": "",
 		"yFormat": "##'%"
 	},
