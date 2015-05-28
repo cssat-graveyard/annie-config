@@ -10,8 +10,7 @@
     "valueFields": [
       "Total in Out-of-Home Care 1st Day"
     ],
-    "removeFields": [
-    ]
+    "removeFields": []
   },
   "controls": [
     "qry_type_first_all",
@@ -36,15 +35,14 @@
     "budget_category",
     "dependency_cd"
   ],
-  "dateParams": [
-  ],
+  "dateParams": [],
   "requiredParams": [
     "dynamicMonthStart"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-	1,
+    1,
     4,
     6,
     8,
@@ -89,12 +87,9 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
+  "hideRow": "anyEmpty",
   "chartType": "line",
-  "labels": {
-    "x": "",
-    "y": ""
-  },
   "numberFormat": {
-      "fractionDigits": 0
+    "fractionDigits": 0
   }
 }
