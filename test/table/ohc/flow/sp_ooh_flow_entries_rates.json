@@ -10,7 +10,8 @@
     "valueFields": [
       "Rate of Entries"
     ],
-    "removeFields": []
+    "removeFields": [
+    ]
   },
   "controls": [
     "qry_type_entries",
@@ -35,30 +36,31 @@
     "budget_category",
     "dependency_cd"
   ],
-  "dateParams": [],
+  "dateParams": [
+  	],
   "requiredParams": [
     "dynamicMonthStart"
   ],
   "showAllOthers": true,
   "returnRowHeaders": [
     0,
-    1,
+	1,
     4,
-    6,
-    8,
-    10,
-    12,
-    14,
-    16,
-    18,
-    20,
-    22,
-    24,
-    26,
-    28,
-    30,
-    32,
-    34
+	6,
+	8,
+	10,
+	12,
+	14,
+	16,
+	18,
+	20,
+	22,
+	24,
+	26,
+	28,
+	30,
+	32,
+	34
   ],
   "returnRowDateHeaders": [
     0
@@ -87,9 +89,12 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
-  "hideRow": "allEmpty",
   "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": ""
+  },
   "numberFormat": {
-    "fractionDigits": 2
+      "fractionDigits": 2
   }
 }
