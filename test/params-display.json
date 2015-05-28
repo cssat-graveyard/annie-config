@@ -715,6 +715,9 @@
       "zeroLast": false,
       "selected": "2010",
       "alias": "Cohort Period",
+      "disabled": [
+        "2014"
+      ],
       "resultUnavailable": "disable",
       "help": "This filter allows you to follow households with at least one child involved in an investigation/assessment from 2006 to the most recent available data. Data on the percent of households with children re-referred are returned in three month increments for up to 48 months following the selected cohort year. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
     }
