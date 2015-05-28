@@ -87,7 +87,6 @@
     "Budget=budget_category"
   ],
   "returnRowStart": 35,
-  "hideRow": "allEmpty",
   "chartType": "line",
   "numberFormat": {
     "fractionDigits": 0
