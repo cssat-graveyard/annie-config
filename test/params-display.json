@@ -9,7 +9,6 @@
       "selected": "Overview",
       "help": {
         "default": "This filter allows you to select the count or rate of opened and closed investigations/assessments by quarter or year (cohort data).",
-        "sp_ihs_trends_counts": "This filter allows you to select: 1) the count or rate of placement prevention service cases on the first day of the quarter or year (point-in-time data) or 2) the count or rate of opened and closed placement prevention cases by quarter or year (cohort data). The ‘overview’ selection shows the point-in-time data in the top bar graph and the cohort data in the bottom line graph.",
         "sp_ooh_wb_familysettings": "The graph format provides a line graph of the percentage of children in one of three family settings—a state foster home, a private foster home, or with relatives/kin—on the first day of the year (point-in-time data). The ‘overview’ displays the percentage of children in all family settings, as well as those in a ‘non-family setting (e.g., group home).",
         "sp_ooh_wb_siblings_by_year": "With filter you can examine whether all, some,or none of the siblings in family are placed together in out-of-home care. The‘overview’ selection compares the three choices.",
         "sp_mp_rate_referral_ts": "The graph display allows you to see the graph as a trend line (default), in an overview mode (a trend line with the scatterplot), or as a scatterplot.  A scatterplot shows the   relationship between the two sets of data (on the x and y axis). The scatterplot is used to calculate the trend line.",
@@ -88,7 +87,6 @@
       "type": "param",
       "help": {
         "default": "This filter references the ages of the children in the household at the time the reportwas investigated/assessed. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated.",
-        "sp_ihs_trends_counts": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated. ",
         "sp_ihs_trends_rates": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated."
       }
     }
@@ -264,20 +262,6 @@
         "sp_ooh_reentry": "This filter provides counts of cohorts or groups of children who re-entered out-of-home care in a selected quarter or year by longest placement type. For example, if you select ‘foster care’ and 2010 as the exit (from out-of-home care) cohort year, the data returned will include the percent of re-entries for all the children in out-of-home care in 2010 whose longest placement setting was foster care. See <A href='/data-portal/glossary#letter_p' target=_blank>placement settings</A> in the Glossary for more information.",
         "sp_ooh_outcomes": "This filter provides counts of cohorts or groups of children who exited out-of-home care in a selected quarter or year by longest placement type. For example, if you select ‘foster care’ and 2010 as the entry (into out-of-home care) cohort year, the data returned will include the percent of the selected outcome(s) for all the children in out-of-home care in 2010 whose longest placement setting was foster care. See <A href='/data-portal/glossary#letter_p' target=_blank>placement settings</A> in the Glossary for more information."
       }
-    }
-  },
-  "qry_type": {
-    "table": "ref_lookup_qry_type",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "multi": true,
-      "zeroLast": false,
-      "sort": "qryTypeCompare",
-      "selected": 0,
-      "visible": true,
-      "help": "Cohort data for household with children who are placed in out-of-home care after receiving placement prevention services are aggregated into ‘first’ and ‘all’ placement prevention cases. See <A href='/publications/interpreting_type_of_count_filter' target=_blank>Interpreting Type of Count</A>."
     }
   },
   "qry_type_entries": {
@@ -551,27 +535,27 @@
   "ihs_services": {
     "values": {
       "0": "All Cases",
-      "1": "Placement Prevention Service Received: CA Paid",
-      "2": "Placement Prevention Service Received: Not CA Paid"
+      "1": "In-Home Services Received: CA Paid",
+      "2": "In-Home Services Received: Not CA Paid"
     },
     "display": {
-      "legend": "Placement Prevention Services",
+      "legend": "In-Home Services",
       "column": "advancedRight",
       "type": "param",
       "multi": true,
       "visible": false,
-      "help": "Some placement prevention services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
+      "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
     }
   },
   "ihs_services_ooh": {
     "table": "ref_filter_ihs_services",
     "display": {
-      "legend": "Placement Prevention Services",
+      "legend": "In-Home Services",
       "column": "advancedRight",
       "type": "param",
       "multi": true,
       "visible": false,
-      "help": "Some placement prevention services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
+      "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
     }
   },
   "service_category": {
