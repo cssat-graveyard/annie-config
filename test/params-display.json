@@ -76,21 +76,6 @@
       "help": "The age categories for children who exit out-of-home care includes youth through the 18th year in order to account for all emancipations, which can continue through the 18th year. (Other age categories in the Data Portal go through age 17.)"
     }
   },
-  "ageSib": {
-    "table": "ref_lookup_sib_age_grp",
-    "removeKeys": [
-      4
-    ],
-    "display": {
-      "legend": "Age of Children in Household",
-      "column": "fieldsRight",
-      "type": "param",
-      "help": {
-        "default": "This filter references the ages of the children in the household at the time the reportwas investigated/assessed. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated.",
-        "sp_ihs_trends_rates": "This filter references the ages of the children in the household at the time placement prevention services were being received. The age categories follow U.S. Census classifications, allowing the rate of cases per 1,000 households to be calculated."
-      }
-    }
-  },
   "discharge_type_safety": {
     "values": {
       "1": "Reunification",
@@ -530,32 +515,6 @@
       "selected": 0,
       "visible": false,
       "help": "The courts become involved when there is a <A href='/data-portal/glossary#letter_d' target=_blank>dependency</A> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting.<BR /><BR />In this filter, ‘Immediate Dependency’  means a dependency petition was filed within seven days and approved within 79 days of the start of the out-of-home episode.‘Eventual Dependency’ means the petition was approved more than 86 days (7 days plus 79) after the start of the episode. (Seventy-nine days is the average number of days for a petition to be approved)."
-    }
-  },
-  "ihs_services": {
-    "values": {
-      "0": "All Cases",
-      "1": "In-Home Services Received: CA Paid",
-      "2": "In-Home Services Received: Not CA Paid"
-    },
-    "display": {
-      "legend": "In-Home Services",
-      "column": "advancedRight",
-      "type": "param",
-      "multi": true,
-      "visible": false,
-      "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
-    }
-  },
-  "ihs_services_ooh": {
-    "table": "ref_filter_ihs_services",
-    "display": {
-      "legend": "In-Home Services",
-      "column": "advancedRight",
-      "type": "param",
-      "multi": true,
-      "visible": false,
-      "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
     }
   },
   "budget_category": {
