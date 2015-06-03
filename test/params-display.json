@@ -558,28 +558,6 @@
       "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
     }
   },
-  "pp_service_category": {
-    "table": "ref_service_cd_subctgry_poc",
-    "removeKeys": [
-      5,
-      6,
-      9,
-      10,
-      12,
-      13,
-      14,
-      16
-    ],
-    "orderBy": "ordering",
-    "display": {
-      "legend": "Service Category",
-      "column": "advancedRight",
-      "type": "param",
-      "multi": true,
-      "visible": false,
-      "help": "The individual services below are CA-paid services; with the exception of Behavioral Rehabilitation Services, these services are generally for families with children in the home. Note that the 'all' includes services paid by CA as well as services not paid by CA. Also note that data for these services is not available until 2010. More about <A href='/data-portal/glossary#letter_b' target=_blank>Behavioral Rehabilitation Services</A> can be found in the Glossary."
-    }
-  },
   "budget_category": {
     "table": "ref_service_cd_budget_poc_frc",
     "display": {
@@ -694,27 +672,6 @@
       "help": "This filter allows you to follow households with at least one child involved in an investigation/assessment from 2006 to the most recent available data. Data on the percent of households with children re-referred are returned in three month increments for up to 48 months following the selected cohort year. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
     }
   },
-  "cohort_year_ihs_safety": {
-    "values": {
-      "2009": 2009,
-      "2010": 2010,
-      "2011": 2011,
-      "2012": 2012,
-      "2013": 2013,
-      "2014": 2014
-    },
-    "display": {
-      "legend": "Service Cohort Year",
-      "column": "fieldsLeft",
-      "type": "filter",
-      "multi": true,
-      "zeroLast": false,
-      "selected": "2010",
-      "alias": "Cohort Period",
-      "resultUnavailable": "disable",
-      "help": "This filter allows you to follow households that received placement prevention services from 2009 to the most recent available data. Data on the percent of households (with at least one child placed in out-of-home care) are returned in three month increments for up to 48 months following the selected cohort year. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
-    }
-  },
   "cohort_year_ooh_safety": {
     "values": {
       "2000": 2000,
@@ -778,20 +735,6 @@
       "help": "The minimum and maximum date for which reliable data are available are indicated on the slide bar. You can adjust the bar to any range for viewing the Graph. The Table will always display the (default) complete date range. "
     }
   },
-  "qry_type_poc3": {
-    "table": "ref_lookup_qry_type_poc3",
-    "display": {
-      "legend": "Count Type",
-      "column": "fieldsRight",
-      "type": "filter",
-      "multi": true,
-      "zeroLast": false,
-      "sort": "qryTypeCompare",
-      "selected": 2,
-      "visible": true,
-      "help": "Data for counts/rates of placement prevention service cases are aggregated into ‘first,’ ‘unique,’ and ‘all’ placement prevention service cases per household. See <A href='/publications/interpreting_type_of_count_filter' target=_blank>Interpreting Type of Count</A>."
-    }
-  },
   "removalCounty": {
     "table": "ref_lookup_county",
     "display": {
@@ -840,18 +783,6 @@
       "type": "param",
       "visible": false,
       "help": "This is the county where the report was investigated/assessed. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
-    }
-  },
-  "ServiceCnty": {
-    "_comment": "Missing / Other",
-    "table": "ref_lookup_county",
-    "display": {
-      "legend": "Service County",
-      "column": "advancedRight",
-      "type": "param",
-      "sort": true,
-      "visible": false,
-      "help": "This is the county where the placement prevention services were received. You can select any of Washington State’s 39 counties; ‘All’ (the default) returns statewide data."
     }
   },
   "disability": {
