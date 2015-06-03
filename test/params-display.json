@@ -517,18 +517,6 @@
       "help": "The courts become involved when there is a <A href='/data-portal/glossary#letter_d' target=_blank>dependency</A> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting.<BR /><BR />In this filter, ‘Immediate Dependency’  means a dependency petition was filed within seven days and approved within 79 days of the start of the out-of-home episode.‘Eventual Dependency’ means the petition was approved more than 86 days (7 days plus 79) after the start of the episode. (Seventy-nine days is the average number of days for a petition to be approved)."
     }
   },
-  "service_category": {
-    "table": "ref_service_cd_subctgry_poc",
-    "orderBy": "ordering",
-    "display": {
-      "legend": "Service Category",
-      "column": "advancedRight",
-      "type": "param",
-      "multi": true,
-      "visible": false,
-      "help": "This filters for the major services available for children in out-of-home care. Note that data for these services is not available until 2010. More about <A href='/data-portal/glossary#letter_b' target=_blank>Behavioral Rehabilitation Services</A> and <A href='/data-portal/glossary#letter_a' target=_blank>Adoption Support</A> can be found in the Glossary."
-    }
-  },
   "ihs_services_ooh": {
     "table": "ref_filter_ihs_services",
     "display": {
@@ -539,34 +527,6 @@
       "selected": 0,
       "visible": false,
       "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
-    }
-  },
-  "budget_category": {
-    "table": "ref_service_cd_budget_poc_frc",
-    "display": {
-      "legend": "Budget Category",
-      "column": "advancedRight",
-      "type": "param",
-      "multi": true,
-      "visible": false,
-      "help": "The six Department of Social and Health Services (DSHS) budget categories include all the major placement prevention service budget categories. DSHS codes are provided for people familiar with Children’s Administration budget categories."
-    }
-  },
-  "budget_category_pps": {
-    "table": "ref_service_cd_budget_poc_frc",
-    "removeKeys": [
-      15,
-      16,
-      18,
-      99
-    ],
-    "display": {
-      "legend": "Budget Category",
-      "column": "advancedRight",
-      "type": "param",
-      "multi": true,
-      "visible": false,
-      "help": "The three Department of Social and Health Services (DSHS) budget categories are the major placement prevention service budget categories. DSHS codes are provided for people familiar with Children’s Administration budget categories."
     }
   },
   "yearPIT": {
