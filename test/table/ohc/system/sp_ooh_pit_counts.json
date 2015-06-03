@@ -32,7 +32,9 @@
     "access_type",
     "allegation",
     "finding",
-    "dependency_cd"
+    "dependency_cd",
+	"service_category",
+    "budget_category"
   ],
   "dateParams": [
   ],
@@ -82,7 +84,9 @@
     "Reporter Desc=reporter_type",
     "Access type desc=access_type",
     "Allegation=allegation",
-    "Finding=finding"
+    "Finding=finding",
+	"Service Type=service_category",
+	"Budget=budget_category"
   ],
   "returnRowStart": 35,
   "chartType": "line",
