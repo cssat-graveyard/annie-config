@@ -558,18 +558,6 @@
       "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
     }
   },
-  "service_category": {
-    "table": "ref_service_cd_subctgry_poc",
-    "orderBy": "ordering",
-    "display": {
-      "legend": "Service Category",
-      "column": "advancedRight",
-      "type": "param",
-      "multi": true,
-      "visible": false,
-      "help": "This filters for the major services available for children in out-of-home care. Note that data for these services is not available until 2010. More about <A href='/data-portal/glossary#letter_b' target=_blank>Behavioral Rehabilitation Services</A> and <A href='/data-portal/glossary#letter_a' target=_blank>Adoption Support</A> can be found in the Glossary."
-    }
-  },
   "pp_service_category": {
     "table": "ref_service_cd_subctgry_poc",
     "removeKeys": [
