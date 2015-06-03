@@ -531,17 +531,12 @@
   },
   "ihs_services_ooh": {
     "table": "ref_filter_ihs_services",
-    "removeKeys": [
-      0
-    ],
     "display": {
       "legend": "In-Home Services",
       "column": "advancedRight",
       "type": "param",
       "multi": true,
-      "disabled": [
-        0
-      ],
+      "selected": 0,
       "visible": false,
       "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
     }
