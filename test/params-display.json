@@ -515,6 +515,17 @@
       "selected": 0,
       "visible": false,
       "help": "The courts become involved when there is a <A href='/data-portal/glossary#letter_d' target=_blank>dependency</A> proceeding or action. A dependent child is one who was abandoned, abused or neglected, or whose parents are incapable of adequately parenting.<BR /><BR />In this filter, ‘Immediate Dependency’  means a dependency petition was filed within seven days and approved within 79 days of the start of the out-of-home episode.‘Eventual Dependency’ means the petition was approved more than 86 days (7 days plus 79) after the start of the episode. (Seventy-nine days is the average number of days for a petition to be approved)."
+	}
+  },
+  "ihs_services_ooh": {
+    "table": "ref_filter_ihs_services",
+    "display": {
+      "legend": "In-Home Services",
+      "column": "advancedRight",
+      "type": "param",
+      "multi": true,
+      "visible": false,
+      "help": "Some in-home services are paid by Children’s Administration (CA) and some are not covered. Examples of paid services include case management and certain behavioral rehabilitation services. CA-paid services can be directly linked to a child or a family. Services that are not paid for by CA cannot be linked to a child or family; are purchased in bulk; or are provided by a service provider or any entity other than CA (e.g., health care, employment services)."
     }
   },
   "budget_category": {
