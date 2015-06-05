@@ -30,8 +30,8 @@
     "access_type",
     "allegation",
     "finding",
-    "service_category",
-    "budget_category",
+    "ignore_service_category",
+    "ignore_budget_category",
     "dependency_cd"
   ],
   "dateParams": [],
