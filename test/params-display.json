@@ -585,7 +585,6 @@
       "multi": true,
       "selected": "2010",
       "alias": "Cohort Period",
-      "resultUnavailable": "disable",
       "help": "The entry cohort is that group of children who entered out-of-home care in the selected year(s). ‘Entry Cohort Year’ choices begin January 2000 and end on the most recent year for which we have data. The default date is set four years earlier than the most recent year and returns result for 48 months. If a year that was less than 48 ago is selected, the line graph and the data will be truncated."
     }
   },
@@ -612,7 +611,6 @@
       "disabled": [
         "2014"
       ],
-      "resultUnavailable": "disable",
       "help": "This filter allows you to follow households with at least one child involved in an investigation/assessment from 2006 to the most recent available data. Data on the percent of households with children re-referred are returned in three month increments for up to 48 months following the selected cohort year. If the selected year is less than 48 months in the past, the line graph and the data will be truncated."
     }
   },

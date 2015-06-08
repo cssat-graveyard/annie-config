@@ -96,5 +96,6 @@
   },
   "numberFormat": {
       "fractionDigits": 0
-  }
+  },
+	"hideRow": "allEmpty"
 }

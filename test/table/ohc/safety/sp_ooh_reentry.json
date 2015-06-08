@@ -91,5 +91,6 @@
   "numberFormat": {
     "suffix": "%",
     "fractionDigits": 2
-  }
+  },
+	"hideRow": "allEmpty"
 }
