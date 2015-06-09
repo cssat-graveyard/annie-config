@@ -453,7 +453,6 @@
       "multi": true,
       "zeroLast": true,
       "disabled": [
-        6,
         7
       ],
       "resultUnavailable": "disable",
