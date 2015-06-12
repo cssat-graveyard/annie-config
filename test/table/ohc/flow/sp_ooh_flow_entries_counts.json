@@ -81,6 +81,10 @@
   "returnRowStart": 31,
   "hideRow": "allEmpty",
   "chartType": "line",
+  "labels": {
+    "x": "",
+    "y": ""
+  },
   "numberFormat": {
     "fractionDigits": 0
   }
