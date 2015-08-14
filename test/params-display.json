@@ -954,10 +954,21 @@
     }
   },
   "ethnicityCensus2": {
-    "table": "ref_lookup_ethnicity_census",
-    "removeKeys": [
-      7
-    ],
+    "values": {
+      "0": "All",
+      "1": "American Indian/Alaska Native",
+      "2": "Asian",
+      "3": "Black/African American",
+      "4": "Native Hawaiian/Other Pacific Islander",
+      "5": "White/Caucasian",
+      "6": "Other Race",
+      "7": "Unknown",
+      "8": "Multiracial",
+      "9": "Hispanic or Latino",
+      "10": "Other Ethnicity",
+      "11": "Non-Hispanic, White Alone",
+      "12": "Non-Hispanic, Black Alone"
+    },
     "display": {
       "column": "fieldsRight",
       "type": "param",
