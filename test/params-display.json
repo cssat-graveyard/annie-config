@@ -98,7 +98,7 @@
       "help": "You can select re-entry into out-of-home care from <A href='/data-portal/glossary#letter_r' target=_blank>reunification</A>, adoption, or <A href='/data-portal/glossary#letter_g' target=_blank>guardianship</A>. The default includes all three outcomes."
     }
   },
-    "ageSib": {
+  "ageSib": {
     "table": "ref_lookup_sib_age_grp",
     "removeKeys": [
       4
@@ -345,7 +345,7 @@
       "help": "Cohort data for children who enter out-of-home care are aggregated into ‘first’ and ‘unique’ entries into out-of-home care. See <A href='/publications/interpreting_type_of_count_filter' target=_blank>Interpreting Type of Count</A>."
     }
   },
-    "qry_type": {
+  "qry_type": {
     "table": "ref_lookup_qry_type",
     "display": {
       "legend": "Count Type",
@@ -358,7 +358,7 @@
       "visible": true,
       "help": "Cohort data for household with children who are placed in out-of-home care after receiving placement prevention services are aggregated into ‘first’ and ‘all’ placement prevention cases. See <A href='/publications/interpreting_type_of_count_filter' target=_blank>Interpreting Type of Count</A>."
     }
-  },  
+  },
   "qry_type_first_unique_ia_safety": {
     "values": {
       "0": "All Investigations/Assessments",
@@ -951,6 +951,18 @@
       "visible": true,
       "resultUnavailable": "hide",
       "help": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  "
+    }
+  },
+  "ethnicityCensus2": {
+    "table": "ref_lookup_ethnicity_census",
+    "removeKeys": [
+      7
+    ],
+    "display": {
+      "multi": false,
+      "zeroLast": false,
+      "sort": "raceEthnicityCompare",
+      "selected": 0
     }
   }
 }
