@@ -952,31 +952,5 @@
       "resultUnavailable": "hide",
       "help": "This filter tracks students who entered 12th grade in 2006, 2007, and 2008 and graduated in 2007, 2008, and 2009.  "
     }
-  },
-  "ethnicityCensus2": {
-    "values": {
-      "0": "All",
-      "1": "American Indian/Alaska Native",
-      "2": "Asian",
-      "3": "Black/African American",
-      "4": "Native Hawaiian/Other Pacific Islander",
-      "5": "White/Caucasian",
-      "6": "Other Race",
-      "7": "Unknown",
-      "8": "Multiracial",
-      "9": "Hispanic or Latino",
-      "10": "Other Ethnicity",
-      "11": "Non-Hispanic, White Alone",
-      "12": "Non-Hispanic, Black Alone"
-    },
-    "display": {
-      "legend": "Race/Ethnicity",
-      "column": "advancedRight",
-      "type": "param",
-      "sort": true,
-      "selected": 0,
-      "visible": false,
-      "help": "Race and ethnicity categories are based on U.S. Census classifications. There are seven races and four ethnicities to choose from. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state or county. Note that each head of household (for the Investigations &amp; Assessment) or child (for the Out-of-Home Care measures) has a race AND an ethnicity."
-    }
   }
 }
