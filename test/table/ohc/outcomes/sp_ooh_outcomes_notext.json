@@ -37,11 +37,11 @@
   "requiredParams": [],
   "showAllOthers": true,
   "returnRowHeaders": [
-    -1,
     0,
     1,
     2,
     3,
+    4,
     5,
     6,
     7,
@@ -61,11 +61,11 @@
     2
   ],
   "headerNames": [
-    "*ethnicityCensus",
     "&nbsp;",
     "Cohort Period*cohort_year",
     "qry_type_poc1_first_unique*qry_type_first_unique_ooh_outcomes",
     "age_grouping_cd*ageEntry",
+    "ethnicity_cd*ethnicityCensus",
     "gender_cd*gender",
     "init_cd_plcm_setng*initSetng",
     "long_cd_plcm_setng*longSetng",
