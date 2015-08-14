@@ -970,6 +970,7 @@
       "12": "Non-Hispanic, Black Alone"
     },
     "display": {
+      "legend": "Race/Ethnicity",
       "column": "fieldsRight",
       "type": "param",
       "zeroLast": false,
