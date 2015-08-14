@@ -19,6 +19,7 @@
   ],
   "params": [
     "ageEntry",
+	"ethnicityCensus2",
     "gender",
     "initSetng",
     "longSetng",
@@ -30,8 +31,7 @@
     "reporter_type",
     "allegation",
     "finding",
-    "access_type",
-    "ethnicityCensus2"
+    "access_type"
   ],
   "dateParams": [],
   "requiredParams": [],
