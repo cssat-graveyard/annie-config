@@ -25,7 +25,7 @@
     "exitCounty",
     "dependency_cd",
     "ooh_los",
-    "multichart",
+    "nbr_placement",
     "ihs_services_ooh",
     "reporter_type",
     "allegation",
@@ -72,7 +72,7 @@
     "county_cd*exitCounty",
     "*dependency_cd",
     "bin_los_cd*ooh_los",
-    "bin_placement_cd*multichart",
+    "bin_placement_cd*nbr_placement",
     "bin_ihs_svc_cd*ihs_services_ooh",
     "cd_reporter_type*reporter_type",
     "cd_access_type*access_type",
@@ -84,7 +84,7 @@
   "hideRow": "allEmpty",
   "chartType": "line",
   "labels": {
-    "x": "",
+    "x": "Months Since Entering Out-of-Home Care",
     "y": "",
     "yFormat": "##'%"
   },
