@@ -971,7 +971,7 @@
     },
     "display": {
       "legend": "Race/Ethnicity",
-      "column": "fieldsRight",
+      "column": "advancedRight",
       "type": "param",
       "zeroLast": false,
       "sort": true,
