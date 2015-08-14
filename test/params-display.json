@@ -973,7 +973,6 @@
       "legend": "Race/Ethnicity",
       "column": "advancedRight",
       "type": "param",
-      "zeroLast": false,
       "sort": true,
       "selected": 0,
       "visible": false,
