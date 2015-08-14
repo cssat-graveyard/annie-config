@@ -1,0 +1,60 @@
+{
+  "table": "sp_ooh_outcomes_notext",
+  "title": "Percent of Children Achieving Permanency",
+  "subtitle": "Or Emancipated or Still in Care",
+  "dropdown": "Percent of Children Achieving Permanency",
+  "measurementOrder": 1,
+  "transform": {
+    "Function": "daterow",
+    "dateField": "Months Since Entering Out-of-Home Care",
+    "valueFields": [
+      "Percent"
+    ],
+    "removeFields": []
+  },
+  "controls": [],
+  "params": [
+    "ageEntry",
+    "ethnicityCensus",
+    "gender",
+    "initSetng",
+    "exitCounty",
+    "ooh_los",
+    "nbr_placement",
+    "discharge_type_outcomes"
+  ],
+  "dateParams": [],
+  "requiredParams": [],
+  "showAllOthers": true,
+  "returnRowHeaders": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    17
+  ],
+  "returnRowDateHeaders": [],
+  "returnRowControlHeaders": [],
+  "headerNames": [
+    "&nbsp;",
+    "qry_type_poc1_first_unique=nbr_placement",
+    "age_grouping_cd=ageEntry",
+    "ethnicity_cd=ethnicityCensus",
+    "gender_cd=gender",
+    "init_cd_plcm_setng=initSetng",
+    "long_cd_plcm_setng=ooh_los",
+    "county_cd=exitCounty",
+    "cd_discharge_type=discharge_type_outcomes"
+  ],
+  "returnRowStart": 18,
+  "hideRow": "allEmpty",
+  "chartType": "line",
+  "numberFormat": {
+    "fractionDigits": 2,
+    "suffix": "%"
+  }
+}
