@@ -976,6 +976,7 @@
       "zeroLast": false,
       "sort": true,
       "selected": 0,
+      "visible": false,
       "help": "Race and ethnicity categories are based on U.S. Census classifications. There are seven races and four ethnicities to choose from. Because the Census provides data on the races and ethnicities within geographic divisions, we are able to calculate the rate of cases (per 1,000) by race or ethnicity for the state or county. Note that each head of household (for the Investigations &amp; Assessment) or child (for the Out-of-Home Care measures) has a race AND an ethnicity."
     }
   }
